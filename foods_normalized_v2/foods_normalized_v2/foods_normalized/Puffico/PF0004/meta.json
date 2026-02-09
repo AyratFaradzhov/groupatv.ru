@@ -1,0 +1,46 @@
+{
+  "id": "PF0004",
+  "brand": "Puffico",
+  "name": "PF0004 Конфеты PUFFI FANTY ПУФФИ ФАНТЫ, 25Г, ТМPUFFI х 40 шт есть вопросы",
+  "slug": "pf0004-pf0004-конфеты-puffi-fanty-пуффи-фанты,-25г,-тмpuffi-х-40-шт-есть-вопросы",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Puffico/PF0004 - PF0004 Конфеты PUFFI FANTY ПУФФИ ФАНТЫ, 25Г, ТМPUFFI х 40 шт есть вопросы/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "04 Puffico/PF0004 25GR.webp",
+      "04 Puffico/PF0004 Конфеты PUFFI   FANTY «ПУФФИ ФАНТЫ», 25Г, ТМ«PUFFI»   х_40 шт   текстовка  есть вопросы.docx"
+    ],
+    "docs": [
+      "04 Puffico/PF0004 Конфеты PUFFI   FANTY «ПУФФИ ФАНТЫ», 25Г, ТМ«PUFFI»   х_40 шт   текстовка  есть вопросы.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

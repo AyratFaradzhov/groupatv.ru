@@ -1,0 +1,46 @@
+{
+  "id": "AF0004",
+  "brand": "Love Me TM",
+  "name": "AF0004 SOURBELT LENTA -pineapple coconut ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS со ВКУСОМ АНАНАСА-КО",
+  "slug": "af0004-af0004-sourbelt-lenta--pineapple-coconut-жевательные-мягкие-конфеты-love-me-sour-belts-со-вкусом-ананаса-ко",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Love Me TM/AF0004 - AF0004 SOURBELT LENTA -pineapple coconut ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS со ВКУСОМ АНАНАСА-КО/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "06 Love Me TM/AF0004 Pina colada belts.webp",
+      "06 Love Me TM/AF0004 SOURBELT LENTA -pineapple coconut  ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS со ВКУСОМ АНАНАСА-КО.docx"
+    ],
+    "docs": [
+      "06 Love Me TM/AF0004 SOURBELT LENTA -pineapple coconut  ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS со ВКУСОМ АНАНАСА-КО.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

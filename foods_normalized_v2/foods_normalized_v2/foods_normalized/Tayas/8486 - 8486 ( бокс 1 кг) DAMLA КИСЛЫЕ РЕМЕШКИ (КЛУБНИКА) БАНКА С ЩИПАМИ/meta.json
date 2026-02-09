@@ -1,0 +1,46 @@
+{
+  "id": "8486",
+  "brand": "Tayas",
+  "name": "8486 ( бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ (КЛУБНИКА) БАНКА С ЩИПАМИ",
+  "slug": "8486-8486-(-бокс-1-кг)-damla-кислые-ремешки-(клубника)-банка-с-щипами",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8486 - 8486 ( бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ (КЛУБНИКА) БАНКА С ЩИПАМИ/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/1000 г Кислые ( Карандаши и Ремешки )/8486 ( бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ  (КЛУБНИКА) БАНКА С ЩИПАМИ.docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/1000 г Кислые ( Карандаши и Ремешки )/8486 Клубника Ремешки.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/1000 г Кислые ( Карандаши и Ремешки )/8486 ( бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ  (КЛУБНИКА) БАНКА С ЩИПАМИ.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

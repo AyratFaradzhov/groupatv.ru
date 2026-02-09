@@ -1,0 +1,43 @@
+{
+  "id": "1950",
+  "brand": "Tayas",
+  "name": "1950 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ ЯБЛОКА",
+  "slug": "1950-1950-жевательный-мармелад-кислые-ремешки-со-вкусом-яблока",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/300 г Кислые ( Карандаши и Ремешки )/1950  ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ ЯБЛОКА.docx"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/300 г Кислые ( Карандаши и Ремешки )/1950  ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ ЯБЛОКА.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": true,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

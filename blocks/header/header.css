@@ -1,0 +1,93 @@
+.header {
+  background-color: #fbf5e5;
+  color: var(--text-color);
+  font-family: "Playpen Sans", sans-serif;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: clamp(72px, 6vw, 90px);
+  padding-inline: 24px;
+}
+
+/* LOGO */
+.header__logo {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+
+/* NAV */
+.header__list {
+  display: flex;
+  align-items: center;
+
+  gap: clamp(32px, 6vw, 106px);
+  font-family: var(--base-font);
+}
+
+.header__link {
+  color: var(--text-color);
+  font-size: var(--base-size);
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: var(--hover-color);
+}
+
+/* PRICE BUTTON */
+.header__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-inline-size: clamp(140px, 16vw, 180px);
+  block-size: clamp(44px, 5vw, 56px);
+
+  background: var(--accent-color);
+  color: var(--element-color);
+
+  font-size: var(--base-size);
+  font-family: var(--base-font);
+  font-weight: 500;
+
+  border-radius: clamp(12px, 2vw, 16px);
+  text-decoration: none;
+}
+
+.price-list {
+  padding: 0;
+}
+
+/* LANG SWITCH */
+.header__lang-switch {
+  inline-size: clamp(44px, 5vw, 54px);
+  block-size: clamp(44px, 5vw, 54px);
+
+  background: var(--background-color);
+  color: var(--accent-color);
+
+  border-radius: 50%;
+  border: 1px solid var(--accent-color);
+
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.header__lang-switch:hover,
+.header__lang-switch--active {
+  background: var(--accent-color);
+  color: var(--element-color);
+}
+
+.header__lang-switch:active {
+  transform: scale(0.96);
+}

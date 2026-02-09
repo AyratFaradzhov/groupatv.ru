@@ -1,0 +1,49 @@
+{
+  "id": "8544",
+  "brand": "Tayas",
+  "name": "8544 DAMLA КИСЛЫЕ РЕМЕШКИ РАДУГА 8544",
+  "slug": "8544-8544-damla-кислые-ремешки-радуга-8544",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8544 - 8544 DAMLA КИСЛЫЕ РЕМЕШКИ РАДУГА 8544/main.webp",
+    "foods_normalized/Tayas/8544 - 8544 DAMLA КИСЛЫЕ РЕМЕШКИ РАДУГА 8544/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8544 Кислые Ремешки ( Радуга )/8544 DAMLA КИСЛЫЕ РЕМЕШКИ РАДУГА 8544.docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8544 Кислые Ремешки ( Радуга )/8544 Радуга 1.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8544 Кислые Ремешки ( Радуга )/8544 Радуга 2.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8544 Кислые Ремешки ( Радуга )/Кислые ремешки DAMLA, Радуга,коробка 15гр72шт6бл Tayash №8544.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8544 Кислые Ремешки ( Радуга )/8544 DAMLA КИСЛЫЕ РЕМЕШКИ РАДУГА 8544.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

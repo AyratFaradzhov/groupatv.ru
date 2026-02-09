@@ -1,0 +1,886 @@
+/* ============================================
+   TABLET ADAPTIVE LAYER
+   Breakpoint: (min-width: 768px) and (max-width: 1199px)
+   Does NOT affect mobile (max-width: 767px) or desktop (min-width: 1200px).
+   Overrides desktop only where needed; no JS, no class/ID changes.
+   QA: Test at 768, 820, 1024, 1194px. Verify: sticky search, filters, sliders,
+   forms, RU/EN; no leaks to mobile/desktop.
+   ============================================ */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* ----- HEADER (desktop-light: same layout, padding-based, no centering) ----- */
+  .header__container {
+    padding-inline: clamp(16px, 2.5vw, 24px);
+    min-height: clamp(72px, 5.5vw, 78px);
+  }
+
+  .header__logo {
+    width: clamp(52px, 5.5vw, 58px);
+    height: clamp(52px, 5.5vw, 58px);
+  }
+
+  .header__list {
+    gap: clamp(20px, 3vw, 48px);
+  }
+
+  .header__link {
+    font-size: clamp(17px, 2vw, 20px);
+    white-space: nowrap;
+  }
+
+  .header__button {
+    min-inline-size: clamp(112px, 12vw, 152px);
+    block-size: 42px;
+    font-size: clamp(15px, 1.7vw, 18px);
+    padding-inline: clamp(12px, 1.5vw, 16px);
+  }
+
+  .header__lang-switch {
+    inline-size: 42px;
+    block-size: 42px;
+  }
+
+  /* ----- WELCOME / HERO ----- */
+  .welcome {
+    padding-inline: clamp(16px, 3vw, 28px);
+    gap: clamp(16px, 3vw, 28px);
+    max-width: 100%;
+  }
+
+  .welcome__container {
+    padding: clamp(20px, 4vw, 32px) clamp(16px, 3vw, 20px) 0
+      clamp(16px, 3vw, 20px);
+    min-height: clamp(280px, 50vh, 380px);
+  }
+
+  .welcome__title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    line-height: 1.15;
+  }
+
+  .welcome__text {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.4;
+    margin: clamp(6px, 1.2vw, 12px) 0 clamp(18px, 2.5vw, 24px) 0;
+    max-width: 100%;
+  }
+
+  .welcome__subtext-first,
+  .welcome__subtext-second {
+    font-size: clamp(0.8125rem, 1.6vw, 0.9375rem);
+    line-height: 1.4;
+  }
+
+  .welcome__about {
+    max-width: min(100%, 560px);
+  }
+
+  .welcome__image-container {
+    border-radius: clamp(12px, 2.5vw, 20px);
+  }
+
+  /* ----- CATEGORIES ----- */
+  .categories__container {
+    padding-inline: clamp(16px, 2.5vw, 28px);
+    padding-bottom: 32px;
+  }
+
+  .categories__title {
+    font-size: clamp(40px, 5.5vw, 52px);
+    line-height: 1.1;
+  }
+
+  .categories__subtitle {
+    font-size: clamp(18px, 2.2vw, 22px);
+    line-height: 1.25;
+  }
+
+  .categories__section {
+    padding-inline: clamp(16px, 2.5vw, 28px);
+  }
+
+  .categories__list {
+    padding: 48px 28px 80px;
+    min-height: 620px;
+  }
+
+  /* ----- FOOTER ----- */
+  .footer__container {
+    gap: clamp(20px, 3vw, 36px);
+    padding-block-end: 80px;
+  }
+
+  .footer__title {
+    font-size: clamp(72px, 10vw, 96px);
+    line-height: 1.05;
+    padding-block: 48px;
+  }
+
+  .footer__subtitle {
+    padding-block-end: 28px;
+    font-size: clamp(24px, 2.8vw, 28px);
+    line-height: 1.35;
+  }
+
+  .footer__form-container {
+    margin-inline-start: clamp(16px, 3vw, 28px);
+    min-block-size: 360px;
+    border-radius: 56px;
+  }
+
+  /* ----- ABOUT (page-about) ----- */
+  .page-about {
+    max-width: 100%;
+  }
+
+  .about-atv {
+    gap: 64px;
+    padding-block-start: 28px;
+    max-width: 100%;
+  }
+
+  .about-atv__hero {
+    min-block-size: clamp(360px, 45vh, 460px);
+    padding-block: clamp(28px, 4vw, 44px);
+    padding-inline: clamp(16px, 3vw, 48px);
+  }
+
+  .about-atv__hero-card {
+    width: clamp(280px, 36vw, 480px);
+    padding: clamp(20px, 3.5vw, 36px);
+    gap: 18px;
+  }
+
+  .about-atv__hero-text {
+    font-size: clamp(18px, 2vw, 22px);
+  }
+
+  .about-atv__hero-button {
+    width: clamp(260px, 28vw, 300px);
+    height: 42px;
+  }
+
+  .about-atv__content,
+  .about-atv__contents {
+    grid-template-columns: 1fr;
+    gap: clamp(24px, 4vw, 48px);
+    padding-block: clamp(36px, 6vw, 64px);
+  }
+
+  .about-atv__info {
+    max-width: 100%;
+  }
+
+  /* ----- BENEFITS (atv-value) ----- */
+  .atv-value {
+    margin: 64px auto 0;
+    padding-block-end: 64px;
+  }
+
+  .atv-value__container {
+    padding-block: clamp(32px, 5vw, 72px);
+    padding-inline: clamp(16px, 3vw, 40px);
+  }
+
+  .atv-value__title {
+    font-size: clamp(40px, 5vw, 52px);
+    line-height: 1.15;
+    margin-bottom: clamp(28px, 4vw, 64px);
+  }
+
+  .atv-value__list {
+    gap: clamp(12px, 2vw, 24px);
+  }
+
+  .atv-value__item {
+    padding-block: clamp(18px, 3vw, 28px);
+  }
+
+  /* ----- PARTNERS ----- */
+  .padding-section,
+  .padding-top-bottom {
+    padding-inline: clamp(16px, 2.5vw, 28px);
+    padding-bottom: 64px;
+  }
+
+  .partners__viewport {
+    padding-inline: clamp(16px, 2.5vw, 28px);
+  }
+
+  .partners__list,
+  .partners__track {
+    gap: clamp(20px, 3vw, 48px);
+    padding-block: clamp(32px, 5vw, 56px) 32px;
+  }
+
+  .partners-item {
+    padding: clamp(18px, 3vw, 36px);
+  }
+
+  /* ----- CARD (popular products block) ----- */
+  .card {
+    margin-block-start: 64px;
+    padding-inline: clamp(16px, 2.5vw, 28px);
+  }
+
+  /* ----- POPULAR PRODUCTS SLIDER - TABLET (768–1199): full content visible, no overlap ----- */
+  /* DevTools checklist: 768 / 820 / 1024 / 1194 — card height, image box, description box;
+     Layout overlays: no overlap of pagination with text/image; description overflow-y scrolls. */
+  #cardSection .card__viewport,
+  .card .card__viewport,
+  .page-about .card__viewport {
+    min-height: 520px;
+    height: clamp(520px, 72vh, 640px);
+    padding-bottom: 72px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  #cardSection .card__candy,
+  .card .card__candy,
+  .page-about .card__candy {
+    height: 100%;
+    min-height: 0;
+  }
+
+  #cardSection .card__candy-item,
+  .card .card__candy-item,
+  .page-about .card__candy-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100%;
+    height: 100%;
+    padding-inline: clamp(12px, 2vw, 24px);
+    padding-bottom: 0;
+    gap: 0;
+    box-sizing: border-box;
+  }
+
+  #cardSection .card__title-container,
+  .card .card__title-container,
+  .page-about .card__title-container {
+    flex-shrink: 0;
+    inline-size: 100%;
+    text-align: center;
+    margin-block-start: clamp(16px, 2.5vw, 24px);
+    margin-bottom: 8px;
+    padding-inline: 8px;
+  }
+
+  /* Universal image area (tablet): fixed max height, no per-bg rules; packshots scale down, stay centered */
+  #cardSection .card__image,
+  .card .card__image,
+  .page-about .card__image {
+    position: relative;
+    left: auto;
+    top: auto;
+    flex-shrink: 0;
+    width: auto;
+    height: auto;
+    max-inline-size: 100%;
+    /* card content area minus title ~80px, description min 140px, pagination reserve 72px → ~220px safe */
+    max-block-size: min(26vh, 220px);
+    margin-inline: auto;
+    align-self: center;
+    object-fit: contain;
+    object-position: center;
+    transform: translateX(0) translateZ(0) scale(1);
+  }
+
+  #cardSection .card__candy-item.is-active .card__image,
+  .card .card__candy-item.is-active .card__image,
+  .page-about .card__candy-item.is-active .card__image {
+    transform: translateX(0) translateZ(0) scale(1);
+  }
+
+  #cardSection .card__candy-item:not(.is-active) .card__image,
+  .card .card__candy-item:not(.is-active) .card__image,
+  .page-about .card__candy-item:not(.is-active) .card__image {
+    transform: translateX(0) translateZ(0) scale(0.95);
+  }
+
+  #cardSection .card__description,
+  .card .card__description,
+  .page-about .card__description {
+    flex: 0 1 auto;
+    min-height: 720px;
+    inline-size: 100%;
+    width: 100%;
+    margin-block: 12px 0;
+    padding: clamp(16px, 2.5vw, 24px);
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  #cardSection .card__description-title,
+  .card .card__description-title,
+  .page-about .card__description-title {
+    inline-size: 100%;
+    block-size: auto;
+    margin-bottom: 8px;
+  }
+
+  #cardSection .card__description-text,
+  .card .card__description-text,
+  .page-about .card__description-text {
+    inline-size: 100%;
+    margin-bottom: 6px;
+  }
+
+  /* Пагинация всегда внизу по центру, не перекрывает текст (viewport имеет padding-bottom под неё) */
+  #cardSection .card__viewport > .pagination,
+  .card .card__viewport > .pagination,
+  .page-about .card__viewport > .pagination {
+    position: absolute;
+    top: 90%;
+    display: none;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: auto;
+    min-width: 200px;
+    margin: 0;
+    z-index: 5;
+  }
+
+  /* ----- HORIZONTAL SLIDERS: tablet UX (touch swipe, scroll-snap where applicable) ----- */
+  .card__viewport,
+  .page-about .card__viewport {
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .card__candy,
+  .page-about .card__candy {
+    touch-action: pan-y;
+  }
+
+  /* .partners: 2 cols; pagination JS unchanged.
+     DevTools root cause: (1) @supports aspect-ratio:1/1 forced .partner__image to 1:1, squeezing wide/tall logos;
+     (2) max-width/max-height 100% inside that square made some logos tiny. Fix: remove aspect-ratio, use
+     clamp(75%,85%,90%) so all logos share one universal safe area and stay readable. Test: 375/414/768/820/1024. */
+  .partners__viewport {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+
+  .partners__list,
+  .partners__track {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(24px, 3vw, 40px);
+    padding-block: clamp(32px, 5vw, 56px) 32px;
+    scroll-snap-type: none;
+  }
+
+  /* Logo safe area: consistent padding, centered content; overflow hidden ok, image stays inside */
+  .partners-item {
+    aspect-ratio: 4 / 2.7;
+    min-height: clamp(160px, 20vw, 200px);
+    padding: clamp(20px, 3vw, 36px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  /* Universal logo fit: no per-bg rules; 85% keeps logos readable and similarly sized (was 100% + aspect-ratio 1/1 in @supports caused squeezing) */
+  .partners-item .partner__image {
+    object-fit: contain;
+    object-position: center;
+    max-width: clamp(75%, 85%, 90%);
+    max-height: clamp(75%, 85%, 90%);
+    width: auto;
+    height: auto;
+    display: block;
+    margin-inline: auto;
+  }
+
+  /* Categories: scroll-snap for finger swipe, wider slides than mobile, fewer than desktop */
+  .categories__list {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scroll-padding-inline: clamp(20px, 4vw, 40px);
+    overscroll-behavior-x: contain;
+  }
+
+  .categories__list-item {
+    scroll-snap-align: center;
+    scroll-snap-stop: normal;
+    width: clamp(320px, 42vw, 380px);
+    min-width: 320px;
+    flex: 0 0 auto;
+  }
+
+  .categories__list-container--blur,
+  .categories__list-item .categories__list-image-wrapper,
+  .categories__list-item .categories__list-image {
+    transform-style: preserve-3d;
+  }
+
+  .categories__list-image {
+    object-fit: contain;
+    object-position: center;
+  }
+
+  /* ----- PRODUCT GRID (tablet: 3 columns; mobile 2, desktop 4 unchanged) ----- */
+  .product__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(16px, 2.5vw, 24px);
+    padding-block: clamp(24px, 3vw, 40px);
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .product__item {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding: clamp(20px, 2.5vw, 32px) clamp(16px, 2vw, 24px);
+    gap: clamp(24px, 3vw, 40px);
+  }
+
+  .product__item-image-wrapper {
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: 322 / 231;
+    height: auto;
+  }
+
+  .product__item-image-wrapper img,
+  .product__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  /* ----- TABLET IMAGE BEHAVIOR: stable dimensions, no CLS (card slider has its own block above) ----- */
+  @supports (aspect-ratio: 1 / 1) {
+    /* Categories: stable image dimensions (wrapper keeps absolute sizing from base) */
+    .categories__list-image {
+      aspect-ratio: 260 / 225;
+      object-fit: cover;
+    }
+
+    /* Partners: no forced aspect-ratio (was 1/1 — caused wide/tall logos to squeeze); universal max % in main block */
+
+    /* Product grid: explicit aspect-ratio for stable dimensions */
+    .product__item-image-wrapper {
+      aspect-ratio: 322 / 231;
+    }
+  }
+
+  /* ----- STICKY GLASS SEARCH (tablet: desktop-like, viewport-safe; no parent backdrop) ----- */
+  .product-page .product__search-wrapper {
+    max-width: 100%;
+  }
+
+  .product-page .product__search-container {
+    width: 100%;
+    max-width: min(100%, 900px);
+    padding-inline: clamp(16px, 2vw, 24px);
+    border-radius: clamp(20px, 2.5vw, 25px);
+    min-height: 56px;
+  }
+
+  /* Product filters: keep row layout on tablet (override product.css max-width: 768 column layout) */
+  .product-page .product__results-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .product-page .product__filters-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 16px;
+  }
+
+  .product-page .product__category-dropdown {
+    width: auto;
+  }
+
+  .product-page .product__category-dropdown-btn {
+    width: auto;
+    justify-content: center;
+    padding: 8px 32px;
+  }
+
+  .product-page .product__category-dropdown-menu {
+    width: auto;
+    min-width: 200px;
+  }
+
+  .product-page .product__popularity-filter {
+    width: auto;
+    justify-content: center;
+    padding: 8px 24px;
+  }
+
+  /* ----- WORKFLOW / CONTACTS HERO ----- */
+  .contacts-hero {
+    padding: clamp(16px, 3vw, 40px);
+  }
+
+  .contacts-glass {
+    max-width: min(100%, 720px);
+    padding: clamp(20px, 4vw, 36px);
+  }
+
+  .contacts-glass__title {
+    font-size: clamp(20px, 3.5vw, 28px);
+    line-height: 1.25;
+    margin-bottom: 20px;
+  }
+
+  /* ----- COOPERATION / REQUEST FORM ----- */
+  .cooperation {
+    padding: clamp(24px, 4vw, 48px);
+    max-width: 100%;
+  }
+
+  .cooperation__tabs {
+    max-width: 100%;
+    padding-left: clamp(20px, 3vw, 32px);
+    padding-right: clamp(20px, 3vw, 32px);
+    height: auto;
+    min-height: 120px;
+    gap: 16px;
+  }
+
+  .cooperation__tab {
+    width: auto;
+    min-width: 0;
+    flex: 1;
+    padding: 18px 24px;
+    font-size: clamp(18px, 2.2vw, 26px);
+  }
+
+  .cooperation__panel {
+    padding: clamp(40px, 6vw, 56px) clamp(32px, 5vw, 64px);
+    max-width: 100%;
+  }
+
+  /* ----- FORMS AND MODALS (tablet: centered wide forms, modals max-width, buttons in between) ----- */
+  /* Request price form: centered, wide, no logic/validation/submit changes */
+  .request-price__container {
+    padding: clamp(80px, 12vw, 120px) clamp(24px, 4vw, 48px);
+  }
+
+  .request-price__form-wrapper {
+    justify-content: center;
+  }
+
+  .request-price__content {
+    width: 100%;
+    max-width: min(100%, 640px);
+    gap: clamp(32px, 4vw, 44px);
+  }
+
+  .request-price__form {
+    gap: clamp(20px, 2.5vw, 24px);
+  }
+
+  .request-price__input {
+    padding: clamp(14px, 2vw, 18px);
+    font-size: clamp(15px, 1.8vw, 17px);
+    min-height: 48px;
+  }
+
+  .request-price__submit {
+    height: 52px;
+    font-size: clamp(16px, 1.9vw, 18px);
+    padding: 14px 20px;
+    border-radius: 12px;
+  }
+
+  .request-price__policy {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    font-size: clamp(14px, 1.6vw, 16px);
+    line-height: 1.4;
+  }
+
+  .request-price__policy input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  .request-price__policy span {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* Footer form: centered, wide, consent visible */
+  .footer__form-container {
+    max-width: min(100%, 620px);
+    margin-inline: auto;
+    padding: clamp(24px, 4vw, 40px);
+    border-radius: clamp(40px, 6vw, 64px);
+  }
+
+  .footer__form {
+    width: 100%;
+    max-width: 100%;
+    gap: clamp(20px, 2.5vw, 24px);
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .footer .checkbox,
+  .checkbox-container .checkbox {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .footer .checkbox-text,
+  .checkbox-container .checkbox-text {
+    font-size: clamp(14px, 1.6vw, 16px);
+    line-height: 1.4;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .footer__submit {
+    min-height: 50px;
+    font-size: clamp(15px, 1.7vw, 17px);
+    padding: 14px 24px;
+    border-radius: 12px;
+  }
+
+  /* Modals: max-width instead of full-width */
+  .cooperation-modal__content {
+    width: min(92vw, 720px);
+    max-width: 720px;
+    padding: clamp(20px, 3vw, 28px);
+    border-radius: 20px;
+  }
+
+  .cooperation-modal__content
+    .cooperation__panels--modal
+    .partner-form__submit--modal,
+  .cooperation-modal__content
+    .cooperation__panels--modal
+    .manufacturer-form__submit--modal {
+    min-height: 48px;
+    padding: 14px 20px;
+    font-size: clamp(15px, 1.7vw, 17px);
+  }
+
+  .cooperation-modal__content
+    .cooperation__panels--modal
+    .partner-form__policy--modal,
+  .cooperation-modal__content
+    .cooperation__panels--modal
+    .manufacturer-form__policy--modal {
+    font-size: clamp(12px, 1.4vw, 14px);
+    line-height: 1.4;
+    gap: 12px;
+  }
+
+  .cooperation-modal__content
+    .cooperation__panels--modal
+    .partner-form__policy--modal
+    input[type="checkbox"],
+  .cooperation-modal__content
+    .cooperation__panels--modal
+    .manufacturer-form__policy--modal
+    input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .success-modal__content {
+    max-width: 440px;
+    width: 88%;
+    padding: clamp(32px, 4vw, 40px) clamp(28px, 3.5vw, 36px);
+  }
+
+  .success-modal__ok {
+    min-height: 50px;
+    padding: 16px 28px;
+    font-size: clamp(16px, 1.8vw, 17px);
+    border-radius: 10px;
+  }
+
+  .product-modal__container {
+    width: min(92vw, 640px);
+    max-width: 640px;
+  }
+
+  .product-modal__close {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .modal__content {
+    max-width: min(100%, 820px);
+    width: calc(100% - 40px);
+    padding: clamp(24px, 4vw, 40px);
+  }
+
+  .modal__button {
+    padding: clamp(14px, 2vw, 18px) clamp(22px, 3vw, 28px);
+    font-size: clamp(15px, 1.7vw, 17px);
+  }
+
+  /* ----- TABLET TYPOGRAPHY (font-size, line-height, spacing only; no font-family) ----- */
+  h1 {
+    font-size: clamp(1.75rem, 4.5vw, 2.75rem);
+    line-height: 1.15;
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 2.8vw, 1.75rem);
+    line-height: 1.25;
+  }
+
+  /* Section titles */
+  .card__popular {
+    font-size: clamp(18px, 2.2vw, 24px);
+    line-height: 1.3;
+  }
+
+  .card__popular-title {
+    font-size: clamp(20px, 2.5vw, 26px);
+    line-height: 1.25;
+  }
+
+  .card__description-title {
+    font-size: clamp(18px, 2vw, 22px);
+    line-height: 1.35;
+  }
+
+  .card__description-text {
+    font-size: clamp(14px, 1.6vw, 16px);
+    line-height: 1.4;
+  }
+
+  .about-atv__title {
+    font-size: clamp(26px, 3vw, 32px);
+    line-height: 1.25;
+  }
+
+  .about-atv__title[data-i18n="about-factory-title"] {
+    font-size: clamp(44px, 5.5vw, 56px);
+    line-height: 1.15;
+  }
+
+  .about-atv__subtitle {
+    font-size: clamp(16px, 1.9vw, 20px);
+    line-height: 1.4;
+  }
+
+  .about-atv__title-cards {
+    font-size: clamp(26px, 3vw, 32px);
+    line-height: 1.25;
+  }
+
+  .partners__title,
+  .partners__title-about {
+    font-size: clamp(36px, 4.5vw, 52px);
+    line-height: 1.15;
+  }
+
+  .partners__subtitle {
+    font-size: clamp(18px, 2.2vw, 22px);
+    line-height: 1.4;
+  }
+
+  .cooperation__title {
+    font-size: clamp(26px, 3vw, 32px);
+    line-height: 1.25;
+  }
+
+  .cooperation__subtitle {
+    font-size: clamp(18px, 2vw, 22px);
+    line-height: 1.4;
+  }
+
+  .request-price__title {
+    font-size: clamp(26px, 3vw, 32px);
+    line-height: 1.25;
+  }
+
+  .request-price__subtitle {
+    font-size: clamp(18px, 2vw, 24px);
+    line-height: 1.4;
+  }
+
+  .cooperation-intro__title {
+    font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.2;
+  }
+
+  /* Product titles */
+  .product__title {
+    font-size: clamp(40px, 6vw, 56px);
+    line-height: 1.1;
+  }
+
+  .product__item-title {
+    font-size: clamp(20px, 2.2vw, 28px);
+    line-height: 1.25;
+  }
+
+  .product-modal__title {
+    font-size: clamp(24px, 2.8vw, 30px);
+    line-height: 1.25;
+  }
+
+  .product-modal__section-title {
+    font-size: clamp(18px, 2vw, 22px);
+    line-height: 1.3;
+  }
+
+  /* Form labels (RU/EN safe) */
+  .product__filter-label {
+    font-size: clamp(16px, 1.8vw, 20px);
+    line-height: 1.35;
+  }
+
+  .about-atv__stat-label {
+    font-size: clamp(14px, 1.6vw, 16px);
+    line-height: 1.4;
+  }
+
+  .product-modal__info-label,
+  .product-modal__nutrition-label {
+    font-size: clamp(14px, 1.6vw, 16px);
+    line-height: 1.4;
+  }
+
+  .request-price__form label,
+  .request-price__content label {
+    font-size: clamp(15px, 1.7vw, 18px);
+    line-height: 1.4;
+  }
+
+  .modal__title {
+    font-size: clamp(26px, 3vw, 32px);
+    line-height: 1.25;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "AF0001",
+  "brand": "Love Me TM",
+  "name": "AF0001 SOURBELT LENTA - KOLA ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR T СО ВКУСОМ колы, 1 кг",
+  "slug": "af0001-af0001-sourbelt-lenta---kola-жевательные-мягкие-конфеты-love-me-sour-t-со-вкусом-колы,-1-кг",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Love Me TM/AF0001 - AF0001 SOURBELT LENTA - KOLA ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR T СО ВКУСОМ колы, 1 кг/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "06 Love Me TM/AF0001  SOURBELT LENTA - KOLA  ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR T СО ВКУСОМ колы , 1 кг.docx",
+      "06 Love Me TM/AF0001 Kola belts.webp"
+    ],
+    "docs": [
+      "06 Love Me TM/AF0001  SOURBELT LENTA - KOLA  ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR T СО ВКУСОМ колы , 1 кг.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

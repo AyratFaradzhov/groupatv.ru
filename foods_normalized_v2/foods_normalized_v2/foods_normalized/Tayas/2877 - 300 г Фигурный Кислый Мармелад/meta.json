@@ -1,0 +1,43 @@
+{
+  "id": "2877",
+  "brand": "Tayas",
+  "name": "300 г Фигурный Кислый Мармелад",
+  "slug": "2877-300-г-фигурный-кислый-мармелад",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/2877 - 300 г Фигурный Кислый Мармелад/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/02 Желейный Фигурный Мармелад/300 г Фигурный Кислый Мармелад/2877 Арбуз.webp"
+    ],
+    "docs": []
+  },
+  "flags": {
+    "missing_text": true,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

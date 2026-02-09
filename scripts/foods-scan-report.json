@@ -1,0 +1,1821 @@
+[
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8495 Кола карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "карандаши кола",
+    "suggestedId": "tayas-karandashi-kola-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-kola-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-kola-1000gr\\karandashi-kola-1000gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\3012 Пина Колада Карандаши ( Ананас Кокос ).webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-kola-1000gr\\extra\\3012 Пина Колада Карандаши ( Ананас Кокос ).webp",
+        "filename": "3012 Пина Колада Карандаши ( Ананас Кокос ).webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8481 Ассорти карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "карандаши ассорти",
+    "suggestedId": "tayas-karandashi-assorti-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-1000gr\\karandashi-assorti-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8483 Радуга  карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "карандаши радуга",
+    "suggestedId": "tayas-karandashi-raduga-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-raduga-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-raduga-1000gr\\karandashi-raduga-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8484 Клубника Карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "карандаши клубника",
+    "suggestedId": "tayas-karandashi-klubnika-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-klubnika-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-klubnika-1000gr\\karandashi-klubnika-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8485 Радуга ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "ремешки радуга",
+    "suggestedId": "tayas-remeshki-raduga-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-1000gr\\remeshki-raduga-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8486 Клубника Ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "ремешки клубника",
+    "suggestedId": "tayas-remeshki-klubnika-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-klubnika-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-klubnika-1000gr\\remeshki-klubnika-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8487 Кола ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "ремешки кола",
+    "suggestedId": "tayas-remeshki-kola-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-kola-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-kola-1000gr\\remeshki-kola-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8488 Малина Ежевика ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "ремешки малина",
+    "suggestedId": "tayas-remeshki-malina-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-malina-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-malina-1000gr\\remeshki-malina-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\8884 Яблоко ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "ремешки яблоко",
+    "suggestedId": "tayas-remeshki-yabloko-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-yabloko-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-yabloko-1000gr\\remeshki-yabloko-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\без посыпки\\3008 Вишня оил.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "ремешки",
+    "suggestedId": "tayas-bez-posypki-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\bez-posypki-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\bez-posypki-1000gr\\bez-posypki-1000gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\без посыпки\\8482 Ассорти оил.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\bez-posypki-1000gr\\extra\\8482 Ассорти оил.webp",
+        "filename": "8482 Ассорти оил.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\без посыпки\\3006 Бабл гам оил.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\bez-posypki-1000gr\\extra\\3006 Бабл гам оил.webp",
+        "filename": "3006 Бабл гам оил.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\1000 г Кислые ( Карандаши и Ремешки )\\без посыпки\\3010 Виноград оил.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\bez-posypki-1000gr\\extra\\3010 Виноград оил.webp",
+        "filename": "3010 Виноград оил.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\1753 Кислые Ремешки ( Арбуз )\\1753 Арбуз 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "арбуз",
+    "suggestedId": "damla-arbuz-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-15gr\\arbuz-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\1753 Кислые Ремешки ( Арбуз )\\1753 Арбуз 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-15gr\\extra\\1753 Арбуз 2.webp",
+        "filename": "1753 Арбуз 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\1753 Кислые Ремешки ( Арбуз )\\Кислые ремешки DAMLA,Арбуз,коробка 15гр72шт6бл Tayash №1753.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "ремешки арбуз",
+    "suggestedId": "damla-remeshki-arbuz-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-arbuz-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-arbuz-15gr\\remeshki-arbuz-15gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\2999 Кислые Ремешки ( Малина-Ежевика )\\2999 Малина Ежевика ( РОССИЯ )  1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "малина",
+    "suggestedId": "damla-malina-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-15gr\\malina-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\2999 Кислые Ремешки ( Малина-Ежевика )\\2999 Малина Ежевика ( РОССИЯ )  2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-15gr\\extra\\2999 Малина Ежевика ( РОССИЯ )  2.webp",
+        "filename": "2999 Малина Ежевика ( РОССИЯ )  2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\2999 Кислые Ремешки ( Малина-Ежевика )\\Кислые ремешки DAMLA 15гр, флаг РОССИИ (малина, ежевика),коробка 72шт6бл Tayash №2999.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "ремешки малина",
+    "suggestedId": "damla-remeshki-malina-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-malina-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-malina-15gr\\remeshki-malina-15gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\3000 Кислые Ремешки ( Виноград )\\3000 Виноград 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "виноград",
+    "suggestedId": "damla-vinograd-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\vinograd-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\vinograd-15gr\\vinograd-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\3000 Кислые Ремешки ( Виноград )\\3000 Виноград 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\vinograd-15gr\\extra\\3000 Виноград 2.webp",
+        "filename": "3000 Виноград 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\3000 Кислые Ремешки ( Виноград )\\Кислые ремешки DAMLA 15гр, виноград,коробка 72шт6бл Tayas №TS3000.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "ремешки виноград",
+    "suggestedId": "damla-remeshki-vinograd-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-vinograd-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-vinograd-15gr\\remeshki-vinograd-15gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8543 Кислые Ремешки ( Кола )\\8543 Кола 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "кола",
+    "suggestedId": "damla-kola-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-15gr\\kola-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\3003 Кислые Ремешки ( Пина Колада ( Ананас-Кокос) )\\3003 Пина Колада 1.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-15gr\\extra\\3003 Пина Колада 1.webp",
+        "filename": "3003 Пина Колада 1.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8543 Кислые Ремешки ( Кола )\\8543 Кола 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-15gr\\extra\\8543 Кола 2.webp",
+        "filename": "8543 Кола 2.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\3003 Кислые Ремешки ( Пина Колада ( Ананас-Кокос) )\\3003 Пина Колада 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-15gr\\extra\\3003 Пина Колада 2.webp",
+        "filename": "3003 Пина Колада 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\3003 Кислые Ремешки ( Пина Колада ( Ананас-Кокос) )\\Кислые ремешки DAMLA 15гр, пина колада (кокос, ананас),коробка 72шт6бл Tayas №3003.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "ремешки кола",
+    "suggestedId": "damla-remeshki-kola-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-kola-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-kola-15gr\\remeshki-kola-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8543 Кислые Ремешки ( Кола )\\Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-kola-15gr\\extra\\Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543.webp",
+        "filename": "Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8542 Кислые Ремешки ( Клубника )\\8542 Клубника 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "клубника",
+    "suggestedId": "damla-klubnika-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-15gr\\klubnika-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8542 Кислые Ремешки ( Клубника )\\8542 Клубника 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-15gr\\extra\\8542 Клубника 2.webp",
+        "filename": "8542 Клубника 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8542 Кислые Ремешки ( Клубника )\\Кислые ремешки DAMLA, Клубника,коробка 15гр72шт6бл Tayash №8542.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "ремешки клубника",
+    "suggestedId": "damla-remeshki-klubnika-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-klubnika-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-klubnika-15gr\\remeshki-klubnika-15gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8544 Кислые Ремешки ( Радуга )\\8544 Радуга 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "радуга",
+    "suggestedId": "damla-raduga-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\raduga-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\raduga-15gr\\raduga-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8544 Кислые Ремешки ( Радуга )\\8544 Радуга 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\raduga-15gr\\extra\\8544 Радуга 2.webp",
+        "filename": "8544 Радуга 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\8544 Кислые Ремешки ( Радуга )\\Кислые ремешки DAMLA, Радуга,коробка 15гр72шт6бл Tayash №8544.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "ремешки радуга",
+    "suggestedId": "damla-remeshki-raduga-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-15gr\\remeshki-raduga-15gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\Новинка (нету) 4018 Кислые Ремешки ( Голубика )\\4018 Голубика 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "голубика",
+    "suggestedId": "damla-novinka-netu-4018-kislye-remeshki-golubika-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-4018-kislye-remeshki-golubika-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-4018-kislye-remeshki-golubika-15gr\\novinka-netu-4018-kislye-remeshki-golubika-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\Новинка (нету) 4018 Кислые Ремешки ( Голубика )\\4018 Голубика 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-4018-kislye-remeshki-golubika-15gr\\extra\\4018 Голубика 2.webp",
+        "filename": "4018 Голубика 2.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\Новинка (нету) 4018 Кислые Ремешки ( Голубика )\\Кислые ремешки DAMLA 15гр, Голубика,коробка 72шт6бл Tayas.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-4018-kislye-remeshki-golubika-15gr\\extra\\Кислые ремешки DAMLA 15гр, Голубика,коробка 72шт6бл Tayas.webp",
+        "filename": "Кислые ремешки DAMLA 15гр, Голубика,коробка 72шт6бл Tayas.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\Новинка (нету) 8944 Кислые Ремешки ( Яблоко )\\8944 Яблоко 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "15gr",
+    "productNameGuess": "яблоко",
+    "suggestedId": "damla-novinka-netu-8944-kislye-remeshki-yabloko-15gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-8944-kislye-remeshki-yabloko-15gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-8944-kislye-remeshki-yabloko-15gr\\novinka-netu-8944-kislye-remeshki-yabloko-15gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\Новинка (нету) 8944 Кислые Ремешки ( Яблоко )\\8944 Яблоко 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-8944-kislye-remeshki-yabloko-15gr\\extra\\8944 Яблоко 2.webp",
+        "filename": "8944 Яблоко 2.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\15 г DAMLA Кислые Мармелады ( ремешки )\\Новинка (нету) 8944 Кислые Ремешки ( Яблоко )\\Кислые ремешки DAMLA, Яблоко,коробка 15гр72шт6бл Tayash.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\novinka-netu-8944-kislye-remeshki-yabloko-15gr\\extra\\Кислые ремешки DAMLA, Яблоко,коробка 15гр72шт6бл Tayash.webp",
+        "filename": "Кислые ремешки DAMLA, Яблоко,коробка 15гр72шт6бл Tayash.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8705 Кислые Трубочки ( Тропик )\\8705 Тропик.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "тропик",
+    "suggestedId": "damla-tropik-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\tropik-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\tropik-30gr\\tropik-30gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8705 Кислые Трубочки ( Тропик )\\8705 Тропик 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\tropik-30gr\\extra\\8705 Тропик 2.webp",
+        "filename": "8705 Тропик 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8705 Кислые Трубочки ( Тропик )\\Кислые трубочки Damla,Тропикал,упаковка 30гр24шт8бл №8705.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "трубочки тропик",
+    "suggestedId": "damla-trubochki-tropik-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-tropik-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-tropik-30gr\\trubochki-tropik-30gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8706 Кислые Трубочки ( Клубника )\\8706 Клубника 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "клубника",
+    "suggestedId": "damla-klubnika-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-30gr\\klubnika-30gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8706 Кислые Трубочки ( Клубника )\\8706 Клубника 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-30gr\\extra\\8706 Клубника 2.webp",
+        "filename": "8706 Клубника 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8706 Кислые Трубочки ( Клубника )\\Кислые трубочки Damla,Клубника,упаковка 30гр24шт8бл №8706.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "трубочки клубника",
+    "suggestedId": "damla-trubochki-klubnika-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-klubnika-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-klubnika-30gr\\trubochki-klubnika-30gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8707 Кислые Трубочки ( Кола )\\8478 Кола 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "кола",
+    "suggestedId": "damla-kola-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-30gr\\kola-30gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8707 Кислые Трубочки ( Кола )\\8478 Кола 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-30gr\\extra\\8478 Кола 2.webp",
+        "filename": "8478 Кола 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8707 Кислые Трубочки ( Кола )\\Кислые трубочки Damla,Кола,упаковка 30гр24шт8бл №8707.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "трубочки кола",
+    "suggestedId": "damla-trubochki-kola-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-kola-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-kola-30gr\\trubochki-kola-30gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8708 Кислые Трубочки ( Малина-Ежевика )\\8479 Малина Ежевика 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "малина",
+    "suggestedId": "damla-malina-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-30gr\\malina-30gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8708 Кислые Трубочки ( Малина-Ежевика )\\8479 Малина Ежевика 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-30gr\\extra\\8479 Малина Ежевика 2.webp",
+        "filename": "8479 Малина Ежевика 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8708 Кислые Трубочки ( Малина-Ежевика )\\Кислые трубочки Damla,Малина-Ежевика,упаковка 30гр24шт8бл №8708.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "трубочки малина",
+    "suggestedId": "damla-trubochki-malina-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-malina-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-malina-30gr\\trubochki-malina-30gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8709 Кислые Трубочки ( Ассорти )\\8480 Ассорти 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "ассорти",
+    "suggestedId": "damla-assorti-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-30gr\\assorti-30gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8709 Кислые Трубочки ( Ассорти )\\8480 Ассорти 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-30gr\\extra\\8480 Ассорти 2.webp",
+        "filename": "8480 Ассорти 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8709 Кислые Трубочки ( Ассорти )\\Кислые трубочки Damla,Ассорти,упаковка 30гр24шт8бл №8709.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "трубочки ассорти",
+    "suggestedId": "damla-trubochki-assorti-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-assorti-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-assorti-30gr\\trubochki-assorti-30gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8923 Кислые Трубочки ( Яблоко )\\8923 Яблоко 1.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "яблоко",
+    "suggestedId": "damla-yabloko-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\yabloko-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\yabloko-30gr\\yabloko-30gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8923 Кислые Трубочки ( Яблоко )\\8923 Яблоко 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\yabloko-30gr\\extra\\8923 Яблоко 2.webp",
+        "filename": "8923 Яблоко 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\30 г DAMLA Кислые  ( Трубочки )\\8923 Кислые Трубочки ( Яблоко )\\Кислые трубочки Damla,Яблоко, упаковка 30гр24шт8бл №8923.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "30gr",
+    "productNameGuess": "трубочки яблоко",
+    "suggestedId": "damla-trubochki-yabloko-30gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-yabloko-30gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\trubochki-yabloko-30gr\\trubochki-yabloko-30gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1080 Радуга Ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "ремешки радуга",
+    "suggestedId": "tayas-remeshki-raduga-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-300gr\\remeshki-raduga-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1940 Ассорти Карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши ассорти",
+    "suggestedId": "tayas-karandashi-assorti-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-300gr\\karandashi-assorti-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1941 Радуга карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши радуга",
+    "suggestedId": "tayas-karandashi-raduga-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-raduga-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-raduga-300gr\\karandashi-raduga-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1942 Клубника карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши клубника",
+    "suggestedId": "tayas-karandashi-klubnika-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-klubnika-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-klubnika-300gr\\karandashi-klubnika-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1943 Малина  Карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши малина",
+    "suggestedId": "tayas-karandashi-malina-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-malina-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-malina-300gr\\karandashi-malina-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1944 бабл гам Карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши",
+    "suggestedId": "tayas-karandashi-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-300gr\\karandashi-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1945 Вишня Карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши вишня",
+    "suggestedId": "tayas-karandashi-vishnya-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-vishnya-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-vishnya-300gr\\karandashi-vishnya-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1946 Виноград Карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши виноград",
+    "suggestedId": "tayas-karandashi-vinograd-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-vinograd-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-vinograd-300gr\\karandashi-vinograd-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1947 Кола Карандаши.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "карандаши кола",
+    "suggestedId": "tayas-karandashi-kola-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-kola-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-kola-300gr\\karandashi-kola-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1948 Клубника Ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "ремешки клубника",
+    "suggestedId": "tayas-remeshki-klubnika-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-klubnika-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-klubnika-300gr\\remeshki-klubnika-300gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1952 Банан Клубника ремешки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-klubnika-300gr\\extra\\1952 Банан Клубника ремешки.webp",
+        "filename": "1952 Банан Клубника ремешки.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1949 Малина Ежевика Ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "ремешки малина",
+    "suggestedId": "tayas-remeshki-malina-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-malina-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-malina-300gr\\remeshki-malina-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1950 Яблоко Ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "ремешки яблоко",
+    "suggestedId": "tayas-remeshki-yabloko-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-yabloko-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-yabloko-300gr\\remeshki-yabloko-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1951 Лимон Ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "ремешки",
+    "suggestedId": "tayas-remeshki-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-300gr\\remeshki-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\300 г Кислые ( Карандаши и Ремешки )\\1953 Арбуз ремешки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "ремешки арбуз",
+    "suggestedId": "tayas-remeshki-arbuz-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-arbuz-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-arbuz-300gr\\remeshki-arbuz-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\DAMLA\\3090 Радуга Ремешки\\Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "75gr",
+    "productNameGuess": "ремешки ассорти",
+    "suggestedId": "damla-remeshki-assorti-75gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-assorti-75gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-assorti-75gr\\remeshki-assorti-75gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\DAMLA\\3090 Радуга Ремешки\\Радуга Ремешки.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "75gr",
+    "productNameGuess": "ремешки радуга",
+    "suggestedId": "damla-remeshki-raduga-75gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-75gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-75gr\\remeshki-raduga-75gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\DAMLA\\3091 Ассорти Карандаши\\Ассорти Карандаш.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "75gr",
+    "productNameGuess": "ассорти",
+    "suggestedId": "damla-assorti-75gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-75gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-75gr\\assorti-75gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\DAMLA\\3091 Ассорти Карандаши\\Кислые карандаши DAMLA, Ассорти, упаковка 75гр12шт6бл Tayash №3091.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "75gr",
+    "productNameGuess": "карандаши ассорти",
+    "suggestedId": "damla-karandashi-assorti-75gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-75gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-75gr\\karandashi-assorti-75gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\JIMMY PANDA\\1420 Радуга Ремешки\\Кислые ремешки Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1420.webp",
+    "brandGuess": "JIMMY",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "75gr",
+    "productNameGuess": "ремешки ассорти",
+    "suggestedId": "jimmy-remeshki-assorti-75gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-assorti-75gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-assorti-75gr\\remeshki-assorti-75gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\JIMMY PANDA\\1420 Радуга Ремешки\\Радуга Ремешки.webp",
+    "brandGuess": "JIMMY",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "75gr",
+    "productNameGuess": "ремешки радуга",
+    "suggestedId": "jimmy-remeshki-raduga-75gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-75gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\remeshki-raduga-75gr\\remeshki-raduga-75gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\JIMMY PANDA\\1421 Ассорти Карандаши\\Ассорти Карандаши.webp",
+    "brandGuess": "JIMMY",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "75gr",
+    "productNameGuess": "карандаши ассорти",
+    "suggestedId": "jimmy-karandashi-assorti-75gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-75gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-75gr\\karandashi-assorti-75gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\01 Кислые Мармелады\\75 г Кислые ( Карандаши и Ремешки )\\JIMMY PANDA\\1421 Ассорти Карандаши\\Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\karandashi-assorti-75gr\\extra\\Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421.webp",
+        "filename": "Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2439 Мишки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "мишки",
+    "suggestedId": "tayas-mishki-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\mishki-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\mishki-1000gr\\mishki-1000gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2440 Кола.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "кола",
+    "suggestedId": "tayas-kola-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-1000gr\\kola-1000gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\3041 Биг Кола.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-1000gr\\extra\\3041 Биг Кола.webp",
+        "filename": "3041 Биг Кола.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\3959 Яйцо.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "1000gr",
+    "productNameGuess": "мармелад",
+    "suggestedId": "tayas-marmelad-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\marmelad-1000gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2458 Акула.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\extra\\2458 Акула.webp",
+        "filename": "2458 Акула.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2747 Зубки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\extra\\2747 Зубки.webp",
+        "filename": "2747 Зубки.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2849 Пончик.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\extra\\2849 Пончик.webp",
+        "filename": "2849 Пончик.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2442 Червячки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\extra\\2442 Червячки.webp",
+        "filename": "2442 Червячки.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2455 Биг Крокодил.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\extra\\2455 Биг Крокодил.webp",
+        "filename": "2455 Биг Крокодил.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2441 Фруктовый сад.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\extra\\2441 Фруктовый сад.webp",
+        "filename": "2441 Фруктовый сад.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\1000 г Фигурный Мармелад\\2452 Мини Крокодил.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-1000gr\\extra\\2452 Мини Крокодил.webp",
+        "filename": "2452 Мини Крокодил.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\150 г Фигурный Мармелад\\3821 Мишки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "150gr",
+    "productNameGuess": "мишки",
+    "suggestedId": "tayas-mishki-150gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\mishki-150gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\mishki-150gr\\mishki-150gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\150 г Фигурный Мармелад\\3822 Кола.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "150gr",
+    "productNameGuess": "кола",
+    "suggestedId": "tayas-kola-150gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-150gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kola-150gr\\kola-150gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\150 г Фигурный Мармелад\\3823 Малина Ежевика.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "150gr",
+    "productNameGuess": "малина",
+    "suggestedId": "tayas-malina-150gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-150gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\malina-150gr\\malina-150gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\150 г Фигурный Мармелад\\3824 Кислые Червячки.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "150gr",
+    "productNameGuess": "мармелад",
+    "suggestedId": "tayas-marmelad-150gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-150gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-150gr\\marmelad-150gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\150 г Фигурный Мармелад\\3826 Кислый Фруктовый сад.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-150gr\\extra\\3826 Кислый Фруктовый сад.webp",
+        "filename": "3826 Кислый Фруктовый сад.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\150 г Фигурный Мармелад\\3825 Кислый Арбуз.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "150gr",
+    "productNameGuess": "арбуз",
+    "suggestedId": "tayas-arbuz-150gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-150gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-150gr\\arbuz-150gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\20 г Сублимированный Мармелад\\9309 Vaio Fruit.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "20gr",
+    "productNameGuess": "мармелад",
+    "suggestedId": "tayas-marmelad-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-20gr\\marmelad-20gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\20 г Сублимированный Мармелад\\3800 Damla Fruit.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-20gr\\extra\\3800 Damla Fruit.webp",
+        "filename": "3800 Damla Fruit.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\20 г Сублимированный Мармелад\\4076 Vaio Арбуз.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "20gr",
+    "productNameGuess": "арбуз",
+    "suggestedId": "tayas-arbuz-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-20gr\\arbuz-20gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\300 г Фигурный Кислый Мармелад\\2886 Капля.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "мармелад",
+    "suggestedId": "tayas-marmelad-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-300gr\\marmelad-300gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\300 г Фигурный Кислый Мармелад\\2874 Пончик.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-300gr\\extra\\2874 Пончик.webp",
+        "filename": "2874 Пончик.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\300 г Фигурный Кислый Мармелад\\2876 Червячки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-300gr\\extra\\2876 Червячки.webp",
+        "filename": "2876 Червячки.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\300 г Фигурный Кислый Мармелад\\2870 Фруктовый сад.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\marmelad-300gr\\extra\\2870 Фруктовый сад.webp",
+        "filename": "2870 Фруктовый сад.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\300 г Фигурный Кислый Мармелад\\2877 Арбуз.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "300gr",
+    "productNameGuess": "арбуз",
+    "suggestedId": "tayas-arbuz-300gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-300gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-300gr\\arbuz-300gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2099 Кола.webp",
+    "brandGuess": "DAMLA",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "80gr",
+    "productNameGuess": "мишки",
+    "suggestedId": "damla-damla-80gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\damla-80gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2097 Мишки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2097 Мишки.webp",
+        "filename": "2097 Мишки.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2462 Арбуз.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2462 Арбуз.webp",
+        "filename": "2462 Арбуз.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2465 Зубки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2465 Зубки.webp",
+        "filename": "2465 Зубки.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2464 Алфавит.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2464 Алфавит.webp",
+        "filename": "2464 Алфавит.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2466 Чизкейк.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2466 Чизкейк.webp",
+        "filename": "2466 Чизкейк.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2104 Червячки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2104 Червячки.webp",
+        "filename": "2104 Червячки.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2450 Крокодил.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2450 Крокодил.webp",
+        "filename": "2450 Крокодил.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2101 Фруктовый сад.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2101 Фруктовый сад.webp",
+        "filename": "2101 Фруктовый сад.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2450 DAMLA GUMMY (OILED) CROCODILE (4GR) 80 GR BAG STICKER 40X60 MM.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2450 DAMLA GUMMY (OILED) CROCODILE (4GR) 80 GR BAG STICKER 40X60 MM.webp",
+        "filename": "2450 DAMLA GUMMY (OILED) CROCODILE (4GR) 80 GR BAG STICKER 40X60 MM.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2464 DAMLA GUMMY (OILED) ALPHABET (2,5G) 80 GR BAG STICKER 40X60 MM.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2464 DAMLA GUMMY (OILED) ALPHABET (2,5G) 80 GR BAG STICKER 40X60 MM.webp",
+        "filename": "2464 DAMLA GUMMY (OILED) ALPHABET (2,5G) 80 GR BAG STICKER 40X60 MM.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2465 DAMLA GUMMY&FOAM (OILED) TEETH (4G) 80 GR BAG STICKER 40X60 MM.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2465 DAMLA GUMMY&FOAM (OILED) TEETH (4G) 80 GR BAG STICKER 40X60 MM.webp",
+        "filename": "2465 DAMLA GUMMY&FOAM (OILED) TEETH (4G) 80 GR BAG STICKER 40X60 MM.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2099 DAMLA GUMMY (OILED) COLA (4G) 80 GR BAG (12X6) STICKER 40X60 MM.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2099 DAMLA GUMMY (OILED) COLA (4G) 80 GR BAG (12X6) STICKER 40X60 MM.webp",
+        "filename": "2099 DAMLA GUMMY (OILED) COLA (4G) 80 GR BAG (12X6) STICKER 40X60 MM.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2462 DAMLA SOUR GUMMY&FOAM WATERMELON (4G) 80 GR BAG STICKER 40X60 MM.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2462 DAMLA SOUR GUMMY&FOAM WATERMELON (4G) 80 GR BAG STICKER 40X60 MM.webp",
+        "filename": "2462 DAMLA SOUR GUMMY&FOAM WATERMELON (4G) 80 GR BAG STICKER 40X60 MM.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2466 DAMLA GUMMY&FOAM (OILED) CHEESECAKE (4G) 80 GR BAG STICKER 40X60 MM.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2466 DAMLA GUMMY&FOAM (OILED) CHEESECAKE (4G) 80 GR BAG STICKER 40X60 MM.webp",
+        "filename": "2466 DAMLA GUMMY&FOAM (OILED) CHEESECAKE (4G) 80 GR BAG STICKER 40X60 MM.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Damla\\2101 DAMLA GUMMY (OILED) FRUIT GARDEN (4G) 80 GR BAG (12X6) STICKER 40X60 MM.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\damla-80gr\\extra\\2101 DAMLA GUMMY (OILED) FRUIT GARDEN (4G) 80 GR BAG (12X6) STICKER 40X60 MM.webp",
+        "filename": "2101 DAMLA GUMMY (OILED) FRUIT GARDEN (4G) 80 GR BAG (12X6) STICKER 40X60 MM.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Jimmy Panda\\2203 Кола.webp",
+    "brandGuess": "JIMMY",
+    "categoryGuess": "Мармелады",
+    "weightGuess": "80gr",
+    "productNameGuess": "кола",
+    "suggestedId": "jimmy-jimmy-panda-80gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\jimmy-panda-80gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\jimmy-panda-80gr\\jimmy-panda-80gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Jimmy Panda\\3297 Зубки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\jimmy-panda-80gr\\extra\\3297 Зубки.webp",
+        "filename": "3297 Зубки.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Jimmy Panda\\3294 Крокодил.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\jimmy-panda-80gr\\extra\\3294 Крокодил.webp",
+        "filename": "3294 Крокодил.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Jimmy Panda\\2204 Кислая Кола.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\jimmy-panda-80gr\\extra\\2204 Кислая Кола.webp",
+        "filename": "2204 Кислая Кола.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Jimmy Panda\\2210 Кислые Фрукты.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\jimmy-panda-80gr\\extra\\2210 Кислые Фрукты.webp",
+        "filename": "2210 Кислые Фрукты.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\01 Мармелады\\02 Желейный Фигурный Мармелад\\80 г Фигурный Мармелад\\Jimmy Panda\\2213 Кислые Червячки.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\jimmy-panda-80gr\\extra\\2213 Кислые Червячки.webp",
+        "filename": "2213 Кислые Червячки.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\7296 Choco mint.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "1000gr",
+    "productNameGuess": "конфеты",
+    "suggestedId": "tayas-konfety-1000gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\konfety-1000gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\7285 Multi Fruit.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\7285 Multi Fruit.webp",
+        "filename": "7285 Multi Fruit.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\8381 Fruity Duos.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\8381 Fruity Duos.webp",
+        "filename": "8381 Fruity Duos.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\5595 Damla Coffee.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\5595 Damla Coffee.webp",
+        "filename": "5595 Damla Coffee.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\5652 Damla Sour 1kg.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\5652 Damla Sour 1kg.webp",
+        "filename": "5652 Damla Sour 1kg.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\5394 Damla Sour 90gr.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\5394 Damla Sour 90gr.webp",
+        "filename": "5394 Damla Sour 90gr.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\5567 Damla New 2 1kg.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\5567 Damla New 2 1kg.webp",
+        "filename": "5567 Damla New 2 1kg.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\5572 Damla New 2 90gr.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\5572 Damla New 2 90gr.webp",
+        "filename": "5572 Damla New 2 90gr.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\7342 Coffee Intense 1kg.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\7342 Coffee Intense 1kg.webp",
+        "filename": "7342 Coffee Intense 1kg.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\7341 Coffee Intense 90gr.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\7341 Coffee Intense 90gr.webp",
+        "filename": "7341 Coffee Intense 90gr.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\5550 Damla Assortment 1kg.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\5550 Damla Assortment 1kg.webp",
+        "filename": "5550 Damla Assortment 1kg.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\7287 Coffee Intense 170gr.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\7287 Coffee Intense 170gr.webp",
+        "filename": "7287 Coffee Intense 170gr.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\8076 Coffee Intense 500gr.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\8076 Coffee Intense 500gr.webp",
+        "filename": "8076 Coffee Intense 500gr.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\1000 г Дамла\\15440 Damla Assortment 90gr.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-1000gr\\extra\\15440 Damla Assortment 90gr.webp",
+        "filename": "15440 Damla Assortment 90gr.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6424 Ассорти.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "700gr",
+    "productNameGuess": "ассорти",
+    "suggestedId": "tayas-assorti-700gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-700gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-700gr\\assorti-700gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6306 Джар Ассорти.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\assorti-700gr\\extra\\6306 Джар Ассорти.webp",
+        "filename": "6306 Джар Ассорти.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6362 Яблоко.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "700gr",
+    "productNameGuess": "яблоко",
+    "suggestedId": "tayas-yabloko-700gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\yabloko-700gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\yabloko-700gr\\yabloko-700gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6363 Апельсин.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "700gr",
+    "productNameGuess": "апельсин",
+    "suggestedId": "tayas-apel-sin-700gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\apel-sin-700gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\apel-sin-700gr\\apel-sin-700gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6364 Клубника.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "700gr",
+    "productNameGuess": "клубника",
+    "suggestedId": "tayas-klubnika-700gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-700gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\klubnika-700gr\\klubnika-700gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6365 Вишня.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "700gr",
+    "productNameGuess": "вишня",
+    "suggestedId": "tayas-vishnya-700gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\vishnya-700gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\vishnya-700gr\\vishnya-700gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6375 Колф.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "700gr",
+    "productNameGuess": "конфеты",
+    "suggestedId": "tayas-konfety-700gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-700gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-700gr\\konfety-700gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\02 Жевательные Конфеты\\700 г Мини Юм\\6379 Арбуз.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Жевательные Конфеты",
+    "weightGuess": "700gr",
+    "productNameGuess": "арбуз",
+    "suggestedId": "tayas-arbuz-700gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-700gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\arbuz-700gr\\arbuz-700gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\03 Шоколады\\20 гр Jimmy Milky\\8411 Jimmy 20gr.webp",
+    "brandGuess": "JIMMY",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "20gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "jimmy-shokolad-kola-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-20gr\\shokolad-kola-20gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\03 Шоколады\\35 гр Вивани\\4083.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "35gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "tayas-shokolad-kola-35gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-35gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-35gr\\shokolad-kola-35gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\03 Шоколады\\40 гр Jimmy Milky\\8399 Jimmy Panda 40gr.webp",
+    "brandGuess": "JIMMY",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "40gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "jimmy-shokolad-kola-40gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-40gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-40gr\\shokolad-kola-40gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\01 Tayas\\03 Шоколады\\52 гр Джимми Панда\\9171 Jimmy Panda.webp",
+    "brandGuess": "TAYAS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "52gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "tayas-shokolad-kola-52gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-52gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-52gr\\shokolad-kola-52gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Драже\\20 г Драже из молочного шоколада\\PL8210.webp",
+    "brandGuess": "PAKEL",
+    "categoryGuess": "Драже",
+    "weightGuess": "20gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "pakel-shokolad-kola-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-20gr\\shokolad-kola-20gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Драже\\20 г Драже из молочного шоколада\\PL8277.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-20gr\\extra\\PL8277.webp",
+        "filename": "PL8277.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Драже\\49,3 г Драже\\PL1722.webp",
+    "brandGuess": "PAKEL",
+    "categoryGuess": "Драже",
+    "weightGuess": "49.3gr",
+    "productNameGuess": "драже",
+    "suggestedId": "pakel-49-3-g-drazhe-49.3gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\49-3-g-drazhe-49.3gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\49-3-g-drazhe-49.3gr\\49-3-g-drazhe-49.3gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Лукум\\Kidzi\\PL9798.webp",
+    "brandGuess": "KIDZI",
+    "categoryGuess": "Лукум",
+    "weightGuess": null,
+    "productNameGuess": "лукум",
+    "suggestedId": "kidzi-kidzi-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kidzi-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kidzi-unknown\\kidzi-unknown.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Лукум\\Kidzi\\PL9859.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kidzi-unknown\\extra\\PL9859.webp",
+        "filename": "PL9859.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Лукум\\Miskets\\PL0536.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Лукум",
+    "weightGuess": null,
+    "productNameGuess": "лукум",
+    "suggestedId": "miskets-miskets-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\miskets-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\miskets-unknown\\miskets-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Bonjuks\\100 г Дубайский Шоколад\\PL1165.webp",
+    "brandGuess": "BONJUKS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "100gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "bonjuks-shokolad-kola-100gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-100gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-100gr\\shokolad-kola-100gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Bonjuks\\70 г Сублимированная клубника в шоколаде\\PL1776.webp",
+    "brandGuess": "BONJUKS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "70gr",
+    "productNameGuess": "шоколад клубника",
+    "suggestedId": "bonjuks-shokolad-klubnika-70gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-klubnika-70gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-klubnika-70gr\\shokolad-klubnika-70gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Bonjuks\\70 г Сублимированная клубника в шоколаде\\PL1777.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-klubnika-70gr\\extra\\PL1777.webp",
+        "filename": "PL1777.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\100 г Дубайский Шоколад\\PL1030.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "100gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "miskets-shokolad-kola-100gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-100gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-100gr\\shokolad-kola-100gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\100 г Дубайский Шоколад\\PL1040.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-100gr\\extra\\PL1040.webp",
+        "filename": "PL1040.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\100 г Дубайский Шоколад\\PL1041.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-100gr\\extra\\PL1041.webp",
+        "filename": "PL1041.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\25 г Дубайский Шоколад\\PL1048.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "25gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "miskets-shokolad-kola-25gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-25gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-25gr\\shokolad-kola-25gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\250 г Шоколадный Конфет\\PL1166.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "250gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "miskets-shokolad-kola-250gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-250gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-250gr\\shokolad-kola-250gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\42 г Шоколадная Паста с гриссини\\PL1169.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "42gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "miskets-shokolad-kola-42gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-42gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-42gr\\shokolad-kola-42gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\60 г Шоколад Молочный\\PL0899 Фундук.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "60gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "miskets-shokolad-kola-60gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-60gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-60gr\\shokolad-kola-60gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\60 г Шоколад Молочный\\PL0901 Миндал.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-60gr\\extra\\PL0901 Миндал.webp",
+        "filename": "PL0901 Миндал.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\60 г Шоколад Молочный\\PL0900 Фисташка.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-60gr\\extra\\PL0900 Фисташка.webp",
+        "filename": "PL0900 Фисташка.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\70 г  Конфеты\\PL1686.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "70gr",
+    "productNameGuess": "конфеты кола",
+    "suggestedId": "miskets-konfety-kola-70gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-kola-70gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-kola-70gr\\konfety-kola-70gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\80 г Сублимированная Конфеты\\PL1514.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "80gr",
+    "productNameGuess": "конфеты кола",
+    "suggestedId": "miskets-konfety-kola-80gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-kola-80gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-kola-80gr\\konfety-kola-80gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\80 г Сублимированная Конфеты\\PL1515.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\konfety-kola-80gr\\extra\\PL1515.webp",
+        "filename": "PL1515.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\90 г Angel Hair\\PL0902.webp",
+    "brandGuess": "MISKETS",
+    "categoryGuess": "Шоколады",
+    "weightGuess": "90gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "miskets-shokolad-kola-90gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-90gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-90gr\\shokolad-kola-90gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\02 Pakel\\Шоколады\\Miskets\\90 г Angel Hair\\PL0903.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\shokolad-kola-90gr\\extra\\PL0903.webp",
+        "filename": "PL0903.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\03 Alikhan Ata\\18 г ХРУСТЯЩИЕ КУКУРУЗНЫЕ ТРУБОЧКИ\\SL0001 Choco.webp",
+    "brandGuess": "ALIKHAN-ATA",
+    "categoryGuess": "",
+    "weightGuess": "18gr",
+    "productNameGuess": "трубочки",
+    "suggestedId": "alikhan-ata-trubochki-18gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\ata-trubochki-18gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\ata-trubochki-18gr\\ata-trubochki-18gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\03 Alikhan Ata\\18 г ХРУСТЯЩИЕ КУКУРУЗНЫЕ ТРУБОЧКИ\\SL0002 Moloko.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\ata-trubochki-18gr\\extra\\SL0002 Moloko.webp",
+        "filename": "SL0002 Moloko.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\04 Puffico\\PF0001 60GR Yummy.webp",
+    "brandGuess": "PUFFICO",
+    "categoryGuess": "",
+    "weightGuess": "60gr",
+    "productNameGuess": "PF0001 60GR Yummy",
+    "suggestedId": "puffico-pf0001-60gr-yummy-60gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0001-60gr-yummy-60gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0001-60gr-yummy-60gr\\pf0001-60gr-yummy-60gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\04 Puffico\\PF0002 60GR.webp",
+    "brandGuess": "PUFFICO",
+    "categoryGuess": "",
+    "weightGuess": "60gr",
+    "productNameGuess": "PF0002 60GR",
+    "suggestedId": "puffico-pf0002-60gr-60gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0002-60gr-60gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0002-60gr-60gr\\pf0002-60gr-60gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\04 Puffico\\PF0003 20GR.webp",
+    "brandGuess": "PUFFICO",
+    "categoryGuess": "",
+    "weightGuess": "20gr",
+    "productNameGuess": "PF0003 20GR",
+    "suggestedId": "puffico-pf0003-20gr-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0003-20gr-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0003-20gr-20gr\\pf0003-20gr-20gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\04 Puffico\\PF0004 25GR.webp",
+    "brandGuess": "PUFFICO",
+    "categoryGuess": "",
+    "weightGuess": "25gr",
+    "productNameGuess": "PF0004 25GR",
+    "suggestedId": "puffico-pf0004-25gr-25gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0004-25gr-25gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0004-25gr-25gr\\pf0004-25gr-25gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\04 Puffico\\PF0005 25GR.webp",
+    "brandGuess": "PUFFICO",
+    "categoryGuess": "",
+    "weightGuess": "25gr",
+    "productNameGuess": "PF0005 25GR",
+    "suggestedId": "puffico-pf0005-25gr-25gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0005-25gr-25gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\pf0005-25gr-25gr\\pf0005-25gr-25gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\05 Oslo\\Бисквитное Пирожное\\BS0002 Red Love.webp",
+    "brandGuess": "OSLO",
+    "categoryGuess": "Бисквитное Пирожное",
+    "weightGuess": null,
+    "productNameGuess": "BS0001 Dubai cake",
+    "suggestedId": "oslo-biskvitnoe-pirozhnoe-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\biskvitnoe-pirozhnoe-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\biskvitnoe-pirozhnoe-unknown\\biskvitnoe-pirozhnoe-unknown.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\05 Oslo\\Бисквитное Пирожное\\BS0001 Dubai cake.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\biskvitnoe-pirozhnoe-unknown\\extra\\BS0001 Dubai cake.webp",
+        "filename": "BS0001 Dubai cake.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\05 Oslo\\Бисквитное Пирожное\\BS0003 Manela Donut.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\biskvitnoe-pirozhnoe-unknown\\extra\\BS0003 Manela Donut.webp",
+        "filename": "BS0003 Manela Donut.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\05 Oslo\\Бисквитное Пирожное\\BS0004 Arrivo Banana.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\biskvitnoe-pirozhnoe-unknown\\extra\\BS0004 Arrivo Banana.webp",
+        "filename": "BS0004 Arrivo Banana.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0001 Kola belts.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0001 Kola belts",
+    "suggestedId": "love-me-af0001-kola-belts-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0001-kola-belts-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0001-kola-belts-unknown\\me-af0001-kola-belts-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0002 Klubnika belts.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0002 Klubnika belts",
+    "suggestedId": "love-me-af0002-klubnika-belts-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0002-klubnika-belts-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0002-klubnika-belts-unknown\\me-af0002-klubnika-belts-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0003 Arbuz belts.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0003 Arbuz belts",
+    "suggestedId": "love-me-af0003-arbuz-belts-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0003-arbuz-belts-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0003-arbuz-belts-unknown\\me-af0003-arbuz-belts-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0004 Pina colada belts.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0004 Pina colada",
+    "suggestedId": "love-me-af0004-pina-colada-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0004-pina-colada-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0004-pina-colada-unknown\\me-af0004-pina-colada-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0005 Malina Ejevika belts.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0005 Malina Ejevika",
+    "suggestedId": "love-me-af0005-malina-ejevika-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0005-malina-ejevika-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0005-malina-ejevika-unknown\\me-af0005-malina-ejevika-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0006 Raduqa belts.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0006 Raduqa belts",
+    "suggestedId": "love-me-af0006-raduqa-belts-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0006-raduqa-belts-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0006-raduqa-belts-unknown\\me-af0006-raduqa-belts-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0007 Raduqa Pencil.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0007 Raduqa Pencil",
+    "suggestedId": "love-me-af0007-raduqa-pencil-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0007-raduqa-pencil-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0007-raduqa-pencil-unknown\\me-af0007-raduqa-pencil-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0008 Assorti Sour pencil.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0008 Assorti Sour",
+    "suggestedId": "love-me-af0008-assorti-sour-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0008-assorti-sour-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0008-assorti-sour-unknown\\me-af0008-assorti-sour-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\06 Love Me TM\\AF0009 Assorti oil.webp",
+    "brandGuess": "LOVE-ME",
+    "categoryGuess": "",
+    "weightGuess": null,
+    "productNameGuess": "AF0009 Assorti oil",
+    "suggestedId": "love-me-af0009-assorti-oil-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0009-assorti-oil-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\me-af0009-assorti-oil-unknown\\me-af0009-assorti-oil-unknown.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\07 Panda Lee TM\\KA0006 Ваниль 20гр.webp",
+    "brandGuess": "PANDA-LEE",
+    "categoryGuess": "",
+    "weightGuess": "20gr",
+    "productNameGuess": "ваниль",
+    "suggestedId": "panda-lee-vanil-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\lee-vanil-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\lee-vanil-20gr\\lee-vanil-20gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\07 Panda Lee TM\\KA0007 Шоколад 20гр.webp",
+    "brandGuess": "PANDA-LEE",
+    "categoryGuess": "",
+    "weightGuess": "20gr",
+    "productNameGuess": "шоколад кола",
+    "suggestedId": "panda-lee-shokolad-kola-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\lee-shokolad-kola-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\lee-shokolad-kola-20gr\\lee-shokolad-kola-20gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0009 Big car.webp",
+    "brandGuess": "NAVROZ",
+    "categoryGuess": "Желейный десерт",
+    "weightGuess": null,
+    "productNameGuess": "A00013",
+    "suggestedId": "navroz-zheleynyy-desert-unknown",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown\\zheleynyy-desert-unknown.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0008 Mini car.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown\\extra\\A0008 Mini car.webp",
+        "filename": "A0008 Mini car.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0006.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown\\extra\\A0006.webp",
+        "filename": "A0006.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0007.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown\\extra\\A0007.webp",
+        "filename": "A0007.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0011.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown\\extra\\A0011.webp",
+        "filename": "A0011.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A00013.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown\\extra\\A00013.webp",
+        "filename": "A00013.webp"
+      },
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A00014.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-unknown\\extra\\A00014.webp",
+        "filename": "A00014.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0003 11,66GR.webp",
+    "brandGuess": "NAVROZ",
+    "categoryGuess": "Желейный десерт",
+    "weightGuess": "11.66gr",
+    "productNameGuess": "A0003 11,66GR",
+    "suggestedId": "navroz-zheleynyy-desert-11.66gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-11.66gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-11.66gr\\zheleynyy-desert-11.66gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0012 20GR.webp",
+    "brandGuess": "NAVROZ",
+    "categoryGuess": "Желейный десерт",
+    "weightGuess": "20gr",
+    "productNameGuess": "A0012 20GR",
+    "suggestedId": "navroz-zheleynyy-desert-20gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-20gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-20gr\\zheleynyy-desert-20gr.webp",
+    "extraImages": []
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0015 70GR.webp",
+    "brandGuess": "NAVROZ",
+    "categoryGuess": "Желейный десерт",
+    "weightGuess": "70gr",
+    "productNameGuess": "A0015 70GR",
+    "suggestedId": "navroz-zheleynyy-desert-70gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-70gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-70gr\\zheleynyy-desert-70gr.webp",
+    "extraImages": [
+      {
+        "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\08 Navroz\\Желейный десерт\\A0015 70GR 2.webp",
+        "targetPath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\zheleynyy-desert-70gr\\extra\\A0015 70GR 2.webp",
+        "filename": "A0015 70GR 2.webp"
+      }
+    ]
+  },
+  {
+    "sourcePath": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\foods\\09 Crafers\\KF0013 Mello 80 gr.webp",
+    "brandGuess": "CRAFERS",
+    "categoryGuess": "",
+    "weightGuess": "80gr",
+    "productNameGuess": "KF0013 Mello",
+    "suggestedId": "crafers-kf0013-mello-80gr",
+    "suggestedTargetDir": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kf0013-mello-80gr",
+    "suggestedTargetImage": "C:\\Users\\Galax\\OneDrive\\Рабочий стол\\Atv_gro\\assets\\images\\products\\kf0013-mello-80gr\\kf0013-mello-80gr.webp",
+    "extraImages": []
+  }
+]

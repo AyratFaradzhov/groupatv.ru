@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-01-22T23:34:40.118Z",
+  "imagesToRemove": [
+    "assets/images/products/tayas/tayas-belts-assorti-75gr.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v1.webp",
+    "assets/images/products/tayas/tayas-marmalade-sour-80gr.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v4.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v8.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v10.webp",
+    "assets/images/products/tayas/tayas-belts-vinograd-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-pina-kolada-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-arbuz-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-malina-ezhevika-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-klubnika-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-golubika-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v6.webp",
+    "assets/images/products/tayas/tayas-belts-yabloko-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-kola-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-raduga-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-raduga-75gr-v1.webp",
+    "assets/images/products/tayas/tayas-belts-raduga-75gr.webp",
+    "assets/images/products/tayas/tayas-belts-assorti-75gr-v3.webp",
+    "assets/images/products/tayas/tayas-belts-assorti-75gr-v2.webp"
+  ],
+  "stats": {
+    "total": 246,
+    "removed": 6,
+    "removedProducts": [
+      {
+        "id": "tayas-belts-kislye-remeshki-damla-kola-kor-15g",
+        "name": "Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543",
+        "image": "assets/images/products/tayas/tayas-belts-kola-15gr-v2.webp",
+        "brand": "TAYAS",
+        "category": "marmalade"
+      },
+      {
+        "id": "tayas-belts-kislye-remeshki-damla-raduga-k-15g",
+        "name": "Кислые ремешки DAMLA, Радуга,коробка 15гр72шт6бл Tayash №8544",
+        "image": "assets/images/products/tayas/tayas-belts-raduga-15gr-v2.webp",
+        "brand": "TAYAS",
+        "category": "marmalade"
+      },
+      {
+        "id": "tayas-belts-kislye-remeshki-damla-assorti--75g",
+        "name": "Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090",
+        "image": "assets/images/products/tayas/tayas-belts-raduga-75gr.webp",
+        "brand": "TAYAS",
+        "category": "marmalade"
+      },
+      {
+        "id": "tayas-belts-kislye-remeshki-jimmy-sour-bel-75g",
+        "name": "Кислые ремешки Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1420",
+        "image": "assets/images/products/tayas/tayas-belts-raduga-75gr-v1.webp",
+        "brand": "TAYAS",
+        "category": "marmalade"
+      },
+      {
+        "id": "tayas-belts-kislye-karandashi-damla-assort-75g",
+        "name": "Кислые карандаши DAMLA, Ассорти, упаковка 75гр12шт6бл Tayash №3091",
+        "image": "assets/images/products/tayas/tayas-belts-assorti-75gr-v2.webp",
+        "brand": "TAYAS",
+        "category": "marmalade"
+      },
+      {
+        "id": "tayas-belts-kislye-karandashi-jimmy-sour-b-75g",
+        "name": "Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421",
+        "image": "assets/images/products/tayas/tayas-belts-assorti-75gr-v3.webp",
+        "brand": "TAYAS",
+        "category": "marmalade"
+      }
+    ],
+    "afterCount": 240
+  },
+  "removedProducts": [
+    {
+      "id": "tayas-belts-kislye-remeshki-damla-kola-kor-15g",
+      "name": "Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543",
+      "image": "assets/images/products/tayas/tayas-belts-kola-15gr-v2.webp",
+      "brand": "TAYAS",
+      "category": "marmalade"
+    },
+    {
+      "id": "tayas-belts-kislye-remeshki-damla-raduga-k-15g",
+      "name": "Кислые ремешки DAMLA, Радуга,коробка 15гр72шт6бл Tayash №8544",
+      "image": "assets/images/products/tayas/tayas-belts-raduga-15gr-v2.webp",
+      "brand": "TAYAS",
+      "category": "marmalade"
+    },
+    {
+      "id": "tayas-belts-kislye-remeshki-damla-assorti--75g",
+      "name": "Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090",
+      "image": "assets/images/products/tayas/tayas-belts-raduga-75gr.webp",
+      "brand": "TAYAS",
+      "category": "marmalade"
+    },
+    {
+      "id": "tayas-belts-kislye-remeshki-jimmy-sour-bel-75g",
+      "name": "Кислые ремешки Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1420",
+      "image": "assets/images/products/tayas/tayas-belts-raduga-75gr-v1.webp",
+      "brand": "TAYAS",
+      "category": "marmalade"
+    },
+    {
+      "id": "tayas-belts-kislye-karandashi-damla-assort-75g",
+      "name": "Кислые карандаши DAMLA, Ассорти, упаковка 75гр12шт6бл Tayash №3091",
+      "image": "assets/images/products/tayas/tayas-belts-assorti-75gr-v2.webp",
+      "brand": "TAYAS",
+      "category": "marmalade"
+    },
+    {
+      "id": "tayas-belts-kislye-karandashi-jimmy-sour-b-75g",
+      "name": "Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421",
+      "image": "assets/images/products/tayas/tayas-belts-assorti-75gr-v3.webp",
+      "brand": "TAYAS",
+      "category": "marmalade"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "PL9859",
+  "brand": "Pakel",
+  "name": "PL9859 KIDZI APPLE FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ КИДЗИ СО ВКУСОМ ЯБЛОКА, 20 г, ТМ KIDZI",
+  "slug": "pl9859-pl9859-kidzi-apple-flavored-sour-cube-кислые-мягкие-жевательные-конфеты-кидзи-со-вкусом-яблока,-20-г,-тм-kidzi",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL9859 - PL9859 KIDZI APPLE FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ КИДЗИ СО ВКУСОМ ЯБЛОКА, 20 г, ТМ KIDZI/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Лукум/Kidzi/PL9859   KIDZI APPLE FLAVORED SOUR CUBE  КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ «КИДЗИ» СО ВКУСОМ ЯБЛОКА, 20 г, ТМ «KIDZI»  _   текстовка.docx",
+      "02 Pakel/Лукум/Kidzi/PL9859.webp"
+    ],
+    "docs": [
+      "02 Pakel/Лукум/Kidzi/PL9859   KIDZI APPLE FLAVORED SOUR CUBE  КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ «КИДЗИ» СО ВКУСОМ ЯБЛОКА, 20 г, ТМ «KIDZI»  _   текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

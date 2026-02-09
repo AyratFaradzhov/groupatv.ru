@@ -1,0 +1,46 @@
+{
+  "id": "BS0004",
+  "brand": "Oslo",
+  "name": "BS0004 Кондитерское изделие Бисквитный батончик в какао-глазури Пирожное ARRIVO с банановым соусом, 30г, ТМ OSLO.",
+  "slug": "bs0004-bs0004-кондитерское-изделие-бисквитный-батончик-в-какао-глазури-пирожное-arrivo-с-банановым-соусом,-30г,-тм-oslo.",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Oslo/BS0004 - BS0004 Кондитерское изделие Бисквитный батончик в какао-глазури Пирожное ARRIVO с банановым соусом, 30г, ТМ OSLO./main.webp"
+  ],
+  "source": {
+    "paths": [
+      "05 Oslo/Бисквитное Пирожное/BS0004  Кондитерское изделие Бисквитный батончик в какао-глазури «Пирожное ARRIVO» с банановым соусом, 30г , ТМ «OSLO».    текстовка.docx",
+      "05 Oslo/Бисквитное Пирожное/BS0004 Arrivo Banana.webp"
+    ],
+    "docs": [
+      "05 Oslo/Бисквитное Пирожное/BS0004  Кондитерское изделие Бисквитный батончик в какао-глазури «Пирожное ARRIVO» с банановым соусом, 30г , ТМ «OSLO».    текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

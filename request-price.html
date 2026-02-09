@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATV GROUP - Заявка на прайс-лист</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/success-modal.css" />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container container">
+        <a href="index.html">
+          <img class="header__logo" src="assets/images/logo.png" alt="ATV Group" width="65" height="65" loading="lazy" decoding="async" />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                href="product.html"
+                class="header__link"
+                data-i18n="products"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link" data-i18n="about"></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="collaboration.html"
+                class="header__link"
+                data-i18n="collaboration"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="contacts.html"
+                class="header__link"
+                data-i18n="contacts"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="request-price.html" class="header__button">
+          <span class="price-list" data-i18n="price"></span>
+        </a>
+
+        <button class="header__lang-switch" id="langSwitch" type="button">
+          RU
+        </button>
+
+        <!-- Mobile burger menu button -->
+        <button class="header__burger" id="headerBurger" type="button" aria-label="Меню">
+          <svg class="header__burger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <!-- Mobile menu close button -->
+        <button class="header__close" id="headerClose" type="button" aria-label="Закрыть меню" style="display: none;">
+          <svg class="header__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="header__mobile-menu" id="headerMobileMenu">
+        <nav class="header__mobile-nav">
+          <a href="request-price.html" class="header__mobile-link" data-i18n="price">Прайс - лист</a>
+          <a href="product.html" class="header__mobile-link" data-i18n="products">Продукция</a>
+          <a href="about.html" class="header__mobile-link" data-i18n="about">О компании</a>
+          <a href="collaboration.html" class="header__mobile-link" data-i18n="collaboration">Сотрудничество</a>
+          <a href="contacts.html" class="header__mobile-link" data-i18n="contacts">Контакты</a>
+        </nav>
+        <div class="header__mobile-contacts">
+          <a href="tel:+79585821409" class="header__mobile-phone">+7 958 582 14 09</a>
+          <a href="mailto:info@atv-group.ru" class="header__mobile-email">info@atv-group.ru</a>
+        </div>
+        <div class="header__mobile-social">
+          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="header__mobile-social-link" aria-label="Instagram">
+            <img src="images/icons/instagram-icons.webp" alt="Instagram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://t.me/atv_groupp" class="header__mobile-social-link" aria-label="Telegram">
+            <img src="images/icons/telegram-logo.webp" alt="Telegram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="header__mobile-social-link" aria-label="Ozon">
+            <img src="images/icons/ozon-icon.webp" alt="Ozon" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://market.yandex.ru/cc/8Nzfeu" class="header__mobile-social-link" aria-label="Яндекс.Маркет">
+            <img src="images/icons/Yandex-icon.webp" alt="Яндекс.Маркет" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="request-price-page">
+      <section class="request-price__hero">
+        <div class="request-price__container container">
+          <div class="request-price__form-wrapper">
+            <div class="request-price__content">
+              <h1 class="request-price__title">Заявка на прайс - лист</h1>
+              <p class="request-price__subtitle">
+                Позвоните нам +7 958 582 14 09 или заполните форму — мы вышлем актуальный прайс-лист
+              </p>
+              
+              <form class="request-price__form" id="requestPriceForm">
+                <input
+                  type="text"
+                  name="name"
+                  class="request-price__input"
+                  placeholder="Имя"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  class="request-price__input"
+                  placeholder="Почта"
+                  required
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  class="request-price__input"
+                  placeholder="Телефон"
+                  required
+                />
+                
+                <button type="submit" class="request-price__submit">
+                  Отправить
+                </button>
+                
+                <label class="request-price__policy">
+                  <input type="checkbox" checked required />
+                  <span>Нажимая на кнопку Вы соглашаетесь на обработку персональных данных</span>
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Модальное окно успешной отправки -->
+    <div class="success-modal" id="successModal">
+      <div class="success-modal__overlay"></div>
+      <div class="success-modal__content">
+        <button class="success-modal__close" type="button" aria-label="Закрыть">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <h2 class="success-modal__title">Заявка отправлена</h2>
+        <p class="success-modal__text">Спасибо! Мы получили вашу заявку и свяжемся с вами в ближайшее время.</p>
+        <button class="success-modal__ok" type="button">Хорошо</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title" data-i18n="logo_text"></h1>
+        <div class="footer_news-sendler">
+          <h3 class="footer__subtitle" data-i18n="footer__subtitle"></h3>
+          <div class="footer__form-container">
+            <form class="footer__form" id="footerForm">
+              <input
+                type="text"
+                class="footer__input"
+                id="footerName"
+                placeholder="Имя"
+                required
+              />
+              <input
+                type="email"
+                class="footer__input"
+                id="footerEmail"
+                placeholder="почта"
+                required
+              />
+              <button
+                type="submit"
+                class="footer__submit"
+                data-i18n="send-newsendler"
+              ></button>
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox" />
+                <p class="checkbox-text" data-i18n="checkbox-text"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="contacts"></h4>
+              <a href="tel:+7958582140">+7 958 582 14 09</a>
+              <a href="mailto:info@atv-group.ru">info@atv-group.ru</a>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="social-list-web"></h4>
+              <div class="icons-container">
+                <a
+                  href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt"
+                  class="marketplace"
+                  ><img
+                    src="images/icons/instagram-icons.webp"
+                    alt="ссылка на наш инстаграм"
+                    class="marketplace-icons"
+                /></a>
+                <a href="https://t.me/atv_groupp" class="marketplace"
+                  ><img
+                    src="images/icons/telegram-logo.webp"
+                    alt="ссылка на наш телеграм-канал"
+                    class="marketplace-icons"
+                /></a>
+              </div>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4
+                class="social-list-title"
+                data-i18n="social-list-timework"
+              ></h4>
+              <p class="worktime">
+                Режим работы:
+                <time datetime="09:00">9:00</time>–<time datetime="22:00"
+                  >22:00</time
+                >
+              </p>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4
+                class="social-list-title"
+                data-i18n="social-list-marketplace"
+              ></h4>
+              <div class="icons-container">
+                <a
+                  href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com"
+                  class="marketplace"
+                  ><img
+                    src="images/icons/ozon-icon.webp"
+                    alt="ссылка на озон"
+                    class="marketplace-icons ozon-icon"
+                /></a>
+                <a href="https://market.yandex.ru/cc/8Nzfeu" class="marketplace"
+                  ><img
+                    src="images/icons/Yandex-icon.webp"
+                    alt="ссылка на Яндекс-маркет"
+                    class="marketplace-icons"
+                /></a>
+                <a
+                  href="https://www.wildberries.ru/seller/410710"
+                  class="marketplace"
+                  ><img
+                    src="images/icons/wildberries-icon.webp"
+                    alt="ссылка на wildberries"
+                    class="marketplace-icons"
+                /></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <nav class="footer__legal-links" aria-label="Legal">
+          <a href="terms.html" data-i18n="footer_legal_terms">Пользовательское соглашение</a>
+          <a href="privacy.html" data-i18n="footer_legal_privacy">Политика конфиденциальности</a>
+          <a href="consent.html" data-i18n="footer_legal_consent">Согласие на обработку персональных данных</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/forms-handler.js"></script>
+    <script>
+      // Обработчик формы прайс-листа - используем тот же подход, что и в collaboration
+      document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('requestPriceForm');
+        
+        if (form) {
+          // Используем функцию handleFormSubmit из forms-handler.js
+          form.addEventListener('submit', handleFormSubmit(form, '/price-list'));
+        }
+      });
+    </script>
+  </body>
+</html>
+

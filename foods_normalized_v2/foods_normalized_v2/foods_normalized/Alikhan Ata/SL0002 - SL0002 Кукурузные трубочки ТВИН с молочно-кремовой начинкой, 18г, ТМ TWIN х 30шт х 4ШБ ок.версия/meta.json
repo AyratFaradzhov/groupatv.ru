@@ -1,0 +1,46 @@
+{
+  "id": "SL0002",
+  "brand": "Alikhan Ata",
+  "name": "SL0002 Кукурузные трубочки ТВИН с молочно-кремовой начинкой, 18г, ТМ TWIN х 30шт х 4ШБ ок.версия",
+  "slug": "sl0002-sl0002-кукурузные-трубочки-твин-с-молочно-кремовой-начинкой,-18г,-тм-twin-х-30шт-х-4шб-ок.версия",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Alikhan Ata/SL0002 - SL0002 Кукурузные трубочки ТВИН с молочно-кремовой начинкой, 18г, ТМ TWIN х 30шт х 4ШБ ок.версия/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "03 Alikhan Ata/18 г ХРУСТЯЩИЕ КУКУРУЗНЫЕ ТРУБОЧКИ/SL0002 Moloko.webp",
+      "03 Alikhan Ata/18 г ХРУСТЯЩИЕ КУКУРУЗНЫЕ ТРУБОЧКИ/SL0002 Кукурузные трубочки «ТВИН» с молочно-кремовой начинкой, 18г, ТМ «TWIN» х 30шт х 4ШБ   ок.версия.docx"
+    ],
+    "docs": [
+      "03 Alikhan Ata/18 г ХРУСТЯЩИЕ КУКУРУЗНЫЕ ТРУБОЧКИ/SL0002 Кукурузные трубочки «ТВИН» с молочно-кремовой начинкой, 18г, ТМ «TWIN» х 30шт х 4ШБ   ок.версия.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

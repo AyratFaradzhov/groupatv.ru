@@ -1,0 +1,624 @@
+/* ===== WELCOME SECTION - ПОЛНОСТЬЮ РЕЗИНОВЫЙ ===== */
+
+.welcome {
+  display: flex;
+  flex-direction: row; /* Вертикальное направление - элементы в столбец */
+  justify-content: center; /* Центрируем по вертикали */
+  align-items: flex-start; /* Центрируем по горизонтали */
+  min-height: 5vh; /* Минимальная высота = высота окна */
+  min-height: 4dvh; /* Для мобильных браузеров */
+  padding: clamp(20px, 5vw, 40px) clamp(20px, 5vw, 40px) 0px
+    clamp(20px, 5vw, 40px); /* Резиновые отступы */
+  gap: clamp(20px, 5vw, 40px); /* Резиновый отступ между блоками */
+  width: 100%;
+  max-width: 1440px; /* Максимальная ширина для больших экранов */
+  margin: 0 auto; /* Центрируем секцию */
+  padding-inline: clamp(16px, 3vw, 40px); /* Добавлено для центрирования */
+  box-sizing: border-box;
+}
+
+/* Контейнер для контента */
+.welcome__container {
+  width: min(100%, 668px); /* Максимум 668px, но адаптируется */
+  background-color: #fbf5e5;
+  border-radius: clamp(20px, 4vw, 30px); /* Резиновые скругления */
+  padding: clamp(25px, 5vw, 40px) clamp(20px, 4vw, 25px) 0
+    clamp(20px, 4vw, 25px);
+  min-height: clamp(300px, 60vh, 442px); /* Резиновая минимальная высота */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Контент слева */
+}
+
+/* Заголовок */
+.welcome__title {
+  font-family: var(--logo-title);
+  font-weight: 400;
+  font-size: clamp(
+    2rem,
+    5vw,
+    var(--title-hero-size)
+  ); /* Резиновый размер шрифта */
+  color: var(--accent-color);
+  padding-inline-start: 3px;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* Основной текст */
+.welcome__text {
+  font-family: var(--base-font);
+  font-size: clamp(
+    1.125rem,
+    2.5vw,
+    var(--subtitle-size)
+  ); /* Резиновый размер */
+  color: var(--accent-color);
+  margin: clamp(8px, 1.5vw, 16px) 0 clamp(24px, 3vw, 32px) 0; /* Резиновые отступы */
+  width: 100%; /* Занимает всю ширину контейнера */
+  max-width: 669px; /* Максимальная ширина */
+  text-wrap: wrap;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+/* Контейнер для подтекста */
+.welcome__subtext-container {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(8px, 1.5vw, 10px); /* Резиновый отступ */
+  color: var(--text-color);
+  line-height: 1.3;
+  letter-spacing: 0%;
+  white-space: pre-line;
+  text-align: start;
+  width: 100%;
+}
+
+/* Подтекст */
+.welcome__subtext-first,
+.welcome__subtext-second {
+  text-align: left;
+  font-size: clamp(
+    0.875rem,
+    1.8vw,
+    var(--min-base-size)
+  ); /* Резиновый размер */
+  font-weight: 300;
+  line-height: 1.4;
+  white-space: pre-line;
+  width: 100%;
+}
+
+.welcome__subtext-second {
+  padding-right: clamp(15px, 3vw, 30px); /* Резиновый отступ справа */
+}
+
+/* Блок с изображением */
+.welcome__about {
+  width: min(100%, 668px); /* Максимум 668px, но адаптируется */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Для позиционирования кнопки */
+}
+
+/* Контейнер для изображения */
+.welcome__image-container {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 668 / 442; /* Сохраняем пропорции изображения */
+  background: #f5f5f5;
+  border-radius: clamp(16px, 3vw, 24px); /* Резиновые скругления */
+  overflow: hidden;
+}
+
+/* Само изображение */
+.welcome__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Кнопка продукта */
+.product__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 2vw, 16px); /* Резиновый отступ между элементами */
+  font-size: clamp(
+    0.875rem,
+    1.5vw,
+    var(--base-size)
+  ); /* Резиновый размер текста */
+  background-color: var(--accent-color);
+  border-radius: clamp(12px, 2vw, 16px); /* Резиновые скругления */
+  color: var(--element-color);
+  height: clamp(44px, 6vw, 56px); /* Резиновая высота */
+  width: clamp(320px, -10vw, 220px); /* Максимум 322px, но адаптируется */
+  cursor: pointer;
+  position: absolute;
+  bottom: clamp(5px, -4vw, 56px); /* Резиновое позиционирование снизу */
+  right: clamp(20px, -8vw, 40px); /* Резиновое позиционирование справа */
+  border: none;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  box-sizing: border-box;
+  z-index: 10; /* Чтобы была поверх других элементов */
+}
+
+.product__button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product__button:hover::before {
+  content: "";
+  position: absolute;
+  top: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
+  left: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
+  width: clamp(70px, 8vw, 94px); /* Резиновый размер */
+  height: clamp(75px, 9vw, 101px); /* Резиновый размер */
+  background-image: url("../../images/candy-hover.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.btn-about-cooperation:hover {
+  content: "";
+  position: absolute;
+  top: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
+  left: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
+  width: clamp(70px, 8vw, 94px); /* Резиновый размер */
+  height: clamp(75px, 9vw, 101px); /* Резиновый размер */
+  background-image: url("../../images/candy-hover.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.product__button-link {
+  font-family: var(--base-font);
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.product__button-img {
+  width: clamp(18px, 2.5vw, 24px); /* Резиновый размер */
+  height: clamp(18px, 2.5vw, 24px); /* Резиновый размер */
+  flex-shrink: 0;
+}
+
+/* ===== МЕДИА-ЗАПРОСЫ ДЛЯ РАЗНЫХ УСТРОЙСТВ ===== */
+
+/* Планшеты (768px - 1024px) */
+@media (max-width: 1024px) {
+  .welcome {
+    gap: clamp(15px, 4vw, 30px);
+    padding: clamp(15px, 4vw, 30px);
+  }
+
+  .welcome__container,
+  .welcome__about {
+    width: min(100%, 600px); /* Уменьшаем максимальную ширину */
+  }
+
+  .welcome__image-container {
+    height: 100dvh;
+  }
+
+  .product__button {
+    position: relative; /* Меняем на относительное позиционирование */
+    bottom: auto;
+    right: auto;
+    margin-top: clamp(15px, 3vw, 25px);
+    align-self: center; /* Центрируем кнопку */
+  }
+
+  .product__button:hover::before {
+    display: none; /* Скрываем hover эффект на планшетах */
+  }
+}
+
+/* Мобильные устройства (до 768px) */
+@media (max-width: 768px) {
+  .welcome {
+    width: 100vw;
+    min-height: auto; /* Убираем фиксированную высоту */
+    padding: clamp(10px, 3vw, 20px);
+    gap: clamp(10px, 3vw, 20px);
+    flex-direction: column;
+  }
+
+  /* Меняем местами: сначала картинка и кнопка, потом текстовый блок */
+  .welcome__about {
+    order: 1;
+  }
+
+  .welcome__container {
+    order: 2;
+  }
+
+  .welcome__title {
+    white-space: normal; /* Разрешаем перенос текста */
+    text-align: center;
+    font-size: clamp(1.75rem, 6vw, 2.5rem);
+  }
+
+  .welcome__container {
+    padding: clamp(15px, 4vw, 25px);
+    border-radius: clamp(15px, 3vw, 20px);
+  }
+
+  .welcome__text {
+    text-align: center;
+    font-size: clamp(1rem, 3vw, 1.25rem);
+  }
+
+  .welcome__subtext-first,
+  .welcome__subtext-second {
+    text-align: center;
+    white-space: normal; /* Разрешаем перенос */
+    font-size: clamp(0.75rem, 2.5vw, 1rem);
+  }
+
+  .welcome__subtext-second {
+    padding-right: 0;
+  }
+
+  .welcome__image-container {
+    aspect-ratio: 16 / 9; /* Меняем пропорции для мобильных */
+    border-radius: clamp(12px, 2.5vw, 16px);
+  }
+
+  .product__button {
+    width: 90%; /* Шире на мобильных */
+    max-width: 280px;
+    height: clamp(40px, 7vw, 48px);
+  }
+
+  .product__button-img {
+    width: clamp(16px, 2.2vw, 20px);
+    height: clamp(16px, 2.2vw, 20px);
+  }
+}
+
+/* Очень маленькие устройства (до 480px) */
+@media (max-width: 480px) {
+  .welcome__title {
+    font-size: clamp(1.5rem, 7vw, 2rem);
+  }
+
+  .welcome__text {
+    font-size: clamp(0.875rem, 4vw, 1.125rem);
+  }
+
+  .welcome__subtext-first,
+  .welcome__subtext-second {
+    font-size: clamp(0.75rem, 3vw, 0.875rem);
+    line-height: 1.3;
+  }
+
+  .welcome__container {
+    min-height: auto; /* Автоматическая высота */
+    padding: clamp(12px, 3vw, 20px);
+  }
+
+  .product__button {
+    font-size: clamp(0.75rem, 2.5vw, 0.875rem);
+    gap: clamp(8px, 1.5vw, 12px);
+  }
+}
+
+/* Ландшафтная ориентация на мобильных */
+@media (max-height: 600px) and (orientation: landscape) {
+  .welcome {
+    min-height: auto;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .welcome__container,
+  .welcome__about {
+    width: 90%;
+  }
+
+  .welcome__container {
+    min-height: auto;
+    padding: 15px;
+  }
+}
+
+/* ===== SECTION / BACKGROUND ===== */
+.card {
+  display: flex;
+  padding-inline: 40px;
+  margin-block: 99px;
+  block-size: 544px;
+  border-radius: 32px;
+  transition: background 0.5s ease;
+  font-family: var(--base-font);
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Фоны */
+.card.bg-1 {
+  background: url("../../assets/images/Sulifa Moloko 18gr/SulifaMoloko_Coffee__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 75%;
+  background-size: cover;
+}
+.card.bg-2 {
+  background: url("../../assets/images/Piramida Choco 20gr/Piramida-Choco__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 80%;
+  background-size: cover;
+}
+.card.bg-3 {
+  background: url("../../assets/images/Damla Assorti 30gr/DamalAssorti__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  background-size: cover;
+}
+.card.bg-4 {
+  background: url("../../assets/images/Damla Bears ( Mishki ) 80gr/DamlaBearsCoffee__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 10%;
+  background-size: cover;
+}
+.card.bg-5 {
+  background: url("../../assets/images/Damla Klubnika 15gr/DamlaKlubnika__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 55%;
+  background-size: cover;
+}
+.card.bg-6 {
+  background: url("../../assets/images/Damla Sour 90gr/DamlaSour__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 45%;
+  background-size: cover;
+}
+.card.bg-7 {
+  background: url("../../assets/images/Jimmy belts 75gr/Jimmybelts__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 24%;
+  background-size: cover;
+}
+.card.bg-8 {
+  background: url("../../assets/images/Jimmy chocolate 20gr/JimmyChocolate__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 34%;
+  background-size: cover;
+}
+.card.bg-9 {
+  background: url("../../assets/images/Jimmy pasta 52gr/Jimmypasta__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 85%;
+  background-size: cover;
+}
+.card.bg-10 {
+  background: url("../../assets/images/Jimmy pencil 75gr/jimmy_pencil-background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  background-size: cover;
+}
+
+.card.bg-11 {
+  background: url("../../assets/images/Kidzi Klubnika/kidzi_klubnika__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  background-size: cover;
+}
+
+.card.bg-12 {
+  background: url("../../assets/images/Miskets Sour Cubes/Miskets Sour Cubes__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  background-size: cover;
+}
+
+.card.bg-13 {
+  background: url("../../assets/images/BS0001 Dubai cake/Dubai-cake__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  background-size: cover;
+}
+
+.card.bg-14 {
+  background: url("../../assets/images/Coffee İntense 90gr/Coffee-intense__background.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  background-size: cover;
+}
+
+/* ===== CAROUSEL ===== */
+.card__viewport {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__candy {
+  display: flex;
+  transition: transform 0.4s ease;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.card__candy-item {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===== CONTENT ===== */
+.card__popular {
+  font-size: var(--subtitle-size);
+  margin-top: 40px;
+  color: var(--hover-color);
+  font-weight: 300;
+}
+
+ul li:nth-child(1) .card__popular-title {
+  color: var(--text-color);
+}
+
+ul li:nth-child(1) .card__popular {
+  color: var(--text-color);
+}
+
+ul li:nth-child(6) .card__description {
+  grid-template-rows: 78px 130px 1fr auto;
+}
+
+ul li:nth-child(8) .card__description {
+  grid-template-rows: 78px 134px 1fr auto;
+}
+
+ul li:nth-child(9) .card__description {
+  grid-template-rows: 78px 100px 94px auto;
+}
+
+ul li:nth-child(14) .card__description {
+  grid-template-rows: 78px 227px auto;
+  letter-spacing: -5%;
+}
+
+.card__title-container {
+  inline-size: 314px;
+  color: var(--hover-color);
+  font-size: var(--subtitle-size);
+  text-wrap: nowrap;
+}
+
+.card__popular-title {
+  margin-top: 9px;
+  justify-self: center;
+  white-space: pre-line;
+}
+
+.card__image {
+  justify-self: center;
+  align-self: center;
+  width: 543px;
+  max-width: 543px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  flex-shrink: 0;
+}
+
+.card__description-title {
+  inline-size: 358px;
+  block-size: 58px;
+  font-size: var(--base-size);
+  font-weight: 300;
+  line-height: 29px;
+  color: var(--hover-color);
+  margin: 0;
+}
+
+.card__description-text {
+  inline-size: 404px;
+  font-family: var(--base-font);
+  line-height: 19px;
+  font-size: var(--min-base-size);
+  font-weight: 300;
+  text-align: left;
+  white-space: pre-line;
+  margin: 0;
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  inline-size: 497px;
+  block-size: 464px;
+  background: rgba(255, 255, 255, 0.2); /* Полупрозрачный белый */
+  backdrop-filter: blur(15px); /* Размытие фона */
+  -webkit-backdrop-filter: blur(15px); /* Для Safari */
+  border-radius: 30px;
+  margin-block: 40px;
+  padding: 32px 40px 24px 40px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 32px;
+  border: 1px solid var(--accent-color);
+  border-radius: 30px;
+  background: transparent;
+  width: 217px;
+  height: 56px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+
+/* Пагинация внутри hero-карточки (index.html) — фиксируем в правом нижнем углу как в макете */
+.card__viewport > .pagination {
+  position: absolute;
+  right: 40px;
+  bottom: 60px;
+  margin: 0;
+}
+
+.pagination__arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--accent-color);
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.pagination__arrow:hover {
+  color: var(--accent-color);
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.pagination__arrow:active {
+  transform: scale(0.95);
+}
+
+.pagination__counter {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", sans-serif;
+  color: var(--accent-color);
+  min-width: 60px;
+  text-align: center;
+  line-height: 1;
+}

@@ -1,0 +1,49 @@
+{
+  "id": "8706",
+  "brand": "Tayas",
+  "name": "8706 КЛУБНИКА 30ГР КИСЛЫЕ ТРУБОЧКИ",
+  "slug": "8706-8706-клубника-30гр-кислые-трубочки",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8706 - 8706 КЛУБНИКА 30ГР КИСЛЫЕ ТРУБОЧКИ/main.webp",
+    "foods_normalized/Tayas/8706 - 8706 КЛУБНИКА 30ГР КИСЛЫЕ ТРУБОЧКИ/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8706 Кислые Трубочки ( Клубника )/8706 КЛУБНИКА 30ГР КИСЛЫЕ ТРУБОЧКИ .docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8706 Кислые Трубочки ( Клубника )/8706 Клубника 1.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8706 Кислые Трубочки ( Клубника )/8706 Клубника 2.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8706 Кислые Трубочки ( Клубника )/Кислые трубочки Damla,Клубника,упаковка 30гр24шт8бл №8706.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8706 Кислые Трубочки ( Клубника )/8706 КЛУБНИКА 30ГР КИСЛЫЕ ТРУБОЧКИ .docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

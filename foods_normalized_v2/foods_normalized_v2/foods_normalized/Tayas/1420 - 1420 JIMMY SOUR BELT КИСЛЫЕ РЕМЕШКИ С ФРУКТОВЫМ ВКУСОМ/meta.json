@@ -1,0 +1,47 @@
+{
+  "id": "1420",
+  "brand": "Tayas",
+  "name": "1420 JIMMY SOUR BELT КИСЛЫЕ РЕМЕШКИ С ФРУКТОВЫМ ВКУСОМ",
+  "slug": "1420-1420-jimmy-sour-belt-кислые-ремешки-с-фруктовым-вкусом",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/1420 - 1420 JIMMY SOUR BELT КИСЛЫЕ РЕМЕШКИ С ФРУКТОВЫМ ВКУСОМ/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/75 г Кислые ( Карандаши и Ремешки )/JIMMY PANDA/1420 Радуга Ремешки/1420 JIMMY SOUR BELT КИСЛЫЕ РЕМЕШКИ С ФРУКТОВЫМ ВКУСОМ  .docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/75 г Кислые ( Карандаши и Ремешки )/JIMMY PANDA/1420 Радуга Ремешки/Кислые ремешки Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1420.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/75 г Кислые ( Карандаши и Ремешки )/JIMMY PANDA/1420 Радуга Ремешки/Радуга Ремешки.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/75 г Кислые ( Карандаши и Ремешки )/JIMMY PANDA/1420 Радуга Ремешки/1420 JIMMY SOUR BELT КИСЛЫЕ РЕМЕШКИ С ФРУКТОВЫМ ВКУСОМ  .docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

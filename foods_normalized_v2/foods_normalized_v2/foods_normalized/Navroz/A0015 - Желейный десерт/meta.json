@@ -1,0 +1,45 @@
+{
+  "id": "A0015",
+  "brand": "Navroz",
+  "name": "Желейный десерт",
+  "slug": "a0015-желейный-десерт",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Navroz/A0015 - Желейный десерт/main.webp",
+    "foods_normalized/Navroz/A0015 - Желейный десерт/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "08 Navroz/Желейный десерт/A0015 70GR 2.webp",
+      "08 Navroz/Желейный десерт/A0015 70GR.webp"
+    ],
+    "docs": []
+  },
+  "flags": {
+    "missing_text": true,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

@@ -1,0 +1,14 @@
+/**
+ * Performance: content-visibility for STATIC sections only.
+ * NEVER applied to: .card, .partners, .products, .slider, any transform-based layout.
+ */
+@supports (content-visibility: auto) {
+  .welcome,
+  .about-atv,
+  .cooperation-intro,
+  .request-price__hero,
+  .error-page__container {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 1000px;
+  }
+}

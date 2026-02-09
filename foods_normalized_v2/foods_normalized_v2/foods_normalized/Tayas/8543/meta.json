@@ -1,0 +1,49 @@
+{
+  "id": "8543",
+  "brand": "Tayas",
+  "name": "8543 DAMLA КИСЛЫЕ РЕМЕШКИ КОЛА 8543",
+  "slug": "8543-8543-damla-кислые-ремешки-кола-8543",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8543 - 8543 DAMLA КИСЛЫЕ РЕМЕШКИ КОЛА 8543/main.webp",
+    "foods_normalized/Tayas/8543 - 8543 DAMLA КИСЛЫЕ РЕМЕШКИ КОЛА 8543/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8543 Кислые Ремешки ( Кола )/8543 DAMLA КИСЛЫЕ РЕМЕШКИ КОЛА 8543.docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8543 Кислые Ремешки ( Кола )/8543 Кола 1.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8543 Кислые Ремешки ( Кола )/8543 Кола 2.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8543 Кислые Ремешки ( Кола )/Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8543 Кислые Ремешки ( Кола )/8543 DAMLA КИСЛЫЕ РЕМЕШКИ КОЛА 8543.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

@@ -1,0 +1,17 @@
+:root {
+  --accent-color: #c02927;
+  --text-color: #1445ae;
+  --element-color: #f7f5f3;
+  --hover-color: #404040;
+  --background-color: #fffaef;
+  --green-color: #27ae60;
+  --orange-color: #ff7f0e;
+  --title-font: "Playpen Sans", sans-serif;
+  --base-font: "Inter", sans-serif;
+  --logo-title: "Luckiest Guy";
+  --base-size: 24px;
+  --subtitle-size: 32px;
+  --min-base-size: 16px;
+  --text-size: 32px;
+  --title-hero-size: 64px;
+}

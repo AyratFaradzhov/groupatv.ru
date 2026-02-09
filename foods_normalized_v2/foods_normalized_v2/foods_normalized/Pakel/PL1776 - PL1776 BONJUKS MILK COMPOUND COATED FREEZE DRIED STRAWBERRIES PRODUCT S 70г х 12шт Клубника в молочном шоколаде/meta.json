@@ -1,0 +1,46 @@
+{
+  "id": "PL1776",
+  "brand": "Pakel",
+  "name": "PL1776 BONJUKS MILK COMPOUND COATED FREEZE DRIED STRAWBERRIES PRODUCT S 70г х 12шт Клубника в молочном шоколаде",
+  "slug": "pl1776-pl1776-bonjuks-milk-compound-coated-freeze-dried-strawberries-product-s-70г-х-12шт-клубника-в-молочном-шоколаде",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL1776 - PL1776 BONJUKS MILK COMPOUND COATED FREEZE DRIED STRAWBERRIES PRODUCT S 70г х 12шт Клубника в молочном шоколаде/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Шоколады/Bonjuks/70 г Сублимированная клубника в шоколаде/PL1776   BONJUKS  MILK COMPOUND COATED FREEZE DRIED STRAWBERRIES PRODUCT S   70г х 12шт   Клубника в молочном шоколаде.docx",
+      "02 Pakel/Шоколады/Bonjuks/70 г Сублимированная клубника в шоколаде/PL1776.webp"
+    ],
+    "docs": [
+      "02 Pakel/Шоколады/Bonjuks/70 г Сублимированная клубника в шоколаде/PL1776   BONJUKS  MILK COMPOUND COATED FREEZE DRIED STRAWBERRIES PRODUCT S   70г х 12шт   Клубника в молочном шоколаде.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

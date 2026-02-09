@@ -1,0 +1,46 @@
+{
+  "id": "AF0007",
+  "brand": "Love Me TM",
+  "name": "AF0007 PENCIL SOUR RAINBOW LOVE ME РАДУГА ФРУКТОВЫХ ВКУСОВ И АРОМАТОВ (очень кислые мармеладные карандаши)",
+  "slug": "af0007-af0007-pencil-sour-rainbow-love-me-радуга-фруктовых-вкусов-и-ароматов-(очень-кислые-мармеладные-карандаши)",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Love Me TM/AF0007 - AF0007 PENCIL SOUR RAINBOW LOVE ME РАДУГА ФРУКТОВЫХ ВКУСОВ И АРОМАТОВ (очень кислые мармеладные карандаши)/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "06 Love Me TM/AF0007 PENCIL SOUR  RAINBOW  LOVE ME РАДУГА ФРУКТОВЫХ ВКУСОВ И АРОМАТОВ (очень кислые мармеладные карандаши).docx",
+      "06 Love Me TM/AF0007 Raduqa Pencil.webp"
+    ],
+    "docs": [
+      "06 Love Me TM/AF0007 PENCIL SOUR  RAINBOW  LOVE ME РАДУГА ФРУКТОВЫХ ВКУСОВ И АРОМАТОВ (очень кислые мармеладные карандаши).docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

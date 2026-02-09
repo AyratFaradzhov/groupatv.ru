@@ -1,0 +1,46 @@
+{
+  "id": "PL1165",
+  "brand": "Pakel",
+  "name": "PL1165 BONJUKS Square Tablet Milk Chocolate With DUBAI CHOCOLATE 12pcs х 6box Молочный шоколад",
+  "slug": "pl1165-pl1165-bonjuks-square-tablet-milk-chocolate-with-dubai-chocolate-12pcs-х-6box-молочный-шоколад",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL1165 - PL1165 BONJUKS Square Tablet Milk Chocolate With DUBAI CHOCOLATE 12pcs х 6box Молочный шоколад/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Шоколады/Bonjuks/100 г Дубайский Шоколад/PL1165  BONJUKS    Square Tablet Milk Chocolate With DUBAI CHOCOLATE  12pcs х 6box  Молочный шоколад.docx",
+      "02 Pakel/Шоколады/Bonjuks/100 г Дубайский Шоколад/PL1165.webp"
+    ],
+    "docs": [
+      "02 Pakel/Шоколады/Bonjuks/100 г Дубайский Шоколад/PL1165  BONJUKS    Square Tablet Milk Chocolate With DUBAI CHOCOLATE  12pcs х 6box  Молочный шоколад.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

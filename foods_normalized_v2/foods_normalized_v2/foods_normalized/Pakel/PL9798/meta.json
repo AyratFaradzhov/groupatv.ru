@@ -1,0 +1,46 @@
+{
+  "id": "PL9798",
+  "brand": "Pakel",
+  "name": "PL9798 KIDZI STRAWBERRY FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ КИДЗИ СО ВКУСОМ КЛУБНИКИ 20 г, ТМ KIDZI",
+  "slug": "pl9798-pl9798-kidzi-strawberry-flavored-sour-cube-кислые-мягкие-жевательные-конфеты-кидзи-со-вкусом-клубники-20-г,-тм-ki",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL9798 - PL9798 KIDZI STRAWBERRY FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ КИДЗИ СО ВКУСОМ КЛУБНИКИ 20 г, ТМ KIDZI/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Лукум/Kidzi/PL9798   KIDZI STRAWBERRY FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ «КИДЗИ» СО ВКУСОМ КЛУБНИКИ 20 г, ТМ «KIDZI»  _   текстовка.docx",
+      "02 Pakel/Лукум/Kidzi/PL9798.webp"
+    ],
+    "docs": [
+      "02 Pakel/Лукум/Kidzi/PL9798   KIDZI STRAWBERRY FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ «КИДЗИ» СО ВКУСОМ КЛУБНИКИ 20 г, ТМ «KIDZI»  _   текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

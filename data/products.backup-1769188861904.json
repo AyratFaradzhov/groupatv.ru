@@ -1,0 +1,298 @@
+{
+  "products": [
+    {
+      "id": "pakel-miskets",
+      "name": "Miskets",
+      "nameRu": "Miskets",
+      "nameEn": "Miskets",
+      "category": "candy",
+      "brand": "PAKEL",
+      "image": "assets/images/products/miskets/miskets.webp",
+      "descriptionKey": "pakel_miskets",
+      "descriptionTextKey": "pakel_miskets_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "конфеты",
+        "candy"
+      ]
+    },
+    {
+      "id": "tayas-remeshki-assorti-1000gr",
+      "name": "ремешки ассорти 1000gr",
+      "nameRu": "ремешки ассорти 1000gr",
+      "nameEn": "ремешки ассорти 1000gr",
+      "category": "marmalade",
+      "brand": "TAYAS",
+      "image": "assets/images/products/tayas-remeshki-assorti-1000gr/tayas-remeshki-assorti-1000gr.webp",
+      "descriptionKey": "tayas_remeshki_assorti_1000gr",
+      "descriptionTextKey": "tayas_remeshki_assorti_1000gr_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "мармелад",
+        "marmelad",
+        "ремешки",
+        "remeshki",
+        "ассорти",
+        "assorti"
+      ],
+      "weight": "1000gr"
+    },
+    {
+      "id": "tayas-remeshki-radug-1000gr",
+      "name": "ремешки радуг 1000gr",
+      "nameRu": "ремешки радуг 1000gr",
+      "nameEn": "ремешки радуг 1000gr",
+      "category": "marmalade",
+      "brand": "TAYAS",
+      "image": "assets/images/products/tayas-remeshki-radug-1000gr/tayas-remeshki-radug-1000gr.webp",
+      "descriptionKey": "tayas_remeshki_radug_1000gr",
+      "descriptionTextKey": "tayas_remeshki_radug_1000gr_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "мармелад",
+        "marmelad",
+        "ремешки",
+        "remeshki",
+        "радуг",
+        "radug"
+      ],
+      "weight": "1000gr"
+    },
+    {
+      "id": "tayas-remeshki-radug-1000gr-1",
+      "name": "ремешки радуг 1000gr",
+      "nameRu": "ремешки радуг 1000gr",
+      "nameEn": "ремешки радуг 1000gr",
+      "category": "marmalade",
+      "brand": "TAYAS",
+      "image": "assets/images/products/tayas-remeshki-radug-1000gr-1/tayas-remeshki-radug-1000gr-1.webp",
+      "descriptionKey": "tayas_remeshki_radug_1000gr_1",
+      "descriptionTextKey": "tayas_remeshki_radug_1000gr_1_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "мармелад",
+        "marmelad",
+        "ремешки",
+        "remeshki",
+        "радуг",
+        "radug"
+      ],
+      "weight": "1000gr"
+    },
+    {
+      "id": "tayas-remeshki-klubnik-1000gr",
+      "name": "ремешки клубник 1000gr",
+      "nameRu": "ремешки клубник 1000gr",
+      "nameEn": "ремешки клубник 1000gr",
+      "category": "marmalade",
+      "brand": "TAYAS",
+      "image": "assets/images/products/tayas-remeshki-klubnik-1000gr/tayas-remeshki-klubnik-1000gr.webp",
+      "descriptionKey": "tayas_remeshki_klubnik_1000gr",
+      "descriptionTextKey": "tayas_remeshki_klubnik_1000gr_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "мармелад",
+        "marmelad",
+        "ремешки",
+        "remeshki",
+        "клубник",
+        "klubnik"
+      ],
+      "weight": "1000gr"
+    },
+    {
+      "id": "tayas-remeshki-kola-1000gr",
+      "name": "ремешки кола 1000gr",
+      "nameRu": "ремешки кола 1000gr",
+      "nameEn": "ремешки кола 1000gr",
+      "category": "marmalade",
+      "brand": "TAYAS",
+      "image": "assets/images/products/tayas-remeshki-kola-1000gr/tayas-remeshki-kola-1000gr.webp",
+      "descriptionKey": "tayas_remeshki_kola_1000gr",
+      "descriptionTextKey": "tayas_remeshki_kola_1000gr_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "мармелад",
+        "marmelad",
+        "ремешки",
+        "remeshki",
+        "кола",
+        "kola"
+      ],
+      "weight": "1000gr"
+    },
+    {
+      "id": "tayas-remeshki-malin-1000gr",
+      "name": "ремешки малин 1000gr",
+      "nameRu": "ремешки малин 1000gr",
+      "nameEn": "ремешки малин 1000gr",
+      "category": "marmalade",
+      "brand": "TAYAS",
+      "image": "assets/images/products/tayas-remeshki-malin-1000gr/tayas-remeshki-malin-1000gr.webp",
+      "descriptionKey": "tayas_remeshki_malin_1000gr",
+      "descriptionTextKey": "tayas_remeshki_malin_1000gr_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "мармелад",
+        "marmelad",
+        "ремешки",
+        "remeshki",
+        "малин",
+        "malin"
+      ],
+      "weight": "1000gr"
+    },
+    {
+      "id": "tayas-remeshki-yablok-1000gr",
+      "name": "ремешки яблок 1000gr",
+      "nameRu": "ремешки яблок 1000gr",
+      "nameEn": "ремешки яблок 1000gr",
+      "category": "marmalade",
+      "brand": "TAYAS",
+      "image": "assets/images/products/tayas-remeshki-yablok-1000gr/tayas-remeshki-yablok-1000gr.webp",
+      "descriptionKey": "tayas_remeshki_yablok_1000gr",
+      "descriptionTextKey": "tayas_remeshki_yablok_1000gr_filling_text",
+      "titleKey": "card__popular-item",
+      "tags": [
+        "мармелад",
+        "marmelad",
+        "ремешки",
+        "remeshki",
+        "яблок",
+        "yablok"
+      ],
+      "weight": "1000gr"
+    }
+  ],
+  "categories": {
+    "marmalade": {
+      "id": "marmalade",
+      "nameRu": "Мармелад",
+      "nameEn": "Marmalade",
+      "icon": "assets/images/categories/marmelade.webp"
+    },
+    "candy": {
+      "id": "candy",
+      "nameRu": "Конфеты",
+      "nameEn": "Candies",
+      "icon": "assets/images/categories/candy.webp"
+    },
+    "caramel": {
+      "id": "caramel",
+      "nameRu": "Карамель",
+      "nameEn": "Caramel",
+      "icon": "assets/images/categories/caramel.webp"
+    },
+    "chocolate": {
+      "id": "chocolate",
+      "nameRu": "Шоколад и шоколадная паста",
+      "nameEn": "Chocolate and chocolate paste",
+      "icon": "assets/images/categories/chocolate-and-choclate-paste.webp"
+    },
+    "cookies": {
+      "id": "cookies",
+      "nameRu": "Печенье, кексы, вафли и маршмеллоу",
+      "nameEn": "Cookies, cakes, wafers and marshmallows",
+      "icon": "assets/images/categories/cookies.webp"
+    },
+    "jelly": {
+      "id": "jelly",
+      "nameRu": "Желейные десерты",
+      "nameEn": "Jelly desserts",
+      "icon": "assets/images/categories/jelly-desert.webp"
+    }
+  },
+  "brands": [
+    {
+      "id": "tayas",
+      "name": "Tayaş",
+      "logo": "assets/images/products/brand_logo/tayas.webp",
+      "logoHover": "assets/images/products/brand_logo/tayas-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/tayas-active.webp"
+    },
+    {
+      "id": "pakel",
+      "name": "Pakel",
+      "logo": "assets/images/products/brand_logo/pakel.webp",
+      "logoHover": "assets/images/products/brand_logo/pakel-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/pakel-active.webp"
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "logo": "assets/images/products/brand_logo/oslo.webp",
+      "logoHover": "assets/images/products/brand_logo/oslo-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/oslo-active.webp"
+    },
+    {
+      "id": "sulifa",
+      "name": "SULI FA",
+      "logo": "assets/images/products/brand_logo/sulifa.webp",
+      "logoHover": "assets/images/products/brand_logo/sulifa-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/sulifa-active.webp"
+    },
+    {
+      "id": "panda-lee",
+      "name": "Panda Lee",
+      "logo": "assets/images/products/brand_logo/panda-lee.webp",
+      "logoHover": "assets/images/products/brand_logo/panda-lee-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/panda-lee-active.webp"
+    },
+    {
+      "id": "puffi",
+      "name": "Puffi",
+      "logo": "assets/images/products/brand_logo/puffi.webp",
+      "logoHover": "assets/images/products/brand_logo/puffi-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/puffi-active.webp"
+    },
+    {
+      "id": "damla",
+      "name": "DAMLA",
+      "logo": "assets/images/products/brand_logo/damla.webp",
+      "logoHover": "assets/images/products/brand_logo/damla-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/damla-active.webp"
+    },
+    {
+      "id": "jimmy",
+      "name": "JIMMY",
+      "logo": "assets/images/products/brand_logo/jimmy.webp",
+      "logoHover": "assets/images/products/brand_logo/jimmy-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/jimmy-active.webp"
+    },
+    {
+      "id": "kidzi",
+      "name": "KIDZI",
+      "logo": "assets/images/products/brand_logo/kidzi.webp",
+      "logoHover": "assets/images/products/brand_logo/kidzi-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/kidzi-active.webp"
+    },
+    {
+      "id": "miskets",
+      "name": "MISKETS",
+      "logo": "assets/images/products/brand_logo/miskets.webp",
+      "logoHover": "assets/images/products/brand_logo/miskets-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/miskets-active.webp"
+    },
+    {
+      "id": "love-me",
+      "name": "LOVE ME",
+      "logo": "assets/images/products/brand_logo/love-me.webp",
+      "logoHover": "assets/images/products/brand_logo/love-me-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/love-me-active.webp"
+    },
+    {
+      "id": "navroz",
+      "name": "NAVROZ",
+      "logo": "assets/images/products/brand_logo/navroz.webp",
+      "logoHover": "assets/images/products/brand_logo/navroz-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/navroz-active.webp"
+    },
+    {
+      "id": "crafers",
+      "name": "CRAFERS",
+      "logo": "assets/images/products/brand_logo/crafers.webp",
+      "logoHover": "assets/images/products/brand_logo/crafers-hover.webp",
+      "logoActive": "assets/images/products/brand_logo/crafers-active.webp"
+    }
+  ]
+}

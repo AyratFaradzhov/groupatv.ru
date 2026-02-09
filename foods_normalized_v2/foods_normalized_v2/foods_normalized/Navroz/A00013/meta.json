@@ -1,0 +1,46 @@
+{
+  "id": "A00013",
+  "brand": "Navroz",
+  "name": "A00013 Пудинг FRUTTI ICE CREAM PUDDING стикер для ШТ",
+  "slug": "a00013-a00013-пудинг-frutti-ice-cream-pudding-стикер-для-шт",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Navroz/A00013 - A00013 Пудинг FRUTTI ICE CREAM PUDDING стикер для ШТ/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "08 Navroz/Желейный десерт/A00013  Пудинг FRUTTI ICE CREAM  PUDDING стикер  для ШТ.docx",
+      "08 Navroz/Желейный десерт/A00013.webp"
+    ],
+    "docs": [
+      "08 Navroz/Желейный десерт/A00013  Пудинг FRUTTI ICE CREAM  PUDDING стикер  для ШТ.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "PL1686",
+  "brand": "Pakel",
+  "name": "PL1686 Pistachio Dragee Coated Chocolate 70г х 12шт фисташка в молочном шоколаде",
+  "slug": "pl1686-pl1686-pistachio-dragee-coated-chocolate-70г-х-12шт-фисташка-в-молочном-шоколаде",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL1686 - PL1686 Pistachio Dragee Coated Chocolate 70г х 12шт фисташка в молочном шоколаде/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Шоколады/Miskets/70 г  Конфеты/PL1686  Pistachio Dragee Coated Chocolate  70г х 12шт   фисташка в молочном шоколаде.docx",
+      "02 Pakel/Шоколады/Miskets/70 г  Конфеты/PL1686.webp"
+    ],
+    "docs": [
+      "02 Pakel/Шоколады/Miskets/70 г  Конфеты/PL1686  Pistachio Dragee Coated Chocolate  70г х 12шт   фисташка в молочном шоколаде.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

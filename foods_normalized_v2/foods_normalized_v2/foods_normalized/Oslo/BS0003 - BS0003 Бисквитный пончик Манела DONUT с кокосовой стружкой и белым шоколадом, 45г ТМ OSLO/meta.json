@@ -1,0 +1,46 @@
+{
+  "id": "BS0003",
+  "brand": "Oslo",
+  "name": "BS0003 Бисквитный пончик Манела DONUT с кокосовой стружкой и белым шоколадом, 45г ТМ OSLO",
+  "slug": "bs0003-bs0003-бисквитный-пончик-манела-donut-с-кокосовой-стружкой-и-белым-шоколадом,-45г-тм-oslo",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Oslo/BS0003 - BS0003 Бисквитный пончик Манела DONUT с кокосовой стружкой и белым шоколадом, 45г ТМ OSLO/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "05 Oslo/Бисквитное Пирожное/BS0003  Бисквитный пончик «Манела DONUT» с кокосовой стружкой и белым шоколадом, 45г  ТМ «OSLO»  текстовка.docx",
+      "05 Oslo/Бисквитное Пирожное/BS0003 Manela Donut.webp"
+    ],
+    "docs": [
+      "05 Oslo/Бисквитное Пирожное/BS0003  Бисквитный пончик «Манела DONUT» с кокосовой стружкой и белым шоколадом, 45г  ТМ «OSLO»  текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

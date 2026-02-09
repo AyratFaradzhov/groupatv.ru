@@ -1,0 +1,46 @@
+{
+  "id": "KF0013",
+  "brand": "Crafers",
+  "name": "Конфеты неглазированные сбивные MELLO 80г, ТМ Crafers х 33шт",
+  "slug": "kf0013-конфеты-неглазированные-сбивные-mello-80г,-тм-crafers-х-33шт",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Crafers/KF0013 - Конфеты неглазированные сбивные MELLO 80г, ТМ Crafers х 33шт/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "09 Crafers/KF0013 Mello 80 gr.webp",
+      "09 Crafers/Конфеты неглазированные сбивные  MELLO  80г, ТМ« Crafers»   х_33шт   текстовка.doc"
+    ],
+    "docs": [
+      "09 Crafers/Конфеты неглазированные сбивные  MELLO  80г, ТМ« Crafers»   х_33шт   текстовка.doc"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

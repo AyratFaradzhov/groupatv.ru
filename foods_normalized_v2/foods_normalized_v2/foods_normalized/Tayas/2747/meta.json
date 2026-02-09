@@ -1,0 +1,43 @@
+{
+  "id": "2747",
+  "brand": "Tayas",
+  "name": "1000 г Фигурный Мармелад",
+  "slug": "2747-1000-г-фигурный-мармелад",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/2747 - 1000 г Фигурный Мармелад/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/02 Желейный Фигурный Мармелад/1000 г Фигурный Мармелад/2747 Зубки.webp"
+    ],
+    "docs": []
+  },
+  "flags": {
+    "missing_text": true,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

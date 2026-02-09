@@ -1,0 +1,46 @@
+{
+  "id": "AF0005",
+  "brand": "Love Me TM",
+  "name": "AF0005 SOURBELT LENTA - BLACKBERRY AND RASPBERRY ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS СО ВКУСОМ Е",
+  "slug": "af0005-af0005-sourbelt-lenta---blackberry-and-raspberry-жевательные-мягкие-конфеты-love-me-sour-belts-со-вкусом-е",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Love Me TM/AF0005 - AF0005 SOURBELT LENTA - BLACKBERRY AND RASPBERRY ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS СО ВКУСОМ Е/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "06 Love Me TM/AF0005 Malina Ejevika belts.webp",
+      "06 Love Me TM/AF0005 SOURBELT LENTA - BLACKBERRY AND RASPBERRY  ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR  BELTS СО ВКУСОМ Е.docx"
+    ],
+    "docs": [
+      "06 Love Me TM/AF0005 SOURBELT LENTA - BLACKBERRY AND RASPBERRY  ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR  BELTS СО ВКУСОМ Е.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

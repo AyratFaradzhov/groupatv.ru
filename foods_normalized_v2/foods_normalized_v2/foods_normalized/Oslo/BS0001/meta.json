@@ -1,0 +1,46 @@
+{
+  "id": "BS0001",
+  "brand": "Oslo",
+  "name": "BS0001 Бисквитный батончик в какао глазури Дубайское пирожное ARRIVO, 40 г с сокращением",
+  "slug": "bs0001-bs0001-бисквитный-батончик-в-какао-глазури-дубайское-пирожное-arrivo,-40-г-с-сокращением",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Oslo/BS0001 - BS0001 Бисквитный батончик в какао глазури Дубайское пирожное ARRIVO, 40 г с сокращением/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "05 Oslo/Бисквитное Пирожное/BS0001 Dubai cake.webp",
+      "05 Oslo/Бисквитное Пирожное/BS0001 Бисквитный батончик в какао глазури  Дубайское пирожное ARRIVO, 40 г_    текстовка с сокращением.docx"
+    ],
+    "docs": [
+      "05 Oslo/Бисквитное Пирожное/BS0001 Бисквитный батончик в какао глазури  Дубайское пирожное ARRIVO, 40 г_    текстовка с сокращением.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

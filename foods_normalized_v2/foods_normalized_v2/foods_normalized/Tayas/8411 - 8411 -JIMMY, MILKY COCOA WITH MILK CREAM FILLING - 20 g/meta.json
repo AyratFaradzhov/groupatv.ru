@@ -1,0 +1,46 @@
+{
+  "id": "8411",
+  "brand": "Tayas",
+  "name": "8411 -JIMMY, MILKY COCOA WITH MILK CREAM FILLING - 20 g",
+  "slug": "8411-8411--jimmy,-milky-cocoa-with-milk-cream-filling---20-g",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8411 - 8411 -JIMMY, MILKY COCOA WITH MILK CREAM FILLING - 20 g/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/03 Шоколады/20 гр Jimmy Milky/8411 -JIMMY, MILKY COCOA WITH MILK CREAM FILLING - 20 g.docx",
+      "01 Tayas/03 Шоколады/20 гр Jimmy Milky/8411 Jimmy 20gr.webp"
+    ],
+    "docs": [
+      "01 Tayas/03 Шоколады/20 гр Jimmy Milky/8411 -JIMMY, MILKY COCOA WITH MILK CREAM FILLING - 20 g.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

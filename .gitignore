@@ -1,0 +1,11 @@
+# зависимости
+node_modules/
+out/
+.vscode/
+
+# временные файлы
+*.xls
+*.log
+
+# изображения товаров (слишком длинные пути)
+assets/images/products/

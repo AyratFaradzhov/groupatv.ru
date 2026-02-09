@@ -1,0 +1,46 @@
+{
+  "id": "4083",
+  "brand": "Tayas",
+  "name": "ВИВАНИ ШОКОЛАД",
+  "slug": "4083-вивани-шоколад",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/4083 - ВИВАНИ ШОКОЛАД/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/03 Шоколады/35 гр Вивани/4083.webp",
+      "01 Tayas/03 Шоколады/35 гр Вивани/ВИВАНИ ШОКОЛАД .pdf"
+    ],
+    "docs": [
+      "01 Tayas/03 Шоколады/35 гр Вивани/ВИВАНИ ШОКОЛАД .pdf"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

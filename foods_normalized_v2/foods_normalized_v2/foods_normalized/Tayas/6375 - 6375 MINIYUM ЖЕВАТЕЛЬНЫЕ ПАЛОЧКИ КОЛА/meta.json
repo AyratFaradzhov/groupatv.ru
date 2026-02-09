@@ -1,0 +1,46 @@
+{
+  "id": "6375",
+  "brand": "Tayas",
+  "name": "6375 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ КОЛА",
+  "slug": "6375-6375-miniyum-жевательные-палочки-кола",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/6375 - 6375 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ КОЛА/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6375  MINIYUM  ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ КОЛА.docx",
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6375 Колф.webp"
+    ],
+    "docs": [
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6375  MINIYUM  ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ КОЛА.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

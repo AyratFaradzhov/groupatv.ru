@@ -1,0 +1,46 @@
+{
+  "id": "8923",
+  "brand": "Tayas",
+  "name": "Кислые трубочки Damla, Яблоко, упаковка 30гр24шт8бл №8923",
+  "slug": "8923-кислые-трубочки-damla,-яблоко,-упаковка-30гр24шт8бл-№8923",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8923 - Кислые трубочки Damla, Яблоко, упаковка 30гр24шт8бл №8923/main.webp",
+    "foods_normalized/Tayas/8923 - Кислые трубочки Damla, Яблоко, упаковка 30гр24шт8бл №8923/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8923 Кислые Трубочки ( Яблоко )/8923 Яблоко 1.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8923 Кислые Трубочки ( Яблоко )/8923 Яблоко 2.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8923 Кислые Трубочки ( Яблоко )/Кислые трубочки Damla,Яблоко, упаковка 30гр24шт8бл №8923.webp"
+    ],
+    "docs": []
+  },
+  "flags": {
+    "missing_text": true,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": true,
+    "needs_review": true
+  }
+}

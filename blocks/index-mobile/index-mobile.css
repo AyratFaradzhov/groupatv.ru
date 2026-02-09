@@ -1,0 +1,1718 @@
+/* ============================================
+   MOBILE-FIRST ADAPTATION FOR INDEX.HTML
+   Base: 375px (Figma design)
+   Range: 320px - 414px
+   ============================================ */
+
+/* ===== HEADER MOBILE ===== */
+@media (max-width: 767px) {
+  .header {
+    background-color: #fbf5e5;
+    height: 80px;
+  }
+
+  .header__container {
+    min-height: 80px;
+    padding-inline: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    display: block;
+    width: 100%;
+    max-width: 375px; /* ограничение по Figma */
+    height: 80px; /* точная высота */
+    object-fit: contain;
+    margin: 0 auto; /* центрирование */
+  }
+
+  .header__nav {
+    display: none; /* Скрываем навигацию на мобильных */
+  }
+
+  .header__button {
+    display: none; /* Скрываем кнопку прайс-листа на мобильных */
+  }
+
+  .header__lang-switch {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0.5px solid #c02927;
+    background: #fffaef;
+    color: #c02927;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+
+/* ===== WELCOME SECTION MOBILE ===== */
+@media (max-width: 767px) {
+  .welcome {
+    width: 100%;
+    padding: 0px;
+    margin: 0 0 24px 0; /* Отступ снизу для разделения с следующей секцией */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative; /* Контекст для позиционирования дочерних элементов */
+  }
+
+  .welcome__container {
+    width: 100%;
+    max-width: 375px;
+    background-color: #fbf5e5;
+    border-radius: 30px;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 340px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .welcome__title {
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 40px;
+    color: #c02927;
+    text-align: left;
+    margin: 0 0 8px 0;
+    padding: 0;
+    line-height: 100%;
+    white-space: normal;
+    position: absolute;
+    left: 87px;
+    top: 24px;
+    width: auto;
+  }
+
+  .welcome__text {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #c02927;
+    text-align: center;
+    margin: 0 0 24px 0;
+    padding: 0;
+    line-height: 100%;
+    max-width: 327px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
+    width: 327px;
+  }
+
+  .welcome__subtext-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 327px;
+    position: absolute;
+    left: 24px;
+    top: 170px;
+    width: 327px;
+  }
+
+  .welcome__subtext-first,
+  .welcome__subtext-second {
+    color: #1445ae;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .welcome__about {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    position: relative;
+    height: 241px;
+    overflow: hidden; /* Скрываем переполнение изображения */
+    margin-block: 24px;
+    /* Контейнер для позиционирования кнопки внутри hero */
+  }
+
+  .welcome__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .product__button {
+    position: absolute;
+    left: 50%;
+    /* Позиционирование относительно нижней границы hero-контейнера (.welcome__about) */
+    /* Кнопка должна быть внутри hero, позиционируем от нижней границы изображения */
+    bottom: 0%; /* Отступ от нижней границы контейнера внутри hero */
+    /* Ширина от контента + padding, не фиксированная */
+    width: auto;
+    min-width: auto;
+    max-width: calc(100% - 20px); /* Защита от выхода за границы */
+    height: 33px;
+    background-color: #c02927;
+    color: #f7f5f3;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    /* Padding по Figma: px-[32px] py-[16px] */
+    padding: 16px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    cursor: pointer;
+    margin: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+
+  .product__button-link {
+    color: #f7f5f3;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 100%;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .product__button-img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    display: block;
+  }
+}
+
+/* ===== CARD SECTION (POPULAR PRODUCTS) MOBILE ===== */
+@media (max-width: 767px) {
+  .card,
+  .page-about .card {
+    width: 100%;
+    max-width: 100vw; /* Ограничение ширины viewport */
+    margin: 0 auto;
+    padding: 0;
+    margin-block: 0;
+    border-radius: 30px;
+    overflow: hidden; /* Скрываем переполнение */
+    height: 695px;
+    min-height: 695px; /* Override any min-height from other rules */
+    max-height: 695px; /* Ensure it doesn't exceed 695px */
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .card__viewport,
+  .page-about .card__viewport {
+    width: 100%;
+    height: 695px;
+    position: relative;
+    overflow: hidden; /* Скрываем переполнение */
+    touch-action: pan-y; /* Allow vertical scroll, prevent horizontal */
+    /* Контекст для позиционирования pagination */
+  }
+
+  .card__candy,
+  .page-about .card__candy {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    display: flex;
+    transition: transform 520ms cubic-bezier(0.22, 1.15, 0.32, 1); /* Spring easing */
+    touch-action: pan-y; /* Allow vertical scroll, prevent horizontal */
+  }
+
+  .card__candy-item,
+  .page-about .card__candy-item {
+    min-width: 100%;
+    width: 100%;
+    height: 695px; /* Match card height exactly */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 0;
+  }
+
+  .card__image,
+  .page-about .card__image {
+    position: absolute;
+
+    /* идеальный горизонтальный центр */
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* адаптивный размер без медиазапросов */
+    width: clamp(60%, 70%, 90%);
+    height: auto;
+
+    object-fit: contain;
+    z-index: 2;
+
+    /* вертикальная позиция управляется переменной */
+    top: var(--img-top, 10%);
+
+    /* Animation properties - GPU-friendly */
+    will-change: transform;
+    transition:
+      transform 400ms cubic-bezier(0.22, 1, 0.36, 1),
+      opacity 0.6s ease,
+      filter 0.6s ease;
+    backface-visibility: hidden;
+    transform: translateX(-50%) translateZ(0);
+    transform-origin: center center;
+  }
+
+  /* Active slide - prominent */
+  .card__candy-item.is-active .card__image,
+  .page-about .card__candy-item.is-active .card__image {
+    transform: translateX(-50%) translateZ(0) scale(1);
+    opacity: 1;
+    filter: none;
+  }
+
+  /* Inactive slides - de-emphasized (no blur, scale + opacity only) */
+  .card__candy-item:not(.is-active) .card__image,
+  .page-about .card__candy-item:not(.is-active) .card__image {
+    transform: translateX(-50%) translateZ(0) scale(0.95);
+    opacity: 0.85;
+    filter: none;
+  }
+
+  /* About: плавное выделение текста активного слайда */
+  .page-about .card__candy-item .card__description,
+  .page-about .card__candy-item .card__title-container {
+    transition: opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .page-about .card__candy-item.is-active .card__description,
+  .page-about .card__candy-item.is-active .card__title-container {
+    opacity: 1;
+  }
+  .page-about .card__candy-item:not(.is-active) .card__description,
+  .page-about .card__candy-item:not(.is-active) .card__title-container {
+    opacity: 0.82;
+  }
+
+  .bg-1 {
+    --img-top: 6%;
+  }
+  .bg-2 {
+    --img-top: 5%;
+  }
+  .bg-3 {
+    --img-top: 6%;
+  }
+  .bg-4 {
+    --img-top: 7%;
+  }
+  .bg-5 {
+    --img-top: 5%;
+  }
+  .bg-6 {
+    --img-top: 10%;
+  }
+  .bg-7 {
+    --img-top: 10%;
+  }
+  .bg-8 {
+    --img-top: 4%;
+  }
+  .bg-9 {
+    --img-top: 6%;
+  }
+  .bg-10 {
+    --img-top: 8%;
+  }
+  .bg-11 {
+    --img-top: 6%;
+  }
+  .bg-12 {
+    --img-top: 8%;
+  }
+  .bg-13 {
+    --img-top: 4%;
+  }
+  .bg-14 {
+    --img-top: 15%;
+  }
+
+  .bg-3 .card__title-container {
+    align-items: center; /* горизонтальный центр */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .bg-4 .card__title-container {
+    align-items: flex-end; /* горизонтальный центр */
+    justify-content: flex-end;
+    text-align: flex-end;
+  }
+
+  .bg-5 .card__title-container {
+    align-items: flex-end; /* горизонтальный центр */
+    justify-content: flex-end;
+    text-align: flex-end;
+  }
+
+  .bg-7 .card__title-container {
+    align-items: flex-end; /* горизонтальный центр */
+    justify-content: flex-end;
+    text-align: flex-end;
+  }
+
+  .bg-8 .card__title-container {
+    align-items: flex-end; /* горизонтальный центр */
+    justify-content: flex-end;
+    text-align: flex-end;
+  }
+
+  .bg-10 .card__title-container {
+    align-items: flex-end; /* горизонтальный центр */
+    justify-content: flex-end;
+    text-align: flex-end;
+  }
+
+  .bg-11 .card__title-container {
+    align-items: flex-end; /* горизонтальный центр */
+    justify-content: flex-end;
+    text-align: flex-end;
+  }
+
+  .bg-13 .card__title-container {
+    align-items: center; /* горизонтальный центр */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .bg-14 .card__title-container {
+    align-items: center; /* горизонтальный центр */
+    justify-content: center;
+    text-align: center;
+    color: #f7f5f3;
+  }
+
+  .card__title-container,
+  .page-about .card__title-container {
+    /* НЕ absolute - первый элемент в потоке */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* горизонтальный центр */
+    justify-content: start;
+    text-align: center;
+    gap: 8px;
+    padding-inline: 24px;
+    margin-top: 24px; /* отступ от верхней границы карточки */
+    margin-bottom: 16px; /* отступ до изображения */
+  }
+
+  .card__popular,
+  .page-about .card__popular {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #1445ae;
+    text-align: center;
+    margin: 0;
+    line-height: 100%;
+  }
+
+  .card__popular-title,
+  .page-about .card__popular-title {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #1445ae;
+    text-align: center;
+    margin: 0;
+    line-height: 100%;
+  }
+
+  .card__image,
+  .page-about .card__image {
+    /* НЕ absolute - следующий элемент в потоке */
+    position: absolute;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 2;
+    /* Изображение в нормальном потоке, после заголовка */
+  }
+
+  /* Стандартный объём текста — без изменений */
+  .bg-1,
+  .bg-2 {
+    --text-scale: 1;
+  }
+
+  .bg-14 {
+    --text-scale: 0.8;
+  }
+
+  /* Чуть компактнее — умеренно плотный текст */
+  .bg-6 {
+    --text-scale: 0.88;
+  }
+
+  /* Чуть уменьшить (как ты просил) */
+  .bg-7,
+  .bg-8,
+  .bg-9 {
+    --text-scale: 0.88;
+  }
+
+  /* Заметно плотный текст */
+  .bg-5,
+  .bg-13,
+  .bg-12,
+  .bg-11,
+  .bg-4 {
+    --text-scale: 0.9;
+  }
+
+  .bg-3 {
+    --text-scale: 0.97;
+  }
+
+  /* Самый плотный текст — уменьшить сильнее */
+  .bg-10 {
+    --text-scale: 0.82;
+  }
+
+  .card__description,
+  .page-about .card__description {
+    position: absolute;
+    top: 320px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 375px; /* Exact height from Figma: 695px card - 320px top = 375px */
+    margin: 0; /* Remove any margin that could offset positioning */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 24px;
+    padding-bottom: 48px; /* Space for pagination: 24px bottom margin + 24px pagination height */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    z-index: 1;
+  }
+
+  .card__description-title,
+  .page-about .card__description-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #404040;
+    line-height: 100%;
+    margin: 0;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    flex-shrink: 0;
+  }
+
+  .partner__image.lenta-image-crop {
+    clip-path: inset(25px 0 25px 0);
+  }
+
+  .card__description-text,
+  .page-about .card__description-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+
+    /* адаптивный размер без ручных px */
+    font-size: calc(clamp(0.875rem, 3.5vw, 1rem) * var(--text-scale, 1));
+
+    color: #404040;
+
+    /* читабельный, но компактный интерлиньяж */
+    line-height: 1.3;
+
+    margin: 0;
+
+    /* сохраняем переносы из контента, но без поломок */
+    white-space: pre-line;
+
+    /* безопасное поведение для длинных слов */
+    overflow-wrap: break-word;
+    hyphens: auto;
+
+    flex-shrink: 0;
+  }
+
+  .pagination,
+  .page-about .pagination {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    z-index: 3; /* Pagination выше текста внутри стеклянного блока */
+  }
+
+  .pagination__arrow,
+  .page-about .pagination__arrow {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c02927;
+  }
+
+  .pagination__counter,
+  .page-about .pagination__counter {
+    display: flex;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    text-wrap: nowrap;
+    font-weight: 400;
+    color: #c02927;
+    line-height: 100%;
+    width: 63px;
+    text-align: center;
+  }
+
+  .card__viewport > .pagination,
+  .page-about .card__viewport > .pagination {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 112px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    z-index: 3;
+    pointer-events: auto; /* Чтобы пагинация была кликабельной */
+  }
+}
+
+/* ===== PARTNERS SECTION MOBILE ===== */
+@media (max-width: 767px) {
+  .partners {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+  }
+
+  .partners__title-container {
+    width: 100%;
+    padding: 0 24px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .partners__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #1445ae;
+    margin: 0 0 16px 0;
+    line-height: 100%;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+  }
+
+  .partners__subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #1445ae;
+    text-align: center;
+    line-height: 100%;
+    margin: 0 0 24px 0;
+    max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+  }
+
+  /* Partners viewport — overflow container for carousel */
+  .partners__viewport {
+    overflow: hidden; /* Жёсткий клип соседних элементов */
+    width: 100%; /* Полная ширина viewport */
+    padding-inline: 0; /* Убираем padding, чтобы не влиять на расчёт ширины */
+    min-height: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative; /* Контекст позиционирования */
+    box-sizing: border-box;
+    touch-action: pan-y; /* Allow vertical scroll, prevent horizontal */
+  }
+
+  /* Partners track — flex row без gap и фиксированной ширины */
+  .partners__track {
+    display: flex;
+    flex-wrap: nowrap; /* Запрет переноса */
+    height: 150px;
+    min-height: 150px;
+    gap: 0; /* Убираем gap - он создаёт видимые промежутки */
+    transition: transform 400ms cubic-bezier(0.22, 1, 0.36, 1); /* Spring easing */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    will-change: transform;
+    /* Ширина автоматически рассчитывается flex-элементами */
+    /* НЕТ фиксированной ширины - track растягивается по содержимому */
+  }
+
+  /* Partner card — ровно ширина viewport */
+  .partners-item {
+    flex: 0 0 100%; /* Карточка = ровно 100% ширины viewport */
+    width: 100%; /* Дополнительное гарантирование ширины */
+    max-width: 100%; /* Запрет превышения ширины */
+    flex-shrink: 0; /* Запрет сжатия */
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden; /* Клип содержимого внутри карточки */
+  }
+
+  /* Partner image — universal safe area (85% avoids squeezed logos; was 80% + nth-child(4) 75%) */
+  .partners-item .partner__image {
+    max-width: 85%;
+    max-height: 85%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin-inline: auto;
+  }
+
+  /* Изолированная pagination для Partners */
+  .partners-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 16px;
+    padding: 0 24px;
+  }
+
+  .partners-pagination__arrow {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c02927;
+    font-size: 20px;
+    padding: 0;
+    transition:
+      transform 0.2s ease,
+      opacity 0.2s ease;
+  }
+
+  .partners-pagination__arrow:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+
+  .partners-pagination__arrow:active {
+    transform: scale(0.95);
+  }
+
+  .partners-pagination__counter {
+    display: block;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    text-wrap: nowrap;
+    font-weight: 400;
+    color: #c02927;
+    line-height: 100%;
+    width: 63px;
+    text-align: center;
+  }
+
+  .partner__image {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    max-width: 85% !important;
+    max-height: 85% !important;
+    object-fit: contain !important;
+    margin: 0 auto;
+  }
+
+  .partner__image.metro-image-crop {
+    clip-path: inset(20px 0 20px 0);
+  }
+
+  .link-about__cooperation {
+    width: 100%;
+    padding: 0 24px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .btn-about__cooperation {
+    width: auto;
+    height: 33px;
+    background-color: #c02927;
+    color: #f7f5f3;
+    border-radius: 16px;
+    border: none;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .text-about__cooperation {
+    color: #f7f5f3;
+    font-size: 16px;
+  }
+
+  .pagination__arrow img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* ===== CATEGORIES SECTION MOBILE ===== */
+@media (max-width: 767px) {
+  /* Жесткое ограничение ширины для всей секции категорий */
+  .categories {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding-block-end: 34px;
+    overflow: hidden !important; /* Жестко скрываем переполнение */
+    box-sizing: border-box;
+    /* Предотвращаем выход за границы */
+    contain: layout style paint;
+  }
+
+  .categories__container {
+    width: 100%;
+    padding: 0 24px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .categories__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #1445ae;
+    text-align: center;
+    margin: 0 0 16px 0;
+    line-height: 100%;
+    width: 100%;
+  }
+
+  .categories__subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #1445ae;
+    text-align: center;
+    line-height: 100%;
+    margin: 0 0 24px 0;
+    max-width: 327px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-wrap;
+  }
+
+  .categories__section {
+    width: 100vw; /* Full viewport width */
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    margin-left: calc(
+      50% - 50vw
+    ); /* Center and break out of parent constraints */
+    margin-right: calc(50% - 50vw);
+    overflow: visible; /* Allow button to be visible below carousel */
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack carousel and button vertically */
+    gap: 24px; /* Exact 24px spacing between carousel and button per Figma */
+  }
+
+  .categories__list-wrapper {
+    width: 100vw; /* Match viewport width exactly */
+    max-width: 100vw;
+    position: relative;
+    height: 575px;
+    border-radius: 30px;
+    overflow: hidden; /* Clip neighboring cards completely */
+    margin: 0; /* No margins */
+    padding: 0;
+    box-sizing: border-box;
+    /* Ensure wrapper clips any overflow */
+    clip-path: inset(0);
+    flex-shrink: 0; /* Prevent flex shrinking */
+  }
+
+  .categories__list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory; /* Mandatory snap for perfect centering */
+    scroll-padding-left: calc(
+      (100vw - 375px) / 2
+    ); /* Center offset for scroll snap */
+    scroll-padding-right: calc(
+      (100vw - 375px) / 2
+    ); /* Center offset for scroll snap */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* Add padding to allow cards to be centered in viewport */
+    /* This padding creates space so cards can scroll to center position */
+    padding: 0 !important; /* Override desktop padding */
+    padding-left: calc((100vw - 375px) / 2) !important;
+    padding-right: calc((100vw - 375px) / 2) !important;
+    margin: 0;
+    list-style: none;
+    background-image: url("../../assets/images/hero_categories/categories-img.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+
+  .categories__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .categories__list-item {
+    min-width: 375px;
+    width: 375px;
+    max-width: 375px; /* Fixed card width from Figma */
+    height: 575px;
+    flex-shrink: 0;
+    position: relative;
+    scroll-snap-align: center; /* Changed to center for perfect centering */
+    box-sizing: border-box;
+    overflow: hidden; /* Clip transform overflow */
+    contain: layout style paint;
+  }
+
+  .categories__list-container {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    width: 327px;
+    max-width: calc(
+      100% - 48px
+    ) !important; /* Не больше родителя минус отступы */
+    height: 479px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden !important; /* Жестко скрываем переполнение */
+    /* Ограничиваем transform, чтобы не выходил за границы */
+    transform-origin: center center;
+    will-change: transform;
+  }
+
+  .categories__list-image-wrapper {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+    width: 263px;
+    max-width: calc(
+      100% - 64px
+    ) !important; /* Не больше родителя минус отступы */
+    height: 231px;
+    border: 1px solid #1445ae;
+    border-radius: 15px;
+    overflow: hidden !important; /* Жестко скрываем переполнение */
+    box-sizing: border-box;
+  }
+
+  .categories__list-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .categories__list-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 295px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #1445ae;
+    text-align: center;
+    line-height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+
+  .categories__list-button {
+    position: absolute;
+    left: 69px;
+    top: 394px;
+    width: auto;
+    height: auto;
+    background-color: #1445ae;
+    color: #f7f5f3;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .categories__list-button-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .categories__list-button-wrapper {
+    position: relative; /* Positioned relative to section */
+    width: 100%;
+    max-width: 100vw; /* Full width on mobile */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Spacing: use margin-top to ensure exact 24px spacing */
+    margin-top: 24px; /* Exact spacing from carousel bottom per Figma */
+    margin-bottom: 0;
+    padding: 0 24px; /* Horizontal padding for alignment */
+    box-sizing: border-box;
+    flex-shrink: 0; /* Prevent flex shrinking */
+  }
+
+  .categories__button {
+    background-color: #1445ae;
+    color: #f7f5f3;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .categories__button-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ===== BENEFITS (ATV-VALUE) SECTION MOBILE ===== */
+@media (max-width: 767px) {
+  .atv-value {
+    width: 100%;
+    max-width: 100vw; /* Ограничение ширины viewport */
+    margin: 0 auto;
+    padding-block-end: 0 !important; /* Убираем padding-bottom 50px, так как футер имеет padding-top 50px */
+    overflow: hidden; /* Предотвращаем выход за границы */
+    box-sizing: border-box;
+  }
+
+  .atv-value__container {
+    width: 100%;
+    background-image: url("../../assets/images/benefit/benefits-background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 0 0 24px;
+    box-sizing: border-box;
+    min-height: 1645px;
+  }
+
+  .atv-value__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #1445ae;
+    text-align: left;
+    margin: 0 0 24px 0px;
+    padding-block-start: 24px;
+    padding-inline-start: 24px;
+    line-height: 100%;
+  }
+
+  .atv-value__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .atv-value__item {
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-inline-end: 10px;
+  }
+
+  .atv-value__item-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .atv-value__item-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+
+  .atv-value__item-subtext {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    white-space: pre-wrap;
+    flex: 1;
+  }
+
+  .atv-value__item-subtext.first-subtext {
+    color: #257810;
+  }
+
+  /* Цвета текста для разных элементов benefits по Figma */
+  .atv-value__item:nth-child(1) .atv-value__item-subtext {
+    color: #257810;
+  }
+
+  .atv-value__item:nth-child(2) .atv-value__item-subtext {
+    color: #c02927;
+  }
+
+  .atv-value__item:nth-child(3) .atv-value__item-subtext {
+    color: #257810;
+  }
+
+  .atv-value__item:nth-child(4) .atv-value__item-subtext {
+    color: #c02927;
+  }
+
+  .atv-value__item:nth-child(5) .atv-value__item-subtext {
+    color: #1445ae;
+  }
+
+  .atv-value__item:nth-child(6) .atv-value__item-subtext {
+    color: #ff7f0e;
+  }
+}
+
+/* ===== FOOTER MOBILE ===== */
+@media (max-width: 767px) {
+  .footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fbf5e5;
+    border-radius: 30px 30px 0 0;
+    padding: 50px 0 0 0;
+    padding-block-start: 50px !important;
+    box-sizing: border-box;
+    min-height: 937px;
+  }
+
+  .footer__container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .footer__title {
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 40px;
+    color: #c02927;
+    text-align: center;
+    padding: 0;
+    line-height: 100%;
+    padding-block-start: 40px;
+  }
+
+  .footer_news-sendler {
+    width: 100%;
+    padding: 0; /* Убираем padding - форма на всю ширину */
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #c02927;
+    text-align: center;
+    padding: 24px 0px 16px;
+    line-height: 100%;
+  }
+
+  .footer__form-container {
+    width: 100% !important; /* На всю ширину экрана */
+    max-width: 375px !important; /* Максимальная ширина по Figma */
+    margin: 0 auto !important; /* Центрирование */
+    background-color: #fbf0d8;
+    border-radius: 80px;
+    padding: 60px 50px !important; /* По Figma: py-[60px] px-[50px] */
+    box-sizing: border-box;
+    /* Убираем margin-inline-start из desktop стилей */
+  }
+
+  .footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .footer__input {
+    width: 100%;
+    height: auto;
+    background-color: #f7f5f3;
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #404040;
+    box-sizing: border-box;
+  }
+
+  .footer__submit {
+    width: 100%;
+    height: auto;
+    background-color: #c02927;
+    color: #f7f5f3;
+    border-radius: 12px;
+    border: none;
+    padding: 16px 10px;
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 275px;
+    margin: 0 auto;
+  }
+
+  .checkbox {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #c02927;
+    border-radius: 3px;
+    background-color: #c02927;
+    flex-shrink: 0;
+    margin-top: 0;
+  }
+
+  .checkbox-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #c02927;
+    line-height: 100%;
+    margin: 0;
+    white-space: pre-wrap;
+  }
+
+  .social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .social-list__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .social-list-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #c02927;
+    margin: 0 0 8px 0;
+    line-height: 100%;
+  }
+
+  .social-list-container a {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #404040;
+    text-decoration: none;
+    line-height: 100%;
+  }
+
+  .worktime {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #404040;
+    margin: 0;
+    line-height: 100%;
+  }
+
+  .icons-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .marketplace-icons {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+}
+
+/* ===== ADDITIONAL BREAKPOINTS ===== */
+
+/* 414px */
+@media (max-width: 414px) and (min-width: 390px) {
+  /* Небольшие корректировки для больших мобильных */
+}
+
+/* 390px */
+@media (max-width: 390px) and (min-width: 375px) {
+  /* Небольшие корректировки */
+}
+
+/* 360px */
+@media (max-width: 360px) {
+  .header__container {
+    padding-inline: 16px;
+  }
+
+  .welcome__container {
+    padding: 20px;
+  }
+
+  .welcome__title {
+    font-size: 36px;
+  }
+
+  .welcome__text {
+    font-size: 20px;
+  }
+
+  .product__button {
+    font-size: 15px;
+  }
+
+  .product__button-link {
+    font-size: 15px;
+  }
+
+  .product__button-img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .partners__title {
+    font-size: 28px;
+  }
+
+  .categories__title {
+    font-size: 28px;
+  }
+
+  .atv-value__title {
+    font-size: 20px;
+  }
+}
+
+/* 320px */
+@media (max-width: 320px) {
+  .header__container {
+    padding-inline: 12px;
+  }
+
+  .header__logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .header__lang-switch {
+    width: 44px;
+    height: 44px;
+    font-size: 14px;
+  }
+
+  .welcome__container {
+    padding: 16px;
+    min-height: 380px;
+  }
+
+  .product__button {
+    padding: 12px 24px;
+    font-size: 14px;
+    gap: 12px;
+  }
+
+  .product__button-link {
+    font-size: 14px;
+  }
+
+  .product__button-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .welcome__title {
+    font-size: 32px;
+  }
+
+  .welcome__text {
+    font-size: 18px;
+  }
+
+  .welcome__subtext-first,
+  .welcome__subtext-second {
+    font-size: 14px;
+  }
+
+  .card {
+    height: 600px;
+  }
+
+  .card__description {
+    top: 280px;
+    height: 320px;
+    padding: 20px;
+  }
+
+  .partners-item {
+    width: 100% !important;
+    height: 150px !important;
+    min-height: 150px !important;
+    max-height: 150px !important;
+    aspect-ratio: auto !important;
+  }
+
+  .categories__list-item {
+    min-width: 320px;
+    width: 320px;
+  }
+
+  .categories__list-container {
+    width: 280px;
+    left: 20px;
+  }
+
+  .atv-value__item {
+    height: 180px;
+    padding: 20px;
+  }
+
+  .atv-value__item-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .footer {
+    padding: 50px 0 0 0;
+    padding-block-start: 50px !important;
+    min-height: 850px;
+  }
+
+  .footer_news-sendler {
+    padding: 0 32px;
+  }
+
+  .footer__form-container {
+    width: 100% !important; /* На всю ширину экрана */
+    max-width: 375px !important; /* Максимальная ширина по Figma */
+    margin: 0 auto !important; /* Центрирование */
+    padding: 60px 50px !important; /* По Figma: py-[60px] px-[50px] */
+    background-color: #fbf0d8;
+    border-radius: 80px;
+    box-sizing: border-box;
+  }
+
+  .footer__form {
+    width: 100% !important; /* Форма на всю ширину контейнера */
+    max-width: 100% !important;
+    margin: 0 !important; /* Убираем margin: auto */
+    gap: 24px; /* По Figma */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__input {
+    width: 100% !important; /* Поля ввода на всю ширину */
+    min-height: 48px;
+    padding: 16px;
+    background-color: #f7f5f3;
+    border-radius: 10px;
+    border: none;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #404040;
+    box-sizing: border-box;
+  }
+
+  .footer__submit {
+    width: 100% !important; /* Кнопка на всю ширину */
+    min-height: 48px;
+    padding: 16px 10px;
+    background-color: #c02927;
+    border-radius: 12px;
+    border: none;
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f7f5f3;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .checkbox-container {
+    width: 275px !important; /* По Figma */
+    margin: 0 auto; /* Центрирование */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .checkbox {
+    width: 24px;
+    height: 24px;
+    margin-top: 0;
+    flex-shrink: 0;
+    accent-color: #c02927;
+  }
+
+  .checkbox-text {
+    width: 235px; /* По Figma */
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #c02927;
+    line-height: 100%;
+    margin: 0;
+    white-space: pre-wrap;
+  }
+}
+
+/* ===== PARTNERS - DESKTOP VERSION (GRID) ===== */
+@media (min-width: 768px) {
+  /* Скрываем pagination на desktop */
+  .partners-pagination {
+    display: none !important;
+  }
+
+  /* Убираем viewport ограничения для desktop */
+  .partners__viewport {
+    overflow: visible;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /* Восстанавливаем grid layout для desktop (стили из partner.css применяются автоматически) */
+  .partners__track {
+    display: grid !important; /* Переопределяем flex на grid для desktop */
+    flex-wrap: initial !important;
+    gap: clamp(24px, 4vw, 80px) !important; /* Восстанавливаем gap для grid */
+    transition: none !important; /* Убираем transition для grid */
+    transform: none !important; /* Убираем transform для grid */
+  }
+
+  /* Восстанавливаем оригинальные стили для partners-item на desktop */
+  .partners-item {
+    flex: initial !important; /* Убираем flex: 0 0 100% для grid */
+    min-width: auto !important; /* Убираем min-width для grid */
+    width: 100%;
+    aspect-ratio: 4 / 2.7; /* 400 × 270 как в оригинале */
+    height: auto;
+    margin: 0 !important; /* Убираем margin: 0 auto для grid */
+    overflow: visible !important; /* Убираем overflow: hidden для grid */
+  }
+
+  /* Восстанавливаем оригинальные стили для partners section на desktop */
+  .partners {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .partners__title-container {
+    display: grid;
+    grid-template-columns: minmax(260px, 1fr) 2fr;
+    gap: clamp(24px, 5vw, 80px);
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-inline: clamp(16px, 3vw, 40px);
+    padding-block: 0;
+    align-items: start;
+    text-align: left;
+  }
+
+  .partners__title {
+    font-size: var(--title-hero-size, clamp(32px, 4vw, 64px));
+    font-weight: 300;
+    line-height: 1.1;
+    max-inline-size: 22ch;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .partners__subtitle {
+    font-size: var(--base-size, clamp(16px, 2vw, 24px));
+    line-height: 1.5;
+    max-inline-size: 70ch;
+    align-self: center;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+  }
+}

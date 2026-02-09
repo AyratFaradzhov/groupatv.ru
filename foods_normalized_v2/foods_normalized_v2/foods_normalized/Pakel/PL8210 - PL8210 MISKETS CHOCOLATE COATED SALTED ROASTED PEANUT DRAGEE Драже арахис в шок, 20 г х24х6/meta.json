@@ -1,0 +1,46 @@
+{
+  "id": "PL8210",
+  "brand": "Pakel",
+  "name": "PL8210 MISKETS CHOCOLATE COATED SALTED ROASTED PEANUT DRAGEE Драже арахис в шок, 20 г х24х6",
+  "slug": "pl8210-pl8210-miskets-chocolate-coated-salted-roasted-peanut-dragee-драже-арахис-в-шок,-20-г-х24х6",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL8210 - PL8210 MISKETS CHOCOLATE COATED SALTED ROASTED PEANUT DRAGEE Драже арахис в шок, 20 г х24х6/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Драже/20 г Драже из молочного шоколада/PL8210    MISKETS CHOCOLATE COATED SALTED  ROASTED PEANUT DRAGEE _ Драже  арахис в шок , 20 г_ х24х6 _   текстовка.docx",
+      "02 Pakel/Драже/20 г Драже из молочного шоколада/PL8210.webp"
+    ],
+    "docs": [
+      "02 Pakel/Драже/20 г Драже из молочного шоколада/PL8210    MISKETS CHOCOLATE COATED SALTED  ROASTED PEANUT DRAGEE _ Драже  арахис в шок , 20 г_ х24х6 _   текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

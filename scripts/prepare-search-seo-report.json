@@ -1,0 +1,1581 @@
+{
+  "timestamp": "2026-01-22T23:00:08.424Z",
+  "stats": {
+    "total": 261,
+    "searchTextAdded": 261,
+    "seoAdded": 261,
+    "idNormalized": 261,
+    "issues": [
+      {
+        "productId": "sulifa-cookies-sulifa-twin",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "pandalee-cookies-piramida",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "damla-caramel-damla-sour",
+        "issues": [
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "jimmy-marmalade-jimmy-remeshki",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "jimmy-cookies-jimmy-pasta",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "jimmy-marmalade-jimmy-karandash",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "kidzi-candy-kidzi-klubnika",
+        "issues": [
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "miskets-lokum-miskets-kislye-kubiki",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "oslo-cookies-dubayskoe-pirozhnoe",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-caramel-kofeynye-ledentsy",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-kola-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-raduga-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-raduga-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-kola-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-yabloko-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-arbuz-15g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-malina-15g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-vinograd-15g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-kola-15g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-klubnika-15g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-raduga-15g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-golubika-15g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-raduga-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-raduga-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-malina-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-vishnya-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-kola-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-malina-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-assorti-75g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-assorti-75g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-bears-tayas-mishki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-marmelad-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-kola-150g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-marmelad-150g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-marmelad-20g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-tayas-marmelad-300g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-bears-tayas-mishki-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-tayas-konfety-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candy-tayas-yabloko-700g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candy-tayas-klubnika-700g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-tayas-konfety-700g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-chocolate-tayas-shokolad-kola-20g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-chocolate-tayas-shokolad-kola-40g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "pakel-lokum-pakel-lukum",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-puffi-pf0001-60gr-yummy-60g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-puffi-pf0003-20gr-20g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-puffi-pf0005-25gr-25g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-love-me-af0001-kola-belts",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-love-me-af0003-arbuz-belts",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-love-me-af0005-malina-ejevika",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-love-me-af0007-raduqa-pencil",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-love-me-af0009-assorti-oil",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-navroz-a0003-11-66gr-1166g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-navroz-a0015-70gr-70g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-assorti-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-klubnika-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-klubnika-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-pencils-tayas-karandashi-vinograd-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-tayas-remeshki-arbuz-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "jimmy-marmalade-jimmy-kola-80g",
+        "issues": [
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candy-tayas-apel-sin-700g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candy-tayas-vishnya-700g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "pakel-dragee-pakel-drazhe-493g",
+        "issues": [
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "kidzi-lokum-kidzi-lukum",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "alikhanata-tubes-alikhanata-trubochki-18g",
+        "issues": [
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-puffi-pf0002-60gr-60g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-puffi-pf0004-25gr-25g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-loveme-af0002-klubnika-belts",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-loveme-af0004-pina-colada",
+        "issues": [
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-loveme-af0006-raduqa-belts",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-loveme-af0008-assorti-sour",
+        "issues": [
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "pandalee-candy-pandalee-vanil-20g",
+        "issues": [
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-navroz-a00013",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "crafers-candy-crafers-kf0013-mello-80g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-pf0001-60gr-yummy-60g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-pf0002-60gr-60g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-pf0003-20gr-20g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-pf0004-25gr-25g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "puffi-candy-pf0005-25gr-25g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "pandalee-candy-ka0006-vanil-20gr-20g",
+        "issues": [
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-belts-af0001-kola-belts",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-belts-af0002-klubnika-belts",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-belts-af0003-arbuz-belts",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-belts-af0004-pina-colada-belts",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-belts-af0005-malina-ejevika-belts",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-belts-af0006-raduqa-belts",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-af0007-raduqa-pencil",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-af0008-assorti-sour-pencil",
+        "issues": [
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "loveme-candy-af0009-assorti-oil",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a00013",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a00014",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0003-11-66gr-1166g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0006",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0007",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0008-mini-car",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0009-big-car",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0011",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0012-20gr-20g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0015-70gr-2-70g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "navroz-jelly-a0015-70gr-70g",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_shape_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-15440-damla-assortment-90gr-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-5394-damla-sour-90gr-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-5550-damla-assortment-1kg-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-5567-damla-new-2-1kg-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-5572-damla-new-2-90gr-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-5595-damla-coffee-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-5652-damla-sour-1kg-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-7285-multi-fruit-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-7287-coffee-intense-170gr-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-7296-choco-mint-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-7341-coffee-intense-90gr-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-7342-coffee-intense-1kg-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-8076-coffee-intense-500gr-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-8381-fruity-duos-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6306-dzhar-assorti-700g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6362-yabloko-700g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6363-apel-sin-700g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6364-klubnika-700g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6365-vishnya-700g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6375-kolf-700g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6379-arbuz-700g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-candies-6424-assorti-700g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-chocolate-8411-jimmy-20gr-20g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-chocolate-4083-35g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-chocolate-8399-jimmy-panda-40gr-40g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-chocolate-9171-jimmy-panda-52g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "pakel-lokum-pl9798",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "pakel-lokum-pl9859",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "pakel-lokum-pl0536",
+        "issues": [
+          "missing_flavor_in_tags",
+          "missing_weight_in_tags"
+        ]
+      },
+      {
+        "productId": "pakel-dragee-pl1722-493g",
+        "issues": [
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3012-pina-kolada-karandashi-an-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8481-assorti-karandashi-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8483-raduga-karandashi-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8484-klubnika-karandashi-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8485-raduga-remeshki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8486-klubnika-remeshki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8487-kola-remeshki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8488-malina-ezhevika-remeshki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8495-kola-karandashi-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8884-yabloko-remeshki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1080-raduga-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1940-assorti-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1941-raduga-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1942-klubnika-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1943-malina-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1944-babl-gam-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1945-vishnya-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1946-vinograd-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1947-kola-karandashi-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1948-klubnika-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1949-malina-ezhevika-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1950-yabloko-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1951-limon-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1952-banan-klubnika-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1953-arbuz-remeshki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-bears-2439-mishki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2440-kola-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2441-fruktovyy-sad-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2442-chervyachki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2452-mini-krokodil-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2455-big-krokodil-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2458-akula-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2747-zubki-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2849-ponchik-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3041-big-kola-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3959-yaytso-1000g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-bears-3821-mishki-150g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3822-kola-150g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3823-malina-ezhevika-150g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3824-kislye-chervyachki-150g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3825-kislyy-arbuz-150g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3826-kislyy-fruktovyy-sad-150g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3800-damla-fruit-20g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-4076-vaio-arbuz-20g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-9309-vaio-fruit-20g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2870-fruktovyy-sad-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2874-ponchik-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2876-chervyachki-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2877-arbuz-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2886-kaplya-300g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3006-babl-gam-oil-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3008-vishnya-oil-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3010-vinograd-oil-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8482-assorti-oil-1000g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1753-arbuz-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-1753-arbuz-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-arbuz-ko-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-2999-malina-ezhevika-rossiya-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-2999-malina-ezhevika-rossiya-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-15gr-fla-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3000-vinograd-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3000-vinograd-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-15gr-vin-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3003-pina-kolada-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-3003-pina-kolada-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-15gr-pin-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8542-klubnika-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8542-klubnika-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-klubnika-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8543-kola-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8543-kola-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-kola-kor-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8544-raduga-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8544-raduga-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-raduga-k-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-4018-golubika-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-4018-golubika-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-15gr-gol-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8944-yabloko-1-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-8944-yabloko-2-15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-yabloko--15g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-bears-2097-mishki-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2099-damla-gummy-oiled-cola-4g-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2099-kola-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2101-damla-gummy-oiled-fruit-g-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2101-fruktovyy-sad-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2104-chervyachki-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2450-damla-gummy-oiled-crocodi-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2450-krokodil-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2462-damla-sour-gummy-foam-wat-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2462-arbuz-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2464-damla-gummy-oiled-alphabe-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2464-alfavit-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2465-damla-gummy-foam-oiled-te-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2465-zubki-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2466-damla-gummy-foam-oiled-ch-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2466-chizkeyk-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2203-kola-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2204-kislaya-kola-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2210-kislye-frukty-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-2213-kislye-chervyachki-80g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3294-krokodil-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-marmalade-3297-zubki-80g",
+        "issues": [
+          "invalid_brand: TAYAS",
+          "missing_flavor_in_tags"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-damla-assorti--75g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-remeshki-jimmy-sour-bel-75g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-assorti-karandash-75g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-karandashi-damla-assort-75g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      },
+      {
+        "productId": "tayas-belts-kislye-karandashi-jimmy-sour-b-75g",
+        "issues": [
+          "invalid_brand: TAYAS"
+        ]
+      }
+    ],
+    "duplicates": [],
+    "missingImages": [],
+    "emptyFields": []
+  }
+}

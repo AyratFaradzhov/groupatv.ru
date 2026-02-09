@@ -1,0 +1,365 @@
+.cooperation {
+  padding: clamp(32px, 5vw, 80px);
+  background: linear-gradient(135deg, #fff7ec, #fde1d6);
+  border-radius: 24px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* =====================
+   TABS
+===================== */
+
+.cooperation__tabs {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  height: 147px;
+  margin-bottom: 32px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.cooperation__tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 612px;
+  height: auto;
+  padding: 24px 32px;
+  border-radius: 30px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #404040;
+  text-align: left;
+  transition:
+    background-color 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cooperation__tab--active {
+  background: #c02927;
+  color: #f7f5f3;
+  border: none;
+}
+
+/* Hover стили применяются только к неактивным кнопкам */
+.cooperation__tab:not(.cooperation__tab--active):hover {
+  background: #ededed;
+  color: var(--hover-color);
+}
+
+/* =====================
+   PANELS (KEY PART)
+===================== */
+
+/* ❌ display: none — УБРАНО */
+.cooperation__panel {
+  display: none;
+  background-image: url("../../images/background/partner_background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 70%;
+  border-radius: 30px;
+  padding: 72px 100px;
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cooperation__panel--active {
+  display: block;
+  opacity: 1;
+}
+
+/* =====================
+   TEXT
+===================== */
+
+.cooperation__title {
+  text-align: center;
+  color: var(--accent-color);
+  font-size: var(--subtitle-size);
+  font-weight: 300;
+}
+
+.cooperation__subtitle {
+  text-align: center;
+  margin: 8px 0 32px;
+  color: var(--accent-color);
+  font-size: var(--min-base-size);
+}
+
+/* =====================
+   FORMS
+===================== */
+
+.partner-form,
+.manufacturer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.partner-form__input,
+.manufacturer-form__input,
+.partner-form__textarea,
+.manufacturer-form__textarea {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+}
+
+.partner-form__textarea,
+.manufacturer-form__textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.partner-form__submit,
+.manufacturer-form__submit {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background: #c62828;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* =====================
+   POLICY
+===================== */
+
+.partner-form__policy,
+.manufacturer-form__policy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #c62828;
+}
+
+/* =====================
+   REQUEST PRICE PAGE
+===================== */
+
+.request-price-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.request-price__hero {
+  flex: 1;
+  position: relative;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  background-image: url("../../assets/images/background/price-list-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.request-price__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding: 172px 436px;
+}
+
+.request-price__form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.request-price__content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  width: 568px;
+  max-width: 100%;
+}
+
+.request-price__title {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: normal;
+  color: #c02927;
+  text-align: center;
+  margin: 0;
+}
+
+.request-price__subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+  color: #c02927;
+  text-align: left;
+  margin: 0;
+  width: 100%;
+}
+
+.request-price__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  align-items: start;
+}
+
+.request-price__input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  background: #f7f5f3;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  align-items: start;
+  color: #404040;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.request-price__input::placeholder {
+  color: #404040;
+  text-align: start;
+}
+
+.request-price__input:focus {
+  background: #f5f5f5;
+  color: #646464;
+}
+
+.request-price__input:last-of-type {
+  height: 48px;
+}
+
+.request-price__submit {
+  width: 100%;
+  height: 56px;
+  padding: 16px 10px;
+  border-radius: 12px;
+  border: none;
+  background: #c02927;
+  color: #f7f5f3;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.request-price__submit:hover {
+  background: #a0201e;
+  transform: translateY(-2px);
+}
+
+.request-price__submit:active {
+  transform: translateY(0);
+}
+
+.request-price__submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.request-price__policy {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #c02927;
+  cursor: pointer;
+}
+
+.request-price__policy input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #c02927;
+  border-radius: 3px;
+  background: #c02927;
+  cursor: pointer;
+  accent-color: #c02927;
+  flex-shrink: 0;
+}
+
+.request-price__policy span {
+  line-height: normal;
+  white-space: pre-wrap;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .request-price__container {
+    padding: 100px 40px;
+  }
+
+  .request-price__content {
+    width: 100%;
+    max-width: 568px;
+  }
+}
+
+@media (max-width: 768px) {
+  .request-price__container {
+    padding: 80px 20px;
+  }
+
+  .request-price__content {
+    gap: 32px;
+  }
+
+  .request-price__title {
+    font-size: 28px;
+  }
+
+  .request-price__subtitle {
+    font-size: 20px;
+  }
+
+  .request-price__form {
+    gap: 20px;
+  }
+}

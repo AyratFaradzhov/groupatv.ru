@@ -1,0 +1,46 @@
+{
+  "id": "A0003",
+  "brand": "Navroz",
+  "name": "A0003 Желе FRUTTI Stik ТМ NAVROZ 11.66 гр по 100 шт в джаре, A0003",
+  "slug": "a0003-a0003-желе-frutti-stik-тм-navroz-11.66-гр-по-100-шт-в-джаре,-a0003",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Navroz/A0003 - A0003 Желе FRUTTI Stik ТМ NAVROZ 11.66 гр по 100 шт в джаре, A0003/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "08 Navroz/Желейный десерт/A0003  Желе FRUTTI  Stik ТМ «NAVROZ»  11.66 гр  по 100 шт в джаре, A0003.docx",
+      "08 Navroz/Желейный десерт/A0003 11,66GR.webp"
+    ],
+    "docs": [
+      "08 Navroz/Желейный десерт/A0003  Желе FRUTTI  Stik ТМ «NAVROZ»  11.66 гр  по 100 шт в джаре, A0003.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

@@ -1,0 +1,853 @@
+/* ===== CATEGORIES CONTAINER ===== */
+.categories__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 0px 40px;
+  padding-inline: clamp(16px, 3vw, 40px);
+}
+
+.categories__title {
+  font-family: var(--base-font);
+  font-weight: 300;
+  font-size: 64px;
+  color: var(--text-color);
+  text-align: left;
+  margin: 0;
+  line-height: 100%;
+}
+
+.categories__subtitle {
+  font-family: var(--base-font);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text-color);
+  text-align: left;
+  line-height: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* ===== CATEGORIES SECTION ===== */
+.categories__section {
+  position: relative;
+  border-radius: 30px;
+  overflow: visible;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: clamp(16px, 3vw, 40px);
+}
+
+/* Desktop: Section layout */
+@media (min-width: 768px) {
+  .categories__section {
+    display: block; /* Override mobile flex column */
+    position: relative; /* Positioning context */
+  }
+}
+
+/* ===== CATEGORIES LIST WRAPPER ===== */
+.categories__list-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Desktop: Ensure proper positioning context and clipping */
+@media (min-width: 768px) {
+  .categories__list-wrapper {
+    position: relative; /* Positioning context for absolutely positioned button */
+    overflow: hidden; /* Clip button inside rounded container */
+    border-radius: 30px; /* Match rounded container */
+  }
+}
+
+/* ===== CATEGORIES LIST ===== */
+.categories__list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 60px 40px 100px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(20, 69, 174, 0.3) transparent;
+  background-image: url("../../assets/images/hero_categories/categories-img.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  /* Улучшенная прокрутка для мобильных */
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+  /* Плавный переход для прокрутки */
+  transition: scroll-left 0.1s ease-out;
+}
+
+/* Карточки категорий */
+.categories__list-item {
+  opacity: 1;
+  transition: transform 0.3s ease-out;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  will-change: transform;
+}
+
+.categories__list-item:hover {
+  z-index: 10;
+}
+
+.categories__list-item:hover .categories__list-container--blur {
+  transform: translateY(-12px) rotateX(-3deg) rotateY(-2deg) rotateZ(-1deg)
+    scale(1.04) !important;
+  transition:
+    transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+    filter 0.3s ease-out;
+  filter: blur(0px) brightness(1.05) !important;
+}
+
+/* Параллакс эффект теперь управляется через JavaScript */
+
+.categories__list-item {
+  scroll-snap-align: start;
+}
+
+.categories__list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.categories__list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.categories__list::-webkit-scrollbar-thumb {
+  background-color: rgba(20, 69, 174, 0.3);
+  border-radius: 4px;
+}
+
+/* ===== CATEGORIES LIST ITEM ===== */
+.categories__list-item {
+  flex: 0 0 auto;
+  width: 343px;
+  height: 521px;
+  position: relative;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.1));
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+  perspective: 1200px;
+  will-change: transform;
+}
+
+/* ===== CATEGORIES LIST CONTAINER ===== */
+.categories__list-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  z-index: 1;
+  will-change: transform, filter, box-shadow;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* Премиальное стекло с Liquid Glass эффектами */
+.categories__list-container--blur {
+  position: relative;
+  background:
+    radial-gradient(
+      circle at 30% 20%,
+      rgba(255, 255, 255, 0.3) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 70% 80%,
+      rgba(255, 255, 255, 0.2) 0%,
+      transparent 50%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    );
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.1),
+    inset 0 2px 4px rgba(255, 255, 255, 0.7),
+    inset 0 -2px 4px rgba(255, 255, 255, 0.2),
+    0 0 0 1px rgba(255, 255, 255, 0.15);
+  transition:
+    transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    backdrop-filter 0.3s ease-out,
+    box-shadow 0.3s ease-out;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  isolation: isolate;
+  overflow: hidden;
+  filter: brightness(1) contrast(1);
+}
+
+/* Дополнительная анимация "дыхания" для эффекта жидкости */
+
+/* Элегантная анимация стекла без ярких цветов */
+
+/* Liquid Glass эффект - волновые блики */
+.categories__list-container--blur::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(
+      circle at 20% 30%,
+      rgba(255, 255, 255, 0.15) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(255, 255, 255, 0.12) 0%,
+      transparent 40%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.08) 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.08) 75%,
+      transparent 100%
+    );
+  border-radius: 30px;
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  filter: blur(2px);
+}
+
+/* Дополнительный эффект - плавающие световые пятна */
+.categories__list-container--blur::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background:
+    radial-gradient(
+      circle at 30% 40%,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 70% 60%,
+      rgba(255, 255, 255, 0.08) 0%,
+      transparent 35%
+    );
+  border-radius: 50%;
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+  filter: blur(15px);
+}
+
+/* Крутой 3D Hover эффект для жидкого стекла */
+.categories__list-container--blur:hover {
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(255, 255, 255, 0.4) 0%,
+      transparent 50%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0.25) 100%
+    );
+  backdrop-filter: blur(40px) saturate(220%);
+  -webkit-backdrop-filter: blur(40px) saturate(220%);
+  box-shadow:
+    0 40px 100px rgba(0, 0, 0, 0.2),
+    inset 0 6px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -6px 12px rgba(255, 255, 255, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.5),
+    0 0 200px rgba(255, 255, 255, 0.25);
+  transform: translateZ(30px) rotateX(-5deg) rotateY(3deg) scale(1.03);
+  filter: brightness(1.15) contrast(1.1) blur(0px);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.categories__list-container--blur:hover::after {
+  opacity: 1;
+  filter: blur(2px);
+}
+
+.categories__list-container--blur:hover::before {
+  opacity: 0.8;
+  filter: blur(12px);
+}
+
+/* ===== IMAGE WRAPPER ===== */
+.categories__list-image-wrapper {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  width: 263px;
+  height: 231px;
+  border: 1px solid var(--text-color);
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 3;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: transform;
+}
+
+.categories__list-item:hover .categories__list-image-wrapper {
+  transform: translateZ(40px) rotateX(-3deg) rotateY(2deg) scale(1.05);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.categories__list-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+}
+
+.categories__list-item:hover .categories__list-image {
+  transform: translateZ(10px) scale(1.02);
+}
+
+/* Специфичные настройки для разных изображений */
+.categories__list-image.candy-image-crop {
+  object-position: 80% 85%;
+}
+
+.categories__list-image.caramel-image-crop {
+  object-position: 50% 100%;
+}
+
+.categories__list-image.chocolate__image-crop {
+  object-position: 100% 77%;
+}
+
+.categories__list-image.jelly__image-crop {
+  object-position: 100% 77%;
+}
+
+/* ===== TITLE ===== */
+.categories__list-title {
+  position: absolute;
+  left: 50%;
+  top: 295px;
+  transform: translateX(-50%) translateZ(20px);
+  font-family: var(--base-font);
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 100%;
+  color: var(--text-color);
+  text-align: center;
+  margin: 0;
+  white-space: wrap;
+  z-index: 4;
+  pointer-events: none;
+  text-shadow: 0 2px 10px rgba(255, 255, 255, 0.5);
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: transform;
+}
+
+.categories__list-item:hover .categories__list-title {
+  transform: translateX(-50%) translateZ(50px) translateY(-5px);
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== BUTTON (Перейти) ===== */
+.categories__list-button {
+  position: absolute;
+  left: 40px;
+  top: 433px;
+  width: 263px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--text-color);
+  color: var(--element-color);
+  border: none;
+  border-radius: 15px;
+  padding: 8px 16px;
+  font-family: var(--base-font);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 5;
+  box-shadow: 0 4px 15px rgba(20, 69, 174, 0.3);
+  transform: translateZ(25px);
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.categories__list-item:hover .categories__list-button {
+  transform: translateZ(60px) translateY(-5px) rotateX(-2deg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.categories__list-button:hover {
+  background-color: #0f3a8a;
+  transform: translateZ(70px) translateY(-8px) rotateX(-3deg) scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.categories__list-button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 24px;
+  line-height: 1;
+  color: currentColor;
+}
+
+/* ===== BUTTON WRAPPER (Все категории) ===== */
+.categories__list-button-wrapper {
+  position: absolute;
+  right: 16px;
+  bottom: 45px;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+/* Desktop: Position according to Figma (node 841-1603) */
+@media (min-width: 768px) {
+  .categories__list-button-wrapper {
+    position: absolute;
+    /* Figma coordinates are from left edge of 1440px container, not viewport */
+    /* Container is centered, so: center of screen - half container + figma offset */
+    left: calc(50% - 720px + 1060px); /* 720px = half of 1440px container, 1060px = Figma X offset */
+    top: 660px; /* Exact Figma position */
+    right: auto; /* Override default right positioning */
+    bottom: auto; /* Override default bottom positioning */
+    width: 263px; /* Exact Figma width */
+    height: auto;
+    padding: 8px 16px; /* Exact Figma padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;
+    pointer-events: auto;
+  }
+}
+
+/* ===== BOTTOM BUTTON (Все категории) ===== */
+.categories__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--text-color);
+  color: var(--element-color);
+  border: none;
+  border-radius: 15px;
+  padding: 8px 16px;
+  font-family: var(--base-font);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  width: auto;
+  white-space: nowrap;
+}
+
+.categories__button:hover {
+  background-color: #0f3a8a;
+}
+
+.categories__button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 24px;
+  line-height: 1;
+  color: currentColor;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Большие экраны (1440px+) */
+@media (min-width: 1440px) {
+  .categories__list {
+    width: 1440px;
+    max-width: 1440px;
+  }
+
+  .categories__list-button-wrapper {
+    left: calc(50% - 720px + 1060px); /* Center - half container + Figma offset */
+    top: 660px; /* Exact Figma position */
+    right: auto; /* Override any right positioning */
+    bottom: auto; /* Override any bottom positioning */
+    width: 263px; /* Exact Figma width */
+    padding: 8px 16px; /* Exact Figma padding */
+  }
+}
+
+/* Средние экраны (1200px - 1440px) */
+@media (max-width: 1440px) and (min-width: 1200px) {
+  .categories__list {
+    width: 1440px;
+    max-width: 1440px;
+  }
+
+  .categories__list-button-wrapper {
+    left: calc(50% - 720px + 1060px); /* Center - half container + Figma offset */
+    top: 660px; /* Exact Figma position */
+    right: auto; /* Override any right positioning */
+    bottom: auto; /* Override any bottom positioning */
+    width: 263px; /* Exact Figma width */
+    padding: 8px 16px; /* Exact Figma padding */
+  }
+}
+
+/* Планшеты горизонтально (1024px - 1200px) */
+@media (max-width: 1200px) and (min-width: 1024px) {
+  .categories__list {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .categories__container {
+    padding: 30px 20px;
+  }
+
+  .categories__title {
+    font-size: 56px;
+  }
+
+  .categories__subtitle {
+    font-size: 22px;
+  }
+
+  .categories__list {
+    padding: 50px 30px 90px;
+    gap: 18px;
+    min-height: 700px;
+  }
+
+  .categories__list-item {
+    width: 320px;
+    height: 500px;
+  }
+
+  .categories__list-image-wrapper {
+    left: 30px;
+    top: 35px;
+    width: 260px;
+    height: 225px;
+  }
+
+  .categories__list-title {
+    top: 280px;
+    font-size: 30px;
+  }
+
+  .categories__list-button {
+    left: 30px;
+    top: 420px;
+    width: 260px;
+    font-size: 22px;
+  }
+
+  .categories__list-button-wrapper {
+    position: absolute;
+    left: 1060px; /* Exact Figma position */
+    top: 660px; /* Exact Figma position */
+    right: auto; /* Override any right positioning */
+    bottom: auto; /* Override any bottom positioning */
+    width: 263px; /* Exact Figma width */
+    padding: 8px 16px; /* Exact Figma padding */
+  }
+}
+
+/* Планшеты (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .categories__list {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .categories__container {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .categories__title {
+    font-size: 48px;
+  }
+
+  .categories__subtitle {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  .categories__list {
+    padding: 40px 20px 80px;
+    gap: 15px;
+    min-height: 650px;
+  }
+
+  .categories__list-item {
+    width: 300px;
+    height: 480px;
+  }
+
+  .categories__list-image-wrapper {
+    left: 20px;
+    top: 30px;
+    width: 260px;
+    height: 220px;
+  }
+
+  .categories__list-title {
+    top: 270px;
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  .categories__list-button {
+    left: 20px;
+    top: 400px;
+    width: 260px;
+    font-size: 20px;
+    padding: 6px 14px;
+  }
+
+  .categories__list-button-wrapper {
+    position: absolute;
+    left: 1060px; /* Exact Figma position */
+    top: 660px; /* Exact Figma position */
+    right: auto; /* Override any right positioning */
+    bottom: auto; /* Override any bottom positioning */
+    width: 263px; /* Exact Figma width */
+    padding: 8px 16px; /* Exact Figma padding */
+  }
+
+  .categories__button {
+    width: 100%;
+    font-size: 20px;
+    padding: 6px 14px;
+  }
+}
+
+/* Мобильные устройства (480px - 768px) */
+@media (max-width: 768px) and (min-width: 480px) {
+  .categories__list {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .categories__container {
+    padding: 24px 16px;
+    gap: 16px;
+  }
+
+  .categories__title {
+    font-size: 36px;
+  }
+
+  .categories__subtitle {
+    font-size: 18px;
+    padding: 0 16px;
+  }
+
+  .categories__list {
+    padding: 30px 15px 70px;
+    gap: 12px;
+    min-height: 600px;
+  }
+
+  .categories__list-item {
+    width: 280px;
+    height: 450px;
+  }
+
+  .categories__list-image-wrapper {
+    left: 15px;
+    top: 25px;
+    width: 250px;
+    height: 200px;
+  }
+
+  .categories__list-title {
+    top: 245px;
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .categories__list-button {
+    left: 15px;
+    top: 370px;
+    width: 250px;
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+
+  .categories__list-button-wrapper {
+    position: absolute;
+    left: auto;
+    right: 15px;
+    top: auto;
+    bottom: 25px;
+    width: 220px;
+  }
+
+  .categories__button {
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+}
+
+/* Маленькие мобильные (до 480px) */
+@media (max-width: 480px) {
+  .categories__list {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .categories__container {
+    padding: 20px 12px;
+    gap: 12px;
+  }
+
+  .categories__title {
+    font-size: 28px;
+  }
+
+  .categories__subtitle {
+    font-size: 16px;
+    padding: 0 12px;
+    line-height: 120%;
+  }
+
+  .categories__list {
+    padding: 24px 12px 60px;
+    gap: 10px;
+    min-height: 550px;
+  }
+
+  .categories__list-item {
+    width: 260px;
+    height: 420px;
+  }
+
+  .categories__list-image-wrapper {
+    left: 12px;
+    top: 20px;
+    width: 236px;
+    height: 180px;
+  }
+
+  .categories__list-title {
+    top: 220px;
+    font-size: 20px;
+    padding: 0 8px;
+    max-width: 100%;
+  }
+
+  .categories__list-button {
+    left: 12px;
+    top: 340px;
+    width: 236px;
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+
+  .categories__list-button-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .categories__list-button-icon svg {
+    width: 10px;
+    height: 12px;
+  }
+
+  .categories__list-button-wrapper {
+    position: absolute;
+    left: auto;
+    right: 12px;
+    top: auto;
+    bottom: 20px;
+    width: 200px;
+  }
+
+  .categories__button {
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+
+  .categories__button-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .categories__button-icon svg {
+    width: 10px;
+    height: 12px;
+  }
+}
+
+/* Очень маленькие экраны (до 360px) */
+@media (max-width: 360px) {
+  .categories__list-item {
+    width: 240px;
+    height: 400px;
+  }
+
+  .categories__list-image-wrapper {
+    width: 216px;
+    height: 165px;
+  }
+
+  .categories__list-button {
+    width: 216px;
+  }
+
+  .categories__list-button-wrapper {
+    width: 180px;
+  }
+}

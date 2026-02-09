@@ -1,0 +1,46 @@
+{
+  "id": "PL1514",
+  "brand": "Pakel",
+  "name": "PL1514 WHITE CHOCOLATE COATED FREEZE DRY RASPBERRY 80г х 12шт МАлина в белом шоколаде",
+  "slug": "pl1514-pl1514-white-chocolate-coated-freeze-dry-raspberry-80г-х-12шт-малина-в-белом-шоколаде",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL1514 - PL1514 WHITE CHOCOLATE COATED FREEZE DRY RASPBERRY 80г х 12шт МАлина в белом шоколаде/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Шоколады/Miskets/80 г Сублимированная Конфеты/PL1514   WHITE CHOCOLATE COATED FREEZE DRY RASPBERRY 80г х 12шт  МАлина в белом шоколаде.docx",
+      "02 Pakel/Шоколады/Miskets/80 г Сублимированная Конфеты/PL1514.webp"
+    ],
+    "docs": [
+      "02 Pakel/Шоколады/Miskets/80 г Сублимированная Конфеты/PL1514   WHITE CHOCOLATE COATED FREEZE DRY RASPBERRY 80г х 12шт  МАлина в белом шоколаде.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

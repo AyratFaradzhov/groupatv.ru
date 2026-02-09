@@ -1,0 +1,75 @@
+/* SECTION BACKGROUND */
+.contacts-hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../../images/background/contact_background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(20px, 5vw, 60px);
+}
+
+/* CENTER WRAPPER */
+.contacts-hero__overlay {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* GLASS CARD */
+.contacts-glass {
+  max-width: 820px;
+  width: 100%;
+  padding: clamp(24px, 5vw, 48px);
+
+  /* более прозрачное стекло */
+  background: rgba(255, 255, 255, 0.28);
+
+  /* усиливаем ощущение стекла */
+  backdrop-filter: blur(22px) saturate(140%);
+  -webkit-backdrop-filter: blur(22px) saturate(140%);
+
+  border-radius: 32px;
+
+  /* тоньше и мягче рамка */
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  /* мягкая тень + лёгкое внутреннее свечение */
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+
+  text-align: center;
+}
+
+/* TITLE */
+.contacts-glass__title {
+  font-size: clamp(22px, 4vw, 32px);
+  font-weight: 500;
+  color: #c62828;
+  margin-bottom: 24px;
+}
+
+/* PHONE + EMAIL */
+.contacts-glass__links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+
+  font-size: clamp(16px, 3vw, 20px);
+  color: #1a4fd8;
+}
+
+/* ADDRESSES */
+.contacts-glass__addresses {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+}

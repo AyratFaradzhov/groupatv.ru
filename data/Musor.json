@@ -1,0 +1,620 @@
+{
+      "id": "a0003",
+      "name": "NAVROZ Желе FRUTTI Stik р по 100 шт в драже, A0003",
+      "nameRu": "NAVROZ Желе FRUTTI Stik р по 100 шт в драже, A0003",
+      "nameEn": "NAVROZ Желе FRUTTI Stik р по 100 шт в драже, A0003",
+      "brand": "NAVROZ",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0003 - A0003 Желе FRUTTI Stik ТМ NAVROZ 11.66 гр по 100 шт в драже, A0003/main.webp",
+      "sku": "A0003",
+      "type": "jelly_drage",
+      "weight": "11.66gr",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0003 - A0003 Желе FRUTTI Stik ТМ NAVROZ 11.66 гр по 100 шт в джаре, A0003",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+      {
+      "id": "af0007",
+      "name": "Мармеладные карандаши   LOVE ME, очень кислые, радужные",
+      "nameRu": "Мармеладные карандаши LOVE ME, очень кислые, радужные",
+      "nameEn": "Мармеладные карандаши LOVE ME, очень кислые, радужные",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0007/main.webp",
+      "sku": "AF0007",
+      "type": "pencils",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0007",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0008",
+      "name": "Мармеладные карандаши Love Me, очень кислые, ассорти",
+      "nameRu": "Мармеладные карандаши Love Me, очень кислые, ассорти",
+      "nameEn": "Мармеладные карандаши Love Me, очень кислые, ассорти",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0008/main.webp",
+      "sku": "AF0008",
+      "type": "pencils",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0008",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0009",
+      "name": "Мармеладные карандаши Love Me (ассорти, без кислинки)",
+      "nameRu": "Мармеладные карандаши Love Me (ассорти, без кислинки)",
+      "nameEn": "Мармеладные карандаши Love Me (ассорти, без кислинки)",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0009/main.webp",
+      "sku": "AF0009",
+      "type": "pencils",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0009 - AF0009 PENCIL oil MIX, LOVE ME АССОРТИ ФРУКТОВЫХ ВКУСОВ И АРОМАТОВ (мармеладные карандаши без дополнительно",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl0536",
+      "name": "PAKEL Miskets",
+      "nameRu": "PAKEL Miskets",
+      "nameEn": "PAKEL Miskets",
+      "brand": "PAKEL",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0536 - Miskets/main.webp",
+      "sku": "PL0536",
+      "type": null,
+      "weight": null,
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0536 - Miskets",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1030",
+      "name": "PAKEL Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина,",
+      "nameRu": "PAKEL Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина,",
+      "nameEn": "PAKEL Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина,",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1030 - PL1030 Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина, 50 г, ТМ MISKET/main.webp",
+      "sku": "PL1030",
+      "type": "candies",
+      "weight": "50gr",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1030 - PL1030 Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина, 50 г, ТМ MISKET",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1041",
+      "name": "Молочный шоколад «Дубайский» с кадаифом и фисташками",
+      "nameRu": "Молочный шоколад «Дубайский» с кадаифом и фисташками",
+      "nameEn": "Молочный шоколад «Дубайский» с кадаифом и фисташками",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1041/main.webp",
+      "sku": "PL1041",
+      "type": "chocolate",
+      "weight": "100 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1041",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1048",
+      "name": "PAKEL Шоколад молочный с кадаиф MISKETS MILK PISTACHIO KADAYIF 24ADC6DSP,",
+      "nameRu": "PAKEL Шоколад молочный с кадаиф MISKETS MILK PISTACHIO KADAYIF 24ADC6DSP,",
+      "nameEn": "PAKEL Шоколад молочный с кадаиф MISKETS MILK PISTACHIO KADAYIF 24ADC6DSP,",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1048 - PL1048 Шоколад молочный с кадаиф MISKETS MILK PISTACHIO KADAYIF 25GRX24ADC6DSP, ТМ MISKET/main.webp",
+      "sku": "PL1048",
+      "type": "chocolate",
+      "weight": "25 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1048 - PL1048 Шоколад молочный с кадаиф MISKETS MILK PISTACHIO KADAYIF 25GRX24ADC6DSP, ТМ MISKET",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1166",
+      "name": "PAKEL MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10",
+      "nameRu": "PAKEL MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10",
+      "nameEn": "PAKEL MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1166 - PL1166 MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10/main.webp",
+      "sku": "PL1166",
+      "type": "candies",
+      "weight": null,
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1166 - PL1166 MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1169",
+      "name": "PAKEL PISTACHIO CREAM WITH CRISPY KADAYIF & GRISSINI 12шт",
+      "nameRu": "PAKEL PISTACHIO CREAM WITH CRISPY KADAYIF & GRISSINI 12шт",
+      "nameEn": "PAKEL PISTACHIO CREAM WITH CRISPY KADAYIF & GRISSINI 12шт",
+      "brand": "PAKEL",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1169 - PL1169 PISTACHIO CREAM WITH CRISPY KADAYIF & GRISSINI 42 гх 12шт х 4 шб/main.webp",
+      "sku": "PL1169",
+      "type": null,
+      "weight": "42gr",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1169 - PL1169 PISTACHIO CREAM WITH CRISPY KADAYIF & GRISSINI 42 гх 12шт х 4 шб",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "ka0006",
+      "name": "07 Panda Lee TM",
+      "nameRu": "07 Panda Lee TM",
+      "nameEn": "07 Panda Lee TM",
+      "brand": "PANDA LEE",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0006 - 07 Panda Lee TM/main.webp",
+      "sku": "KA0006",
+      "type": null,
+      "weight": null,
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0006 - 07 Panda Lee TM",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "ka0007",
+      "name": "07 Panda Lee TM",
+      "nameRu": "07 Panda Lee TM",
+      "nameEn": "07 Panda Lee TM",
+      "brand": "PANDA LEE",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0007 - 07 Panda Lee TM/main.webp",
+      "sku": "KA0007",
+      "type": null,
+      "weight": null,
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0007 - 07 Panda Lee TM",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2024",
+      "name": "TAYAS р мармелады тексты просмотрела 30 07 2024",
+      "nameRu": "TAYAS р мармелады тексты просмотрела 30 07 2024",
+      "nameEn": "TAYAS р мармелады тексты просмотрела 30 07 2024",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2024 - 80 гр мармелады тексты просмотрела 30 07 2024/main.webp",
+      "sku": "2024",
+      "type": "marmalade",
+      "weight": "80gr",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2024 - 80 гр мармелады тексты просмотрела 30 07 2024",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3821",
+      "name": "TAYAS Фигурный Мармелад",
+      "nameRu": "TAYAS Фигурный Мармелад",
+      "nameEn": "TAYAS Фигурный Мармелад",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3821 - 150 г Фигурный Мармелад/main.webp",
+      "sku": "3821",
+      "type": "marmalade",
+      "weight": "150gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3821 - 150 г Фигурный Мармелад",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3822",
+      "name": "TAYAS Фигурный Мармелад",
+      "nameRu": "TAYAS Фигурный Мармелад",
+      "nameEn": "TAYAS Фигурный Мармелад",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3822 - 150 г Фигурный Мармелад/main.webp",
+      "sku": "3822",
+      "type": "marmalade",
+      "weight": "150gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3822 - 150 г Фигурный Мармелад",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3823",
+      "name": "TAYAS Фигурный Мармелад",
+      "nameRu": "TAYAS Фигурный Мармелад",
+      "nameEn": "TAYAS Фигурный Мармелад",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3823 - 150 г Фигурный Мармелад/main.webp",
+      "sku": "3823",
+      "type": "marmalade",
+      "weight": "150gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3823 - 150 г Фигурный Мармелад",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    {
+      "id": "3824",
+      "name": "TAYAS Фигурный Мармелад",
+      "nameRu": "TAYAS Фигурный Мармелад",
+      "nameEn": "TAYAS Фигурный Мармелад",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3824 - 150 г Фигурный Мармелад/main.webp",
+      "sku": "3824",
+      "type": "marmalade",
+      "weight": "150gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3824 - 150 г Фигурный Мармелад",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3825",
+      "name": "TAYAS Фигурный Мармелад",
+      "nameRu": "TAYAS Фигурный Мармелад",
+      "nameEn": "TAYAS Фигурный Мармелад",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3825 - 150 г Фигурный Мармелад/main.webp",
+      "sku": "3825",
+      "type": "marmalade",
+      "weight": "150gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3825 - 150 г Фигурный Мармелад",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3826",
+      "name": "TAYAS Фигурный Мармелад",
+      "nameRu": "TAYAS Фигурный Мармелад",
+      "nameEn": "TAYAS Фигурный Мармелад",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3826 - 150 г Фигурный Мармелад/main.webp",
+      "sku": "3826",
+      "type": "marmalade",
+      "weight": "150gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3826 - 150 г Фигурный Мармелад",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "4018",
+      "name": "Кислые ремешки DAMLA р, Голубика, коробка 72шт6бл Tayas",
+      "nameRu": "Кислые ремешки DAMLA р, Голубика, коробка 72шт6бл Tayas",
+      "nameEn": "Кислые ремешки DAMLA р, Голубика, коробка 72шт6бл Tayas",
+      "brand": "TAYAS",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/4018 - Кислые ремешки DAMLA 15гр, Голубика, коробка 72шт6бл Tayas/main.webp",
+      "sku": "4018",
+      "type": "belts",
+      "weight": "15gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/4018 - Кислые ремешки DAMLA 15гр, Голубика, коробка 72шт6бл Tayas",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    {
+      "id": "4076",
+      "name": "TAYAS VAIO FREEZE DRIED JELLY KOPUK SEKERLI KARPUZ CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM",
+      "nameRu": "TAYAS VAIO FREEZE DRIED JELLY KOPUK SEKERLI KARPUZ CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM",
+      "nameEn": "TAYAS VAIO FREEZE DRIED JELLY KOPUK SEKERLI KARPUZ CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM",
+      "brand": "TAYAS",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/4076 - 4076 VAIO FREEZE DRIED 20 GR JELLY KOPUK SEKERLI KARPUZ CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM/main.webp",
+      "sku": "4076",
+      "type": null,
+      "weight": "20gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/4076 - 4076 VAIO FREEZE DRIED 20 GR JELLY KOPUK SEKERLI KARPUZ CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6306",
+      "name": "TAYAS MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ (АССОРТИ ДЖАР",
+      "nameRu": "TAYAS MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ (АССОРТИ ДЖАР",
+      "nameEn": "TAYAS MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ (АССОРТИ ДЖАР",
+      "brand": "TAYAS",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6306 - 6306 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ (АССОРТИ ДЖАР)/main.webp",
+      "sku": "6306",
+      "type": null,
+      "weight": null,
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6306 - 6306 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ (АССОРТИ ДЖАР)",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8944",
+      "name": "TAYAS DAMLA SOUR BELTS ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM",
+      "nameRu": "TAYAS DAMLA SOUR BELTS ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM",
+      "nameEn": "TAYAS DAMLA SOUR BELTS ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM",
+      "brand": "TAYAS",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8944 - 8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM/main.webp",
+      "sku": "8944",
+      "type": "belts",
+      "weight": "15gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8944 - 8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "9309",
+      "name": "TAYAS VAIO FREEZE DRIED JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1",
+      "nameRu": "TAYAS VAIO FREEZE DRIED JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1",
+      "nameEn": "TAYAS VAIO FREEZE DRIED JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1",
+      "brand": "TAYAS",
+      "category": "unknown",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/9309 - 9309 VAIO FREEZE DRIED 20 GR JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1)/main.webp",
+      "sku": "9309",
+      "type": null,
+      "weight": "20gr",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/9309 - 9309 VAIO FREEZE DRIED 20 GR JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1)",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    }
+
+
+    "id": "3090",
+  "brand": "Tayas",
+  "name": "Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090",
+  "slug": "3090-кислые-ремешки-damla,-ассорти,-упаковка-75гр12шт6бл-tayas-№3090",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/3090 - Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/75 г Кислые ( Карандаши и Ремешки )/DAMLA/3090 Радуга Ремешки/Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/75 г Кислые ( Карандаши и Ремешки )/DAMLA/3090 Радуга Ремешки/Радуга Ремешки.webp"
+    ],
+    "docs": []
+  },
+  "flags": {
+    "missing_text": true,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": true,
+    "needs_review": true
+  }
+}
+------------------------------------------------------------
+{
+      "id": "3090",
+      "name": "Кислые жевательные ремешки Damla — ассорти вкусов",
+      "nameRu": "Кислые жевательные ремешки Damla — ассорти вкусов",
+      "nameEn": "Кислые жевательные ремешки Damla — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmelade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3090/main.webp",
+      "sku": "3090",
+      "type": "belts", 
+      "flavor": "sour",
+      "weight": "75 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3090",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    }

@@ -1,0 +1,43 @@
+{
+  "id": "PL0536",
+  "brand": "Pakel",
+  "name": "Miskets",
+  "slug": "pl0536-miskets",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL0536 - Miskets/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Лукум/Miskets/PL0536.webp"
+    ],
+    "docs": []
+  },
+  "flags": {
+    "missing_text": true,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

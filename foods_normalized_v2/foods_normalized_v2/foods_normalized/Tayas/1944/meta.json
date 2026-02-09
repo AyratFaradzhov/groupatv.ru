@@ -1,0 +1,43 @@
+{
+  "id": "1944",
+  "brand": "Tayas",
+  "name": "1944 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ АССОРТИ ВКУСОВ И АРОМАТОМ БАБЛ-ГАМ",
+  "slug": "1944-1944-жевательный-мармелад-кислые-карандаши-ассорти-вкусов-и-ароматом-бабл-гам",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/300 г Кислые ( Карандаши и Ремешки )/1944 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ АССОРТИ ВКУСОВ И АРОМАТОМ БАБЛ-ГАМ.docx"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/300 г Кислые ( Карандаши и Ремешки )/1944 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ АССОРТИ ВКУСОВ И АРОМАТОМ БАБЛ-ГАМ.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": true,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

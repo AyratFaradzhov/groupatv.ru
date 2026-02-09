@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATV GROUP</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
+    <!-- LCP: single hero image preload (static welcome section only) -->
+    <link rel="preload" as="image" href="images/Subtract.png" fetchpriority="high" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container container">
+        <a href="index.html">
+          <img class="header__logo" src="assets/images/logo.png" alt="ATV Group" width="65" height="65" loading="lazy" decoding="async" />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                href="product.html"
+                class="header__link"
+                data-i18n="products"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link" data-i18n="about"></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="collaboration.html"
+                class="header__link"
+                data-i18n="collaboration"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="contacts.html"
+                class="header__link"
+                data-i18n="contacts"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="request-price.html" class="header__button">
+          <span class="price-list" data-i18n="price"></span
+        ></a>
+
+        <button class="header__lang-switch" id="langSwitch" type="button">
+          RU
+        </button>
+
+        <!-- Mobile burger menu button -->
+        <button class="header__burger" id="headerBurger" type="button" aria-label="Меню">
+          <svg class="header__burger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <!-- Mobile menu close button -->
+        <button class="header__close" id="headerClose" type="button" aria-label="Закрыть меню" style="display: none;">
+          <svg class="header__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="header__mobile-menu" id="headerMobileMenu">
+        <nav class="header__mobile-nav">
+          <a href="request-price.html" class="header__mobile-link" data-i18n="price">Прайс - лист</a>
+          <a href="product.html" class="header__mobile-link" data-i18n="products">Продукция</a>
+          <a href="about.html" class="header__mobile-link" data-i18n="about">О компании</a>
+          <a href="collaboration.html" class="header__mobile-link" data-i18n="collaboration">Сотрудничество</a>
+          <a href="contacts.html" class="header__mobile-link" data-i18n="contacts">Контакты</a>
+        </nav>
+        <div class="header__mobile-contacts">
+          <a href="tel:+79585821409" class="header__mobile-phone">+7 958 582 14 09</a>
+          <a href="mailto:info@atv-group.ru" class="header__mobile-email">info@atv-group.ru</a>
+        </div>
+        <div class="header__mobile-social">
+          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="header__mobile-social-link" aria-label="Instagram">
+            <img src="images/icons/instagram-icons.webp" alt="Instagram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://t.me/atv_groupp" class="header__mobile-social-link" aria-label="Telegram">
+            <img src="images/icons/telegram-logo.webp" alt="Telegram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="header__mobile-social-link" aria-label="Ozon">
+            <img src="images/icons/ozon-icon.webp" alt="Ozon" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://market.yandex.ru/cc/8Nzfeu" class="header__mobile-social-link" aria-label="Яндекс.Маркет">
+            <img src="images/icons/Yandex-icon.webp" alt="Яндекс.Маркет" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="welcome">
+      <div class="welcome__container container">
+        <h2 data-i18n="logo_text" class="welcome__title"></h2>
+        <p data-i18n="welcome__text" class="welcome__text"></p>
+        <div class="welcome__subtext-container">
+          <p
+            data-i18n="welcome__subtext-first"
+            class="welcome__subtext-first"
+          ></p>
+          <p
+            data-i18n="welcome__subtext-second"
+            class="welcome__subtext-second"
+          ></p>
+        </div>
+      </div>
+      <div class="welcome__about">
+        <img
+          src="images/Subtract.png"
+          alt="Синий грузовой автомобиль с надписью ATV Group едет на розовом фоне. Из кузова вылетают сладости: мармеладные мишки, желейные конфеты, шоколадные батончики и упаковки конфет. Вокруг грузовика видны брызги шоколада и сладостей, создающие ощущение движения и доставки кондитерской продукции."
+          class="welcome__img"
+          width="800"
+          height="600"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <a href="product.html"
+          ><button class="product__button" type="button">
+            <a
+              href="product.html"
+              data-i18n="products"
+              class="product__button-link"
+            ></a>
+            <img
+              src="images/arrow.svg"
+              alt="стрелка вправо"
+              class="product__button-img"
+            />
+          </button>
+        </a>
+      </div>
+    </section>
+    <section class="card bg-1" id="cardSection">
+      <div class="card__viewport">
+        <ul class="card__candy">
+          <!-- СЛАЙД 1 -->
+          <li class="card__candy-item" data-bg="bg-1">
+            <div class="card__title-container">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Sulifa Moloko 18gr/Sulifa Moloko 18gr.png"
+              alt="SULIFA TWIN"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="corn_tubes_milk_cream_filling"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="corn_tubes_milk_cream_filling_text"
+              ></p>
+          <!-- ЗАГЛУШКИ -->
+          <li class="card__candy-item" data-bg="bg-2">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-panda"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Piramida Choco 20gr/Piramida Choco 20gr.png"
+              alt="SULIFA TWIN"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Glazed Wafer Sticks 'PYRAMID'"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Glazed Wafer Sticks 'PYRAMID'_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Glazed Wafer Sticks 'PYRAMID'_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-3">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Damla Assorti 30gr/Damla Assorti 30gr.png"
+              alt="Damla assorti"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Damla Assorti tubes"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Damla Assorti tubes_filling_text"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-4">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Damla Bears ( Mishki ) 80gr/Damla Bears ( Mishki ) 80gr.png"
+              alt="Damla Bears"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Chewy Gummy Bears Assortment 80g"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Chewy Gummy Bears Assortment 80g_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Chewy Gummy Bears Assortment 80g_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-5">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Damla Klubnika 15gr/Damla Klubnika 15gr.png"
+              alt="Damla Klubnika 15gr"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="sour_gummy_straps_15g"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="sour_gummy_straps_15g_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="sour_gummy_straps_15g_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-6">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular">Популярные товары</h3>
+
+              <h4 class="card__popular-title" data-i18n="card__popular-item-damla-lenta">DAMLA</h4>
+            </div>
+
+            <img src="assets/images/Damla Sour 90gr/Damla Sour 90gr.png" alt="Damla Klubnika 15gr" class="card__image">
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="card__popular-item-Damla Sour 90gr">Жевательная мягкая карамель ассотри, 90 гр.</h3>
+
+              <p class="card__description-text" data-i18n="card__popular-item-Damla Sour 90gr_filling_text">DAMLA SOUR - это ассорти  конфеток с фруктовыми вкусами апельсин, яблоко, лимон, тропик и начинкой из кислейшей пудры. Конфетка мягкая и приятно жуется, не прилипая к зубам, постепенно раскрывает  фруктовый вкусв сочетании с кисленькой начинкой. Нежную фруктовую ноту жевательной конфете дарят, входящие в состав фруктовые соки.</p>
+              <p class="card__description-text" data-i18n="card__popular-item-Damla Sour 90gr_filling_text-second">Формат упаковки: пакет с евро слотом, удобен  для выкладки как в зоне кассы, так и на полке.</p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-7">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-jimmy"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Jimmy belts 75gr/Jimmy belts 75gr.png"
+              alt="Jimmy belts 75gr"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Jimmy belts"></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy belts_filling_text"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-8">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-jimmy"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Jimmy chocolate 20gr/Jimmy chocolate 20gr.png"
+              alt="Jimmy chocolate"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Jimmy chocolate"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy chocolate_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy belts_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-9">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular">Популярные товары</h3>
+
+              <h4 class="card__popular-title" data-i18n="card__popular-item-jimmy">JIMMY</h4>
+            </div>
+
+            <img src="assets/images/Jimmy pasta 52gr/Jimmy pasta 52gr.png" alt="Crispy delight, creamy heart" class="card__image">
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Crispy delight, creamy heart">Бисквитные палочки с ореховой пастой 52 гр.</h3>
+
+              <p class="card__description-text" data-i18n="Crispy delight, creamy heart_filling_text">Когда завтрак уже прошел, а до обеда еще далеко, сочетание хрустящих бисквитных палочек и легкой шоколадно-ореховой пасты JIMMY CREAM - вот лучшее решение. Удобный формат  перекуса на каждое  утро, содержит  наруральную фундучную пасту.</p>
+              <p class="card__description-text" data-i18n="Crispy delight, creamy heart_filling_text-second">Стоимость нашего продукта ниже ближайшего аналога на рынке., а ВКУС  ВЫИГРЫВАЕТ В СРАВНИТЕЛЬНЫХ дегустациях. Паста имеет кремовую нежную текстуру и содержит натуральные  ингредиенты: лесной орех с какао.</p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-10">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular">Популярные товары</h3>
+
+              <h4 class="card__popular-title" data-i18n="card__popular-item-jimmy">JIMMY</h4>
+            </div>
+
+            <img src="assets/images/Jimmy pencil 75gr/Jimmy pencil 75gr.png" alt="Jimmy pencil 75gr" class="card__image">
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Jimmy pencil 75gr">Кислые карандаши, ассорти, упаковка 75 гр.</h3>
+
+              <p class="card__description-text" data-i18n="Jimmy pencil 75gr_filling_text">Жевательные мармеладки Jimmy Sour идеально подходят для маленького перекуса. Сочетают в себе разнообразие вкусов: тропический, малина, ежевика, клубника, яблоко. Жевательные мармеладки  в форме  цветных карандашей-трубочек с начинкой. Мармеладки в меру сладкие, с насыщенным фруктовым вкусом и приятной кислинкой. Они обладают ненавязчивой сладостью и ароматом спелых сочных фруктов и ягод. Каждому вкусу соответствует свой цвет. Изделие посыпано кисло-сладкой пудрой, что гармонично дополняет другие составные ингредиенты и создает яркое, приятное вкусовое впечатление.</p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-11">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular">Популярные товары</h3>
+
+              <h4 class="card__popular-title" data-i18n="card__popular-kidzi">KIDZI</h4>
+            </div>
+
+            <img src="assets/images/Kidzi Klubnika/Kidzi_klubnika.png" alt="Kidzi_klubnika" class="card__image">
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Kidzi_klubnika">Кислые лукум конфеты, ассорти вкусов</h3>
+
+              <p class="card__description-text" data-i18n="Kidzi_klubnika_filling_text">Эта сладость в форме мягких упругих кубиков  воплатила в себе турецкие традиции лукума. А он как  известно отличается  от привычного нам мармелада по текстуре и вкусу.  Эти  EXTRA кислые  жевательные  лукум конфетки KIDZI порадуют своей оригинальностью сладкоежек всех возрастов.</p>
+              <p class="card__description-text" data-i18n="Kidzi_klubnika_filling_text-second">Доступность - это основное преимущество нашего продукта.</p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-12">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-miskets"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Miskets Sour Cubes/Miskets Sour Cubes.png"
+              alt="Kidzi_klubnika"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Kidzi_klubnika">Кислые лукум конфеты, ассорти вкусов</h3>
+
+              <p class="card__description-text" data-i18n="Kidzi_klubnika_filling_text">Эта сладость в форме мягких упругих кубиков  воплатила в себе турецкие традиции лукума. А он как  известно отличается  от привычного нам мармелада по текстуре и вкусу.  Эти  EXTRA кислые  жевательные  лукум конфетки KIDZI порадуют своей оригинальностью сладкоежек всех возрастов.</p>
+              <p class="card__description-text" data-i18n="Kidzi_klubnika_filling_text-second">Доступность - это основное преимущество нашего продукта.</p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-13">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-dubai-cake"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/BS0001 Dubai cake/BS0001 Dubai cake.png"
+              alt="Dubai cake"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Dubai-cake"></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Dubai-cake_filling_text"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-14">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular">Популярные товары</h3>
+
+              <h4 class="card__popular-title" data-i18n="card__popular-coffee">TAYAS</h4>
+            </div>
+
+            <img src="assets/images/Coffee İntense 90gr/Coffee-İntense-90gr.png" alt="Dubai cake" class="card__image">
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Coffee-İntense-90gr">Леденцы со вкусом кофе упаковка 90 гр.</h3>
+
+              <p class="card__description-text" data-i18n="Coffee-İntense-90gr_filling_text">Кофейное счастье - так отзываются об этих кофейных леденцах наши покупатели. Карамельки Coffee Intense, действительно, вызывают искренний восторг и наслаждение. Леденцы - конфетки внешне напоминают мини какао-бобы из-за бороздок узора, цвет - кофейный однотонный. Кофейные леденцы насыщенного вкуса турецкого кофе со сливками. Внутри мягкая кофейная начинка. Каждая карамельная конфетка находится в индивидуальной флоупаке.  Удобная мини упаковка позволяет брать  их  с собой в дорогу и не бояться, что они, как шоколад, растают.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="pagination">
+                <button class="pagination__arrow" aria-label="Previous">←</button>
+                <span class="pagination__counter">01 / 14</span>
+                <button class="pagination__arrow" aria-label="Next">→</button>
+              </div>
+            </div>
+          </li>
+      </div>
+
+    </section>
+
+    <section class="partners padding-section">
+      <div class="partners__title-container">
+        <h2 class="partners__title" data-i18n="Partners-title"></h2>
+        <p class="partners__subtitle" data-i18n="partners-subtitle"></p>
+      </div>
+      <div class="partners__viewport">
+        <ul class="partners__track">
+        <li class="partners-item">
+              <img
+                loading="lazy"
+                src="assets/images/partner/lenta.jpg"
+                alt="лента"
+                class="partner__image lenta-image-crop"
+              />
+          </li>
+          <li class="partners-item">
+              <img
+                loading="lazy"
+                src="assets/images/partner/monetka.png"
+                alt="монетка"
+                class="partner__image"
+              />
+          </li>
+          <li class="partners-item">
+              <img
+                loading="lazy"
+                src="assets/images/partner/perekrestok.png"
+                alt="перекресток"
+                class="partner__image"
+              />
+          </li>
+          <li class="partners-item">
+              <img
+                loading="lazy"
+                src="assets/images/partner/verniy.jpg"
+                alt="верный"
+                class="partner__image"
+              />
+          </li>
+          <li class="partners-item">
+              <img
+                loading="lazy"
+                src="assets/images/partner/metro.png"
+                alt="метро"
+                class="partner__image metro-image-crop"
+              />
+          </li>
+          <li class="partners-item">
+              <img
+                loading="lazy"
+                src="assets/images/partner/detskiy-mir.png"
+                alt="детский мир"
+                class="partner__image"
+              />
+          </li>
+        </ul>
+      </div>
+      <div class="partners-pagination">
+        <button class="partners-pagination__arrow partners-pagination__arrow--prev" aria-label="Previous">←</button>
+        <span class="partners-pagination__counter">01 / 06</span>
+        <button class="partners-pagination__arrow partners-pagination__arrow--next" aria-label="Next">→</button>
+      </div>
+      <a href="about.html" class="link-about__cooperation">
+        <button class="btn-about__cooperation">
+          <p class="text-about__cooperation" data-i18n="about__cooperation"></p>
+          <span class="pagination__arrow"><img
+              src="images/arrow.svg"
+              alt="стрелка вправо"
+              class="product__button-img"
+            /></span>
+        </button>
+      </a>
+    </section>
+    <section class="categories">
+      <div class="categories__container">
+        <h3 class="categories__title" data-i18n="categories__title"></h3>
+        <p class="categories__subtitle" data-i18n="categories__subtitle"></p>
+      </div>
+      <div class="categories__section">
+        <div class="categories__list-wrapper">
+          <ul class="categories__list">
+          <li class="categories__list-item">
+            <div class="categories__list-container categories__list-container--blur">
+              <div class="categories__list-image-wrapper">
+                <img
+                  src="assets/images/categories/marmelade.webp"
+                  alt="мармелады"
+                  class="categories__list-image"
+                />
+              </div>
+              <h4 class="categories__list-title" data-i18n="Marmalade">Мармелад</h4>
+              <a href="product.html?category=marmalade" class="categories__list-button">
+                <span data-i18n="go_to">Перейти</span>
+                <span class="categories__list-button-icon">→</span>
+              </a>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container categories__list-container--blur">
+              <div class="categories__list-image-wrapper">
+                <img
+                  src="assets/images/categories/candy.webp"
+                  alt="конфеты"
+                  class="categories__list-image candy-image-crop"
+                />
+              </div>
+              <h4 class="categories__list-title" data-i18n="candy">Конфеты</h4>
+              <a href="product.html?category=candy" class="categories__list-button">
+                <span data-i18n="go_to">Перейти</span>
+                <span class="categories__list-button-icon">→</span>
+              </a>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container categories__list-container--blur">
+              <div class="categories__list-image-wrapper">
+                <img
+                  src="assets/images/categories/caramel.webp"
+                  alt="Карамель"
+                  class="categories__list-image caramel-image-crop"
+                />
+              </div>
+              <h4 class="categories__list-title" data-i18n="caramel">Карамель</h4>
+              <a href="product.html?category=caramel" class="categories__list-button">
+                <span data-i18n="go_to">Перейти</span>
+                <span class="categories__list-button-icon">→</span>
+              </a>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container categories__list-container--blur">
+              <div class="categories__list-image-wrapper">
+                <img
+                  src="assets/images/categories/chocolate-and-choclate-paste.webp"
+                  alt="Шоколад Шоколадная паста"
+                  class="categories__list-image chocolate__image-crop"
+                />
+              </div>
+              <h4
+                class="categories__list-title"
+                data-i18n="Chocolate_chocolate paste"
+              >Шоколад и шоколадная паста</h4>
+              <a href="product.html?category=chocolate" class="categories__list-button">
+                <span data-i18n="go_to">Перейти</span>
+                <span class="categories__list-button-icon">→</span>
+              </a>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container categories__list-container--blur">
+              <div class="categories__list-image-wrapper">
+                <img
+                  src="assets/images/categories/marsmallow.webp"
+                  alt="маршмеллоу"
+                  class="categories__list-image"
+                />
+              </div>
+              <h4
+                class="categories__list-title"
+                data-i18n="marshmallows"
+              >Маршмеллоу</h4>
+              <a href="product.html?category=marshmallows" class="categories__list-button">
+                <span data-i18n="go_to">Перейти</span>
+                <span class="categories__list-button-icon">→</span>
+              </a>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container categories__list-container--blur">
+              <div class="categories__list-image-wrapper">
+                <img
+                  src="assets/images/categories/jelly.webp"
+                  alt="желейные десерты"
+                  class="categories__list-image jelly__image-crop"
+                />
+              </div>
+              <h4
+                class="categories__list-title"
+                data-i18n="Jelly"
+              ></h4>
+              <a href="product.html?category=jelly" class="categories__list-button">
+                <span data-i18n="go_to">Перейти</span>
+                <span class="categories__list-button-icon">→</span>
+              </a>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container categories__list-container--blur">
+              <div class="categories__list-image-wrapper">
+                <img
+                  src="foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0004/main.webp"
+                  alt="бисквитные пирожные"
+                  class="categories__list-image"
+                />
+              </div>
+              <h4
+                class="categories__list-title"
+                data-i18n="sponge_cake"
+              >Бисквитное пирожное</h4>
+              <a href="product.html?category=sponge%20cake" class="categories__list-button">
+                <span data-i18n="go_to">Перейти</span>
+                <span class="categories__list-button-icon">→</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+        </div>
+        <div class="categories__list-button-wrapper">
+          <a href="product.html" class="categories__button">
+            <span data-i18n="all_categories">Все категории</span>
+            <span class="categories__button-icon">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="atv-value">
+      <div class="atv-value__container">
+        <h2 class="atv-value__title" data-i18n="atv-value__title"></h2>
+        <ul class="atv-value__list">
+          <li class="atv-value__item">
+            <div class="atv-value__item-container">
+            <img src="assets/images/benefit/worldwide.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext first-subtext" data-i18n="benefit_worldwide_quality"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/flexible.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_flexible_packaging"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/stable.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_stable_demand"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/shelf.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_shelf_life"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/promo.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_promo_support"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/margin.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_high_margin"></p></div>
+          </li>
+          <li class="atv-value__item">
+            <div class="atv-value__item-container">
+            <img src="assets/images/benefit/price.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_price_segments"></p></div>
+          </li>
+        </ul>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title" data-i18n="logo_text"></h1>
+        <div class="footer_news-sendler">
+          <h3 class="footer__subtitle" data-i18n="footer__subtitle"></h3>
+          <div class="footer__form-container">
+          <form class="footer__form" id="footerForm">
+              <input
+              type="text"
+              class="footer__input"
+              id="footerName"
+              placeholder="Имя"
+              required/>
+              <input
+              type="email"
+              class="footer__input"
+              id="footerEmail"
+              placeholder="Почта"
+              required
+              />
+              <button type="submit" class="footer__submit" data-i18n="send-newsendler"></button>
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox"> <p class="checkbox-text" data-i18n="checkbox-text"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="contacts">Контакты :</h4>
+              <a href="tel:+7958582140">+7 958 582 14 09</a>
+              <a href="mailto:info@atv-group.ru">info@atv-group.ru</a>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="social-list-web">Социальные сети :</h4>
+              <div class="icons-container">
+                <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="marketplace">
+                  <img src="images/icons/instagram-icons.webp" alt="ссылка на наш инстаграм" class="marketplace-icons">
+                </a>
+                <a href="https://t.me/atv_groupp" class="marketplace">
+                  <img src="images/icons/telegram-logo.webp" alt="ссылка на наш телеграм-канал" class="marketplace-icons">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="social-list-timework">Режим работы :</h4>
+              <p class="worktime">
+                <time datetime="09:00">9:00</time>–<time datetime="22:00">22:00</time>
+              </p>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="social-list-marketplace">Маркетплейсы :</h4>
+              <div class="icons-container">
+                <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="marketplace">
+                  <img src="images/icons/ozon-icon.webp" alt="ссылка на озон" class="marketplace-icons ozon-icon">
+                </a>
+                <a href="https://market.yandex.ru/cc/8Nzfeu" class="marketplace">
+                  <img src="images/icons/Yandex-icon.webp" alt="ссылка на Яндекс-маркет" class="marketplace-icons">
+                </a>
+                <a href="https://www.wildberries.ru/seller/410710" class="marketplace">
+                  <img src="images/icons/wildberries-icon.webp" alt="ссылка на wildberries" class="marketplace-icons">
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <nav class="footer__legal-links" aria-label="Legal">
+          <a href="terms.html" data-i18n="footer_legal_terms">Пользовательское соглашение</a>
+          <a href="privacy.html" data-i18n="footer_legal_privacy">Политика конфиденциальности</a>
+          <a href="consent.html" data-i18n="footer_legal_consent">Согласие на обработку персональных данных</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+    <!-- СКРИПТЫ ТОЛЬКО ТУТ -->
+    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/card-assets-preload.js"></script>
+    <script src="assets/js/card-slide-visual-animation.js"></script>
+    <script src="assets/js/card-touch-swipe.js"></script>
+    <script src="assets/js/card-micro-parallax.js"></script>
+    <script src="assets/js/categories-animation.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/partners-pagination.js"></script>
+    <script src="assets/js/partners-touch-swipe.js"></script>
+  </body>
+</html>

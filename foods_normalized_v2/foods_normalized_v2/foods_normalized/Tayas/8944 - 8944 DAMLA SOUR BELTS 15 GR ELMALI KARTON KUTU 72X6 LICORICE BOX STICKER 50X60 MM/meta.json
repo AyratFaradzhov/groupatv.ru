@@ -1,0 +1,49 @@
+{
+  "id": "8944",
+  "brand": "Tayas",
+  "name": "8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM",
+  "slug": "8944-8944-damla-sour-belts-15-gr-elmali-karton-kutu-72x6-licorice-box-sticker-50x60-mm",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8944 - 8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM/main.webp",
+    "foods_normalized/Tayas/8944 - 8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/Новинка (нету) 8944 Кислые Ремешки ( Яблоко )/8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM.pdf",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/Новинка (нету) 8944 Кислые Ремешки ( Яблоко )/8944 Яблоко 1.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/Новинка (нету) 8944 Кислые Ремешки ( Яблоко )/8944 Яблоко 2.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/Новинка (нету) 8944 Кислые Ремешки ( Яблоко )/Кислые ремешки DAMLA, Яблоко,коробка 15гр72шт6бл Tayash.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/Новинка (нету) 8944 Кислые Ремешки ( Яблоко )/8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM.pdf"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

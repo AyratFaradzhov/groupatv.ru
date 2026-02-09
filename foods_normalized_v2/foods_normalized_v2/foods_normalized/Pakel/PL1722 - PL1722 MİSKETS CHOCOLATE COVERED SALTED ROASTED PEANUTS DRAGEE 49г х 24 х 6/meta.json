@@ -1,0 +1,46 @@
+{
+  "id": "PL1722",
+  "brand": "Pakel",
+  "name": "PL1722 MİSKETS CHOCOLATE COVERED SALTED ROASTED PEANUTS DRAGEE 49г х 24 х 6",
+  "slug": "pl1722-pl1722-mi̇skets-chocolate-covered-salted-roasted-peanuts-dragee-49г-х-24-х-6",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL1722 - PL1722 MİSKETS CHOCOLATE COVERED SALTED ROASTED PEANUTS DRAGEE 49г х 24 х 6/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Драже/49,3 г Драже/PL1722  MİSKETS CHOCOLATE COVERED SALTED ROASTED PEANUTS DRAGEE   49г х 24 х 6.docx",
+      "02 Pakel/Драже/49,3 г Драже/PL1722.webp"
+    ],
+    "docs": [
+      "02 Pakel/Драже/49,3 г Драже/PL1722  MİSKETS CHOCOLATE COVERED SALTED ROASTED PEANUTS DRAGEE   49г х 24 х 6.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

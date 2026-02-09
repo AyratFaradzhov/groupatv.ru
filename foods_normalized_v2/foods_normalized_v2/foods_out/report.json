@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-23T18:44:33.598899Z",
+  "stats": {
+    "totalFiles": 341,
+    "assignedToSkuFiles": 291,
+    "unassignedFiles": 50,
+    "ambiguousFiles": 2,
+    "productsCreated": 144,
+    "issuesFound": 48,
+    "placeholdersDetected": 19
+  },
+  "notes": [
+    "Conservative assignment used to avoid 'левые' images mixing within Tayas folders.",
+    "Files without confident SKU match are listed in foods_out/unassigned.json and are not included as product images/docs."
+  ]
+}

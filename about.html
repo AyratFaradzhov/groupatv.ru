@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATV GROUP</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container container">
+        <a href="index.html">
+          <img class="header__logo" src="assets/images/logo.png" alt="ATV Group" width="65" height="65" loading="lazy" decoding="async" />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                href="product.html"
+                class="header__link"
+                data-i18n="products"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link" data-i18n="about"></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="collaboration.html"
+                class="header__link"
+                data-i18n="collaboration"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="contacts.html"
+                class="header__link"
+                data-i18n="contacts"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="request-price.html" class="header__button">
+          <span class="price-list" data-i18n="price"></span
+        ></a>
+
+        <button class="header__lang-switch" id="langSwitch" type="button">
+          RU
+        </button>
+
+        <!-- Mobile burger menu button -->
+        <button class="header__burger" id="headerBurger" type="button" aria-label="Меню">
+          <svg class="header__burger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <!-- Mobile close button -->
+        <button class="header__close" id="headerClose" type="button" aria-label="Закрыть меню" style="display: none;">
+          <svg class="header__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="header__mobile-menu" id="headerMobileMenu">
+        <nav class="header__mobile-nav">
+          <a href="request-price.html" class="header__mobile-link" data-i18n="price">Прайс - лист</a>
+          <a href="product.html" class="header__mobile-link" data-i18n="products">Продукция</a>
+          <a href="about.html" class="header__mobile-link" data-i18n="about">О компании</a>
+          <a href="collaboration.html" class="header__mobile-link" data-i18n="collaboration">Сотрудничество</a>
+          <a href="contacts.html" class="header__mobile-link" data-i18n="contacts">Контакты</a>
+        </nav>
+        <div class="header__mobile-contacts">
+          <a href="tel:+79585821409" class="header__mobile-phone">+7 958 582 14 09</a>
+          <a href="mailto:info@atv-group.ru" class="header__mobile-email">info@atv-group.ru</a>
+        </div>
+        <div class="header__mobile-social">
+          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="header__mobile-social-link" aria-label="Instagram">
+            <img src="images/icons/instagram-icons.webp" alt="Instagram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://t.me/atv_groupp" class="header__mobile-social-link" aria-label="Telegram">
+            <img src="images/icons/telegram-logo.webp" alt="Telegram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="header__mobile-social-link" aria-label="Ozon">
+            <img src="images/icons/ozon-icon.webp" alt="Ozon" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://market.yandex.ru/cc/8Nzfeu" class="header__mobile-social-link" aria-label="Яндекс.Маркет">
+            <img src="images/icons/Yandex-icon.webp" alt="Яндекс.Маркет" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://www.wildberries.ru/seller/410710" class="header__mobile-social-link" aria-label="Wildberries">
+            <img src="images/icons/wildberries-icon.webp" alt="Wildberries" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="page-about">
+      <section class="about-atv">
+        <!-- ===== HERO BANNER ===== -->
+        <div class="about-atv__hero">
+          <div class="about-atv__hero-card">
+            <p class="about-atv__hero-text" data-i18n="about-hero-text"></p>
+            <button
+              type="button"
+              class="about-atv__hero-button btn-about__cooperation"
+              data-i18n="about-hero-button"
+            ></button>
+          </div>
+        </div>
+      </section>
+      <section class="about-atv">
+        <!-- ===== CONTENT ===== -->
+        <div class="about-atv__content container">
+          <!-- LEFT COLUMN -->
+          <div class="about-atv__info">
+            <h2 class="about-atv__title" data-i18n="about-title"></h2>
+
+            <ul class="about-atv__features">
+              <li
+                class="about-atv__feature"
+                data-i18n="about-feature-production"
+              ></li>
+              <li
+                class="about-atv__feature"
+                data-i18n="about-feature-recipes"
+              ></li>
+              <li
+                class="about-atv__feature"
+                data-i18n="about-feature-price"
+              ></li>
+              <li
+                class="about-atv__feature"
+                data-i18n="about-feature-balance"
+              ></li>
+            </ul>
+          </div>
+
+          <!-- RIGHT COLUMN / STATS -->
+          <div class="about-atv__stats">
+            <div class="about-atv__stat">
+              <span
+                class="about-atv__stat-value"
+                data-i18n="about-stat-products-value"
+              ></span>
+              <span
+                class="about-atv__stat-label"
+                data-i18n="about-stat-products-label"
+              ></span>
+            </div>
+
+            <div class="about-atv__stat">
+              <span
+                class="about-atv__stat-value"
+                data-i18n="about-stat-regions-value"
+              ></span>
+              <span
+                class="about-atv__stat-label"
+                data-i18n="about-stat-regions-label"
+              ></span>
+            </div>
+
+            <div class="about-atv__stat">
+              <span
+                class="about-atv__stat-value"
+                data-i18n="about-stat-clients-value"
+              ></span>
+              <span
+                class="about-atv__stat-label"
+                data-i18n="about-stat-clients-label"
+              ></span>
+            </div>
+
+            <div class="about-atv__stat">
+              <span
+                class="about-atv__stat-value"
+                data-i18n="about-stat-partners-value"
+              ></span>
+              <span
+                class="about-atv__stat-label"
+                data-i18n="about-stat-partners-label"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== ADVANTAGES ===== -->
+      <div class="about-atv__advantages container">
+        <div class="about-atv__advantages-viewport">
+          <ul class="about-atv__advantages-track">
+            <li
+              class="about-atv__advantage"
+              data-i18n="about-advantage-warehouse"
+            ></li>
+
+            <li
+              class="about-atv__advantage"
+              data-i18n="about-advantage-direct"
+            ></li>
+
+            <li
+              class="about-atv__advantage"
+              data-i18n="about-advantage-equipment"
+            ></li>
+
+            <li
+              class="about-atv__advantage"
+              data-i18n="about-advantage-capacity"
+            ></li>
+          </ul>
+        </div>
+        <div class="advantages-pagination">
+          <button class="advantages-pagination__arrow advantages-pagination__arrow--prev" aria-label="Previous">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <button class="advantages-pagination__arrow advantages-pagination__arrow--next" aria-label="Next">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <section class="about-atv about-atv--advantages">
+        <div class="about-atv__content container">
+          <!-- LEFT -->
+          <div class="about-atv__info">
+            <h2
+              class="about-atv__title"
+              data-i18n="about-advantages-title"
+            ></h2>
+
+            <ul class="about-atv__list">
+              <li class="about-atv__list-item">
+                <span
+                  class="about-atv__list-text"
+                  data-i18n="about-advantages-item-1"
+                ></span>
+              </li>
+
+              <li class="about-atv__list-item">
+                <span
+                  class="about-atv__list-text"
+                  data-i18n="about-advantages-item-2"
+                ></span>
+              </li>
+
+              <li class="about-atv__list-item">
+                <span
+                  class="about-atv__list-text"
+                  data-i18n="about-advantages-item-3"
+                ></span>
+              </li>
+
+              <li class="about-atv__list-item">
+                <span
+                  class="about-atv__list-text"
+                  data-i18n="about-advantages-item-4"
+                ></span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- RIGHT (placeholder под изображение / видео / анимацию) -->
+          <div class="about-atv__media about-atv__media--placeholder"></div>
+        </div>
+      </section>
+      <section class="about-atv about-atv--factory">
+        <div class="about-atv__contents container">
+          <!-- LEFT -->
+          <div class="about-atv__info">
+            <h2 class="about-atv__title" data-i18n="about-factory-title"></h2>
+
+            <p
+              class="about-atv__description"
+              data-i18n="about-factory-description"
+            ></p>
+
+            <ul class="about-atv__features">
+              <li
+                class="about-atv__feature"
+                data-i18n="about-factory-feature-1"
+              ></li>
+              <li
+                class="about-atv__feature"
+                data-i18n="about-factory-feature-2"
+              ></li>
+              <li
+                class="about-atv__feature"
+                data-i18n="about-factory-feature-3"
+              ></li>
+            </ul>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="about-atv__media">
+            <img
+              class="about-atv__image"
+              src="images/tayas_build.webp"
+              alt="здание фабрики Таяс"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="about-atv about-atv--presence">
+        <div class="about-atv__presence">
+          <ul class="about-atv__presence-track">
+            <li
+              class="about-atv__presence-item"
+              data-i18n="about-presence-countries"
+            ></li>
+            <li
+              class="about-atv__presence-item"
+              data-i18n="about-presence-russia"
+            ></li>
+            <li
+              class="about-atv__presence-item"
+              data-i18n="about-presence-demand"
+            ></li>
+
+            <!-- дубли для бесшовной анимации -->
+            <li
+              class="about-atv__presence-item"
+              data-i18n="about-presence-countries"
+            ></li>
+            <li
+              class="about-atv__presence-item"
+              data-i18n="about-presence-russia"
+            ></li>
+            <li
+              class="about-atv__presence-item"
+              data-i18n="about-presence-demand"
+            ></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-atv about-atv--certificates">
+        <div class="about-atv__content-certik container">
+          <div class="about-atv__info-p">
+            <h2
+              class="about-atv__title"
+              data-i18n="about-certificates-title"
+            ></h2>
+            <p
+              class="about-atv__subtitle"
+              data-i18n="about-certificates-subtitle"
+            ></p>
+          </div>
+
+          <ul class="about-atv__cert-list">
+            <li>
+              <button
+                class="about-atv__cert-card"
+                data-title="IFS Food"
+                data-text="modal-ifs-text"
+                data-image="./assets/images/about/IFS Food-p.webp"
+                data-pdf="./assets/images/about/IFS.pdf"
+              >
+                <span class="about-atv__cert-name">IFS Food</span>
+                <p class="pdf-text" data-i18n="IFS_food-text"></p>
+              </button>
+            </li>
+
+            <li>
+              <button
+                class="about-atv__cert-card"
+                data-title="BRCGS"
+                data-text="modal-brcgs-text"
+                data-image="./assets/images/about/BRCGS-p.webp"
+                data-pdf="./assets/images/about/BRCGS.pdf"
+              >
+                <span class="about-atv__cert-name">BRCGS</span>
+                <p class="pdf-text" data-i18n="BRCGS-text"></p>
+              </button>
+            </li>
+
+            <li>
+              <button
+                class="about-atv__cert-card"
+                data-title="Halal"
+                data-text="modal-halal-text"
+                data-image="./assets/images/about/Halal-p.webp"
+                data-pdf="./assets/images/about/Halal.pdf"
+              >
+                <span class="about-atv__cert-name">Halal</span>
+                <p class="pdf-text" data-i18n="Halal-text"></p>
+              </button>
+            </li>
+
+            <li>
+              <button
+                class="about-atv__cert-card"
+                data-title="ISO"
+                data-text="modal-iso-text"
+                data-image="./assets/images/about/ISO-p.webp"
+                data-pdf="./assets/images/about/ISO.pdf"
+              >
+                <span class="about-atv__cert-name">ISO</span>
+                <span
+                  class="about-atv__cert-desc"
+                  data-i18n="about-cert-iso"
+                ></span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="modal" id="certificate-modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__content">
+          <button class="modal__close" aria-label="Close">×</button>
+
+          <div class="modal__grid">
+            <img class="modal__image" src="" alt="" />
+
+            <div class="modal__info">
+              <h3 class="modal__title"></h3>
+              <p class="modal__text"></p>
+
+              <a class="modal__button" href="" download> Скачать PDF </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3
+        class="about-atv__title-cards"
+        data-i18n="about-popular-products-title"
+      ></h3>
+      <section class="card bg-1" id="cardSection">
+        <div class="card__viewport">
+          <ul class="card__candy">
+            <!-- СЛАЙД 1 -->
+            <li class="card__candy-item" data-bg="bg-5">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Damla Klubnika 15gr/Damla Klubnika 15gr.png"
+              alt="Damla Klubnika 15gr"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="card__popular-item-Damla Sour 90gr"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="sour_gummy_straps_15g_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="sour_gummy_straps_15g_filling_text-second"
+              ></p>
+            </div>
+          </li>
+
+            <!-- ЗАГЛУШКИ -->
+            <li class="card__candy-item" data-bg="bg-8">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-jimmy"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Jimmy chocolate 20gr/Jimmy chocolate 20gr.png"
+              alt="Jimmy chocolate"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Jimmy chocolate"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy chocolate_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy belts_filling_text-second"
+              ></p>
+            </div>
+          </li>
+            <li class="card__candy-item" data-bg="bg-3">
+              <div class="card__title-container hover">
+                <h3 class="card__popular" data-i18n="popular"></h3>
+
+                <h4
+                  class="card__popular-title"
+                  data-i18n="card__popular-item-damla-lenta"
+                ></h4>
+              </div>
+
+              <img
+                src="assets/images/Damla Assorti 30gr/Damla Assorti 30gr.png"
+                alt="Damla assorti"
+                class="card__image"
+              />
+
+              <div class="card__description">
+                <h3
+                  class="card__description-title"
+                  data-i18n="Damla Assorti tubes"
+                ></h3>
+
+                <p
+                  class="card__description-text"
+                  data-i18n="Damla Assorti tubes_filling_text"
+                ></p>
+              </div>
+            </li>
+          </ul>
+          <div class="pagination">
+            <button class="pagination__arrow" aria-label="Previous">←</button>
+            <span class="pagination__counter">01 / 03</span>
+            <button class="pagination__arrow" aria-label="Next">→</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!-- Модальное окно сотрудничества -->
+    <div class="cooperation-modal" id="cooperationModal" role="dialog" aria-modal="true" aria-labelledby="cooperationModalTitle" aria-hidden="true">
+      <div class="cooperation-modal__overlay"></div>
+      <div class="cooperation-modal__content">
+        <button class="cooperation-modal__close" aria-label="Закрыть модальное окно">×</button>
+        <section class="cooperation__panels cooperation__panels--modal">
+          <div class="cooperation__tabs">
+            <button
+              type="button"
+              class="cooperation__tab cooperation__tab--active"
+              data-i18n="cooperation_tab_partner"
+            ></button>
+
+            <button
+              type="button"
+              class="cooperation__tab"
+              data-i18n="cooperation_tab_manufacturer"
+            ></button>
+          </div>
+
+          <!-- PARTNER -->
+          <div class="cooperation__panel cooperation__panel--active">
+            <h2 class="cooperation__title cooperation__title--modal" data-i18n="cooperation_title_partner"></h2>
+
+            <form class="partner-form partner-form--modal">
+              <input
+                class="partner-form__input partner-form__input--modal"
+                type="text"
+                name="partner_fullname"
+                placeholder="ФИО"
+                required
+              />
+
+              <input
+                class="partner-form__input partner-form__input--modal"
+                type="tel"
+                name="partner_phone"
+                placeholder="Номер телефона"
+                required
+              />
+
+              <input
+                class="partner-form__input partner-form__input--modal"
+                type="email"
+                name="partner_email"
+                placeholder="Почта"
+                required
+              />
+
+              <textarea
+                class="partner-form__textarea partner-form__textarea--modal"
+                name="partner_message"
+                placeholder="Ваше сообщение (не обязательно)"
+                rows="3"
+              ></textarea>
+
+              <button
+                class="partner-form__submit partner-form__submit--modal"
+                type="submit"
+                data-i18n="partner_button_submit"
+              ></button>
+
+              <label class="partner-form__policy partner-form__policy--modal">
+                <input type="checkbox" name="consent" required aria-describedby="partner-consent-desc-modal" />
+                <span id="partner-consent-desc-modal">
+                  <span data-i18n="form_consent_prefix"></span><a href="privacy.html" data-i18n="footer_legal_privacy"></a><span data-i18n="form_consent_suffix"></span><a href="consent.html" data-i18n="footer_legal_consent"></a>
+                </span>
+              </label>
+            </form>
+          </div>
+          <div class="cooperation__panel">
+            <h2
+              class="cooperation__title cooperation__title--modal"
+              data-i18n="cooperation_title_manufacturer"
+            ></h2>
+
+            <form class="manufacturer-form manufacturer-form--modal">
+              <input
+                class="manufacturer-form__input manufacturer-form__input--modal"
+                type="text"
+                name="manufacturer_company"
+                placeholder="Название компании"
+                required
+              />
+
+              <input
+                class="manufacturer-form__input manufacturer-form__input--modal"
+                type="text"
+                name="manufacturer_contact"
+                placeholder="Контактное лицо"
+                required
+              />
+
+              <input
+                class="manufacturer-form__input manufacturer-form__input--modal"
+                type="tel"
+                name="manufacturer_phone"
+                placeholder="Телефон"
+                required
+              />
+
+              <input
+                class="manufacturer-form__input manufacturer-form__input--modal"
+                type="email"
+                name="manufacturer_email"
+                placeholder="Почта"
+                required
+              />
+
+              <textarea
+                class="manufacturer-form__textarea manufacturer-form__textarea--modal"
+                name="manufacturer_message"
+                placeholder="Кратко опишите предложение"
+                rows="3"
+              ></textarea>
+
+              <button
+                class="manufacturer-form__submit manufacturer-form__submit--modal"
+                type="submit"
+                data-i18n="manufacturer_button_submit"
+              ></button>
+
+              <label class="manufacturer-form__policy manufacturer-form__policy--modal">
+                <input type="checkbox" name="consent" required aria-describedby="manufacturer-consent-desc-modal" />
+                <span id="manufacturer-consent-desc-modal">
+                  <span data-i18n="form_consent_prefix"></span><a href="privacy.html" data-i18n="footer_legal_privacy"></a><span data-i18n="form_consent_suffix"></span><a href="consent.html" data-i18n="footer_legal_consent"></a>
+                </span>
+              </label>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+    <!-- Модальное окно успешной отправки -->
+    <div class="success-modal" id="successModal">
+      <div class="success-modal__overlay"></div>
+      <div class="success-modal__content">
+        <button class="success-modal__close" type="button" aria-label="Закрыть">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <h2 class="success-modal__title">Заявка отправлена</h2>
+        <p class="success-modal__text">Спасибо! Мы получили вашу заявку и свяжемся с вами в ближайшее время.</p>
+        <button class="success-modal__ok" type="button">Хорошо</button>
+      </div>
+    </div>
+    
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title" data-i18n="logo_text"></h1>
+        <div class="footer_news-sendler">
+          <h3 class="footer__subtitle" data-i18n="footer__subtitle"></h3>
+          <div class="footer__form-container">
+          <form class="footer__form" id="footerForm">
+              <input
+              type="text"
+              class="footer__input"
+              id="footerName"
+              placeholder="Имя"
+              required/>
+              <input
+              type="email"
+              class="footer__input"
+              id="footerEmail"
+              placeholder="Почта"
+              required
+              />
+              <button type="submit" class="footer__submit" data-i18n="send-newsendler"></button>
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox"> <p class="checkbox-text" data-i18n="checkbox-text"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <ul class="social-list">
+          <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="contacts"></h4>
+          <a href="tel:+7958582140">+7 958 582 14 09</a> 
+        <a href="mailto:info@atv-group.ru">info@atv-group.ru</a>
+        </div></li>
+        <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="social-list-web"></h4>
+<div class="icons-container">
+          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="marketplace"><img src="images/icons/instagram-icons.webp" alt="ссылка на наш инстаграм" class="marketplace-icons"></a> 
+          <a href="https://t.me/atv_groupp" class="marketplace"><img src="images/icons/telegram-logo.webp" alt="ссылка на наш телеграм-канал" class="marketplace-icons"></a>  
+        </div></li>
+        <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="social-list-timework"></h4>
+          <p class="worktime">
+  Режим работы: <time datetime="09:00">9:00</time>–<time datetime="22:00">22:00</time>
+</p>
+
+        </div></li>
+        <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="social-list-marketplace"></h4>
+          <div class="icons-container">
+          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="marketplace"><img src="images/icons/ozon-icon.webp" alt="ссылка на озон" class="marketplace-icons ozon-icon"></a> 
+          <a href="https://market.yandex.ru/cc/8Nzfeu" class="marketplace"><img src="images/icons/Yandex-icon.webp" alt="ссылка на Яндекс-маркет" class="marketplace-icons"></a> 
+          <a href="https://www.wildberries.ru/seller/410710" class="marketplace"><img src="images/icons/wildberries-icon.webp" alt="ссылка на wildberries" class="marketplace-icons"></a>         
+        </div></li>
+        </ul>
+        <nav class="footer__legal-links" aria-label="Legal">
+          <a href="terms.html" data-i18n="footer_legal_terms">Пользовательское соглашение</a>
+          <a href="privacy.html" data-i18n="footer_legal_privacy">Политика конфиденциальности</a>
+          <a href="consent.html" data-i18n="footer_legal_consent">Согласие на обработку персональных данных</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/card-slide-visual-animation.js"></script>
+    <script src="assets/js/holder.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/forms-handler.js"></script>
+    <script src="assets/js/cooperation-modal.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/advantages-pagination.js"></script>
+    <script src="assets/js/about.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "id": "1949",
+  "brand": "Tayas",
+  "name": "1949 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ МАЛИНЫ И ЕЖЕВИКИ",
+  "slug": "1949-1949-жевательный-мармелад-кислые-ремешки-со-вкусом-малины-и-ежевики",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/1949 - 1949 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ МАЛИНЫ И ЕЖЕВИКИ/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/300 г Кислые ( Карандаши и Ремешки )/1949 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ  МАЛИНЫ И ЕЖЕВИКИ.docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/300 г Кислые ( Карандаши и Ремешки )/1949 Малина Ежевика Ремешки.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/300 г Кислые ( Карандаши и Ремешки )/1949 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ  МАЛИНЫ И ЕЖЕВИКИ.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

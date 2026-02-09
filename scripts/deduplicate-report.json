@@ -1,0 +1,5916 @@
+{
+  "timestamp": "2026-01-22T22:54:52.982Z",
+  "stats": {
+    "beforeCount": 335,
+    "duplicatesFound": 8,
+    "merged": 8,
+    "removed": 74,
+    "normalized": 122,
+    "suspicious": [
+      {
+        "type": "many_duplicates",
+        "count": 51,
+        "products": [
+          {
+            "id": "damla-assorti-30gr",
+            "name": "DAMLA Assorti",
+            "image": "assets/images/products/damla/damla-assorti-30gr.webp"
+          },
+          {
+            "id": "damla-bears-80gr",
+            "name": "DAMLA Мишки",
+            "image": "assets/images/products/damla/damla-bears.webp"
+          },
+          {
+            "id": "damla-klubnika-15gr",
+            "name": "DAMLA Клубника",
+            "image": "assets/images/products/damla/damla-klubnika-15gr.webp"
+          },
+          {
+            "id": "tayas-tropik-30gr",
+            "name": "TAYAS Тропик",
+            "image": "assets/images/products/tayas/tayas-tropik-30gr.webp"
+          },
+          {
+            "id": "tayas-klubnika-30gr",
+            "name": "TAYAS Клубника",
+            "image": "assets/images/products/tayas/tayas-klubnika-30gr.webp"
+          },
+          {
+            "id": "tayas-kola-30gr",
+            "name": "TAYAS Кола",
+            "image": "assets/images/products/tayas/tayas-kola-30gr.webp"
+          },
+          {
+            "id": "tayas-malina-30gr",
+            "name": "TAYAS Малина",
+            "image": "assets/images/products/tayas/tayas-malina-30gr.webp"
+          },
+          {
+            "id": "tayas-assorti-30gr",
+            "name": "TAYAS Ассорти",
+            "image": "assets/images/products/tayas/tayas-assorti-30gr.webp"
+          },
+          {
+            "id": "tayas-yabloko-30gr",
+            "name": "TAYAS Яблоко",
+            "image": "assets/images/products/tayas/tayas-yabloko-30gr.webp"
+          },
+          {
+            "id": "damla-arbuz-15gr",
+            "name": "DAMLA Арбуз",
+            "image": "assets/images/products/damla/damla-arbuz-15gr.webp"
+          },
+          {
+            "id": "damla-remeshki-arbuz-15gr",
+            "name": "DAMLA Ремешки Арбуз",
+            "image": "assets/images/products/damla/damla-assorti-30gr.webp"
+          },
+          {
+            "id": "damla-malina-15gr",
+            "name": "DAMLA Малина",
+            "image": "assets/images/products/damla/damla-malina-15gr.webp"
+          },
+          {
+            "id": "damla-remeshki-malina-15gr",
+            "name": "DAMLA Ремешки Малина",
+            "image": "assets/images/products/damla/damla-belts-malina-15gr.webp"
+          },
+          {
+            "id": "damla-vinograd-15gr",
+            "name": "DAMLA Виноград",
+            "image": "assets/images/products/damla/damla-vinograd-15gr.webp"
+          },
+          {
+            "id": "damla-remeshki-vinograd-15gr",
+            "name": "DAMLA Ремешки Виноград",
+            "image": "assets/images/products/damla/damla-belts-vinograd-15gr.webp"
+          },
+          {
+            "id": "damla-kola-15gr",
+            "name": "DAMLA Кола",
+            "image": "assets/images/products/damla/damla-kola-15gr.webp"
+          },
+          {
+            "id": "damla-remeshki-kola-15gr",
+            "name": "DAMLA Ремешки Кола",
+            "image": "assets/images/products/damla/damla-belts-kola-15gr.webp"
+          },
+          {
+            "id": "damla-remeshki-klubnika-15gr",
+            "name": "DAMLA Ремешки Клубника",
+            "image": "assets/images/products/damla/damla-belts-klubnika-15gr.webp"
+          },
+          {
+            "id": "damla-raduga-15gr",
+            "name": "DAMLA Радуга",
+            "image": "assets/images/products/damla/damla-raduga-15gr.webp"
+          },
+          {
+            "id": "damla-remeshki-raduga-15gr",
+            "name": "DAMLA Ремешки Радуга",
+            "image": "assets/images/products/damla/damla-belts-raduga-15gr.webp"
+          },
+          {
+            "id": "damla-novinka-netu-4018-kislye-remeshki-golubika-15gr",
+            "name": "DAMLA Голубика",
+            "image": "assets/images/products/damla/damla-golubika-15gr.webp"
+          },
+          {
+            "id": "damla-novinka-netu-8944-kislye-remeshki-yabloko-15gr",
+            "name": "DAMLA Яблоко",
+            "image": "assets/images/products/damla/damla-yabloko-15gr.webp"
+          },
+          {
+            "id": "damla-tropik-30gr",
+            "name": "DAMLA Тропик",
+            "image": "assets/images/products/damla/damla-tropik-30gr.webp"
+          },
+          {
+            "id": "damla-trubochki-tropik-30gr",
+            "name": "DAMLA Трубочки Тропик",
+            "image": "assets/images/products/damla/damla-tubes-tropik-30gr.webp"
+          },
+          {
+            "id": "damla-trubochki-klubnika-30gr",
+            "name": "DAMLA Трубочки Клубника",
+            "image": "assets/images/products/damla/damla-tubes-klubnika-30gr.webp"
+          },
+          {
+            "id": "damla-trubochki-kola-30gr",
+            "name": "DAMLA Трубочки Кола",
+            "image": "assets/images/products/damla/damla-tubes-kola-30gr.webp"
+          },
+          {
+            "id": "damla-trubochki-malina-30gr",
+            "name": "DAMLA Трубочки Малина",
+            "image": "assets/images/products/damla/damla-tubes-malina-30gr.webp"
+          },
+          {
+            "id": "damla-trubochki-assorti-30gr",
+            "name": "DAMLA Трубочки Ассорти",
+            "image": "assets/images/products/damla/damla-tubes-assorti-30gr.webp"
+          },
+          {
+            "id": "damla-yabloko-30gr",
+            "name": "DAMLA Яблоко",
+            "image": "assets/images/products/damla/damla-yabloko-30gr.webp"
+          },
+          {
+            "id": "damla-trubochki-yabloko-30gr",
+            "name": "DAMLA Трубочки Яблоко",
+            "image": "assets/images/products/damla/damla-tubes-yabloko-30gr.webp"
+          },
+          {
+            "id": "damla-remeshki-assorti-75gr",
+            "name": "DAMLA Ремешки Ассорти",
+            "image": "assets/images/products/damla/damla-belts-assorti-75gr.webp"
+          },
+          {
+            "id": "damla-karandashi-assorti-75gr",
+            "name": "DAMLA Карандаши Ассорти",
+            "image": "assets/images/products/damla/damla-pencils-assorti-75gr.webp"
+          },
+          {
+            "id": "damla-damla-80gr",
+            "name": "DAMLA Мишки",
+            "image": "assets/images/products/damla/damla-bears-80gr.webp"
+          },
+          {
+            "id": "tayas-8705-тропик-2-tubes-30gr",
+            "name": "8705 Тропик 2",
+            "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr.webp"
+          },
+          {
+            "id": "tayas-8705-тропик-tubes-30gr",
+            "name": "8705 Тропик",
+            "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr-v1.webp"
+          },
+          {
+            "id": "tayas-кислые-трубочки-damla-тропикал-упаковка-30гр24шт8бл-8705-tubes-30gr",
+            "name": "Кислые трубочки Damla,Тропикал,упаковка 30гр24шт8бл №8705",
+            "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr-v2.webp"
+          },
+          {
+            "id": "tayas-8706-клубника-1-tubes-30gr",
+            "name": "8706 Клубника 1",
+            "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr.webp"
+          },
+          {
+            "id": "tayas-8706-клубника-2-tubes-30gr",
+            "name": "8706 Клубника 2",
+            "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr-v1.webp"
+          },
+          {
+            "id": "tayas-кислые-трубочки-damla-клубника-упаковка-30гр24шт8бл-8706-tubes-30gr",
+            "name": "Кислые трубочки Damla,Клубника,упаковка 30гр24шт8бл №8706",
+            "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr-v2.webp"
+          },
+          {
+            "id": "tayas-8478-кола-1-tubes-30gr",
+            "name": "8478 Кола 1",
+            "image": "assets/images/products/tayas/tayas-tubes-kola-30gr.webp"
+          },
+          {
+            "id": "tayas-8478-кола-2-tubes-30gr",
+            "name": "8478 Кола 2",
+            "image": "assets/images/products/tayas/tayas-tubes-kola-30gr-v1.webp"
+          },
+          {
+            "id": "tayas-кислые-трубочки-damla-кола-упаковка-30гр24шт8бл-8707-tubes-30gr",
+            "name": "Кислые трубочки Damla,Кола,упаковка 30гр24шт8бл №8707",
+            "image": "assets/images/products/tayas/tayas-tubes-kola-30gr-v2.webp"
+          },
+          {
+            "id": "tayas-8479-малина-ежевика-1-tubes-30gr",
+            "name": "8479 Малина Ежевика 1",
+            "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr.webp"
+          },
+          {
+            "id": "tayas-8479-малина-ежевика-2-tubes-30gr",
+            "name": "8479 Малина Ежевика 2",
+            "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr-v1.webp"
+          },
+          {
+            "id": "tayas-кислые-трубочки-damla-малина-ежевика-упаковка-30гр24шт8бл-8708-tubes-30gr",
+            "name": "Кислые трубочки Damla,Малина-Ежевика,упаковка 30гр24шт8бл №8708",
+            "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr-v2.webp"
+          },
+          {
+            "id": "tayas-8480-ассорти-1-tubes-30gr",
+            "name": "8480 Ассорти 1",
+            "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr.webp"
+          },
+          {
+            "id": "tayas-8480-ассорти-2-tubes-30gr",
+            "name": "8480 Ассорти 2",
+            "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr-v1.webp"
+          },
+          {
+            "id": "tayas-кислые-трубочки-damla-ассорти-упаковка-30гр24шт8бл-8709-tubes-30gr",
+            "name": "Кислые трубочки Damla,Ассорти,упаковка 30гр24шт8бл №8709",
+            "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr-v2.webp"
+          },
+          {
+            "id": "tayas-8923-яблоко-1-tubes-30gr",
+            "name": "8923 Яблоко 1",
+            "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr.webp"
+          },
+          {
+            "id": "tayas-8923-яблоко-2-tubes-30gr",
+            "name": "8923 Яблоко 2",
+            "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr-v1.webp"
+          },
+          {
+            "id": "tayas-кислые-трубочки-damla-яблоко-упаковка-30гр24шт8бл-8923-tubes-30gr",
+            "name": "Кислые трубочки Damla,Яблоко, упаковка 30гр24шт8бл №8923",
+            "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr-v2.webp"
+          }
+        ]
+      },
+      {
+        "type": "many_duplicates",
+        "count": 4,
+        "products": [
+          {
+            "id": "dubai-cake",
+            "name": "Dubai Cake",
+            "image": "assets/images/products/oslo/oslo.webp"
+          },
+          {
+            "id": "oslo-bs0002-red-love",
+            "name": "BS0002 Red Love",
+            "image": "assets/images/products/oslo/oslo-v1.webp"
+          },
+          {
+            "id": "oslo-bs0003-manela-donut",
+            "name": "BS0003 Manela Donut",
+            "image": "assets/images/products/oslo/oslo-v2.webp"
+          },
+          {
+            "id": "oslo-bs0004-arrivo-banana",
+            "name": "BS0004 Arrivo Banana",
+            "image": "assets/images/products/oslo/oslo-v3.webp"
+          }
+        ]
+      },
+      {
+        "type": "many_duplicates",
+        "count": 16,
+        "products": [
+          {
+            "id": "pakel-konfety-kola-70gr",
+            "name": "PAKEL Конфеты Кола",
+            "image": "assets/images/products/pakel/pakel-candies-kola-70gr.webp"
+          },
+          {
+            "id": "bonjuks-shokolad-klubnika-70gr",
+            "name": "BONJUKS Шоколад Клубника",
+            "image": "assets/images/products/bonjuks/bonjuks-chocolate-klubnika-70gr.webp"
+          },
+          {
+            "id": "miskets-konfety-kola-70gr",
+            "name": "MISKETS Конфеты Кола",
+            "image": "assets/images/products/miskets/miskets-candies-kola-70gr.webp"
+          },
+          {
+            "id": "pakel-pl1165-chocolate-100gr",
+            "name": "PL1165",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v1.webp"
+          },
+          {
+            "id": "pakel-pl1776-chocolate-70gr",
+            "name": "PL1776",
+            "image": "assets/images/products/pakel/pakel-candies-kola-70gr.webp"
+          },
+          {
+            "id": "pakel-pl1777-chocolate-70gr",
+            "name": "PL1777",
+            "image": "assets/images/products/pakel/pakel-chocolate-klubnika-70gr-v1.webp"
+          },
+          {
+            "id": "pakel-pl1030-chocolate-100gr",
+            "name": "PL1030",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v2.webp"
+          },
+          {
+            "id": "pakel-pl1040-chocolate-100gr",
+            "name": "PL1040",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v3.webp"
+          },
+          {
+            "id": "pakel-pl1041-chocolate-100gr",
+            "name": "PL1041",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v4.webp"
+          },
+          {
+            "id": "pakel-pl1048-chocolate-25gr",
+            "name": "PL1048",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-25gr-v1.webp"
+          },
+          {
+            "id": "pakel-pl1169-chocolate-42gr",
+            "name": "PL1169",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-42gr-v1.webp"
+          },
+          {
+            "id": "pakel-pl0899-фундук-chocolate-60gr",
+            "name": "PL0899 Фундук",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr.webp"
+          },
+          {
+            "id": "pakel-pl0900-фисташка-chocolate-60gr",
+            "name": "PL0900 Фисташка",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr-v1.webp"
+          },
+          {
+            "id": "pakel-pl0901-миндал-chocolate-60gr",
+            "name": "PL0901 Миндал",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr-v2.webp"
+          },
+          {
+            "id": "pakel-pl0902-chocolate-90gr",
+            "name": "PL0902",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-90gr-v1.webp"
+          },
+          {
+            "id": "pakel-pl0903-chocolate-90gr",
+            "name": "PL0903",
+            "image": "assets/images/products/pakel/pakel-chocolate-kola-90gr-v2.webp"
+          }
+        ]
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-remeshki-yabloko-1000gr",
+          "name": "TAYAS Ремешки Яблоко",
+          "suggestedId": "tayas-belts-1000gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-klubnika-15gr",
+          "name": "TAYAS Клубника",
+          "suggestedId": "tayas-tayas---------15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-raduga-15gr",
+          "name": "TAYAS Радуга",
+          "suggestedId": "tayas-tayas-------15gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-novinka-netu-4018-kislye-remeshki-golubika-15gr",
+          "name": "TAYAS Голубика",
+          "suggestedId": "tayas-tayas---------15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-karandashi-malina-300gr",
+          "name": "TAYAS Карандаши Малина",
+          "suggestedId": "tayas-pencils-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-remeshki-malina-300gr",
+          "name": "TAYAS Ремешки Малина",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-15440-damla-assortment-90gr-candies-1000gr",
+          "name": "15440 Damla Assortment 90gr",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-5550-damla-assortment-1kg-candies-1000gr",
+          "name": "5550 Damla Assortment 1kg",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-5567-damla-new-2-1kg-candies-1000gr",
+          "name": "5567 Damla New 2 1kg",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-5572-damla-new-2-90gr-candies-1000gr",
+          "name": "5572 Damla New 2 90gr",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-5595-damla-coffee-candies-1000gr",
+          "name": "5595 Damla Coffee",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-5652-damla-sour-1kg-candies-1000gr",
+          "name": "5652 Damla Sour 1kg",
+          "suggestedId": "tayas-candies-1000gr-sour"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-7285-multi-fruit-candies-1000gr",
+          "name": "7285 Multi Fruit",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-7287-coffee-intense-170gr-candies-1000gr",
+          "name": "7287 Coffee Intense 170gr",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-7296-choco-mint-candies-1000gr",
+          "name": "7296 Choco mint",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-7341-coffee-intense-90gr-candies-1000gr",
+          "name": "7341 Coffee Intense 90gr",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-7342-coffee-intense-1kg-candies-1000gr",
+          "name": "7342 Coffee Intense 1kg",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8076-coffee-intense-500gr-candies-1000gr",
+          "name": "8076 Coffee Intense 500gr",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8381-fruity-duos-candies-1000gr",
+          "name": "8381 Fruity Duos",
+          "suggestedId": "tayas-candies-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8483-радуга-карандаши-belts-1000gr",
+          "name": "8483 Радуга  карандаши",
+          "suggestedId": "tayas-belts-1000gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8484-клубника-карандаши-belts-1000gr",
+          "name": "8484 Клубника Карандаши",
+          "suggestedId": "tayas-belts-1000gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8485-радуга-ремешки-belts-1000gr",
+          "name": "8485 Радуга ремешки",
+          "suggestedId": "tayas-belts-1000gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8486-клубника-ремешки-belts-1000gr",
+          "name": "8486 Клубника Ремешки",
+          "suggestedId": "tayas-belts-1000gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8487-кола-ремешки-belts-1000gr",
+          "name": "8487 Кола ремешки",
+          "suggestedId": "tayas-belts-1000gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8488-малина-ежевика-ремешки-belts-1000gr",
+          "name": "8488 Малина Ежевика ремешки",
+          "suggestedId": "tayas-belts-1000gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8495-кола-карандаши-belts-1000gr",
+          "name": "8495 Кола карандаши",
+          "suggestedId": "tayas-belts-1000gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8884-яблоко-ремешки-belts-1000gr",
+          "name": "8884 Яблоко ремешки",
+          "suggestedId": "tayas-belts-1000gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1080-радуга-ремешки-belts-300gr",
+          "name": "1080 Радуга Ремешки",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1941-радуга-карандаши-belts-300gr",
+          "name": "1941 Радуга карандаши",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1943-малина-карандаши-belts-300gr",
+          "name": "1943 Малина  Карандаши",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1944-бабл-гам-карандаши-belts-300gr",
+          "name": "1944 бабл гам Карандаши",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1945-вишня-карандаши-belts-300gr",
+          "name": "1945 Вишня Карандаши",
+          "suggestedId": "tayas-belts-300gr------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1946-виноград-карандаши-belts-300gr",
+          "name": "1946 Виноград Карандаши",
+          "suggestedId": "tayas-belts-300gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1948-клубника-ремешки-belts-300gr",
+          "name": "1948 Клубника Ремешки",
+          "suggestedId": "tayas-belts-300gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1949-малина-ежевика-ремешки-belts-300gr",
+          "name": "1949 Малина Ежевика Ремешки",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1950-яблоко-ремешки-belts-300gr",
+          "name": "1950 Яблоко Ремешки",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1951-лимон-ремешки-belts-300gr",
+          "name": "1951 Лимон Ремешки",
+          "suggestedId": "tayas-belts-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1952-банан-клубника-ремешки-belts-300gr",
+          "name": "1952 Банан Клубника ремешки",
+          "suggestedId": "tayas-belts-300gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1953-арбуз-ремешки-belts-300gr",
+          "name": "1953 Арбуз ремешки",
+          "suggestedId": "tayas-belts-300gr------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2439-мишки-bears-1000gr",
+          "name": "2439 Мишки",
+          "suggestedId": "tayas-bears-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2441-фруктовый-сад-marmalade-1000gr",
+          "name": "2441 Фруктовый сад",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2442-червячки-marmalade-1000gr",
+          "name": "2442 Червячки",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2452-мини-крокодил-marmalade-1000gr",
+          "name": "2452 Мини Крокодил",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2455-биг-крокодил-marmalade-1000gr",
+          "name": "2455 Биг Крокодил",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2458-акула-marmalade-1000gr",
+          "name": "2458 Акула",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2747-зубки-marmalade-1000gr",
+          "name": "2747 Зубки",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2849-пончик-marmalade-1000gr",
+          "name": "2849 Пончик",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3041-биг-кола-marmalade-1000gr",
+          "name": "3041 Биг Кола",
+          "suggestedId": "tayas-marmalade-1000gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3959-яйцо-marmalade-1000gr",
+          "name": "3959 Яйцо",
+          "suggestedId": "tayas-marmalade-1000gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3824-кислые-червячки-marmalade-150gr",
+          "name": "3824 Кислые Червячки",
+          "suggestedId": "tayas-marmalade-150gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3826-кислый-фруктовый-сад-marmalade-150gr",
+          "name": "3826 Кислый Фруктовый сад",
+          "suggestedId": "tayas-marmalade-150gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3800-damla-fruit-marmalade-20gr",
+          "name": "3800 Damla Fruit",
+          "suggestedId": "tayas-marmalade-20gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-9309-vaio-fruit-marmalade-20gr",
+          "name": "9309 Vaio Fruit",
+          "suggestedId": "tayas-marmalade-20gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2874-пончик-marmalade-300gr",
+          "name": "2874 Пончик",
+          "suggestedId": "tayas-marmalade-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2876-червячки-marmalade-300gr",
+          "name": "2876 Червячки",
+          "suggestedId": "tayas-marmalade-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2886-капля-marmalade-300gr",
+          "name": "2886 Капля",
+          "suggestedId": "tayas-marmalade-300gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3006-бабл-гам-оил-belts-1000gr",
+          "name": "3006 Бабл гам оил",
+          "suggestedId": "tayas-belts-1000gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3010-виноград-оил-belts-1000gr",
+          "name": "3010 Виноград оил",
+          "suggestedId": "tayas-belts-1000gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8482-ассорти-оил-belts-1000gr",
+          "name": "8482 Ассорти оил",
+          "suggestedId": "tayas-belts-1000gr--------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-1753-арбуз-2-belts-15gr",
+          "name": "1753 Арбуз 2",
+          "suggestedId": "tayas-belts-15gr------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-арбуз-коробка-15гр72шт6бл-tayash-1753-belts-15gr",
+          "name": "Кислые ремешки DAMLA,Арбуз,коробка 15гр72шт6бл Tayash №1753",
+          "suggestedId": "tayas-belts-15gr------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2999-малина-ежевика-россия-2-belts-15gr",
+          "name": "2999 Малина Ежевика ( РОССИЯ )  2",
+          "suggestedId": "tayas-belts-15gr--------------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-15гр-флаг-россии-малина-ежевика-коробка-72шт6бл-tayash-2999-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, флаг РОССИИ (малина, ежевика),коробка 72шт6бл Tayash №2999",
+          "suggestedId": "tayas-belts-15gr--------------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3000-виноград-2-belts-15gr",
+          "name": "3000 Виноград 2",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-15гр-виноград-коробка-72шт6бл-tayas-ts3000-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, виноград,коробка 72шт6бл Tayas №TS3000",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3003-пина-колада-2-belts-15gr",
+          "name": "3003 Пина Колада 2",
+          "suggestedId": "tayas-belts-15gr-----------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-15гр-пина-колада-кокос-ананас-коробка-72шт6бл-tayas-3003-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, пина колада (кокос, ананас),коробка 72шт6бл Tayas №3003",
+          "suggestedId": "tayas-belts-15gr-----------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8542-клубника-1-belts-15gr",
+          "name": "8542 Клубника 1",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8542-клубника-2-belts-15gr",
+          "name": "8542 Клубника 2",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-клубника-коробка-15гр72шт6бл-tayash-8542-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Клубника,коробка 15гр72шт6бл Tayash №8542",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8543-кола-2-belts-15gr",
+          "name": "8543 Кола 2",
+          "suggestedId": "tayas-belts-15gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-кола-коробка-15гр72шт6бл-tayash-8543-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543",
+          "suggestedId": "tayas-belts-15gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8544-радуга-2-belts-15gr",
+          "name": "8544 Радуга 2",
+          "suggestedId": "tayas-belts-15gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-радуга-коробка-15гр72шт6бл-tayash-8544-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Радуга,коробка 15гр72шт6бл Tayash №8544",
+          "suggestedId": "tayas-belts-15gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-4018-голубика-1-belts-15gr",
+          "name": "4018 Голубика 1",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-4018-голубика-2-belts-15gr",
+          "name": "4018 Голубика 2",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-15гр-голубика-коробка-72шт6бл-tayas-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, Голубика,коробка 72шт6бл Tayas",
+          "suggestedId": "tayas-belts-15gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8944-яблоко-1-belts-15gr",
+          "name": "8944 Яблоко 1",
+          "suggestedId": "tayas-belts-15gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8944-яблоко-2-belts-15gr",
+          "name": "8944 Яблоко 2",
+          "suggestedId": "tayas-belts-15gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-damla-яблоко-коробка-15гр72шт6бл-tayash-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Яблоко,коробка 15гр72шт6бл Tayash",
+          "suggestedId": "tayas-belts-15gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2097-мишки-bears-80gr",
+          "name": "2097 Мишки",
+          "suggestedId": "tayas-bears-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2101-damla-gummy-oiled-fruit-garden-4g-80-gr-bag-12x6-sticker-40x60-mm-marmalade-80gr",
+          "name": "2101 DAMLA GUMMY (OILED) FRUIT GARDEN (4G) 80 GR BAG (12X6) STICKER 40X60 MM",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2101-фруктовый-сад-marmalade-80gr",
+          "name": "2101 Фруктовый сад",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2104-червячки-marmalade-80gr",
+          "name": "2104 Червячки",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2450-damla-gummy-oiled-crocodile-4gr-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2450 DAMLA GUMMY (OILED) CROCODILE (4GR) 80 GR BAG STICKER 40X60 MM",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2450-крокодил-marmalade-80gr",
+          "name": "2450 Крокодил",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2464-damla-gummy-oiled-alphabet-2-5g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2464 DAMLA GUMMY (OILED) ALPHABET (2,5G) 80 GR BAG STICKER 40X60 MM",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2464-алфавит-marmalade-80gr",
+          "name": "2464 Алфавит",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2465-damla-gummy-foam-oiled-teeth-4g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2465 DAMLA GUMMY&FOAM (OILED) TEETH (4G) 80 GR BAG STICKER 40X60 MM",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2465-зубки-marmalade-80gr",
+          "name": "2465 Зубки",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2466-damla-gummy-foam-oiled-cheesecake-4g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2466 DAMLA GUMMY&FOAM (OILED) CHEESECAKE (4G) 80 GR BAG STICKER 40X60 MM",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2466-чизкейк-marmalade-80gr",
+          "name": "2466 Чизкейк",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2203-кола-marmalade-80gr",
+          "name": "2203 Кола",
+          "suggestedId": "tayas-marmalade-80gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2204-кислая-кола-marmalade-80gr",
+          "name": "2204 Кислая Кола",
+          "suggestedId": "tayas-marmalade-80gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-2213-кислые-червячки-marmalade-80gr",
+          "name": "2213 Кислые Червячки",
+          "suggestedId": "tayas-marmalade-80gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3294-крокодил-marmalade-80gr",
+          "name": "3294 Крокодил",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-3297-зубки-marmalade-80gr",
+          "name": "3297 Зубки",
+          "suggestedId": "tayas-marmalade-80gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-ремешки-jimmy-sour-belts-ассорти-упаковка-75гр12шт6бл-tayash-1420-belts-75gr",
+          "name": "Кислые ремешки Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1420",
+          "suggestedId": "tayas-belts-75gr-------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-ассорти-карандаш-belts-75gr",
+          "name": "Ассорти Карандаш",
+          "suggestedId": "tayas-belts-75gr--------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-карандаши-damla-ассорти-упаковка-75гр12шт6бл-tayash-3091-belts-75gr",
+          "name": "Кислые карандаши DAMLA, Ассорти, упаковка 75гр12шт6бл Tayash №3091",
+          "suggestedId": "tayas-belts-75gr--------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-кислые-карандаши-jimmy-sour-belts-ассорти-упаковка-75гр12шт6бл-tayash-1421-belts-75gr",
+          "name": "Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421",
+          "suggestedId": "tayas-belts-75gr--------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-apel-sin-700gr",
+          "name": "TAYAS Апельсин",
+          "suggestedId": "tayas-tayas---------700gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-6364-клубника-candies-700gr",
+          "name": "6364 Клубника",
+          "suggestedId": "tayas-candies-700gr---------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-6375-колф-candies-700gr",
+          "name": "6375 Колф",
+          "suggestedId": "tayas-candies-700gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-6379-арбуз-candies-700gr",
+          "name": "6379 Арбуз",
+          "suggestedId": "tayas-candies-700gr------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-6424-ассорти-candies-700gr",
+          "name": "6424 Ассорти",
+          "suggestedId": "tayas-candies-700gr--------"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8411-jimmy-20gr-chocolate-20gr",
+          "name": "8411 Jimmy 20gr",
+          "suggestedId": "tayas-chocolate-20gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "tayas-8399-jimmy-panda-40gr-chocolate-40gr",
+          "name": "8399 Jimmy Panda 40gr",
+          "suggestedId": "tayas-chocolate-40gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "pakel-pl8210-chocolate-20gr",
+          "name": "PL8210",
+          "suggestedId": "pakel-chocolate-20gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "pakel-pl8277-chocolate-20gr",
+          "name": "PL8277",
+          "suggestedId": "pakel-chocolate-20gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "pakel-pl9798-lokum",
+          "name": "PL9798",
+          "suggestedId": "pakel-lokum"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "pakel-pl9859-lokum",
+          "name": "PL9859",
+          "suggestedId": "pakel-lokum"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "pakel-pl0536-lokum",
+          "name": "PL0536",
+          "suggestedId": "pakel-lokum"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "pakel-pl1722-dragee-493gr",
+          "name": "PL1722",
+          "suggestedId": "pakel-dragee-493gr"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "pakel-pl1515-candies-80gr",
+          "name": "PL1515",
+          "suggestedId": "pakel-candies-80gr-----"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "love-me-af0002-klubnika-belts-belts",
+          "name": "AF0002 Klubnika belts",
+          "suggestedId": "loveme-belts"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "love-me-af0003-arbuz-belts-belts",
+          "name": "AF0003 Arbuz belts",
+          "suggestedId": "loveme-belts"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "love-me-af0004-pina-colada-belts-belts",
+          "name": "AF0004 Pina colada belts",
+          "suggestedId": "loveme-belts"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "love-me-af0005-malina-ejevika-belts-belts",
+          "name": "AF0005 Malina Ejevika belts",
+          "suggestedId": "loveme-belts"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "love-me-af0006-raduqa-belts-belts",
+          "name": "AF0006 Raduqa belts",
+          "suggestedId": "loveme-belts"
+        }
+      },
+      {
+        "type": "id_conflict",
+        "product": {
+          "id": "panda-lee-shokolad-kola-20gr",
+          "name": "PANDA LEE Шоколад Кола",
+          "suggestedId": "pandalee-chocolate-20gr-----"
+        }
+      }
+    ],
+    "afterCount": 261
+  },
+  "duplicateGroups": [
+    {
+      "count": 51,
+      "products": [
+        {
+          "id": "damla-assorti-30gr",
+          "name": "DAMLA Assorti",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-assorti-30gr.webp"
+        },
+        {
+          "id": "damla-bears-80gr",
+          "name": "DAMLA Мишки",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "image": "assets/images/products/damla/damla-bears.webp"
+        },
+        {
+          "id": "damla-klubnika-15gr",
+          "name": "DAMLA Клубника",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-klubnika-15gr.webp"
+        },
+        {
+          "id": "tayas-tropik-30gr",
+          "name": "TAYAS Тропик",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tropik-30gr.webp"
+        },
+        {
+          "id": "tayas-klubnika-30gr",
+          "name": "TAYAS Клубника",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-klubnika-30gr.webp"
+        },
+        {
+          "id": "tayas-kola-30gr",
+          "name": "TAYAS Кола",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-kola-30gr.webp"
+        },
+        {
+          "id": "tayas-malina-30gr",
+          "name": "TAYAS Малина",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-malina-30gr.webp"
+        },
+        {
+          "id": "tayas-assorti-30gr",
+          "name": "TAYAS Ассорти",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-assorti-30gr.webp"
+        },
+        {
+          "id": "tayas-yabloko-30gr",
+          "name": "TAYAS Яблоко",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-yabloko-30gr.webp"
+        },
+        {
+          "id": "damla-arbuz-15gr",
+          "name": "DAMLA Арбуз",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-arbuz-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-arbuz-15gr",
+          "name": "DAMLA Ремешки Арбуз",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-assorti-30gr.webp"
+        },
+        {
+          "id": "damla-malina-15gr",
+          "name": "DAMLA Малина",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-malina-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-malina-15gr",
+          "name": "DAMLA Ремешки Малина",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-belts-malina-15gr.webp"
+        },
+        {
+          "id": "damla-vinograd-15gr",
+          "name": "DAMLA Виноград",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-vinograd-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-vinograd-15gr",
+          "name": "DAMLA Ремешки Виноград",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-belts-vinograd-15gr.webp"
+        },
+        {
+          "id": "damla-kola-15gr",
+          "name": "DAMLA Кола",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-kola-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-kola-15gr",
+          "name": "DAMLA Ремешки Кола",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-belts-kola-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-klubnika-15gr",
+          "name": "DAMLA Ремешки Клубника",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-belts-klubnika-15gr.webp"
+        },
+        {
+          "id": "damla-raduga-15gr",
+          "name": "DAMLA Радуга",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-raduga-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-raduga-15gr",
+          "name": "DAMLA Ремешки Радуга",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-belts-raduga-15gr.webp"
+        },
+        {
+          "id": "damla-novinka-netu-4018-kislye-remeshki-golubika-15gr",
+          "name": "DAMLA Голубика",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-golubika-15gr.webp"
+        },
+        {
+          "id": "damla-novinka-netu-8944-kislye-remeshki-yabloko-15gr",
+          "name": "DAMLA Яблоко",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "15gr",
+          "image": "assets/images/products/damla/damla-yabloko-15gr.webp"
+        },
+        {
+          "id": "damla-tropik-30gr",
+          "name": "DAMLA Тропик",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-tropik-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-tropik-30gr",
+          "name": "DAMLA Трубочки Тропик",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-tubes-tropik-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-klubnika-30gr",
+          "name": "DAMLA Трубочки Клубника",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-tubes-klubnika-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-kola-30gr",
+          "name": "DAMLA Трубочки Кола",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-tubes-kola-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-malina-30gr",
+          "name": "DAMLA Трубочки Малина",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-tubes-malina-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-assorti-30gr",
+          "name": "DAMLA Трубочки Ассорти",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-tubes-assorti-30gr.webp"
+        },
+        {
+          "id": "damla-yabloko-30gr",
+          "name": "DAMLA Яблоко",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-yabloko-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-yabloko-30gr",
+          "name": "DAMLA Трубочки Яблоко",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/damla/damla-tubes-yabloko-30gr.webp"
+        },
+        {
+          "id": "damla-remeshki-assorti-75gr",
+          "name": "DAMLA Ремешки Ассорти",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "75gr",
+          "image": "assets/images/products/damla/damla-belts-assorti-75gr.webp"
+        },
+        {
+          "id": "damla-karandashi-assorti-75gr",
+          "name": "DAMLA Карандаши Ассорти",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "75gr",
+          "image": "assets/images/products/damla/damla-pencils-assorti-75gr.webp"
+        },
+        {
+          "id": "damla-damla-80gr",
+          "name": "DAMLA Мишки",
+          "brand": "DAMLA",
+          "category": "marmalade",
+          "weight": "80gr",
+          "image": "assets/images/products/damla/damla-bears-80gr.webp"
+        },
+        {
+          "id": "tayas-8705-тропик-2-tubes-30gr",
+          "name": "8705 Тропик 2",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr.webp"
+        },
+        {
+          "id": "tayas-8705-тропик-tubes-30gr",
+          "name": "8705 Тропик",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-тропикал-упаковка-30гр24шт8бл-8705-tubes-30gr",
+          "name": "Кислые трубочки Damla,Тропикал,упаковка 30гр24шт8бл №8705",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8706-клубника-1-tubes-30gr",
+          "name": "8706 Клубника 1",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr.webp"
+        },
+        {
+          "id": "tayas-8706-клубника-2-tubes-30gr",
+          "name": "8706 Клубника 2",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-клубника-упаковка-30гр24шт8бл-8706-tubes-30gr",
+          "name": "Кислые трубочки Damla,Клубника,упаковка 30гр24шт8бл №8706",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8478-кола-1-tubes-30gr",
+          "name": "8478 Кола 1",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-kola-30gr.webp"
+        },
+        {
+          "id": "tayas-8478-кола-2-tubes-30gr",
+          "name": "8478 Кола 2",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-kola-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-кола-упаковка-30гр24шт8бл-8707-tubes-30gr",
+          "name": "Кислые трубочки Damla,Кола,упаковка 30гр24шт8бл №8707",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-kola-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8479-малина-ежевика-1-tubes-30gr",
+          "name": "8479 Малина Ежевика 1",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr.webp"
+        },
+        {
+          "id": "tayas-8479-малина-ежевика-2-tubes-30gr",
+          "name": "8479 Малина Ежевика 2",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-малина-ежевика-упаковка-30гр24шт8бл-8708-tubes-30gr",
+          "name": "Кислые трубочки Damla,Малина-Ежевика,упаковка 30гр24шт8бл №8708",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8480-ассорти-1-tubes-30gr",
+          "name": "8480 Ассорти 1",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr.webp"
+        },
+        {
+          "id": "tayas-8480-ассорти-2-tubes-30gr",
+          "name": "8480 Ассорти 2",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-ассорти-упаковка-30гр24шт8бл-8709-tubes-30gr",
+          "name": "Кислые трубочки Damla,Ассорти,упаковка 30гр24шт8бл №8709",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8923-яблоко-1-tubes-30gr",
+          "name": "8923 Яблоко 1",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr.webp"
+        },
+        {
+          "id": "tayas-8923-яблоко-2-tubes-30gr",
+          "name": "8923 Яблоко 2",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-яблоко-упаковка-30гр24шт8бл-8923-tubes-30gr",
+          "name": "Кислые трубочки Damla,Яблоко, упаковка 30гр24шт8бл №8923",
+          "brand": "TAYAS",
+          "category": "marmalade",
+          "weight": "30gr",
+          "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr-v2.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 2,
+        "details": [
+          "brand",
+          "category"
+        ],
+        "nameSimilarity": 0.41666666666666663,
+        "tagsSimilarity": 0.2
+      }
+    },
+    {
+      "count": 2,
+      "products": [
+        {
+          "id": "jimmy-chocolate-20gr",
+          "name": "JIMMY Chocolate",
+          "brand": "JIMMY",
+          "category": "chocolate",
+          "image": "assets/images/products/jimmy/jimmy-v1.webp"
+        },
+        {
+          "id": "jimmy-shokolad-kola-20gr",
+          "name": "JIMMY Шоколад Кола",
+          "brand": "JIMMY",
+          "category": "chocolate",
+          "weight": "20gr",
+          "image": "assets/images/products/jimmy/jimmy-v1.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 2,
+        "details": [
+          "brand",
+          "category"
+        ],
+        "nameSimilarity": 0.3125,
+        "tagsSimilarity": 0.25
+      }
+    },
+    {
+      "count": 2,
+      "products": [
+        {
+          "id": "miskets-sour-cubes",
+          "name": "MISKETS Sour Cubes",
+          "brand": "MISKETS",
+          "category": "candy",
+          "image": "assets/images/products/miskets/miskets.webp"
+        },
+        {
+          "id": "miskets-miskets-unknown",
+          "name": "MISKETS Лукум",
+          "brand": "MISKETS",
+          "category": "candy",
+          "image": "assets/images/products/miskets/miskets-lokum.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 2,
+        "details": [
+          "brand",
+          "category"
+        ],
+        "nameSimilarity": 0.4375,
+        "tagsSimilarity": 0
+      }
+    },
+    {
+      "count": 4,
+      "products": [
+        {
+          "id": "dubai-cake",
+          "name": "Dubai Cake",
+          "brand": "OSLO",
+          "category": "cookies",
+          "image": "assets/images/products/oslo/oslo.webp"
+        },
+        {
+          "id": "oslo-bs0002-red-love",
+          "name": "BS0002 Red Love",
+          "brand": "OSLO",
+          "category": "cookies",
+          "image": "assets/images/products/oslo/oslo-v1.webp"
+        },
+        {
+          "id": "oslo-bs0003-manela-donut",
+          "name": "BS0003 Manela Donut",
+          "brand": "OSLO",
+          "category": "cookies",
+          "image": "assets/images/products/oslo/oslo-v2.webp"
+        },
+        {
+          "id": "oslo-bs0004-arrivo-banana",
+          "name": "BS0004 Arrivo Banana",
+          "brand": "OSLO",
+          "category": "cookies",
+          "image": "assets/images/products/oslo/oslo-v3.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 2,
+        "details": [
+          "brand",
+          "category"
+        ],
+        "nameSimilarity": 0.07692307692307687,
+        "tagsSimilarity": 0.6666666666666666
+      }
+    },
+    {
+      "count": 16,
+      "products": [
+        {
+          "id": "pakel-konfety-kola-70gr",
+          "name": "PAKEL Конфеты Кола",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "70gr",
+          "image": "assets/images/products/pakel/pakel-candies-kola-70gr.webp"
+        },
+        {
+          "id": "bonjuks-shokolad-klubnika-70gr",
+          "name": "BONJUKS Шоколад Клубника",
+          "brand": "BONJUKS",
+          "category": "chocolate",
+          "weight": "70gr",
+          "image": "assets/images/products/bonjuks/bonjuks-chocolate-klubnika-70gr.webp"
+        },
+        {
+          "id": "miskets-konfety-kola-70gr",
+          "name": "MISKETS Конфеты Кола",
+          "brand": "MISKETS",
+          "category": "chocolate",
+          "weight": "70gr",
+          "image": "assets/images/products/miskets/miskets-candies-kola-70gr.webp"
+        },
+        {
+          "id": "pakel-pl1165-chocolate-100gr",
+          "name": "PL1165",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "100gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl1776-chocolate-70gr",
+          "name": "PL1776",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "70gr",
+          "image": "assets/images/products/pakel/pakel-candies-kola-70gr.webp"
+        },
+        {
+          "id": "pakel-pl1777-chocolate-70gr",
+          "name": "PL1777",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "70gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-klubnika-70gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl1030-chocolate-100gr",
+          "name": "PL1030",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "100gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v2.webp"
+        },
+        {
+          "id": "pakel-pl1040-chocolate-100gr",
+          "name": "PL1040",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "100gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v3.webp"
+        },
+        {
+          "id": "pakel-pl1041-chocolate-100gr",
+          "name": "PL1041",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "100gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v4.webp"
+        },
+        {
+          "id": "pakel-pl1048-chocolate-25gr",
+          "name": "PL1048",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "25gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-25gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl1169-chocolate-42gr",
+          "name": "PL1169",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "42gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-42gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl0899-фундук-chocolate-60gr",
+          "name": "PL0899 Фундук",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "60gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr.webp"
+        },
+        {
+          "id": "pakel-pl0900-фисташка-chocolate-60gr",
+          "name": "PL0900 Фисташка",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "60gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl0901-миндал-chocolate-60gr",
+          "name": "PL0901 Миндал",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "60gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr-v2.webp"
+        },
+        {
+          "id": "pakel-pl0902-chocolate-90gr",
+          "name": "PL0902",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "90gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-90gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl0903-chocolate-90gr",
+          "name": "PL0903",
+          "brand": "PAKEL",
+          "category": "chocolate",
+          "weight": "90gr",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-90gr-v2.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 2,
+        "details": [
+          "category",
+          "weight"
+        ],
+        "nameSimilarity": 0.18181818181818177,
+        "tagsSimilarity": 0.5555555555555556
+      }
+    },
+    {
+      "count": 2,
+      "products": [
+        {
+          "id": "bonjuks-shokolad-kola-100gr",
+          "name": "BONJUKS Шоколад Кола",
+          "brand": "BONJUKS",
+          "category": "chocolate",
+          "weight": "100gr",
+          "image": "assets/images/products/bonjuks/bonjuks-chocolate-kola-100gr.webp"
+        },
+        {
+          "id": "miskets-shokolad-kola-100gr",
+          "name": "MISKETS Шоколад Кола",
+          "brand": "MISKETS",
+          "category": "chocolate",
+          "weight": "100gr",
+          "image": "assets/images/products/miskets/miskets-chocolate-kola-100gr.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 3,
+        "details": [
+          "category",
+          "weight",
+          "tags(0.71)"
+        ],
+        "nameSimilarity": 0.6666666666666667,
+        "tagsSimilarity": 0.7142857142857143
+      }
+    },
+    {
+      "count": 3,
+      "products": [
+        {
+          "id": "alikhan-ata-trubochki-18gr",
+          "name": "ALIKHANATA Трубочки",
+          "brand": "ALIKHANATA",
+          "category": "candy",
+          "weight": "18gr",
+          "image": "assets/images/products/alikhanata/alikhanata-tubes-18gr.webp"
+        },
+        {
+          "id": "alikhan-ata-sl0001-choco-tubes-18gr",
+          "name": "SL0001 Choco",
+          "brand": "ALIKHANATA",
+          "category": "candy",
+          "weight": "18gr",
+          "image": "assets/images/products/alikhanata/alikhanata-tubes-18gr-v1.webp"
+        },
+        {
+          "id": "alikhan-ata-sl0002-moloko-tubes-18gr",
+          "name": "SL0002 Moloko",
+          "brand": "ALIKHANATA",
+          "category": "candy",
+          "weight": "18gr",
+          "image": "assets/images/products/alikhanata/alikhanata-tubes-18gr-v2.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 3,
+        "details": [
+          "brand",
+          "category",
+          "weight"
+        ],
+        "nameSimilarity": 0.05555555555555558,
+        "tagsSimilarity": 0.6666666666666666
+      }
+    },
+    {
+      "count": 2,
+      "products": [
+        {
+          "id": "crafers-kf0013-mello-80gr",
+          "name": "CRAFERS KF0013 Mello",
+          "brand": "CRAFERS",
+          "category": "candy",
+          "weight": "80gr",
+          "image": "assets/images/products/crafers/crafers-80gr.webp"
+        },
+        {
+          "id": "crafers-kf0013-mello-80-gr-80gr",
+          "name": "KF0013 Mello 80 gr",
+          "brand": "CRAFERS",
+          "category": "candy",
+          "weight": "80gr",
+          "image": "assets/images/products/crafers/crafers-80gr-v1.webp"
+        }
+      ],
+      "details": {
+        "isDuplicate": true,
+        "matches": 4,
+        "details": [
+          "brand",
+          "category",
+          "weight",
+          "tags(0.75)"
+        ],
+        "nameSimilarity": 0.38888888888888884,
+        "tagsSimilarity": 0.75
+      }
+    }
+  ],
+  "variantGroups": [
+    {
+      "count": 6,
+      "products": [
+        {
+          "id": "jimmy-jimmybelts",
+          "name": "JIMMY Belts",
+          "brand": "JIMMY"
+        },
+        {
+          "id": "jimmy-jimmypencil",
+          "name": "JIMMY Pencil",
+          "brand": "JIMMY"
+        },
+        {
+          "id": "jimmy-belts-75gr--------",
+          "name": "JIMMY Ремешки Ассорти",
+          "brand": "JIMMY",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment"
+          ]
+        },
+        {
+          "id": "jimmy-belts-75gr-------",
+          "name": "JIMMY Ремешки Радуга",
+          "brand": "JIMMY",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow"
+          ]
+        },
+        {
+          "id": "jimmy-pencils-75gr--------",
+          "name": "JIMMY Карандаши Ассорти",
+          "brand": "JIMMY",
+          "weight": "75gr",
+          "type": "pencils",
+          "flavors": [
+            "ассорти",
+            "assortment"
+          ]
+        },
+        {
+          "id": "jimmy-jimmy-----80gr-----",
+          "name": "JIMMY Кола",
+          "brand": "JIMMY",
+          "weight": "80gr",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 2,
+      "products": [
+        {
+          "id": "kidzi-kidzi-----------------",
+          "name": "KIDZI Клубника",
+          "brand": "KIDZI",
+          "flavors": [
+            "клубника",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "kidzi-lokum",
+          "name": "KIDZI Лукум",
+          "brand": "KIDZI",
+          "type": "lokum"
+        }
+      ]
+    },
+    {
+      "count": 158,
+      "products": [
+        {
+          "id": "tayas-pencils-1000gr-----",
+          "name": "TAYAS Карандаши Кола",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "pencils",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-pencils-1000gr-------",
+          "name": "TAYAS Карандаши Радуга",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "pencils",
+          "flavors": [
+            "радуга",
+            "rainbow"
+          ]
+        },
+        {
+          "id": "tayas-belts-1000gr-------",
+          "name": "TAYAS Ремешки Радуга",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow"
+          ]
+        },
+        {
+          "id": "tayas-belts-1000gr-----",
+          "name": "TAYAS Ремешки Кола",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-remeshki-yabloko-1000gr",
+          "name": "TAYAS Ремешки Яблоко",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "яблоко",
+            "apple"
+          ]
+        },
+        {
+          "id": "tayas-tayas------15gr------",
+          "name": "TAYAS Арбуз",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "flavors": [
+            "арбуз",
+            "watermelon"
+          ]
+        },
+        {
+          "id": "tayas-tayas-------15gr-------",
+          "name": "TAYAS Малина",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "flavors": [
+            "малина",
+            "raspberry"
+          ]
+        },
+        {
+          "id": "tayas-tayas---------15gr---------",
+          "name": "TAYAS Виноград",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "flavors": [
+            "виноград",
+            "grape"
+          ]
+        },
+        {
+          "id": "tayas-tayas-----15gr-----",
+          "name": "TAYAS Кола",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-klubnika-15gr",
+          "name": "TAYAS Клубника",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "flavors": [
+            "клубника",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "tayas-raduga-15gr",
+          "name": "TAYAS Радуга",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "flavors": [
+            "радуга",
+            "rainbow"
+          ]
+        },
+        {
+          "id": "tayas-novinka-netu-4018-kislye-remeshki-golubika-15gr",
+          "name": "TAYAS Голубика",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "flavors": [
+            "голубика",
+            "blueberry"
+          ]
+        },
+        {
+          "id": "tayas-belts-300gr-------",
+          "name": "TAYAS Ремешки Радуга",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow"
+          ]
+        },
+        {
+          "id": "tayas-pencils-300gr-------",
+          "name": "TAYAS Карандаши Радуга",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "pencils",
+          "flavors": [
+            "радуга",
+            "rainbow"
+          ]
+        },
+        {
+          "id": "tayas-karandashi-malina-300gr",
+          "name": "TAYAS Карандаши Малина",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "pencils",
+          "flavors": [
+            "малина",
+            "raspberry"
+          ]
+        },
+        {
+          "id": "tayas-pencils-300gr------",
+          "name": "TAYAS Карандаши Вишня",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "pencils",
+          "flavors": [
+            "вишня",
+            "cherry"
+          ]
+        },
+        {
+          "id": "tayas-pencils-300gr-----",
+          "name": "TAYAS Карандаши Кола",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "pencils",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-remeshki-malina-300gr",
+          "name": "TAYAS Ремешки Малина",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "малина",
+            "raspberry"
+          ]
+        },
+        {
+          "id": "tayas-belts-300gr",
+          "name": "TAYAS Ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts"
+        },
+        {
+          "id": "tayas-belts-75gr--------",
+          "name": "TAYAS Ремешки Ассорти",
+          "brand": "TAYAS",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment"
+          ]
+        },
+        {
+          "id": "tayas-tayas--------75gr--------",
+          "name": "TAYAS Ассорти",
+          "brand": "TAYAS",
+          "weight": "75gr",
+          "flavors": [
+            "ассорти",
+            "assortment"
+          ]
+        },
+        {
+          "id": "tayas-bears-1000gr",
+          "name": "TAYAS Мишки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "bears"
+        },
+        {
+          "id": "tayas-marmalade-1000gr",
+          "name": "TAYAS Мармелад",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-tayas-----150gr-----",
+          "name": "TAYAS Кола",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-marmalade-150gr",
+          "name": "TAYAS Мармелад",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-marmalade-20gr",
+          "name": "TAYAS Мармелад",
+          "brand": "TAYAS",
+          "weight": "20gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-marmalade-300gr",
+          "name": "TAYAS Мармелад",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-bears-80gr",
+          "name": "TAYAS Мишки",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "bears"
+        },
+        {
+          "id": "tayas-candies-1000gr",
+          "name": "TAYAS Конфеты",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-pencils-1000gr--------",
+          "name": "TAYAS Карандаши Ассорти",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "pencils",
+          "flavors": [
+            "ассорти",
+            "assortment"
+          ]
+        },
+        {
+          "id": "tayas-pencils-1000gr---------",
+          "name": "TAYAS Карандаши Клубника",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "pencils",
+          "flavors": [
+            "клубника",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "tayas-belts-1000gr---------",
+          "name": "TAYAS Ремешки Клубника",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "tayas-belts-1000gr",
+          "name": "TAYAS Ремешки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts"
+        },
+        {
+          "id": "tayas-pencils-300gr",
+          "name": "TAYAS Карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "pencils"
+        },
+        {
+          "id": "tayas-pencils-300gr---------",
+          "name": "TAYAS Карандаши Виноград",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "pencils",
+          "flavors": [
+            "виноград",
+            "grape"
+          ]
+        },
+        {
+          "id": "tayas-belts-300gr------",
+          "name": "TAYAS Ремешки Арбуз",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "арбуз",
+            "watermelon"
+          ]
+        },
+        {
+          "id": "tayas-15440-damla-assortment-90gr-candies-1000gr",
+          "name": "15440 Damla Assortment 90gr",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-candies-1000gr-sour",
+          "name": "5394 Damla Sour 90gr",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies",
+          "flavors": [
+            "sour",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-5550-damla-assortment-1kg-candies-1000gr",
+          "name": "5550 Damla Assortment 1kg",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-5567-damla-new-2-1kg-candies-1000gr",
+          "name": "5567 Damla New 2 1kg",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-5572-damla-new-2-90gr-candies-1000gr",
+          "name": "5572 Damla New 2 90gr",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-5595-damla-coffee-candies-1000gr",
+          "name": "5595 Damla Coffee",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-5652-damla-sour-1kg-candies-1000gr",
+          "name": "5652 Damla Sour 1kg",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies",
+          "flavors": [
+            "sour",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-7285-multi-fruit-candies-1000gr",
+          "name": "7285 Multi Fruit",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-7287-coffee-intense-170gr-candies-1000gr",
+          "name": "7287 Coffee Intense 170gr",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-7296-choco-mint-candies-1000gr",
+          "name": "7296 Choco mint",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-7341-coffee-intense-90gr-candies-1000gr",
+          "name": "7341 Coffee Intense 90gr",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-7342-coffee-intense-1kg-candies-1000gr",
+          "name": "7342 Coffee Intense 1kg",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-8076-coffee-intense-500gr-candies-1000gr",
+          "name": "8076 Coffee Intense 500gr",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-8381-fruity-duos-candies-1000gr",
+          "name": "8381 Fruity Duos",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-belts-1000gr-----------",
+          "name": "3012 Пина Колада Карандаши ( Ананас Кокос )",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "пина колада",
+            "pina-colada"
+          ]
+        },
+        {
+          "id": "tayas-belts-1000gr--------",
+          "name": "8481 Ассорти карандаши",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8483-радуга-карандаши-belts-1000gr",
+          "name": "8483 Радуга  карандаши",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8484-клубника-карандаши-belts-1000gr",
+          "name": "8484 Клубника Карандаши",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8485-радуга-ремешки-belts-1000gr",
+          "name": "8485 Радуга ремешки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8486-клубника-ремешки-belts-1000gr",
+          "name": "8486 Клубника Ремешки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8487-кола-ремешки-belts-1000gr",
+          "name": "8487 Кола ремешки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "кола",
+            "cola",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8488-малина-ежевика-ремешки-belts-1000gr",
+          "name": "8488 Малина Ежевика ремешки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "малина",
+            "raspberry",
+            "ежевика",
+            "blackberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8495-кола-карандаши-belts-1000gr",
+          "name": "8495 Кола карандаши",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "кола",
+            "cola",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8884-яблоко-ремешки-belts-1000gr",
+          "name": "8884 Яблоко ремешки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "яблоко",
+            "apple",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1080-радуга-ремешки-belts-300gr",
+          "name": "1080 Радуга Ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-300gr--------",
+          "name": "1940 Ассорти Карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1941-радуга-карандаши-belts-300gr",
+          "name": "1941 Радуга карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-300gr---------",
+          "name": "1942 Клубника карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1943-малина-карандаши-belts-300gr",
+          "name": "1943 Малина  Карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "малина",
+            "raspberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1944-бабл-гам-карандаши-belts-300gr",
+          "name": "1944 бабл гам Карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1945-вишня-карандаши-belts-300gr",
+          "name": "1945 Вишня Карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "вишня",
+            "cherry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1946-виноград-карандаши-belts-300gr",
+          "name": "1946 Виноград Карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "виноград",
+            "grape",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-300gr-----",
+          "name": "1947 Кола Карандаши",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "кола",
+            "cola",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1948-клубника-ремешки-belts-300gr",
+          "name": "1948 Клубника Ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1949-малина-ежевика-ремешки-belts-300gr",
+          "name": "1949 Малина Ежевика Ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "малина",
+            "raspberry",
+            "ежевика",
+            "blackberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1950-яблоко-ремешки-belts-300gr",
+          "name": "1950 Яблоко Ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "яблоко",
+            "apple",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1951-лимон-ремешки-belts-300gr",
+          "name": "1951 Лимон Ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1952-банан-клубника-ремешки-belts-300gr",
+          "name": "1952 Банан Клубника ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1953-арбуз-ремешки-belts-300gr",
+          "name": "1953 Арбуз ремешки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "belts",
+          "flavors": [
+            "арбуз",
+            "watermelon",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-2439-мишки-bears-1000gr",
+          "name": "2439 Мишки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "bears"
+        },
+        {
+          "id": "tayas-marmalade-1000gr-----",
+          "name": "2440 Кола",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-2441-фруктовый-сад-marmalade-1000gr",
+          "name": "2441 Фруктовый сад",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2442-червячки-marmalade-1000gr",
+          "name": "2442 Червячки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2452-мини-крокодил-marmalade-1000gr",
+          "name": "2452 Мини Крокодил",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2455-биг-крокодил-marmalade-1000gr",
+          "name": "2455 Биг Крокодил",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2458-акула-marmalade-1000gr",
+          "name": "2458 Акула",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2747-зубки-marmalade-1000gr",
+          "name": "2747 Зубки",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2849-пончик-marmalade-1000gr",
+          "name": "2849 Пончик",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-3041-биг-кола-marmalade-1000gr",
+          "name": "3041 Биг Кола",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-3959-яйцо-marmalade-1000gr",
+          "name": "3959 Яйцо",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-bears-150gr",
+          "name": "3821 Мишки",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "type": "bears"
+        },
+        {
+          "id": "tayas-marmalade-150gr-----",
+          "name": "3822 Кола",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "type": "marmalade",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-marmalade-150gr-------",
+          "name": "3823 Малина Ежевика",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "type": "marmalade",
+          "flavors": [
+            "малина",
+            "raspberry",
+            "ежевика",
+            "blackberry"
+          ]
+        },
+        {
+          "id": "tayas-3824-кислые-червячки-marmalade-150gr",
+          "name": "3824 Кислые Червячки",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-marmalade-150gr------",
+          "name": "3825 Кислый Арбуз",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "type": "marmalade",
+          "flavors": [
+            "арбуз",
+            "watermelon",
+            "кислый",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-3826-кислый-фруктовый-сад-marmalade-150gr",
+          "name": "3826 Кислый Фруктовый сад",
+          "brand": "TAYAS",
+          "weight": "150gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислый",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-3800-damla-fruit-marmalade-20gr",
+          "name": "3800 Damla Fruit",
+          "brand": "TAYAS",
+          "weight": "20gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-marmalade-20gr------",
+          "name": "4076 Vaio Арбуз",
+          "brand": "TAYAS",
+          "weight": "20gr",
+          "type": "marmalade",
+          "flavors": [
+            "арбуз",
+            "watermelon"
+          ]
+        },
+        {
+          "id": "tayas-9309-vaio-fruit-marmalade-20gr",
+          "name": "9309 Vaio Fruit",
+          "brand": "TAYAS",
+          "weight": "20gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-marmalade-300gr-------",
+          "name": "2870 Фруктовый сад",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислый",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-2874-пончик-marmalade-300gr",
+          "name": "2874 Пончик",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислый",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-2876-червячки-marmalade-300gr",
+          "name": "2876 Червячки",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислый",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-marmalade-300gr------",
+          "name": "2877 Арбуз",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "marmalade",
+          "flavors": [
+            "арбуз",
+            "watermelon",
+            "кислый",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-2886-капля-marmalade-300gr",
+          "name": "2886 Капля",
+          "brand": "TAYAS",
+          "weight": "300gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислый",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-3006-бабл-гам-оил-belts-1000gr",
+          "name": "3006 Бабл гам оил",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-1000gr------",
+          "name": "3008 Вишня оил",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "вишня",
+            "cherry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-3010-виноград-оил-belts-1000gr",
+          "name": "3010 Виноград оил",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "виноград",
+            "grape",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8482-ассорти-оил-belts-1000gr",
+          "name": "8482 Ассорти оил",
+          "brand": "TAYAS",
+          "weight": "1000gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-15gr------",
+          "name": "1753 Арбуз 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "арбуз",
+            "watermelon",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-1753-арбуз-2-belts-15gr",
+          "name": "1753 Арбуз 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "арбуз",
+            "watermelon",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-арбуз-коробка-15гр72шт6бл-tayash-1753-belts-15gr",
+          "name": "Кислые ремешки DAMLA,Арбуз,коробка 15гр72шт6бл Tayash №1753",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "арбуз",
+            "watermelon",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-15gr--------------",
+          "name": "2999 Малина Ежевика ( РОССИЯ )  1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "малина-ежевика",
+            "raspberry-blackberry"
+          ]
+        },
+        {
+          "id": "tayas-2999-малина-ежевика-россия-2-belts-15gr",
+          "name": "2999 Малина Ежевика ( РОССИЯ )  2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "малина-ежевика",
+            "raspberry-blackberry"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-15гр-флаг-россии-малина-ежевика-коробка-72шт6бл-tayash-2999-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, флаг РОССИИ (малина, ежевика),коробка 72шт6бл Tayash №2999",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "малина-ежевика",
+            "raspberry-blackberry"
+          ]
+        },
+        {
+          "id": "tayas-belts-15gr---------",
+          "name": "3000 Виноград 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "виноград",
+            "grape",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-3000-виноград-2-belts-15gr",
+          "name": "3000 Виноград 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "виноград",
+            "grape",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-15гр-виноград-коробка-72шт6бл-tayas-ts3000-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, виноград,коробка 72шт6бл Tayas №TS3000",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "виноград",
+            "grape",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-15gr-----------",
+          "name": "3003 Пина Колада 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "пина колада",
+            "pina-colada"
+          ]
+        },
+        {
+          "id": "tayas-3003-пина-колада-2-belts-15gr",
+          "name": "3003 Пина Колада 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "пина колада",
+            "pina-colada"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-15гр-пина-колада-кокос-ананас-коробка-72шт6бл-tayas-3003-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, пина колада (кокос, ананас),коробка 72шт6бл Tayas №3003",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "пина колада",
+            "pina-colada"
+          ]
+        },
+        {
+          "id": "tayas-8542-клубника-1-belts-15gr",
+          "name": "8542 Клубника 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8542-клубника-2-belts-15gr",
+          "name": "8542 Клубника 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-клубника-коробка-15гр72шт6бл-tayash-8542-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Клубника,коробка 15гр72шт6бл Tayash №8542",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "клубника",
+            "strawberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-15gr-----",
+          "name": "8543 Кола 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "кола",
+            "cola",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8543-кола-2-belts-15gr",
+          "name": "8543 Кола 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "кола",
+            "cola",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-кола-коробка-15гр72шт6бл-tayash-8543-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "кола",
+            "cola",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-belts-15gr-------",
+          "name": "8544 Радуга 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8544-радуга-2-belts-15gr",
+          "name": "8544 Радуга 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-радуга-коробка-15гр72шт6бл-tayash-8544-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Радуга,коробка 15гр72шт6бл Tayash №8544",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-4018-голубика-1-belts-15gr",
+          "name": "4018 Голубика 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "голубика",
+            "blueberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-4018-голубика-2-belts-15gr",
+          "name": "4018 Голубика 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "голубика",
+            "blueberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-15гр-голубика-коробка-72шт6бл-tayas-belts-15gr",
+          "name": "Кислые ремешки DAMLA 15гр, Голубика,коробка 72шт6бл Tayas",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "голубика",
+            "blueberry",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8944-яблоко-1-belts-15gr",
+          "name": "8944 Яблоко 1",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "яблоко",
+            "apple",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-8944-яблоко-2-belts-15gr",
+          "name": "8944 Яблоко 2",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "яблоко",
+            "apple",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-damla-яблоко-коробка-15гр72шт6бл-tayash-belts-15gr",
+          "name": "Кислые ремешки DAMLA, Яблоко,коробка 15гр72шт6бл Tayash",
+          "brand": "TAYAS",
+          "weight": "15gr",
+          "type": "belts",
+          "flavors": [
+            "яблоко",
+            "apple",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-2097-мишки-bears-80gr",
+          "name": "2097 Мишки",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "bears"
+        },
+        {
+          "id": "tayas-marmalade-80gr",
+          "name": "2099 DAMLA GUMMY (OILED) COLA (4G) 80 GR BAG (12X6) STICKER 40X60 MM",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-marmalade-80gr-----",
+          "name": "2099 Кола",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-2101-damla-gummy-oiled-fruit-garden-4g-80-gr-bag-12x6-sticker-40x60-mm-marmalade-80gr",
+          "name": "2101 DAMLA GUMMY (OILED) FRUIT GARDEN (4G) 80 GR BAG (12X6) STICKER 40X60 MM",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2101-фруктовый-сад-marmalade-80gr",
+          "name": "2101 Фруктовый сад",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2104-червячки-marmalade-80gr",
+          "name": "2104 Червячки",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2450-damla-gummy-oiled-crocodile-4gr-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2450 DAMLA GUMMY (OILED) CROCODILE (4GR) 80 GR BAG STICKER 40X60 MM",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2450-крокодил-marmalade-80gr",
+          "name": "2450 Крокодил",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-marmalade-80gr-sour",
+          "name": "2462 DAMLA SOUR GUMMY&FOAM WATERMELON (4G) 80 GR BAG STICKER 40X60 MM",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade",
+          "flavors": [
+            "sour",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-marmalade-80gr------",
+          "name": "2462 Арбуз",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade",
+          "flavors": [
+            "арбуз",
+            "watermelon"
+          ]
+        },
+        {
+          "id": "tayas-2464-damla-gummy-oiled-alphabet-2-5g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2464 DAMLA GUMMY (OILED) ALPHABET (2,5G) 80 GR BAG STICKER 40X60 MM",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2464-алфавит-marmalade-80gr",
+          "name": "2464 Алфавит",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2465-damla-gummy-foam-oiled-teeth-4g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2465 DAMLA GUMMY&FOAM (OILED) TEETH (4G) 80 GR BAG STICKER 40X60 MM",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2465-зубки-marmalade-80gr",
+          "name": "2465 Зубки",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2466-damla-gummy-foam-oiled-cheesecake-4g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+          "name": "2466 DAMLA GUMMY&FOAM (OILED) CHEESECAKE (4G) 80 GR BAG STICKER 40X60 MM",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2466-чизкейк-marmalade-80gr",
+          "name": "2466 Чизкейк",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-2203-кола-marmalade-80gr",
+          "name": "2203 Кола",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-2204-кислая-кола-marmalade-80gr",
+          "name": "2204 Кислая Кола",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade",
+          "flavors": [
+            "кола",
+            "cola"
+          ]
+        },
+        {
+          "id": "tayas-marmalade-80gr-------",
+          "name": "2210 Кислые Фрукты",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-2213-кислые-червячки-marmalade-80gr",
+          "name": "2213 Кислые Червячки",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade",
+          "flavors": [
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-3294-крокодил-marmalade-80gr",
+          "name": "3294 Крокодил",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-3297-зубки-marmalade-80gr",
+          "name": "3297 Зубки",
+          "brand": "TAYAS",
+          "weight": "80gr",
+          "type": "marmalade"
+        },
+        {
+          "id": "tayas-belts-75gr-------",
+          "name": "Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090",
+          "brand": "TAYAS",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "ассорти",
+            "assortment",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-ремешки-jimmy-sour-belts-ассорти-упаковка-75гр12шт6бл-tayash-1420-belts-75gr",
+          "name": "Кислые ремешки Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1420",
+          "brand": "TAYAS",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "радуга",
+            "rainbow",
+            "ассорти",
+            "assortment",
+            "sour",
+            "sour",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-ассорти-карандаш-belts-75gr",
+          "name": "Ассорти Карандаш",
+          "brand": "TAYAS",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-карандаши-damla-ассорти-упаковка-75гр12шт6бл-tayash-3091-belts-75gr",
+          "name": "Кислые карандаши DAMLA, Ассорти, упаковка 75гр12шт6бл Tayash №3091",
+          "brand": "TAYAS",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment",
+            "кислые",
+            "sour"
+          ]
+        },
+        {
+          "id": "tayas-кислые-карандаши-jimmy-sour-belts-ассорти-упаковка-75гр12шт6бл-tayash-1421-belts-75gr",
+          "name": "Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421",
+          "brand": "TAYAS",
+          "weight": "75gr",
+          "type": "belts",
+          "flavors": [
+            "ассорти",
+            "assortment",
+            "sour",
+            "sour",
+            "кислые",
+            "sour"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 13,
+      "products": [
+        {
+          "id": "tayas-tayas-------700gr-------",
+          "name": "TAYAS Яблоко",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "flavors": [
+            "яблоко",
+            "apple"
+          ]
+        },
+        {
+          "id": "tayas-tayas---------700gr---------",
+          "name": "TAYAS Клубника",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "flavors": [
+            "клубника",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "tayas-candies-700gr",
+          "name": "TAYAS Конфеты",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-apel-sin-700gr",
+          "name": "TAYAS Апельсин",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "flavors": [
+            "апельсин",
+            "orange"
+          ]
+        },
+        {
+          "id": "tayas-tayas------700gr------",
+          "name": "TAYAS Вишня",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "flavors": [
+            "вишня",
+            "cherry"
+          ]
+        },
+        {
+          "id": "tayas-candies-700gr--------",
+          "name": "6306 Джар Ассорти",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies",
+          "flavors": [
+            "ассорти",
+            "assortment"
+          ]
+        },
+        {
+          "id": "tayas-candies-700gr-------",
+          "name": "6362 Яблоко",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies",
+          "flavors": [
+            "яблоко",
+            "apple"
+          ]
+        },
+        {
+          "id": "tayas-candies-700gr---------",
+          "name": "6363 Апельсин",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies",
+          "flavors": [
+            "апельсин",
+            "orange"
+          ]
+        },
+        {
+          "id": "tayas-6364-клубника-candies-700gr",
+          "name": "6364 Клубника",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies",
+          "flavors": [
+            "клубника",
+            "strawberry"
+          ]
+        },
+        {
+          "id": "tayas-candies-700gr------",
+          "name": "6365 Вишня",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies",
+          "flavors": [
+            "вишня",
+            "cherry"
+          ]
+        },
+        {
+          "id": "tayas-6375-колф-candies-700gr",
+          "name": "6375 Колф",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies"
+        },
+        {
+          "id": "tayas-6379-арбуз-candies-700gr",
+          "name": "6379 Арбуз",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies",
+          "flavors": [
+            "арбуз",
+            "watermelon"
+          ]
+        },
+        {
+          "id": "tayas-6424-ассорти-candies-700gr",
+          "name": "6424 Ассорти",
+          "brand": "TAYAS",
+          "weight": "700gr",
+          "type": "candies",
+          "flavors": [
+            "ассорти",
+            "assortment"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 14,
+      "products": [
+        {
+          "id": "tayas-chocolate-20gr-----",
+          "name": "TAYAS Шоколад Кола",
+          "brand": "TAYAS",
+          "weight": "20gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "tayas-chocolate-40gr-----",
+          "name": "TAYAS Шоколад Кола",
+          "brand": "TAYAS",
+          "weight": "40gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-chocolate-20gr-----",
+          "name": "PAKEL Шоколад Кола",
+          "brand": "PAKEL",
+          "weight": "20gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-chocolate-100gr-----",
+          "name": "PAKEL Шоколад Кола",
+          "brand": "PAKEL",
+          "weight": "100gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-chocolate-25gr-----",
+          "name": "PAKEL Шоколад Кола",
+          "brand": "PAKEL",
+          "weight": "25gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-chocolate-42gr-----",
+          "name": "PAKEL Шоколад Кола",
+          "brand": "PAKEL",
+          "weight": "42gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-chocolate-90gr-----",
+          "name": "PAKEL Шоколад Кола",
+          "brand": "PAKEL",
+          "weight": "90gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pandalee-chocolate-20gr-----",
+          "name": "KA0007 Шоколад 20гр",
+          "brand": "PANDALEE",
+          "weight": "20gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "tayas-8411-jimmy-20gr-chocolate-20gr",
+          "name": "8411 Jimmy 20gr",
+          "brand": "TAYAS",
+          "weight": "20gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "tayas-chocolate-35gr-----",
+          "name": "4083",
+          "brand": "TAYAS",
+          "weight": "35gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "tayas-8399-jimmy-panda-40gr-chocolate-40gr",
+          "name": "8399 Jimmy Panda 40gr",
+          "brand": "TAYAS",
+          "weight": "40gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "tayas-chocolate-52gr-----",
+          "name": "9171 Jimmy Panda",
+          "brand": "TAYAS",
+          "weight": "52gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-pl8210-chocolate-20gr",
+          "name": "PL8210",
+          "brand": "PAKEL",
+          "weight": "20gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-pl8277-chocolate-20gr",
+          "name": "PL8277",
+          "brand": "PAKEL",
+          "weight": "20gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "products": [
+        {
+          "id": "pakel-lokum",
+          "name": "PAKEL Лукум",
+          "brand": "PAKEL",
+          "type": "lokum"
+        },
+        {
+          "id": "pakel-dragee-493gr",
+          "name": "PAKEL Драже",
+          "brand": "PAKEL",
+          "weight": "49.3gr",
+          "type": "dragee"
+        },
+        {
+          "id": "pakel-pl9798-lokum",
+          "name": "PL9798",
+          "brand": "PAKEL",
+          "type": "lokum"
+        },
+        {
+          "id": "pakel-pl9859-lokum",
+          "name": "PL9859",
+          "brand": "PAKEL",
+          "type": "lokum"
+        },
+        {
+          "id": "pakel-pl0536-lokum",
+          "name": "PL0536",
+          "brand": "PAKEL",
+          "type": "lokum"
+        },
+        {
+          "id": "pakel-pl1722-dragee-493gr",
+          "name": "PL1722",
+          "brand": "PAKEL",
+          "weight": "49.3gr",
+          "type": "dragee"
+        },
+        {
+          "id": "pakel-chocolate-250gr-----",
+          "name": "PL1166",
+          "brand": "PAKEL",
+          "weight": "250gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-candies-70gr-----",
+          "name": "PL1686",
+          "brand": "PAKEL",
+          "weight": "70gr",
+          "type": "candies",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-candies-80gr-----",
+          "name": "PL1514",
+          "brand": "PAKEL",
+          "weight": "80gr",
+          "type": "candies",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pakel-pl1515-candies-80gr",
+          "name": "PL1515",
+          "brand": "PAKEL",
+          "weight": "80gr",
+          "type": "candies",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 10,
+      "products": [
+        {
+          "id": "puffi-puffipf000160gryummy-60gr",
+          "name": "PUFFI PF0001 60GR Yummy",
+          "brand": "PUFFI",
+          "weight": "60gr"
+        },
+        {
+          "id": "puffi-puffipf000320gr-20gr",
+          "name": "PUFFI PF0003 20GR",
+          "brand": "PUFFI",
+          "weight": "20gr"
+        },
+        {
+          "id": "puffi-puffipf000525gr-25gr",
+          "name": "PUFFI PF0005 25GR",
+          "brand": "PUFFI",
+          "weight": "25gr"
+        },
+        {
+          "id": "puffi-puffipf000260gr-60gr",
+          "name": "PUFFI PF0002 60GR",
+          "brand": "PUFFI",
+          "weight": "60gr"
+        },
+        {
+          "id": "puffi-puffipf000425gr-25gr",
+          "name": "PUFFI PF0004 25GR",
+          "brand": "PUFFI",
+          "weight": "25gr"
+        },
+        {
+          "id": "puffi-pf000160gryummy-60gr",
+          "name": "PF0001 60GR Yummy",
+          "brand": "PUFFI",
+          "weight": "60gr"
+        },
+        {
+          "id": "puffi-pf000260gr-60gr",
+          "name": "PF0002 60GR",
+          "brand": "PUFFI",
+          "weight": "60gr"
+        },
+        {
+          "id": "puffi-pf000320gr-20gr",
+          "name": "PF0003 20GR",
+          "brand": "PUFFI",
+          "weight": "20gr"
+        },
+        {
+          "id": "puffi-pf000425gr-25gr",
+          "name": "PF0004 25GR",
+          "brand": "PUFFI",
+          "weight": "25gr"
+        },
+        {
+          "id": "puffi-pf000525gr-25gr",
+          "name": "PF0005 25GR",
+          "brand": "PUFFI",
+          "weight": "25gr"
+        }
+      ]
+    },
+    {
+      "count": 18,
+      "products": [
+        {
+          "id": "loveme-lovemeaf0001kolabelts",
+          "name": "LOVE ME AF0001 Kola Belts",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0003arbuzbelts",
+          "name": "LOVE ME AF0003 Arbuz Belts",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0005malinaejevika",
+          "name": "LOVE ME AF0005 Malina Ejevika",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0007raduqapencil",
+          "name": "LOVE ME AF0007 Raduqa Pencil",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0009assortioil",
+          "name": "LOVE ME AF0009 Assorti Oil",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0002klubnikabelts",
+          "name": "LOVEME AF0002 Klubnika Belts",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0004pinacolada",
+          "name": "LOVEME AF0004 Pina Colada",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0006raduqabelts",
+          "name": "LOVEME AF0006 Raduqa Belts",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-lovemeaf0008assortisour",
+          "name": "LOVEME AF0008 Assorti Sour",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-belts",
+          "name": "AF0001 Kola belts",
+          "brand": "LOVEME",
+          "type": "belts"
+        },
+        {
+          "id": "love-me-af0002-klubnika-belts-belts",
+          "name": "AF0002 Klubnika belts",
+          "brand": "LOVEME",
+          "type": "belts"
+        },
+        {
+          "id": "love-me-af0003-arbuz-belts-belts",
+          "name": "AF0003 Arbuz belts",
+          "brand": "LOVEME",
+          "type": "belts"
+        },
+        {
+          "id": "love-me-af0004-pina-colada-belts-belts",
+          "name": "AF0004 Pina colada belts",
+          "brand": "LOVEME",
+          "type": "belts"
+        },
+        {
+          "id": "love-me-af0005-malina-ejevika-belts-belts",
+          "name": "AF0005 Malina Ejevika belts",
+          "brand": "LOVEME",
+          "type": "belts"
+        },
+        {
+          "id": "love-me-af0006-raduqa-belts-belts",
+          "name": "AF0006 Raduqa belts",
+          "brand": "LOVEME",
+          "type": "belts"
+        },
+        {
+          "id": "loveme-af0007raduqapencil",
+          "name": "AF0007 Raduqa Pencil",
+          "brand": "LOVEME"
+        },
+        {
+          "id": "loveme-af0008assortisourpencil-sour",
+          "name": "AF0008 Assorti Sour pencil",
+          "brand": "LOVEME",
+          "flavors": [
+            "sour",
+            "sour"
+          ]
+        },
+        {
+          "id": "loveme-af0009assortioil",
+          "name": "AF0009 Assorti oil",
+          "brand": "LOVEME"
+        }
+      ]
+    },
+    {
+      "count": 3,
+      "products": [
+        {
+          "id": "panda-lee-shokolad-kola-20gr",
+          "name": "PANDA LEE Шоколад Кола",
+          "brand": "PANDALEE",
+          "weight": "20gr",
+          "type": "chocolate",
+          "flavors": [
+            "кола",
+            "cola",
+            "шоколад",
+            "chocolate"
+          ]
+        },
+        {
+          "id": "pandalee-pandalee-------20gr-------",
+          "name": "PANDALEE Ваниль",
+          "brand": "PANDALEE",
+          "weight": "20gr",
+          "flavors": [
+            "ваниль",
+            "vanilla"
+          ]
+        },
+        {
+          "id": "pandalee-ka0006------20---20gr-------",
+          "name": "KA0006 Ваниль 20гр",
+          "brand": "PANDALEE",
+          "weight": "20gr",
+          "flavors": [
+            "ваниль",
+            "vanilla"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 14,
+      "products": [
+        {
+          "id": "navroz-navroza00031166gr-1166gr",
+          "name": "NAVROZ A0003 11,66GR",
+          "brand": "NAVROZ",
+          "weight": "11.66gr"
+        },
+        {
+          "id": "navroz-navroza001570gr-70gr",
+          "name": "NAVROZ A0015 70GR",
+          "brand": "NAVROZ",
+          "weight": "70gr"
+        },
+        {
+          "id": "navroz-navroza00013",
+          "name": "NAVROZ A00013",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a00013",
+          "name": "A00013",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a00014",
+          "name": "A00014",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a00031166gr-1166gr",
+          "name": "A0003 11,66GR",
+          "brand": "NAVROZ",
+          "weight": "11.66gr"
+        },
+        {
+          "id": "navroz-a0006",
+          "name": "A0006",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a0007",
+          "name": "A0007",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a0008minicar",
+          "name": "A0008 Mini car",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a0009bigcar",
+          "name": "A0009 Big car",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a0011",
+          "name": "A0011",
+          "brand": "NAVROZ"
+        },
+        {
+          "id": "navroz-a001220gr-20gr",
+          "name": "A0012 20GR",
+          "brand": "NAVROZ",
+          "weight": "20gr"
+        },
+        {
+          "id": "navroz-a001570gr2-70gr",
+          "name": "A0015 70GR 2",
+          "brand": "NAVROZ",
+          "weight": "70gr"
+        },
+        {
+          "id": "navroz-a001570gr-70gr",
+          "name": "A0015 70GR",
+          "brand": "NAVROZ",
+          "weight": "70gr"
+        }
+      ]
+    }
+  ],
+  "suspiciousCases": [
+    {
+      "type": "many_duplicates",
+      "count": 51,
+      "products": [
+        {
+          "id": "damla-assorti-30gr",
+          "name": "DAMLA Assorti",
+          "image": "assets/images/products/damla/damla-assorti-30gr.webp"
+        },
+        {
+          "id": "damla-bears-80gr",
+          "name": "DAMLA Мишки",
+          "image": "assets/images/products/damla/damla-bears.webp"
+        },
+        {
+          "id": "damla-klubnika-15gr",
+          "name": "DAMLA Клубника",
+          "image": "assets/images/products/damla/damla-klubnika-15gr.webp"
+        },
+        {
+          "id": "tayas-tropik-30gr",
+          "name": "TAYAS Тропик",
+          "image": "assets/images/products/tayas/tayas-tropik-30gr.webp"
+        },
+        {
+          "id": "tayas-klubnika-30gr",
+          "name": "TAYAS Клубника",
+          "image": "assets/images/products/tayas/tayas-klubnika-30gr.webp"
+        },
+        {
+          "id": "tayas-kola-30gr",
+          "name": "TAYAS Кола",
+          "image": "assets/images/products/tayas/tayas-kola-30gr.webp"
+        },
+        {
+          "id": "tayas-malina-30gr",
+          "name": "TAYAS Малина",
+          "image": "assets/images/products/tayas/tayas-malina-30gr.webp"
+        },
+        {
+          "id": "tayas-assorti-30gr",
+          "name": "TAYAS Ассорти",
+          "image": "assets/images/products/tayas/tayas-assorti-30gr.webp"
+        },
+        {
+          "id": "tayas-yabloko-30gr",
+          "name": "TAYAS Яблоко",
+          "image": "assets/images/products/tayas/tayas-yabloko-30gr.webp"
+        },
+        {
+          "id": "damla-arbuz-15gr",
+          "name": "DAMLA Арбуз",
+          "image": "assets/images/products/damla/damla-arbuz-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-arbuz-15gr",
+          "name": "DAMLA Ремешки Арбуз",
+          "image": "assets/images/products/damla/damla-assorti-30gr.webp"
+        },
+        {
+          "id": "damla-malina-15gr",
+          "name": "DAMLA Малина",
+          "image": "assets/images/products/damla/damla-malina-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-malina-15gr",
+          "name": "DAMLA Ремешки Малина",
+          "image": "assets/images/products/damla/damla-belts-malina-15gr.webp"
+        },
+        {
+          "id": "damla-vinograd-15gr",
+          "name": "DAMLA Виноград",
+          "image": "assets/images/products/damla/damla-vinograd-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-vinograd-15gr",
+          "name": "DAMLA Ремешки Виноград",
+          "image": "assets/images/products/damla/damla-belts-vinograd-15gr.webp"
+        },
+        {
+          "id": "damla-kola-15gr",
+          "name": "DAMLA Кола",
+          "image": "assets/images/products/damla/damla-kola-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-kola-15gr",
+          "name": "DAMLA Ремешки Кола",
+          "image": "assets/images/products/damla/damla-belts-kola-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-klubnika-15gr",
+          "name": "DAMLA Ремешки Клубника",
+          "image": "assets/images/products/damla/damla-belts-klubnika-15gr.webp"
+        },
+        {
+          "id": "damla-raduga-15gr",
+          "name": "DAMLA Радуга",
+          "image": "assets/images/products/damla/damla-raduga-15gr.webp"
+        },
+        {
+          "id": "damla-remeshki-raduga-15gr",
+          "name": "DAMLA Ремешки Радуга",
+          "image": "assets/images/products/damla/damla-belts-raduga-15gr.webp"
+        },
+        {
+          "id": "damla-novinka-netu-4018-kislye-remeshki-golubika-15gr",
+          "name": "DAMLA Голубика",
+          "image": "assets/images/products/damla/damla-golubika-15gr.webp"
+        },
+        {
+          "id": "damla-novinka-netu-8944-kislye-remeshki-yabloko-15gr",
+          "name": "DAMLA Яблоко",
+          "image": "assets/images/products/damla/damla-yabloko-15gr.webp"
+        },
+        {
+          "id": "damla-tropik-30gr",
+          "name": "DAMLA Тропик",
+          "image": "assets/images/products/damla/damla-tropik-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-tropik-30gr",
+          "name": "DAMLA Трубочки Тропик",
+          "image": "assets/images/products/damla/damla-tubes-tropik-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-klubnika-30gr",
+          "name": "DAMLA Трубочки Клубника",
+          "image": "assets/images/products/damla/damla-tubes-klubnika-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-kola-30gr",
+          "name": "DAMLA Трубочки Кола",
+          "image": "assets/images/products/damla/damla-tubes-kola-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-malina-30gr",
+          "name": "DAMLA Трубочки Малина",
+          "image": "assets/images/products/damla/damla-tubes-malina-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-assorti-30gr",
+          "name": "DAMLA Трубочки Ассорти",
+          "image": "assets/images/products/damla/damla-tubes-assorti-30gr.webp"
+        },
+        {
+          "id": "damla-yabloko-30gr",
+          "name": "DAMLA Яблоко",
+          "image": "assets/images/products/damla/damla-yabloko-30gr.webp"
+        },
+        {
+          "id": "damla-trubochki-yabloko-30gr",
+          "name": "DAMLA Трубочки Яблоко",
+          "image": "assets/images/products/damla/damla-tubes-yabloko-30gr.webp"
+        },
+        {
+          "id": "damla-remeshki-assorti-75gr",
+          "name": "DAMLA Ремешки Ассорти",
+          "image": "assets/images/products/damla/damla-belts-assorti-75gr.webp"
+        },
+        {
+          "id": "damla-karandashi-assorti-75gr",
+          "name": "DAMLA Карандаши Ассорти",
+          "image": "assets/images/products/damla/damla-pencils-assorti-75gr.webp"
+        },
+        {
+          "id": "damla-damla-80gr",
+          "name": "DAMLA Мишки",
+          "image": "assets/images/products/damla/damla-bears-80gr.webp"
+        },
+        {
+          "id": "tayas-8705-тропик-2-tubes-30gr",
+          "name": "8705 Тропик 2",
+          "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr.webp"
+        },
+        {
+          "id": "tayas-8705-тропик-tubes-30gr",
+          "name": "8705 Тропик",
+          "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-тропикал-упаковка-30гр24шт8бл-8705-tubes-30gr",
+          "name": "Кислые трубочки Damla,Тропикал,упаковка 30гр24шт8бл №8705",
+          "image": "assets/images/products/tayas/tayas-tubes-tropik-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8706-клубника-1-tubes-30gr",
+          "name": "8706 Клубника 1",
+          "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr.webp"
+        },
+        {
+          "id": "tayas-8706-клубника-2-tubes-30gr",
+          "name": "8706 Клубника 2",
+          "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-клубника-упаковка-30гр24шт8бл-8706-tubes-30gr",
+          "name": "Кислые трубочки Damla,Клубника,упаковка 30гр24шт8бл №8706",
+          "image": "assets/images/products/tayas/tayas-tubes-klubnika-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8478-кола-1-tubes-30gr",
+          "name": "8478 Кола 1",
+          "image": "assets/images/products/tayas/tayas-tubes-kola-30gr.webp"
+        },
+        {
+          "id": "tayas-8478-кола-2-tubes-30gr",
+          "name": "8478 Кола 2",
+          "image": "assets/images/products/tayas/tayas-tubes-kola-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-кола-упаковка-30гр24шт8бл-8707-tubes-30gr",
+          "name": "Кислые трубочки Damla,Кола,упаковка 30гр24шт8бл №8707",
+          "image": "assets/images/products/tayas/tayas-tubes-kola-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8479-малина-ежевика-1-tubes-30gr",
+          "name": "8479 Малина Ежевика 1",
+          "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr.webp"
+        },
+        {
+          "id": "tayas-8479-малина-ежевика-2-tubes-30gr",
+          "name": "8479 Малина Ежевика 2",
+          "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-малина-ежевика-упаковка-30гр24шт8бл-8708-tubes-30gr",
+          "name": "Кислые трубочки Damla,Малина-Ежевика,упаковка 30гр24шт8бл №8708",
+          "image": "assets/images/products/tayas/tayas-tubes-malina-ezhevika-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8480-ассорти-1-tubes-30gr",
+          "name": "8480 Ассорти 1",
+          "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr.webp"
+        },
+        {
+          "id": "tayas-8480-ассорти-2-tubes-30gr",
+          "name": "8480 Ассорти 2",
+          "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-ассорти-упаковка-30гр24шт8бл-8709-tubes-30gr",
+          "name": "Кислые трубочки Damla,Ассорти,упаковка 30гр24шт8бл №8709",
+          "image": "assets/images/products/tayas/tayas-tubes-assorti-30gr-v2.webp"
+        },
+        {
+          "id": "tayas-8923-яблоко-1-tubes-30gr",
+          "name": "8923 Яблоко 1",
+          "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr.webp"
+        },
+        {
+          "id": "tayas-8923-яблоко-2-tubes-30gr",
+          "name": "8923 Яблоко 2",
+          "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr-v1.webp"
+        },
+        {
+          "id": "tayas-кислые-трубочки-damla-яблоко-упаковка-30гр24шт8бл-8923-tubes-30gr",
+          "name": "Кислые трубочки Damla,Яблоко, упаковка 30гр24шт8бл №8923",
+          "image": "assets/images/products/tayas/tayas-tubes-yabloko-30gr-v2.webp"
+        }
+      ]
+    },
+    {
+      "type": "many_duplicates",
+      "count": 4,
+      "products": [
+        {
+          "id": "dubai-cake",
+          "name": "Dubai Cake",
+          "image": "assets/images/products/oslo/oslo.webp"
+        },
+        {
+          "id": "oslo-bs0002-red-love",
+          "name": "BS0002 Red Love",
+          "image": "assets/images/products/oslo/oslo-v1.webp"
+        },
+        {
+          "id": "oslo-bs0003-manela-donut",
+          "name": "BS0003 Manela Donut",
+          "image": "assets/images/products/oslo/oslo-v2.webp"
+        },
+        {
+          "id": "oslo-bs0004-arrivo-banana",
+          "name": "BS0004 Arrivo Banana",
+          "image": "assets/images/products/oslo/oslo-v3.webp"
+        }
+      ]
+    },
+    {
+      "type": "many_duplicates",
+      "count": 16,
+      "products": [
+        {
+          "id": "pakel-konfety-kola-70gr",
+          "name": "PAKEL Конфеты Кола",
+          "image": "assets/images/products/pakel/pakel-candies-kola-70gr.webp"
+        },
+        {
+          "id": "bonjuks-shokolad-klubnika-70gr",
+          "name": "BONJUKS Шоколад Клубника",
+          "image": "assets/images/products/bonjuks/bonjuks-chocolate-klubnika-70gr.webp"
+        },
+        {
+          "id": "miskets-konfety-kola-70gr",
+          "name": "MISKETS Конфеты Кола",
+          "image": "assets/images/products/miskets/miskets-candies-kola-70gr.webp"
+        },
+        {
+          "id": "pakel-pl1165-chocolate-100gr",
+          "name": "PL1165",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl1776-chocolate-70gr",
+          "name": "PL1776",
+          "image": "assets/images/products/pakel/pakel-candies-kola-70gr.webp"
+        },
+        {
+          "id": "pakel-pl1777-chocolate-70gr",
+          "name": "PL1777",
+          "image": "assets/images/products/pakel/pakel-chocolate-klubnika-70gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl1030-chocolate-100gr",
+          "name": "PL1030",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v2.webp"
+        },
+        {
+          "id": "pakel-pl1040-chocolate-100gr",
+          "name": "PL1040",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v3.webp"
+        },
+        {
+          "id": "pakel-pl1041-chocolate-100gr",
+          "name": "PL1041",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-100gr-v4.webp"
+        },
+        {
+          "id": "pakel-pl1048-chocolate-25gr",
+          "name": "PL1048",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-25gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl1169-chocolate-42gr",
+          "name": "PL1169",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-42gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl0899-фундук-chocolate-60gr",
+          "name": "PL0899 Фундук",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr.webp"
+        },
+        {
+          "id": "pakel-pl0900-фисташка-chocolate-60gr",
+          "name": "PL0900 Фисташка",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl0901-миндал-chocolate-60gr",
+          "name": "PL0901 Миндал",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-60gr-v2.webp"
+        },
+        {
+          "id": "pakel-pl0902-chocolate-90gr",
+          "name": "PL0902",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-90gr-v1.webp"
+        },
+        {
+          "id": "pakel-pl0903-chocolate-90gr",
+          "name": "PL0903",
+          "image": "assets/images/products/pakel/pakel-chocolate-kola-90gr-v2.webp"
+        }
+      ]
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-remeshki-yabloko-1000gr",
+        "name": "TAYAS Ремешки Яблоко",
+        "suggestedId": "tayas-belts-1000gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-klubnika-15gr",
+        "name": "TAYAS Клубника",
+        "suggestedId": "tayas-tayas---------15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-raduga-15gr",
+        "name": "TAYAS Радуга",
+        "suggestedId": "tayas-tayas-------15gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-novinka-netu-4018-kislye-remeshki-golubika-15gr",
+        "name": "TAYAS Голубика",
+        "suggestedId": "tayas-tayas---------15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-karandashi-malina-300gr",
+        "name": "TAYAS Карандаши Малина",
+        "suggestedId": "tayas-pencils-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-remeshki-malina-300gr",
+        "name": "TAYAS Ремешки Малина",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-15440-damla-assortment-90gr-candies-1000gr",
+        "name": "15440 Damla Assortment 90gr",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-5550-damla-assortment-1kg-candies-1000gr",
+        "name": "5550 Damla Assortment 1kg",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-5567-damla-new-2-1kg-candies-1000gr",
+        "name": "5567 Damla New 2 1kg",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-5572-damla-new-2-90gr-candies-1000gr",
+        "name": "5572 Damla New 2 90gr",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-5595-damla-coffee-candies-1000gr",
+        "name": "5595 Damla Coffee",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-5652-damla-sour-1kg-candies-1000gr",
+        "name": "5652 Damla Sour 1kg",
+        "suggestedId": "tayas-candies-1000gr-sour"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-7285-multi-fruit-candies-1000gr",
+        "name": "7285 Multi Fruit",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-7287-coffee-intense-170gr-candies-1000gr",
+        "name": "7287 Coffee Intense 170gr",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-7296-choco-mint-candies-1000gr",
+        "name": "7296 Choco mint",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-7341-coffee-intense-90gr-candies-1000gr",
+        "name": "7341 Coffee Intense 90gr",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-7342-coffee-intense-1kg-candies-1000gr",
+        "name": "7342 Coffee Intense 1kg",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8076-coffee-intense-500gr-candies-1000gr",
+        "name": "8076 Coffee Intense 500gr",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8381-fruity-duos-candies-1000gr",
+        "name": "8381 Fruity Duos",
+        "suggestedId": "tayas-candies-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8483-радуга-карандаши-belts-1000gr",
+        "name": "8483 Радуга  карандаши",
+        "suggestedId": "tayas-belts-1000gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8484-клубника-карандаши-belts-1000gr",
+        "name": "8484 Клубника Карандаши",
+        "suggestedId": "tayas-belts-1000gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8485-радуга-ремешки-belts-1000gr",
+        "name": "8485 Радуга ремешки",
+        "suggestedId": "tayas-belts-1000gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8486-клубника-ремешки-belts-1000gr",
+        "name": "8486 Клубника Ремешки",
+        "suggestedId": "tayas-belts-1000gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8487-кола-ремешки-belts-1000gr",
+        "name": "8487 Кола ремешки",
+        "suggestedId": "tayas-belts-1000gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8488-малина-ежевика-ремешки-belts-1000gr",
+        "name": "8488 Малина Ежевика ремешки",
+        "suggestedId": "tayas-belts-1000gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8495-кола-карандаши-belts-1000gr",
+        "name": "8495 Кола карандаши",
+        "suggestedId": "tayas-belts-1000gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8884-яблоко-ремешки-belts-1000gr",
+        "name": "8884 Яблоко ремешки",
+        "suggestedId": "tayas-belts-1000gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1080-радуга-ремешки-belts-300gr",
+        "name": "1080 Радуга Ремешки",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1941-радуга-карандаши-belts-300gr",
+        "name": "1941 Радуга карандаши",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1943-малина-карандаши-belts-300gr",
+        "name": "1943 Малина  Карандаши",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1944-бабл-гам-карандаши-belts-300gr",
+        "name": "1944 бабл гам Карандаши",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1945-вишня-карандаши-belts-300gr",
+        "name": "1945 Вишня Карандаши",
+        "suggestedId": "tayas-belts-300gr------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1946-виноград-карандаши-belts-300gr",
+        "name": "1946 Виноград Карандаши",
+        "suggestedId": "tayas-belts-300gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1948-клубника-ремешки-belts-300gr",
+        "name": "1948 Клубника Ремешки",
+        "suggestedId": "tayas-belts-300gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1949-малина-ежевика-ремешки-belts-300gr",
+        "name": "1949 Малина Ежевика Ремешки",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1950-яблоко-ремешки-belts-300gr",
+        "name": "1950 Яблоко Ремешки",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1951-лимон-ремешки-belts-300gr",
+        "name": "1951 Лимон Ремешки",
+        "suggestedId": "tayas-belts-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1952-банан-клубника-ремешки-belts-300gr",
+        "name": "1952 Банан Клубника ремешки",
+        "suggestedId": "tayas-belts-300gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1953-арбуз-ремешки-belts-300gr",
+        "name": "1953 Арбуз ремешки",
+        "suggestedId": "tayas-belts-300gr------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2439-мишки-bears-1000gr",
+        "name": "2439 Мишки",
+        "suggestedId": "tayas-bears-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2441-фруктовый-сад-marmalade-1000gr",
+        "name": "2441 Фруктовый сад",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2442-червячки-marmalade-1000gr",
+        "name": "2442 Червячки",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2452-мини-крокодил-marmalade-1000gr",
+        "name": "2452 Мини Крокодил",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2455-биг-крокодил-marmalade-1000gr",
+        "name": "2455 Биг Крокодил",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2458-акула-marmalade-1000gr",
+        "name": "2458 Акула",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2747-зубки-marmalade-1000gr",
+        "name": "2747 Зубки",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2849-пончик-marmalade-1000gr",
+        "name": "2849 Пончик",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3041-биг-кола-marmalade-1000gr",
+        "name": "3041 Биг Кола",
+        "suggestedId": "tayas-marmalade-1000gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3959-яйцо-marmalade-1000gr",
+        "name": "3959 Яйцо",
+        "suggestedId": "tayas-marmalade-1000gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3824-кислые-червячки-marmalade-150gr",
+        "name": "3824 Кислые Червячки",
+        "suggestedId": "tayas-marmalade-150gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3826-кислый-фруктовый-сад-marmalade-150gr",
+        "name": "3826 Кислый Фруктовый сад",
+        "suggestedId": "tayas-marmalade-150gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3800-damla-fruit-marmalade-20gr",
+        "name": "3800 Damla Fruit",
+        "suggestedId": "tayas-marmalade-20gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-9309-vaio-fruit-marmalade-20gr",
+        "name": "9309 Vaio Fruit",
+        "suggestedId": "tayas-marmalade-20gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2874-пончик-marmalade-300gr",
+        "name": "2874 Пончик",
+        "suggestedId": "tayas-marmalade-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2876-червячки-marmalade-300gr",
+        "name": "2876 Червячки",
+        "suggestedId": "tayas-marmalade-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2886-капля-marmalade-300gr",
+        "name": "2886 Капля",
+        "suggestedId": "tayas-marmalade-300gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3006-бабл-гам-оил-belts-1000gr",
+        "name": "3006 Бабл гам оил",
+        "suggestedId": "tayas-belts-1000gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3010-виноград-оил-belts-1000gr",
+        "name": "3010 Виноград оил",
+        "suggestedId": "tayas-belts-1000gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8482-ассорти-оил-belts-1000gr",
+        "name": "8482 Ассорти оил",
+        "suggestedId": "tayas-belts-1000gr--------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-1753-арбуз-2-belts-15gr",
+        "name": "1753 Арбуз 2",
+        "suggestedId": "tayas-belts-15gr------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-арбуз-коробка-15гр72шт6бл-tayash-1753-belts-15gr",
+        "name": "Кислые ремешки DAMLA,Арбуз,коробка 15гр72шт6бл Tayash №1753",
+        "suggestedId": "tayas-belts-15gr------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2999-малина-ежевика-россия-2-belts-15gr",
+        "name": "2999 Малина Ежевика ( РОССИЯ )  2",
+        "suggestedId": "tayas-belts-15gr--------------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-15гр-флаг-россии-малина-ежевика-коробка-72шт6бл-tayash-2999-belts-15gr",
+        "name": "Кислые ремешки DAMLA 15гр, флаг РОССИИ (малина, ежевика),коробка 72шт6бл Tayash №2999",
+        "suggestedId": "tayas-belts-15gr--------------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3000-виноград-2-belts-15gr",
+        "name": "3000 Виноград 2",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-15гр-виноград-коробка-72шт6бл-tayas-ts3000-belts-15gr",
+        "name": "Кислые ремешки DAMLA 15гр, виноград,коробка 72шт6бл Tayas №TS3000",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3003-пина-колада-2-belts-15gr",
+        "name": "3003 Пина Колада 2",
+        "suggestedId": "tayas-belts-15gr-----------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-15гр-пина-колада-кокос-ананас-коробка-72шт6бл-tayas-3003-belts-15gr",
+        "name": "Кислые ремешки DAMLA 15гр, пина колада (кокос, ананас),коробка 72шт6бл Tayas №3003",
+        "suggestedId": "tayas-belts-15gr-----------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8542-клубника-1-belts-15gr",
+        "name": "8542 Клубника 1",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8542-клубника-2-belts-15gr",
+        "name": "8542 Клубника 2",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-клубника-коробка-15гр72шт6бл-tayash-8542-belts-15gr",
+        "name": "Кислые ремешки DAMLA, Клубника,коробка 15гр72шт6бл Tayash №8542",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8543-кола-2-belts-15gr",
+        "name": "8543 Кола 2",
+        "suggestedId": "tayas-belts-15gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-кола-коробка-15гр72шт6бл-tayash-8543-belts-15gr",
+        "name": "Кислые ремешки DAMLA, Кола, коробка 15гр72шт6бл Tayash №8543",
+        "suggestedId": "tayas-belts-15gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8544-радуга-2-belts-15gr",
+        "name": "8544 Радуга 2",
+        "suggestedId": "tayas-belts-15gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-радуга-коробка-15гр72шт6бл-tayash-8544-belts-15gr",
+        "name": "Кислые ремешки DAMLA, Радуга,коробка 15гр72шт6бл Tayash №8544",
+        "suggestedId": "tayas-belts-15gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-4018-голубика-1-belts-15gr",
+        "name": "4018 Голубика 1",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-4018-голубика-2-belts-15gr",
+        "name": "4018 Голубика 2",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-15гр-голубика-коробка-72шт6бл-tayas-belts-15gr",
+        "name": "Кислые ремешки DAMLA 15гр, Голубика,коробка 72шт6бл Tayas",
+        "suggestedId": "tayas-belts-15gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8944-яблоко-1-belts-15gr",
+        "name": "8944 Яблоко 1",
+        "suggestedId": "tayas-belts-15gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8944-яблоко-2-belts-15gr",
+        "name": "8944 Яблоко 2",
+        "suggestedId": "tayas-belts-15gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-damla-яблоко-коробка-15гр72шт6бл-tayash-belts-15gr",
+        "name": "Кислые ремешки DAMLA, Яблоко,коробка 15гр72шт6бл Tayash",
+        "suggestedId": "tayas-belts-15gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2097-мишки-bears-80gr",
+        "name": "2097 Мишки",
+        "suggestedId": "tayas-bears-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2101-damla-gummy-oiled-fruit-garden-4g-80-gr-bag-12x6-sticker-40x60-mm-marmalade-80gr",
+        "name": "2101 DAMLA GUMMY (OILED) FRUIT GARDEN (4G) 80 GR BAG (12X6) STICKER 40X60 MM",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2101-фруктовый-сад-marmalade-80gr",
+        "name": "2101 Фруктовый сад",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2104-червячки-marmalade-80gr",
+        "name": "2104 Червячки",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2450-damla-gummy-oiled-crocodile-4gr-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+        "name": "2450 DAMLA GUMMY (OILED) CROCODILE (4GR) 80 GR BAG STICKER 40X60 MM",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2450-крокодил-marmalade-80gr",
+        "name": "2450 Крокодил",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2464-damla-gummy-oiled-alphabet-2-5g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+        "name": "2464 DAMLA GUMMY (OILED) ALPHABET (2,5G) 80 GR BAG STICKER 40X60 MM",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2464-алфавит-marmalade-80gr",
+        "name": "2464 Алфавит",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2465-damla-gummy-foam-oiled-teeth-4g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+        "name": "2465 DAMLA GUMMY&FOAM (OILED) TEETH (4G) 80 GR BAG STICKER 40X60 MM",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2465-зубки-marmalade-80gr",
+        "name": "2465 Зубки",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2466-damla-gummy-foam-oiled-cheesecake-4g-80-gr-bag-sticker-40x60-mm-marmalade-80gr",
+        "name": "2466 DAMLA GUMMY&FOAM (OILED) CHEESECAKE (4G) 80 GR BAG STICKER 40X60 MM",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2466-чизкейк-marmalade-80gr",
+        "name": "2466 Чизкейк",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2203-кола-marmalade-80gr",
+        "name": "2203 Кола",
+        "suggestedId": "tayas-marmalade-80gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2204-кислая-кола-marmalade-80gr",
+        "name": "2204 Кислая Кола",
+        "suggestedId": "tayas-marmalade-80gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-2213-кислые-червячки-marmalade-80gr",
+        "name": "2213 Кислые Червячки",
+        "suggestedId": "tayas-marmalade-80gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3294-крокодил-marmalade-80gr",
+        "name": "3294 Крокодил",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-3297-зубки-marmalade-80gr",
+        "name": "3297 Зубки",
+        "suggestedId": "tayas-marmalade-80gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-ремешки-jimmy-sour-belts-ассорти-упаковка-75гр12шт6бл-tayash-1420-belts-75gr",
+        "name": "Кислые ремешки Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1420",
+        "suggestedId": "tayas-belts-75gr-------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-ассорти-карандаш-belts-75gr",
+        "name": "Ассорти Карандаш",
+        "suggestedId": "tayas-belts-75gr--------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-карандаши-damla-ассорти-упаковка-75гр12шт6бл-tayash-3091-belts-75gr",
+        "name": "Кислые карандаши DAMLA, Ассорти, упаковка 75гр12шт6бл Tayash №3091",
+        "suggestedId": "tayas-belts-75gr--------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-кислые-карандаши-jimmy-sour-belts-ассорти-упаковка-75гр12шт6бл-tayash-1421-belts-75gr",
+        "name": "Кислые карандаши Jimmy Sour Belts, Ассорти, упаковка 75гр12шт6бл Tayash№1421",
+        "suggestedId": "tayas-belts-75gr--------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-apel-sin-700gr",
+        "name": "TAYAS Апельсин",
+        "suggestedId": "tayas-tayas---------700gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-6364-клубника-candies-700gr",
+        "name": "6364 Клубника",
+        "suggestedId": "tayas-candies-700gr---------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-6375-колф-candies-700gr",
+        "name": "6375 Колф",
+        "suggestedId": "tayas-candies-700gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-6379-арбуз-candies-700gr",
+        "name": "6379 Арбуз",
+        "suggestedId": "tayas-candies-700gr------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-6424-ассорти-candies-700gr",
+        "name": "6424 Ассорти",
+        "suggestedId": "tayas-candies-700gr--------"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8411-jimmy-20gr-chocolate-20gr",
+        "name": "8411 Jimmy 20gr",
+        "suggestedId": "tayas-chocolate-20gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "tayas-8399-jimmy-panda-40gr-chocolate-40gr",
+        "name": "8399 Jimmy Panda 40gr",
+        "suggestedId": "tayas-chocolate-40gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "pakel-pl8210-chocolate-20gr",
+        "name": "PL8210",
+        "suggestedId": "pakel-chocolate-20gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "pakel-pl8277-chocolate-20gr",
+        "name": "PL8277",
+        "suggestedId": "pakel-chocolate-20gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "pakel-pl9798-lokum",
+        "name": "PL9798",
+        "suggestedId": "pakel-lokum"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "pakel-pl9859-lokum",
+        "name": "PL9859",
+        "suggestedId": "pakel-lokum"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "pakel-pl0536-lokum",
+        "name": "PL0536",
+        "suggestedId": "pakel-lokum"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "pakel-pl1722-dragee-493gr",
+        "name": "PL1722",
+        "suggestedId": "pakel-dragee-493gr"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "pakel-pl1515-candies-80gr",
+        "name": "PL1515",
+        "suggestedId": "pakel-candies-80gr-----"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "love-me-af0002-klubnika-belts-belts",
+        "name": "AF0002 Klubnika belts",
+        "suggestedId": "loveme-belts"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "love-me-af0003-arbuz-belts-belts",
+        "name": "AF0003 Arbuz belts",
+        "suggestedId": "loveme-belts"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "love-me-af0004-pina-colada-belts-belts",
+        "name": "AF0004 Pina colada belts",
+        "suggestedId": "loveme-belts"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "love-me-af0005-malina-ejevika-belts-belts",
+        "name": "AF0005 Malina Ejevika belts",
+        "suggestedId": "loveme-belts"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "love-me-af0006-raduqa-belts-belts",
+        "name": "AF0006 Raduqa belts",
+        "suggestedId": "loveme-belts"
+      }
+    },
+    {
+      "type": "id_conflict",
+      "product": {
+        "id": "panda-lee-shokolad-kola-20gr",
+        "name": "PANDA LEE Шоколад Кола",
+        "suggestedId": "pandalee-chocolate-20gr-----"
+      }
+    }
+  ]
+}

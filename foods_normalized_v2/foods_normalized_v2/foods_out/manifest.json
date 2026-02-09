@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "3012",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3012 - 1000 г Кислые ( Карандаши и Ремешки )",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8481",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8481 - 8481 ( бокс 1 кг) DAMLA КИСЛЫЕ КАРАНДАШИ (АССОРТИ) БАНКА С ЩИПАМИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8483",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8483 - 8483 ( бокс 1 кг) DAMLA КИСЛЫЕ КАРАНДАШИ (РАДУГА) БАНКА С ЩИПАМИ",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8484",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8484 - 1000 г Кислые ( Карандаши и Ремешки )",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8485",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8485 - 8485( бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ (РАДУГА) БАНКА С ЩИПАМИ",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8486",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8486 - 8486 ( бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ (КЛУБНИКА) БАНКА С ЩИПАМИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8487",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8487 - 8487 (бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ (КОЛА) БАНКА С ЩИПАМИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8488",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8488 - 8488 (бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ МАЛИНА ЕЖЕВИКА",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8495",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8495 - 8495 (бокс 1 кг) DAMLA КИСЛЫЕ КАРАНДАШИ (КОЛА) БАНКА С ЩИПАМИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8884",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8884 - 8884 (бокс 1 кг) DAMLA КИСЛЫЕ РЕМЕШКИ (ЯБЛОКО) БАНКА С ЩИПАМИ",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3008",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3008 - без посыпки",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8482",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8482 - 8482 ( бокс 1 кг) DAMLA КИСЛЫЕ КАРАНДАШИ (АССОРТИ) БАНКА С ЩИПАМИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1753",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1753 - 1753 DAMLA КИСЛЫЕ РЕМЕШКИ АРБУЗ 1753",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "2999",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2999 - 2999 DAMLA КИСЛЫЕ РЕМЕШКИ РОССИЯ 2999",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "3000",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3000 - Кислые ремешки DAMLA 15гр, виноград, коробка 72шт6бл Tayas №TS3000",
+    "sources_count": 3,
+    "images_included": 2,
+    "docs_included": 0,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "3003",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3003 - Кислые ремешки DAMLA 15гр, пина колада (кокос, ананас), коробка 72шт6бл Tayas №3003",
+    "sources_count": 3,
+    "images_included": 2,
+    "docs_included": 0,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8542",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8542 - 8542 DAMLA КИСЛЫЕ РЕМЕШКИ КЛУБНИКА 8542",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8543",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8543 - 8543 DAMLA КИСЛЫЕ РЕМЕШКИ КОЛА 8543",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8544",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8544 - 8544 DAMLA КИСЛЫЕ РЕМЕШКИ РАДУГА 8544",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "4018",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/4018 - Кислые ремешки DAMLA 15гр, Голубика, коробка 72шт6бл Tayas",
+    "sources_count": 3,
+    "images_included": 2,
+    "docs_included": 0,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8944",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8944 - 8944 DAMLA SOUR BELTS 15 GR ELMALI KARTON KUTU 72X6 LICORICE BOX STICKER 50X60 MM",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8705",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8705 - 8705 ТРОПИЧЕСКИЙ МИКС 30гр КИСЛЫЕ ТРУБОЧКИ",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8706",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8706 - 8706 КЛУБНИКА 30ГР КИСЛЫЕ ТРУБОЧКИ",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8707",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8707 - 8707 КОЛА 30 гр КИСЛЫЕ ТРУБОЧКИ",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8708",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8708 - 8708 МАЛИНА ЕЖЕВИКА 30 гр КИСЛЫЕ ТРУБОЧКИ",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8709",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8709 - 8709 АССОРТИ 30 гр КИСЛЫЕ ТРУБОЧКИ",
+    "sources_count": 4,
+    "images_included": 2,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "8923",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8923 - Кислые трубочки Damla, Яблоко, упаковка 30гр24шт8бл №8923",
+    "sources_count": 3,
+    "images_included": 2,
+    "docs_included": 0,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "1080",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1080 - 1080 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ РАДУГА",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1940",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1940 - 1940 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД Карандаши АССОРТИ ВКУСОВ И АРОМАТОВ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1941",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1941 - 1941 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ РАДУГА ВКУСОВ И АРОМАТОВ",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1942",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1942 - 1942 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ СО ВКУСОМ КЛУБНИКИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1943",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1943 - 1943 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ СО ВКУСОМ МАЛИНЫ& ЕЖЕВИКИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1944",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1944 - 1944 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ АССОРТИ ВКУСОВ И АРОМАТОМ БАБЛ-ГАМ",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1945",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1945 - 1945 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ СО ВКУСОМ ВИШНИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1946",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1946 - 1946 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ С ВИНОГРАДНЫМ ВКУСОМ",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1947",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1947 - 1947 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ КАРАНДАШИ СО ВКУСОМ КОЛЫ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1948",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1948 - 1948 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ КЛУБНИКИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1949",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1949 - 1949 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ МАЛИНЫ И ЕЖЕВИКИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1950",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1950 - 1950 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ ЯБЛОКА",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1951",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1951 - 1951 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ ЛИМОНА",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1952",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1952 - 1952 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ КЛУБНИКИ И БАНАНА",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "1953",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1953 - 1953 ЖЕВАТЕЛЬНЫЙ МАРМЕЛАД КИСЛЫЕ РЕМЕШКИ СО ВКУСОМ АРБУЗА",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3090",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3090 - Кислые ремешки DAMLA, Ассорти, упаковка 75гр12шт6бл Tayas №3090",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "3091",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3091 - Кислые карандаши DAMLA, Ассорти, упаковка 75гр12шт6бл Tayash №3091",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "1420",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1420 - 1420 JIMMY SOUR BELT КИСЛЫЕ РЕМЕШКИ С ФРУКТОВЫМ ВКУСОМ",
+    "sources_count": 3,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "1421",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/1421 - 1421 “ JIMMY SOUR PENCIL” КИСЛЫЕ КАРАНДАШИ С ФРУКТОВЫМ ВКУСОМ",
+    "sources_count": 3,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 1
+  },
+  {
+    "id": "2439",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2439 - 2439 Жевательный желейный мармелад DAMLA GUMMY мишки (бокс 1кг)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2440",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2440 - 2440 Жевательный желейный мармелад DAMLA GUMMY кола (бокс 1кг)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2441",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2441 - 2441 Жевательный желейный мармелад DAMLA GUMMY фруктовый сад (бокс 1кг)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2442",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2442 - 2442 Жевательный желейный мармелад DAMLA GUMMY червячки (бокс 1кг)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2452",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2452 - 2452 Жевательный желейный мармелад DAMLA GUMMY крокодил малый 7, 5 гр (бокс 1 кг)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2455",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2455 - 2455 Жевательный желейный мармелад DAMLA GUMMY крокодил 18 гр (бокс 1 кг)",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2458",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2458 - 2458 Жевательный желейный мармелад DAMLA GUMMY акула (бокс 1 кг)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2747",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2747 - 1000 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2849",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2849 - 1000 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3959",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3959 - 1000 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3821",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3821 - 150 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3822",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3822 - 150 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3823",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3823 - 150 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3824",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3824 - 150 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3825",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3825 - 150 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3826",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3826 - 150 г Фигурный Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "4076",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/4076 - 4076 VAIO FREEZE DRIED 20 GR JELLY KOPUK SEKERLI KARPUZ CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "9309",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/9309 - 9309 VAIO FREEZE DRIED 20 GR JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2870",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2870 - 300 г Фигурный Кислый Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2874",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2874 - 300 г Фигурный Кислый Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2876",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2876 - 300 г Фигурный Кислый Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2877",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2877 - 300 г Фигурный Кислый Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2886",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2886 - 300 г Фигурный Кислый Мармелад",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2024",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2024 - 80 гр мармелады тексты просмотрела 30 07 2024",
+    "sources_count": 17,
+    "images_included": 16,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2203",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2203 - Jimmy Panda",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2204",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2204 - 2204 JIMMY GUMMY ASITLI KOLA 4 GR 80 GR POSET 12X6 R1 BAG STICKER 50X60 MM",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2210",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2210 - 2210 JIMMY GUMMY ASITLI MEYVE BAHCESI 4 GR 80 GR POSET 12X6 R1 BAG STICKER 50X60 MM (1)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "2213",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/2213 - 2213 JIMMY GUMMY ASITLI KURTCUK 4 GR 80 GR POSET 12X6 SE-FI R1 BAG STICKER 50X60 MM",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3294",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3294 - Jimmy Panda",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "3297",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/3297 - 3297 JIMMY GUMMY KOPUK YAGLI DIS 4 GR 80 GR POSET 12X6 BAG STICKER 50X60 MM",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6306",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6306 - 6306 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ (АССОРТИ ДЖАР)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6362",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6362 - 6362 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ЯБЛОКО",
+    "sources_count": 1,
+    "images_included": 0,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6363",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6363 - 6363 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ АПЕЛЬСИН",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6364",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6364 - 6364 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ КЛУБНИКА",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6365",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6365 - 6365 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ВИШНЯ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6375",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6375 - 6375 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ КОЛА",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6379",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6379 - 6379 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ АРБУЗ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "6424",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/6424 - 6424 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ АССОРТИ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8411",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8411 - 8411 -JIMMY, MILKY COCOA WITH MILK CREAM FILLING - 20 g",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "4083",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/4083 - ВИВАНИ ШОКОЛАД",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "8399",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/8399 - 8399 -JIMMY, MILK AND WHITE COMPOUND CHOCOLATE- 40 G",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "9171",
+    "brand": "Tayas",
+    "dest": "foods_normalized/Tayas/9171 - 9171 ” JIMMY CREAM” БИСКВИТНЫЕ ПАЛОЧКИ С ОРЕХОВОЙ ПАСТОЙ, 52 гр",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL8210",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL8210 - PL8210 MISKETS CHOCOLATE COATED SALTED ROASTED PEANUT DRAGEE Драже арахис в шок, 20 г х24х6",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL8277",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL8277 - PL8277 MISKETS COLORED SUGAR AND MILK CHOCOLATE COATED JELLY Драже мармеладное в шок, 20 г х24х6",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1722",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1722 - PL1722 MİSKETS CHOCOLATE COVERED SALTED ROASTED PEANUTS DRAGEE 49г х 24 х 6",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL9798",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL9798 - PL9798 KIDZI STRAWBERRY FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ КИДЗИ СО ВКУСОМ КЛУБНИКИ 20 г, ТМ KIDZI",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL9859",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL9859 - PL9859 KIDZI APPLE FLAVORED SOUR CUBE КИСЛЫЕ МЯГКИЕ ЖЕВАТЕЛЬНЫЕ КОНФЕТЫ КИДЗИ СО ВКУСОМ ЯБЛОКА, 20 г, ТМ KIDZI",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL0536",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL0536 - Miskets",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1030",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1030 - PL1030 Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина, 50 г, ТМ MISKET",
+    "sources_count": 3,
+    "images_included": 1,
+    "docs_included": 2,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1165",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1165 - PL1165 BONJUKS Square Tablet Milk Chocolate With DUBAI CHOCOLATE 12pcs х 6box Молочный шоколад",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1776",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1776 - PL1776 BONJUKS MILK COMPOUND COATED FREEZE DRIED STRAWBERRIES PRODUCT S 70г х 12шт Клубника в молочном шоколаде",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1777",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1777 - PL1777 BONJUKS WHITE COMPOUND COATED FREEZE DRIED STRAWBERRIES PRODUCT S 70г х 12шт Клубника в белом шоколаде",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1040",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1040 - PL1040 Шоколад темный с кадаиф MISKETS DARK PISTACHIO KADAYIF 100GRX12PCSX6DSP, ТМ MISKET",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1041",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1041 - PL1041 Шоколад белый с кадаиф MISKETS WHITE PISTACHIO KADAYIF 100GRX12PCSX6DSP, ТМ MISKET",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1048",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1048 - PL1048 Шоколад молочный с кадаиф MISKETS MILK PISTACHIO KADAYIF 25GRX24ADC6DSP, ТМ MISKET",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1166",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1166 - PL1166 MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1169",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1169 - PL1169 PISTACHIO CREAM WITH CRISPY KADAYIF & GRISSINI 42 гх 12шт х 4 шб",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL0899",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL0899 - PL0899 Шоколад с фундуком MISKETS MILK CHOCOLATE HAZELNUT TABLET 60GRX10ADX6D, ТМ MISKET",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL0900",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL0900 - PL0900 Шоколад с фисташкой MISKETS MILK CHOCOLATE PISTACHIO TABLET 60GRX10ADX6D, ТМ MISKET тексто",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL0901",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL0901 - PL0901 Шоколад с миндалем MISKETS MILK CHOCOLATE ALMOND TABLET 60GRX10ADX6D, ТМ MISKET",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1686",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1686 - PL1686 Pistachio Dragee Coated Chocolate 70г х 12шт фисташка в молочном шоколаде",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1514",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1514 - PL1514 WHITE CHOCOLATE COATED FREEZE DRY RASPBERRY 80г х 12шт МАлина в белом шоколаде",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL1515",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL1515 - PL1515 Blackberry Milk Chocolate 80г х 12шт Ежевика в молочном шоколаде",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL0902",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL0902 - PL0902 Шоколад Волосы Ангела MISKETS ANGELS HAIR 90G х6 х6, ТМ MISKET",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PL0903",
+    "brand": "Pakel",
+    "dest": "foods_normalized/Pakel/PL0903 - PL0903 ANGELS HAIR РОЗОВЫЙ 90G х6 х6 без указанаия мес срока хранения",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "SL0001",
+    "brand": "Alikhan Ata",
+    "dest": "foods_normalized/Alikhan Ata/SL0001 - SL0001 Кукурузные трубочки ТВИН с шоколадно-кремовой начинкой, 18г, ТМ TWIN х 30шт х 4ШБ ок версия",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "SL0002",
+    "brand": "Alikhan Ata",
+    "dest": "foods_normalized/Alikhan Ata/SL0002 - SL0002 Кукурузные трубочки ТВИН с молочно-кремовой начинкой, 18г, ТМ TWIN х 30шт х 4ШБ ок.версия",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PF0001",
+    "brand": "Puffico",
+    "dest": "foods_normalized/Puffico/PF0001 - PF0001 Конфеты неглазированные сбивные PUFFI YUMMY ПУФФИ ЮМИ, 60г, ТМPUFFI х 28шт",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PF0002",
+    "brand": "Puffico",
+    "dest": "foods_normalized/Puffico/PF0002 - 04 Puffico",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PF0003",
+    "brand": "Puffico",
+    "dest": "foods_normalized/Puffico/PF0003 - 04 Puffico",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PF0004",
+    "brand": "Puffico",
+    "dest": "foods_normalized/Puffico/PF0004 - PF0004 Конфеты PUFFI FANTY ПУФФИ ФАНТЫ, 25Г, ТМPUFFI х 40 шт есть вопросы",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "PF0005",
+    "brand": "Puffico",
+    "dest": "foods_normalized/Puffico/PF0005 - PF0005 Конфеты PUFFI BITES ПУФФИ БАЙТС, 25Г, ТМPUFFI х 40 шт есть вопросы",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "BS0001",
+    "brand": "Oslo",
+    "dest": "foods_normalized/Oslo/BS0001 - BS0001 Бисквитный батончик в какао глазури Дубайское пирожное ARRIVO, 40 г с сокращением",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "BS0002",
+    "brand": "Oslo",
+    "dest": "foods_normalized/Oslo/BS0002 - BS0002 Кекс глазированный Red Love в форме сердца, 50г, ТМ OSLO",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "BS0003",
+    "brand": "Oslo",
+    "dest": "foods_normalized/Oslo/BS0003 - BS0003 Бисквитный пончик Манела DONUT с кокосовой стружкой и белым шоколадом, 45г ТМ OSLO",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "BS0004",
+    "brand": "Oslo",
+    "dest": "foods_normalized/Oslo/BS0004 - BS0004 Кондитерское изделие Бисквитный батончик в какао-глазури Пирожное ARRIVO с банановым соусом, 30г, ТМ OSLO.",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0001",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0001 - AF0001 SOURBELT LENTA - KOLA ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR T СО ВКУСОМ колы, 1 кг",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0002",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0002 - AF0002 SOURBELT LENTA - strawberry ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS СО ВКУСОМ КЛУБНИКИ, 1 кг",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0003",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0003 - AF0003 SOURBELT LENTA - watermelon ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR T СО ВКУСОМ АРБУЗА, 1 кг",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0004",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0004 - AF0004 SOURBELT LENTA -pineapple coconut ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS со ВКУСОМ АНАНАСА-КО",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0005",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0005 - AF0005 SOURBELT LENTA - BLACKBERRY AND RASPBERRY ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR BELTS СО ВКУСОМ Е",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0006",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0006 - AF0006 SOURBELT LENTA - RAINBOW ЖЕВАТЕЛЬНЫЕ МЯГКИЕ КОНФЕТЫ LOVE ME SOUR РАДУГА, 1 кг",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0007",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0007 - AF0007 PENCIL SOUR RAINBOW LOVE ME РАДУГА ФРУКТОВЫХ ВКУСОВ И АРОМАТОВ (очень кислые мармеладные карандаши)",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0008",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0008 - AF0008 PENCIL SOUR MIX, LOVE ME АССОРТИ ВКУСОВ И АРОМАТОВ (очень кислые мармеладные карандаши), , 1 кг",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "AF0009",
+    "brand": "Love Me TM",
+    "dest": "foods_normalized/Love Me TM/AF0009 - AF0009 PENCIL oil MIX, LOVE ME АССОРТИ ФРУКТОВЫХ ВКУСОВ И АРОМАТОВ (мармеладные карандаши без дополнительно",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "KA0006",
+    "brand": "Panda Lee TM",
+    "dest": "foods_normalized/Panda Lee TM/KA0006 - 07 Panda Lee TM",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "KA0007",
+    "brand": "Panda Lee TM",
+    "dest": "foods_normalized/Panda Lee TM/KA0007 - 07 Panda Lee TM",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A00013",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A00013 - A00013 Пудинг FRUTTI ICE CREAM PUDDING стикер для ШТ",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A00014",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A00014 - Желейный десерт",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0003",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0003 - A0003 Желе FRUTTI Stik ТМ NAVROZ 11.66 гр по 100 шт в джаре, A0003",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0006",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0006 - Желейный десерт",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0007",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0007 - Желейный десерт",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0008",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0008 - Желейный десерт",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0009",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0009 - Желейный десерт",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0011",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0011 - Желейный десерт",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0012",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0012 - Желейный десерт",
+    "sources_count": 1,
+    "images_included": 1,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "A0015",
+    "brand": "Navroz",
+    "dest": "foods_normalized/Navroz/A0015 - Желейный десерт",
+    "sources_count": 2,
+    "images_included": 2,
+    "docs_included": 0,
+    "placeholders_kept": 0
+  },
+  {
+    "id": "KF0013",
+    "brand": "Crafers",
+    "dest": "foods_normalized/Crafers/KF0013 - Конфеты неглазированные сбивные MELLO 80г, ТМ Crafers х 33шт",
+    "sources_count": 2,
+    "images_included": 1,
+    "docs_included": 1,
+    "placeholders_kept": 0
+  }
+]

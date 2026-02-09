@@ -1,0 +1,32 @@
+body {
+    background-color: #FFFFFF;
+    overflow: visible !important;
+
+    transform: scale(1.0);
+}
+
+img.print {
+    width: 750px;
+}
+
+#marketing_month * {
+    font-size: 10px;
+}
+
+#contract,
+#contract th,
+#contract td {
+    font-size: 10px;
+}
+
+.footer {
+    display: none !important;
+}
+
+#reformal_tab {
+    display: none !important;
+}
+
+input[type="text"] {
+    border: 0;
+}

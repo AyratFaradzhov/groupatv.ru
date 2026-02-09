@@ -1,0 +1,46 @@
+{
+  "id": "9171",
+  "brand": "Tayas",
+  "name": "9171 ” JIMMY CREAM” БИСКВИТНЫЕ ПАЛОЧКИ С ОРЕХОВОЙ ПАСТОЙ, 52 гр",
+  "slug": "9171-9171-”-jimmy-cream”-бисквитные-палочки-с-ореховой-пастой,-52-гр",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/9171 - 9171 ” JIMMY CREAM” БИСКВИТНЫЕ ПАЛОЧКИ С ОРЕХОВОЙ ПАСТОЙ, 52 гр/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/03 Шоколады/52 гр Джимми Панда/9171 Jimmy Panda.webp",
+      "01 Tayas/03 Шоколады/52 гр Джимми Панда/9171 ” JIMMY CREAM”  БИСКВИТНЫЕ ПАЛОЧКИ С ОРЕХОВОЙ  ПАСТОЙ  , 52 гр.docx"
+    ],
+    "docs": [
+      "01 Tayas/03 Шоколады/52 гр Джимми Панда/9171 ” JIMMY CREAM”  БИСКВИТНЫЕ ПАЛОЧКИ С ОРЕХОВОЙ  ПАСТОЙ  , 52 гр.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATV GROUP - Продукция</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/product-mobile.css" />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container container">
+        <a href="index.html">
+          <img class="header__logo" src="assets/images/logo.png" alt="ATV Group" width="65" height="65" loading="lazy" decoding="async" />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                href="product.html"
+                class="header__link"
+                data-i18n="products"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link" data-i18n="about"></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="collaboration.html"
+                class="header__link"
+                data-i18n="collaboration"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="contacts.html"
+                class="header__link"
+                data-i18n="contacts"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="request-price.html" class="header__button">
+          <span class="price-list" data-i18n="price"></span>
+        </a>
+
+        <button class="header__lang-switch" id="langSwitch" type="button">
+          RU
+        </button>
+
+        <!-- Mobile burger menu button -->
+        <button class="header__burger" id="headerBurger" type="button" aria-label="Меню">
+          <svg class="header__burger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <!-- Mobile menu close button -->
+        <button class="header__close" id="headerClose" type="button" aria-label="Закрыть меню" style="display: none;">
+          <svg class="header__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="header__mobile-menu" id="headerMobileMenu">
+        <nav class="header__mobile-nav">
+          <a href="request-price.html" class="header__mobile-link" data-i18n="price">Прайс - лист</a>
+          <a href="product.html" class="header__mobile-link" data-i18n="products">Продукция</a>
+          <a href="about.html" class="header__mobile-link" data-i18n="about">О компании</a>
+          <a href="collaboration.html" class="header__mobile-link" data-i18n="collaboration">Сотрудничество</a>
+          <a href="contacts.html" class="header__mobile-link" data-i18n="contacts">Контакты</a>
+        </nav>
+        <div class="header__mobile-contacts">
+          <a href="tel:+79585821409" class="header__mobile-phone">+7 958 582 14 09</a>
+          <a href="mailto:info@atv-group.ru" class="header__mobile-email">info@atv-group.ru</a>
+        </div>
+        <div class="header__mobile-social">
+          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="header__mobile-social-link" aria-label="Instagram">
+            <img src="images/icons/instagram-icons.webp" alt="Instagram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://t.me/atv_groupp" class="header__mobile-social-link" aria-label="Telegram">
+            <img src="images/icons/telegram-logo.webp" alt="Telegram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="header__mobile-social-link" aria-label="Ozon">
+            <img src="images/icons/ozon-icon.webp" alt="Ozon" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://market.yandex.ru/cc/8Nzfeu" class="header__mobile-social-link" aria-label="Яндекс.Маркет">
+            <img src="images/icons/Yandex-icon.webp" alt="Яндекс.Маркет" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Catalog Navigation Bar -->
+    <nav class="product__nav-bar">
+      <div class="product__nav-container container">
+        <div class="product__catalog-wrapper">
+          <button
+            class="product__catalog-btn"
+            id="catalogBtn"
+            aria-expanded="false"
+          >
+            <span class="product__catalog-icon-wrapper">
+              <img
+                src="assets/images/products/icons/catalogy-icon.svg"
+                alt="иконка каталога"
+                class="product__catalog-icon"
+              />
+            </span>
+
+            <span
+              class="product__catalog-text"
+              data-i18n="product-catalog-button"
+            ></span>
+          </button>
+          <div class="product__catalog-dropdown" id="catalogDropdown">
+            <ul class="product__catalog-list"></ul>
+          </div>
+        </div>
+        <div class="product__search-wrapper">
+          <div class="product__search-container">
+            <input
+              type="text"
+              class="product__search-input"
+              id="productSearchInput"
+              placeholder="Поиск товара"
+              autocomplete="off"
+            />
+            <button
+              class="product__search-btn"
+              aria-label="Search"
+              id="searchSubmitBtn"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="m21 21-4.35-4.35"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="product__search-clear"
+              id="searchClearBtn"
+              aria-label="Clear search"
+              style="display: none"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 5L5 15M5 5L15 15"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <!-- Автодополнение -->
+          <div class="product__search-suggestions" id="searchSuggestions"></div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="product-page product-page--tab-products" id="productPageMain">
+      <!-- 1. Title Section (по макету Figma: заголовок меняется при выборе «Продукция» / «Бренды») -->
+      <section class="product__title-section">
+        <div class="product__title-container container">
+          <h1
+            class="product__title product__title--products"
+            data-i18n="product-page-title"
+          ></h1>
+          <h1
+            class="product__title product__title--brands"
+            data-i18n="product-page-brands-title"
+          ></h1>
+        </div>
+      </section>
+
+      <!-- Баннер выбранного бренда (виден только во вкладке «Продукция» при выборе бренда) -->
+      <div
+        class="product__selected-brand-banner container"
+        id="productSelectedBrandBanner"
+        aria-hidden="true"
+      >
+        <p class="product__selected-brand-text">
+          <span
+            class="product__selected-brand-label"
+            data-i18n="product-filter-brand-label"
+            >Бренд:</span
+          >
+          <span
+            class="product__selected-brand-name"
+            id="productSelectedBrandName"
+          ></span>
+        </p>
+        <button
+          type="button"
+          class="product__selected-brand-clear"
+          id="clearSelectedBrandBanner"
+          data-i18n="product-filter-show-all"
+        >
+          Показать все
+        </button>
+      </div>
+
+      <!-- 2. Hero Banner (карусель или логотип бренда при выборе бренда) -->
+      <section class="product__hero">
+        <div class="product__hero-container">
+          <!-- При выборе бренда: карусели скрыты, показывается только логотип бренда (по макету Figma) -->
+          <div class="product__hero-brand-logo" id="productHeroBrandLogo" aria-hidden="true">
+            <img class="product__hero-brand-logo-img" id="productHeroBrandLogoImg" src="" alt="" />
+          </div>
+          <!-- Карусель для продукции (4 изображения) -->
+          <div class="product__hero-carousel product__hero-carousel--products">
+            <div class="product__hero-carousel-track">
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/product_cover_one.webp"
+                  alt="Продукция ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/product_cover_two.webp"
+                  alt="Продукция ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/product_cover_three.webp"
+                  alt="Продукция ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/product_cover_four.webp"
+                  alt="Продукция ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+              <!-- Дублируем первый слайд для бесшовной прокрутки -->
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/product_cover_one.webp"
+                  alt="Продукция ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Карусель для брендов (2 изображения) -->
+          <div class="product__hero-carousel product__hero-carousel--brands">
+            <div class="product__hero-carousel-track">
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/brand_cover_one.webp"
+                  alt="Бренды ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/brand_cover_two.webp"
+                  alt="Бренды ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+              <!-- Дублируем первый слайд для бесшовной прокрутки -->
+              <div class="product__hero-carousel-slide">
+                <img
+                  src="assets/images/products/brand_cover_one.webp"
+                  alt="Бренды ATV GROUP"
+                  class="product__hero-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Табы: переключают блок ниже — «Продукция» → категории товаров, «Бренды» → список брендов -->
+      <section class="product__tabs-section">
+        <div class="product__tabs-container container">
+          <div class="product__tabs">
+            <button
+              type="button"
+              class="product__tab product__tab--active"
+              data-tab="products"
+              data-i18n="product-tab-products"
+            ></button>
+            <button
+              type="button"
+              class="product__tab"
+              data-tab="brands"
+              data-i18n="product-tab-brands"
+            ></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок под табами: при «Продукция» — сетка категорий, при «Бренды» — сетка брендов -->
+      <section class="product__switcher-section">
+        <div class="product__categories-wrap" id="categoriesWrap">
+          <div class="product__categories-section">
+            <div class="product__categories-container container">
+              <div class="product__categories-grid" id="categoriesGrid">
+                <!-- Категории загружаются через product-loader.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__brands-wrap" id="brandsWrap">
+          <div class="product__brands-section">
+            <div class="product__brands-container container">
+              <div class="product__brands-grid" id="brandsGrid">
+                <!-- Бренды загружаются через product-loader.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Панели контента: фильтры + сетка товаров (только для вкладки «Продукция») -->
+      <section class="product__panels">
+        <!-- Products Panel -->
+        <div
+          class="product__panel product__panel--active"
+          data-panel="products"
+        >
+          <div class="product__panel-container container">
+            <!-- Фильтры и информация -->
+            <div class="product__filters-section">
+              <div
+                class="product__filter-info"
+                id="brandFilterInfo"
+                style="display: none"
+              >
+                <span class="product__filter-text"></span>
+                <button
+                  class="product__filter-clear"
+                  id="clearBrandFilter"
+                  data-i18n="product-filter-show-all"
+                >
+                  Показать все
+                </button>
+              </div>
+
+              <!-- Breadcrumb Navigation -->
+              <nav class="product__breadcrumb container" aria-label="Breadcrumb">
+                <div class="product__breadcrumb-container">
+                  <a href="index.html" class="product__breadcrumb-link">Главная страница</a>
+                  <span class="product__breadcrumb-separator">/</span>
+                  <span class="product__breadcrumb-item" id="breadcrumbSecond">
+                    <a href="product.html" class="product__breadcrumb-link" id="breadcrumbSecondLink">Продукция</a>
+                  </span>
+                  <span class="product__breadcrumb-separator" id="breadcrumbSeparator" style="display: none;">/</span>
+                  <span class="product__breadcrumb-item product__breadcrumb-item--current" id="breadcrumbThird" style="display: none;"></span>
+                </div>
+              </nav>
+
+              <!-- Счетчик результатов и фильтры по категориям -->
+              <div class="product__results-header">
+                <div class="product__results-count" id="resultsCount"></div>
+                <div class="product__filters-row">
+                  <!-- Выпадающий фильтр категорий -->
+                  <div class="product__category-dropdown" id="categoryDropdown">
+                    <button
+                      type="button"
+                      class="product__category-dropdown-btn"
+                      id="categoryDropdownBtn"
+                    >
+                      <span class="product__category-dropdown-text"
+                        >Вся продукция</span
+                      >
+                      <svg
+                        class="product__category-dropdown-icon product__category-dropdown-icon--down"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6 9L12 15L18 9"
+                          stroke="#F7F5F3"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <svg
+                        class="product__category-dropdown-icon product__category-dropdown-icon--minus"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="display: none"
+                      >
+                        <path
+                          d="M6 12H18"
+                          stroke="#F7F5F3"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                    <div
+                      class="product__category-dropdown-menu"
+                      id="categoryDropdownMenu"
+                    >
+                      <!-- Категории будут добавлены динамически -->
+                    </div>
+                  </div>
+                  <!-- Фильтр по популярности -->
+                  <button
+                    type="button"
+                    class="product__popularity-filter"
+                    id="popularityFilter"
+                  >
+                    <span>По популярности</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6 9L12 15L18 9"
+                        stroke="#F7F5F3"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Фильтр подкатегорий (показывается при выборе категории) -->
+            <div
+              class="product__subcategories-filter"
+              id="subcategoriesFilterContainer"
+              style="display: none"
+            >
+              <div class="product__subcategories-filter-wrapper">
+                <!-- Фильтр по весу -->
+                <div class="product__filter-group">
+                  <label class="product__filter-label" data-i18n="filter_weight"
+                    >Вес:</label
+                  >
+                  <div class="product__filter-options" id="weightFilterOptions">
+                    <!-- Опции веса будут добавлены динамически -->
+                  </div>
+                </div>
+
+                <!-- Фильтр по вкусу -->
+                <div class="product__filter-group">
+                  <label class="product__filter-label" data-i18n="filter_flavor"
+                    >Вкус:</label
+                  >
+                  <div class="product__filter-options" id="flavorFilterOptions">
+                    <!-- Опции вкуса будут добавлены динамически -->
+                  </div>
+                </div>
+
+                <!-- Фильтр по форме -->
+                <div class="product__filter-group">
+                  <label class="product__filter-label" data-i18n="filter_form"
+                    >Форма:</label
+                  >
+                  <div class="product__filter-options" id="formFilterOptions">
+                    <!-- Опции формы будут добавлены динамически -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Сетка товаров -->
+            <div class="product__grid" id="productsGrid">
+              <!-- Товары будут загружены динамически через product-loader.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Brands Panel (контент брендов выводится выше в product__brands-wrap) -->
+        <div class="product__panel" data-panel="brands">
+          <div class="product__panel-container container">
+            <!-- Сетка брендов отображается в блоке product__brands-wrap над панелями -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title" data-i18n="logo_text"></h1>
+        <div class="footer_news-sendler">
+          <h3 class="footer__subtitle" data-i18n="footer__subtitle"></h3>
+          <div class="footer__form-container">
+            <form class="footer__form" id="footerForm">
+              <input
+                type="text"
+                class="footer__input"
+                id="footerName"
+                placeholder="Имя"
+                required
+              />
+              <input
+                type="email"
+                class="footer__input"
+                id="footerEmail"
+                placeholder="почта"
+                required
+              />
+              <button
+                type="submit"
+                class="footer__submit"
+                data-i18n="send-newsendler"
+              ></button>
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox" />
+                <p class="checkbox-text" data-i18n="checkbox-text"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="contacts"></h4>
+              <a href="tel:+7958582140">+7 958 582 14 09</a>
+              <a href="mailto:info@atv-group.ru">info@atv-group.ru</a>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4 class="social-list-title" data-i18n="social-list-web"></h4>
+              <div class="icons-container">
+                <a
+                  href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt"
+                  class="marketplace"
+                  ><img
+                    src="images/icons/instagram-icons.webp"
+                    alt="ссылка на наш инстаграм"
+                    class="marketplace-icons"
+                /></a>
+                <a href="https://t.me/atv_groupp" class="marketplace"
+                  ><img
+                    src="images/icons/telegram-logo.webp"
+                    alt="ссылка на наш телеграм-канал"
+                    class="marketplace-icons"
+                /></a>
+              </div>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4
+                class="social-list-title"
+                data-i18n="social-list-timework"
+              ></h4>
+              <p class="worktime">
+                Режим работы:
+                <time datetime="09:00">9:00</time>–<time datetime="22:00"
+                  >22:00</time
+                >
+              </p>
+            </div>
+          </li>
+          <li class="social-list__item">
+            <div class="social-list-container">
+              <h4
+                class="social-list-title"
+                data-i18n="social-list-marketplace"
+              ></h4>
+              <div class="icons-container">
+                <a
+                  href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com"
+                  class="marketplace"
+                  ><img
+                    src="images/icons/ozon-icon.webp"
+                    alt="ссылка на озон"
+                    class="marketplace-icons ozon-icon"
+                /></a>
+                <a href="https://market.yandex.ru/cc/8Nzfeu" class="marketplace"
+                  ><img
+                    src="images/icons/Yandex-icon.webp"
+                    alt="ссылка на Яндекс-маркет"
+                    class="marketplace-icons"
+                /></a>
+                <a
+                  href="https://www.wildberries.ru/seller/410710"
+                  class="marketplace"
+                  ><img
+                    src="images/icons/wildberries-icon.webp"
+                    alt="ссылка на wildberries"
+                    class="marketplace-icons"
+                /></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <nav class="footer__legal-links" aria-label="Legal">
+          <a href="terms.html" data-i18n="footer_legal_terms">Пользовательское соглашение</a>
+          <a href="privacy.html" data-i18n="footer_legal_privacy">Политика конфиденциальности</a>
+          <a href="consent.html" data-i18n="footer_legal_consent">Согласие на обработку персональных данных</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div
+      class="product-modal"
+      id="productModal"
+      role="dialog"
+      aria-labelledby="productModalTitle"
+      aria-hidden="true"
+    >
+      <div class="product-modal__overlay"></div>
+      <div class="product-modal__container">
+        <button
+          class="product-modal__close"
+          id="productModalClose"
+          aria-label="Close modal"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 6L6 12M12 6L18 12"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="product-modal__content" id="productModalContent">
+          <!-- Content will be inserted here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/product-tabs.js"></script>
+    <script src="assets/js/hero-carousel.js"></script>
+    <script src="assets/js/search-sticky.js"></script>
+    <script src="assets/js/product-loader.js"></script>
+    <script src="assets/js/search-autocomplete.js"></script>
+    <script src="assets/js/product-search-autoscroll-mobile.js"></script>
+  </body>
+</html>

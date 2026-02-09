@@ -1,0 +1,428 @@
+@media (max-width: 767px) {
+  .page-collaboration {
+    --container-pad: clamp(16px, 6.4vw, 24px);
+    background-color: #fffaef;
+    overflow-x: hidden;
+  }
+
+  .page-collaboration .cooperation-intro {
+    gap: 50px;
+    padding: 0;
+    padding-block-end: 0 !important; /* Убираем padding-bottom, так как футер имеет padding-top 50px */
+  }
+
+  .page-collaboration .cooperation-intro__container {
+    height: auto;
+    border-radius: 0;
+    overflow: visible;
+    padding-inline: 0;
+  }
+
+  .page-collaboration .cooperation-intro__title {
+    margin: 40px 0 16px;
+    padding-inline: 24px;
+    padding-block: 0px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: left;
+    color: #c02927;
+  }
+
+  .page-collaboration .cooperation-intro__video {
+    width: 100%;
+    height: 211px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    display: block;
+  }
+
+  .page-collaboration .cooperation__welcome-container {
+    position: relative;
+    min-height: 0;
+    min-block-size: auto;
+    height: auto;
+    aspect-ratio: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .page-collaboration .cooperation__welcome-image {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 216px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .page-collaboration .cooperation__welcome-img {
+    transform: scale(1.7);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 4em 18%;
+    border-radius: 20px;
+  }
+
+  .page-collaboration .cooperation-intro__paragraph {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+    margin: -52px 0 0;
+    padding: 30px 24px;
+    gap: 24px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-sizing: border-box;
+  }
+
+  .page-collaboration .cooperation-intro__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #404040;
+  }
+
+  .page-collaboration .cooperation__panels {
+    position: relative;
+    margin: 0;
+    padding: 40px 24px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    isolation: isolate;
+  }
+
+  .page-collaboration .cooperation__panels::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../../images/background/partner_background.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 0;
+  }
+
+  .page-collaboration .cooperation__tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: transparent;
+    border-radius: 0;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .page-collaboration .cooperation__tab {
+    width: 100%;
+    height: 50px;
+    padding: 0 32px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    box-sizing: border-box;
+  }
+
+  .page-collaboration
+    .cooperation__tab[data-i18n="cooperation_tab_manufacturer"] {
+    order: 0;
+  }
+
+  .page-collaboration .cooperation__tab[data-i18n="cooperation_tab_partner"] {
+    order: 1;
+  }
+
+  .page-collaboration .cooperation__tab:not(.cooperation__tab--active) {
+    background: #ffffff;
+    color: #404040;
+  }
+
+  .page-collaboration .cooperation__tab--active {
+    background: #c02927;
+    color: #f7f5f3;
+  }
+
+  .page-collaboration .cooperation__panel {
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    transform: none;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  .page-collaboration .cooperation__panel--active {
+    opacity: 1;
+  }
+
+  .page-collaboration .cooperation__title {
+    display: none;
+  }
+
+  .page-collaboration .cooperation__subtitle {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #c02927;
+    margin: 0;
+    line-height: 1;
+    white-space: pre-wrap;
+    padding-block-end: 24px;
+  }
+
+  .page-collaboration .partner-form,
+  .page-collaboration .manufacturer-form {
+    gap: 24px;
+  }
+
+  .page-collaboration .partner-form__input,
+  .page-collaboration .manufacturer-form__input,
+  .page-collaboration .partner-form__textarea,
+  .page-collaboration .manufacturer-form__textarea {
+    height: 51px;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #404040;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  .page-collaboration .partner-form__textarea,
+  .page-collaboration .manufacturer-form__textarea {
+    min-height: 51px;
+    resize: none;
+  }
+
+  .page-collaboration .partner-form__input::placeholder,
+  .page-collaboration .manufacturer-form__input::placeholder,
+  .page-collaboration .partner-form__textarea::placeholder,
+  .page-collaboration .manufacturer-form__textarea::placeholder {
+    color: #404040;
+  }
+
+  .page-collaboration .partner-form__submit,
+  .page-collaboration .manufacturer-form__submit {
+    margin-top: 0;
+    height: 51px;
+    border-radius: 13px;
+    background: #c02927;
+    color: #f7f5f3;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .page-collaboration .partner-form__policy,
+  .page-collaboration .manufacturer-form__policy {
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #c02927;
+    align-items: flex-start;
+    line-height: 1;
+  }
+
+  .page-collaboration .partner-form__policy input[type="checkbox"],
+  .page-collaboration .manufacturer-form__policy input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #c02927;
+    border-radius: 3px;
+    background: #c02927;
+    accent-color: #c02927;
+    flex-shrink: 0;
+  }
+
+  .page-collaboration .partners {
+    padding-top: 40px;
+    padding-bottom: 0 !important; /* Убираем padding-bottom, так как футер имеет padding-top 50px */
+    padding-inline: var(--container-pad);
+  }
+
+  .page-collaboration .partners__title-container__about {
+    justify-content: flex-start;
+    padding-inline: 0;
+  }
+
+  .page-collaboration .partners__title-about {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    color: #1445ae;
+    margin: 0;
+  }
+
+  .page-collaboration .car-icon {
+    display: none;
+  }
+
+  .page-collaboration .partners__list {
+    display: flex;
+    gap: 24px;
+    padding: 16px 0 0;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scroll-behavior: auto;
+    scrollbar-width: none;
+    will-change: scroll-position;
+  }
+
+  .page-collaboration .partners__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .page-collaboration .partners-item {
+    width: 327px;
+    height: 150px;
+    border-radius: 50px;
+    padding: 20px;
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+    transform: scale(0.98);
+    opacity: 0.8;
+    transform-origin: center;
+    will-change: transform, opacity;
+    transition: transform 160ms ease, opacity 160ms ease;
+  }
+
+  .page-collaboration + .footer {
+    background-color: #fbf5e5;
+    border-radius: 30px 30px 0 0;
+    padding: 50px var(--container-pad) 60px;
+    padding-block-start: 50px !important;
+    overflow-x: hidden;
+  }
+
+  .page-collaboration + .footer .footer__container {
+    padding-inline: 0;
+  }
+
+  .page-collaboration + .footer .footer__title {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #c02927;
+    text-align: center;
+    margin: 0 0 12px;
+  }
+
+  .page-collaboration + .footer .footer__subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    color: #c02927;
+    text-align: center;
+    margin: 0 0 24px;
+  }
+
+  .page-collaboration + .footer .footer__form-container {
+    background: #fbf0d8;
+    border-radius: 80px;
+    padding: 60px 24px;
+  }
+
+  .page-collaboration + .footer .footer__form {
+    gap: 24px;
+  }
+
+  .page-collaboration + .footer .footer__input {
+    background: #f7f5f3;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #404040;
+  }
+
+  .page-collaboration + .footer .footer__submit {
+    background: #c02927;
+    color: #f7f5f3;
+    border-radius: 12px;
+    padding: 16px 10px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .page-collaboration + .footer .checkbox-container {
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .page-collaboration + .footer .checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    background: #c02927;
+    border: 1px solid #c02927;
+    accent-color: #c02927;
+    flex-shrink: 0;
+  }
+
+  .page-collaboration + .footer .checkbox-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #c02927;
+  }
+
+  .page-collaboration + .footer .social-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .page-collaboration + .footer .social-list-title {
+    font-size: 24px;
+    font-weight: 300;
+    color: #c02927;
+    margin: 0 0 12px;
+  }
+
+  .page-collaboration + .footer .social-list a,
+  .page-collaboration + .footer .worktime {
+    font-size: 16px;
+    font-weight: 300;
+    color: #404040;
+  }
+
+  .page-collaboration + .footer .icons-container {
+    gap: 16px;
+  }
+
+  .page-collaboration + .footer .marketplace-icons {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+  .success-modal__content {
+    width: calc(100% - 32px);
+    max-width: none;
+    max-height: calc(100vh - 32px);
+    overflow: auto;
+  }
+}

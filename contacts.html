@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATV GROUP</title>
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="header__container container">
+        <a href="index.html">
+          <img
+            class="header__logo"
+            src="assets/images/logo.png"
+            alt="ATV GROUP логотип"
+            width="65"
+            height="65"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                href="product.html"
+                class="header__link"
+                data-i18n="products"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link" data-i18n="about"></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="collaboration.html"
+                class="header__link"
+                data-i18n="collaboration"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="contacts.html"
+                class="header__link"
+                data-i18n="contacts"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="request-price.html" class="header__button">
+          <span class="price-list" data-i18n="price"></span>
+        </a>
+
+        <button class="header__lang-switch" id="langSwitch" type="button">
+          RU
+        </button>
+
+        <!-- Mobile burger menu button -->
+        <button class="header__burger" id="headerBurger" type="button" aria-label="Меню">
+          <svg class="header__burger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <!-- Mobile menu close button -->
+        <button class="header__close" id="headerClose" type="button" aria-label="Закрыть меню" style="display: none;">
+          <svg class="header__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="header__mobile-menu" id="headerMobileMenu">
+        <nav class="header__mobile-nav">
+          <a href="request-price.html" class="header__mobile-link" data-i18n="price">Прайс - лист</a>
+          <a href="product.html" class="header__mobile-link" data-i18n="products">Продукция</a>
+          <a href="about.html" class="header__mobile-link" data-i18n="about">О компании</a>
+          <a href="collaboration.html" class="header__mobile-link" data-i18n="collaboration">Сотрудничество</a>
+          <a href="contacts.html" class="header__mobile-link" data-i18n="contacts">Контакты</a>
+        </nav>
+        <div class="header__mobile-contacts">
+          <a href="tel:+79585821409" class="header__mobile-phone">+7 958 582 14 09</a>
+          <a href="mailto:info@atv-group.ru" class="header__mobile-email">info@atv-group.ru</a>
+        </div>
+        <div class="header__mobile-social">
+          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="header__mobile-social-link" aria-label="Instagram">
+            <img src="images/icons/instagram-icons.webp" alt="Instagram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://t.me/atv_groupp" class="header__mobile-social-link" aria-label="Telegram">
+            <img src="images/icons/telegram-logo.webp" alt="Telegram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="header__mobile-social-link" aria-label="Ozon">
+            <img src="images/icons/ozon-icon.webp" alt="Ozon" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+          <a href="https://market.yandex.ru/cc/8Nzfeu" class="header__mobile-social-link" aria-label="Яндекс.Маркет">
+            <img src="images/icons/Yandex-icon.webp" alt="Яндекс.Маркет" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main page-contacts">
+      <section class="contacts-hero">
+        <div class="contacts-hero__overlay">
+          <div class="contacts-glass">
+            <h2 class="contacts-glass__title" data-i18n="contacts_title"></h2>
+
+            <div class="contacts-glass__links">
+              <p class="contacts-glass__phone" data-i18n="contacts_phone"></p>
+              <p class="contacts-glass__email" data-i18n="contacts_email"></p>
+            </div>
+
+            <div class="contacts-glass__addresses">
+              <p data-i18n="contacts_legal_address"></p>
+              <p data-i18n="contacts_actual_address"></p>
+              <p data-i18n="contacts_warehouse_address"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>

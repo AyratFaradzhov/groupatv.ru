@@ -1,0 +1,46 @@
+{
+  "id": "9309",
+  "brand": "Tayas",
+  "name": "9309 VAIO FREEZE DRIED 20 GR JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1)",
+  "slug": "9309-9309-vaio-freeze-dried-20-gr-jelly-chips-doypack-24x1-bag-sticker-50x60-mm-(1)",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/9309 - 9309 VAIO FREEZE DRIED 20 GR JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1)/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/02 Желейный Фигурный Мармелад/20 г Сублимированный Мармелад/9309 VAIO FREEZE DRIED 20 GR JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1).pdf",
+      "01 Tayas/01 Мармелады/02 Желейный Фигурный Мармелад/20 г Сублимированный Мармелад/9309 Vaio Fruit.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/02 Желейный Фигурный Мармелад/20 г Сублимированный Мармелад/9309 VAIO FREEZE DRIED 20 GR JELLY CHIPS DOYPACK 24X1 BAG STICKER 50X60 MM (1).pdf"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

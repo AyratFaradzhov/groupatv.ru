@@ -1,0 +1,46 @@
+{
+  "id": "PF0001",
+  "brand": "Puffico",
+  "name": "PF0001 Конфеты неглазированные сбивные PUFFI YUMMY ПУФФИ ЮМИ, 60г, ТМPUFFI х 28шт",
+  "slug": "pf0001-pf0001-конфеты-неглазированные-сбивные-puffi-yummy-пуффи-юми,-60г,-тмpuffi-х-28шт",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Puffico/PF0001 - PF0001 Конфеты неглазированные сбивные PUFFI YUMMY ПУФФИ ЮМИ, 60г, ТМPUFFI х 28шт/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "04 Puffico/PF0001 60GR Yummy.webp",
+      "04 Puffico/PF0001 Конфеты неглазированные сбивные PUFFI YUMMY «ПУФФИ ЮМИ», 60г, ТМ«PUFFI»   х_28шт   текстовка.docx"
+    ],
+    "docs": [
+      "04 Puffico/PF0001 Конфеты неглазированные сбивные PUFFI YUMMY «ПУФФИ ЮМИ», 60г, ТМ«PUFFI»   х_28шт   текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

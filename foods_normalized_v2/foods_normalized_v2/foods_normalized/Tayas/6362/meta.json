@@ -1,0 +1,43 @@
+{
+  "id": "6362",
+  "brand": "Tayas",
+  "name": "6362 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ЯБЛОКО",
+  "slug": "6362-6362-miniyum-жевательные-палочки-яблоко",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [],
+  "source": {
+    "paths": [
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6362 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ЯБЛОКО.docx"
+    ],
+    "docs": [
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6362 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ЯБЛОКО.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": true,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

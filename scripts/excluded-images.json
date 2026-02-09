@@ -1,0 +1,32 @@
+{
+  "description": "Список изображений, которые НЕ должны импортироваться в products.json",
+  "lastUpdated": "2025-01-XX",
+  "images": [
+    "assets/images/products/tayas/tayas-belts-assorti-75gr.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v1.webp",
+    "assets/images/products/tayas/tayas-marmalade-sour-80gr.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v4.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v8.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v10.webp",
+    "assets/images/products/tayas/tayas-belts-vinograd-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-pina-kolada-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-arbuz-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-malina-ezhevika-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-klubnika-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-golubika-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-marmalade-80gr-v6.webp",
+    "assets/images/products/tayas/tayas-belts-yabloko-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-kola-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-raduga-15gr-v2.webp",
+    "assets/images/products/tayas/tayas-belts-raduga-75gr-v1.webp",
+    "assets/images/products/tayas/tayas-belts-raduga-75gr.webp",
+    "assets/images/products/tayas/tayas-belts-assorti-75gr-v3.webp",
+    "assets/images/products/tayas/tayas-belts-assorti-75gr-v2.webp"
+  ],
+  "total": 22
+}
+
+
+
+

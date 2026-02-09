@@ -1,0 +1,46 @@
+{
+  "id": "PL0903",
+  "brand": "Pakel",
+  "name": "PL0903 ANGELS HAIR РОЗОВЫЙ 90G х6 х6 без указанаия мес срока хранения",
+  "slug": "pl0903-pl0903-angels-hair-розовый-90g-х6-х6-без-указанаия-мес-срока-хранения",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL0903 - PL0903 ANGELS HAIR РОЗОВЫЙ 90G х6 х6 без указанаия мес срока хранения/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Шоколады/Miskets/90 г Angel Hair/PL0903  ANGELS HAIR   РОЗОВЫЙ   90G х6 х6  без  указанаия мес  срока хранения.docx",
+      "02 Pakel/Шоколады/Miskets/90 г Angel Hair/PL0903.webp"
+    ],
+    "docs": [
+      "02 Pakel/Шоколады/Miskets/90 г Angel Hair/PL0903  ANGELS HAIR   РОЗОВЫЙ   90G х6 х6  без  указанаия мес  срока хранения.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

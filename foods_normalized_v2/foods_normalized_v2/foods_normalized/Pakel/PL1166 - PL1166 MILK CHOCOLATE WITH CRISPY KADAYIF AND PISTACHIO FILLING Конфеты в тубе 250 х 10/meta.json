@@ -1,0 +1,46 @@
+{
+  "id": "PL1166",
+  "brand": "Pakel",
+  "name": "PL1166 MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10",
+  "slug": "pl1166-pl1166-milk-chocolate-with-crispy-kadayif-and-pistachio-filling-конфеты-в-тубе-250-х-10",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL1166 - PL1166 MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Шоколады/Miskets/250 г Шоколадный Конфет/PL1166   MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10.docx",
+      "02 Pakel/Шоколады/Miskets/250 г Шоколадный Конфет/PL1166.webp"
+    ],
+    "docs": [
+      "02 Pakel/Шоколады/Miskets/250 г Шоколадный Конфет/PL1166   MILK CHOCOLATE WITH CRISPY KADAYIF AND PISTACHIO FILLING Конфеты в тубе 250 х 10.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

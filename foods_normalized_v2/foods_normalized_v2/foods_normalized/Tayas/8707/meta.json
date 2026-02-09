@@ -1,0 +1,49 @@
+{
+  "id": "8707",
+  "brand": "Tayas",
+  "name": "8707 КОЛА 30 гр КИСЛЫЕ ТРУБОЧКИ",
+  "slug": "8707-8707-кола-30-гр-кислые-трубочки",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8707 - 8707 КОЛА 30 гр КИСЛЫЕ ТРУБОЧКИ/main.webp",
+    "foods_normalized/Tayas/8707 - 8707 КОЛА 30 гр КИСЛЫЕ ТРУБОЧКИ/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8707 Кислые Трубочки ( Кола )/8478 Кола 1.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8707 Кислые Трубочки ( Кола )/8478 Кола 2.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8707 Кислые Трубочки ( Кола )/8707 КОЛА 30 гр КИСЛЫЕ ТРУБОЧКИ .docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8707 Кислые Трубочки ( Кола )/Кислые трубочки Damla,Кола,упаковка 30гр24шт8бл №8707.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/30 г DAMLA Кислые  ( Трубочки )/8707 Кислые Трубочки ( Кола )/8707 КОЛА 30 гр КИСЛЫЕ ТРУБОЧКИ .docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

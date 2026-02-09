@@ -1,0 +1,46 @@
+{
+  "id": "PL0899",
+  "brand": "Pakel",
+  "name": "PL0899 Шоколад с фундуком MISKETS MILK CHOCOLATE HAZELNUT TABLET 60GRX10ADX6D, ТМ MISKET",
+  "slug": "pl0899-pl0899-шоколад-с-фундуком-miskets-milk-chocolate-hazelnut-tablet-60grx10adx6d,-тм-misket",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL0899 - PL0899 Шоколад с фундуком MISKETS MILK CHOCOLATE HAZELNUT TABLET 60GRX10ADX6D, ТМ MISKET/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Шоколады/Miskets/60 г Шоколад Молочный/PL0899   Шоколад с фундуком MISKETS MILK CHOCOLATE HAZELNUT TABLET 60GRX10ADX6D,  ТМ «MISKET»  _   текстовка.docx",
+      "02 Pakel/Шоколады/Miskets/60 г Шоколад Молочный/PL0899 Фундук.webp"
+    ],
+    "docs": [
+      "02 Pakel/Шоколады/Miskets/60 г Шоколад Молочный/PL0899   Шоколад с фундуком MISKETS MILK CHOCOLATE HAZELNUT TABLET 60GRX10ADX6D,  ТМ «MISKET»  _   текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

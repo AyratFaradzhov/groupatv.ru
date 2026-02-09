@@ -1,0 +1,3569 @@
+{
+  "products": [
+    {
+      "id": "sl0001",
+      "name": "Кукурузные трубочки TWIN с шоколадно-кремовой начинкой",
+      "nameRu": "Кукурузные трубочки TWIN с шоколадно-кремовой начинкой",
+      "nameEn": "Кукурузные трубочки TWIN с шоколадно-кремовой начинкой",
+      "brand": "sulifa",
+      "category": "waffles",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Alikhan Ata/SL0001/main.webp",
+      "sku": "SL0001",
+      "type": "tubes",
+      "flavor": "sweet",
+      "weight": "18 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Alikhan Ata/SL0001",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "sl0002",
+      "name": "Кукурузные трубочки TWIN с молочно-кремовой начинкой",
+      "nameRu": "Кукурузные трубочки TWIN с молочно-кремовой начинкой",
+      "nameEn": "Кукурузные трубочки TWIN с молочно-кремовой начинкой",
+      "brand": "sulifa",
+      "category": "waffles",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Alikhan Ata/SL0002/main.webp",
+      "sku": "SL0002",
+      "type": "tubes",
+      "flavor": "sweet",
+      "weight": "18 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Alikhan Ata/SL0002=",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "kf0013",
+      "name": "Сбивные конфеты MELLO без глазури",
+      "nameRu": "Сбивные конфеты MELLO без глазури",
+      "nameEn": "Сбивные конфеты MELLO без глазури",
+      "brand": "CRAFERS",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Crafers/KF0013/main.webp",
+      "sku": "KF0013",
+      "flavor": "sweet",
+      "type": "marshmallow",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": "false",
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Crafers/KF0013",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0001",
+      "name": "Жевательные ленты Love Me, кислые, со вкусом колы",
+      "nameRu": "Жевательные ленты Love Me, кислые, со вкусом колы",
+      "nameEn": "Жевательные ленты Love Me, кислые, со вкусом колы",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0001/main.webp",
+      "sku": "AF0001",
+      "type": "marmalade",
+      "flavor": "sour",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0001",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0002",
+      "name": "Жевательные ленты Love Me, кислые, со вкусом клубники",
+      "nameRu": "Жевательные ленты Love Me, кислые, со вкусом клубники",
+      "nameEn": "Жевательные ленты Love Me, кислые, со вкусом клубники",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "type": "belts",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0002/main.webp",
+      "sku": "AF0002",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0002",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0003",
+      "name": "Жевательные ленты Love Me, кислые, со вкусом арбуза",
+      "nameRu": "Жевательные ленты Love Me, кислые, со вкусом арбуза",
+      "nameEn": "Жевательные ленты Love Me, кислые, со вкусом арбуза",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "flavor": "sour",
+      "type": "belts",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0003/main.webp",
+      "sku": "AF0003",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0003",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0004",
+      "name": "Жевательные ленты Love Me, кислые, со вкусом ананаса и кокоса",
+      "nameRu": "Жевательные ленты Love Me, кислые, со вкусом ананаса и кокоса",
+      "nameEn": "Жевательные ленты Love Me, кислые, со вкусом ананаса и кокоса",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0004/main.webp",
+      "sku": "AF0004",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0004",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0005",
+      "name": "Жевательные ленты Love Me, кислые, со вкусом ежевики и малины",
+      "nameRu": "Жевательные ленты Love Me, кислые, со вкусом ежевики и малины",
+      "nameEn": "Жевательные ленты Love Me, кислые, со вкусом ежевики и малины",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0005/main.webp",
+      "sku": "AF0005",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0005",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "af0006",
+      "name": "Жевательные ленты Love Me, кислые, радужные",
+      "nameRu": "Жевательные ленты Love Me, кислые, радужные",
+      "nameEn": "Жевательные ленты Love Me, кислые, радужные",
+      "brand": "LOVE ME",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0006/main.webp",
+      "sku": "AF0006",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Love Me TM/AF0006",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a00013",
+      "name": "Пудинг Navroz Frutti Ice Cream",
+      "nameRu": "Пудинг Navroz Frutti Ice Cream",
+      "nameEn": "Пудинг Navroz Frutti Ice Cream",
+      "brand": "NAVROZ",
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A00013",
+      "category": "sweet",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A00013/main.webp",
+      "sku": "A00013",
+      "flavor": "sweet",
+      "type": "jelly_pudding",
+      "weight": "25 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A00013",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a00014",
+      "name": "Питьевое желе Navroz Frutti",
+      "nameRu": "Питьевое желе Navroz Frutti",
+      "nameEn": "Питьевое желе Navroz Frutti",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A00014/main.webp",
+      "sku": "A00014",
+      "type": "drinkable_jelly",
+      "flavor": "sweet",
+      "weight": "120 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A00014",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a0006",
+      "name": "Желе Frutti «Змейка» — фруктовое ассорти",
+      "nameRu": "Желе Frutti «Змейка» — фруктовое ассорти",
+      "nameEn": "Желе Frutti «Змейка» — фруктовое ассорти",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0006/main.webp",
+      "sku": "A0006",
+      "flavor": "sweet",
+      "type": "jelly_figures",
+      "weight": "11.55 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0006",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a0007",
+      "name": "Желе Frutti «Крокодил» — фруктовое ассорти",
+      "nameRu": "Желе Frutti «Крокодил» — фруктовое ассорти",
+      "nameEn": "Желе Frutti «Крокодил» — фруктовое ассорти",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0007/main.webp",
+      "sku": "A0007",
+      "flavor": "sweet",
+      "type": "jelly_figures",
+      "weight": "11.55 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0007",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a0008",
+      "name": "Желе Frutti «Машинка» — фруктовое ассорти",
+      "nameRu": "Желе Frutti «Машинка» — фруктовое ассорти",
+      "nameEn": "Желе Frutti «Машинка» — фруктовое ассорти",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0008/main.webp",
+      "sku": "A0008",
+      "flavor": "sweet",
+      "type": "jelly_cans",
+      "weight": "17 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0008",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a0009",
+      "name": "Желе Frutti «Большая машинка» — фруктовое ассорти",
+      "nameRu": "Желе Frutti «Большая машинка» — фруктовое ассорти",
+      "nameEn": "Желе Frutti «Большая машинка» — фруктовое ассорти",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0009/main.webp",
+      "sku": "A0009",
+      "flavor": "sweet",
+      "type": "jelly_cans",
+      "weight": "13 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0009",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a0011",
+      "name": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "nameRu": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "nameEn": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0011/main.webp",
+      "sku": "A0011",
+      "flavor": "sweet",
+      "type": "jelly_sticks",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0011",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a0012",
+      "name": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "nameRu": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "nameEn": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0012/main.webp",
+      "sku": "A0012",
+      "flavor": "sweet",
+      "type": "jelly_sticks",
+      "weight": "20 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0012",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "a0015",
+      "name": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "nameRu": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "nameEn": "Желе FRUTTI в стиках — ассорти фруктовых вкусов",
+      "brand": "NAVROZ",
+      "category": "jelly",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0015/main.webp",
+      "sku": "A0015",
+      "flavor": "sweet",
+      "type": "jelly_sticks",
+      "weight": "70 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Navroz/A0015",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "bs0001",
+      "name": "Бисквит «Дубайское пирожное» в шоколаде, Arrivo",
+      "nameRu": "Бисквит «Дубайское пирожное» в шоколаде, Arrivo",
+      "nameEn": "Бисквит «Дубайское пирожное» в шоколаде, Arrivo",
+      "brand": "OSLO",
+      "category": "sponge cake",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0001/main.webp",
+      "sku": "BS0001",
+      "flavor": "sweet",
+      "type": "biscuits",
+      "weight": "40 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0001",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "bs0002",
+      "name": "Кекс «Red Love» в форме сердца в глазури",
+      "nameRu": "Кекс «Red Love» в форме сердца в глазури",
+      "nameEn": "Кекс «Red Love» в форме сердца в глазури",
+      "brand": "OSLO",
+      "category": "sponge cake",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0002/main.webp",
+      "sku": "BS0002",
+      "flavor": "sweet",
+      "type": "biscuits",
+      "weight": "50 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0002",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "bs0003",
+      "name": "OSLO Бисквитный пончик Манела DONUT с кокосовой стружкой и белым шоколадом,",
+      "nameRu": "OSLO Бисквитный пончик Манела DONUT с кокосовой стружкой и белым шоколадом,",
+      "nameEn": "OSLO Бисквитный пончик Манела DONUT с кокосовой стружкой и белым шоколадом,",
+      "brand": "OSLO",
+      "category": "sponge cake",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0003/main.webp",
+      "sku": "BS0003",
+      "flavor": "sweet",
+      "type": "biscuits",
+      "weight": "45 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0003",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "bs0004",
+      "name": "Бисквитный батончик Arrivo с банановой начинкой в глазури",
+      "nameRu": "Бисквитный батончик Arrivo с банановой начинкой в глазури",
+      "nameEn": "Бисквитный батончик Arrivo с банановой начинкой в глазури",
+      "brand": "OSLO",
+      "category": "sponge cake",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0004/main.webp",
+      "sku": "BS0004",
+      "flavor": "sweet",
+      "type": "biscuits",
+      "weight": "30 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Oslo/BS0004",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl0899",
+      "name": "Молочный шоколад «Мискет» с фундуком",
+      "nameRu": "Молочный шоколад «Мискет» с фундуком",
+      "nameEn": "Молочный шоколад «Мискет» с фундуком",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0899/main.webp",
+      "sku": "PL0899",
+      "flavor": "sweet",
+      "type": "milk-chocolate",
+      "weight": "60 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0899",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl0900",
+      "name": "Молочный шоколад «Мискет» с фисташками",
+      "nameRu": "Молочный шоколад «Мискет» с фисташками",
+      "nameEn": "Молочный шоколад «Мискет» с фисташками",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0900/main.webp",
+      "sku": "PL0900",
+      "flavor": "sweet",      
+      "type": "milk-chocolate",
+      "weight": "60 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0900",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl0901",
+      "name": "Молочный шоколад «Мискет» с миндалем",
+      "nameRu": "Молочный шоколад «Мискет» с миндалем",
+      "nameEn": "Молочный шоколад «Мискет» с миндалем",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0901/main.webp",
+      "sku": "PL0901",
+      "flavor": "sweet",
+      "type": "milk-chocolate",
+      "weight": "60 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0901",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl0902",
+      "name": "Шоколад «Angel Hair» с фисташковой начинкой пишмание",
+      "nameRu": "Шоколад «Angel Hair» с фисташковой начинкой пишмание",
+      "nameEn": "Шоколад «Angel Hair» с фисташковой начинкой пишмание",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0902/main.webp",
+      "sku": "PL0902",
+      "flavor": "sweet",
+      "type": "milk-chocolate",
+      "weight": "90 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0902",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl0903",
+      "name": "Шоколад «Angel Hair» с клубнично-фисташковой начинкой пишмание",
+      "nameRu": "Шоколад «Angel Hair» с клубнично-фисташковой начинкой пишмание",
+      "nameEn": "Шоколад «Angel Hair» с клубнично-фисташковой начинкой пишмание",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0903/main.webp",
+      "sku": "PL0903",
+      "flavor": "sweet",
+      "type": "milk-chocolate",
+      "weight": "90 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL0903",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1040",
+      "name": "Темный шоколад «Дубайский» с кадаифом и фисташками",
+      "nameRu": "Темный шоколад «Дубайский» с кадаифом и фисташками",
+      "nameEn": "Темный шоколад «Дубайский» с кадаифом и фисташками",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1040/main.webp",
+      "sku": "PL1040",
+      "flavor": "bitter",
+      "type": "dark-chocolate",
+      "weight": "100 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1040",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1165",
+      "name": "Молочный шоколад «Дубайский» с фисташковой пастой и кадаиф",
+      "nameRu": "Молочный шоколад «Дубайский» с фисташковой пастой и кадаиф",
+      "nameEn": "Молочный шоколад «Дубайский» с фисташковой пастой и кадаиф",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1165/main.webp",
+      "sku": "PL1165",
+      "flavor": "sweet",
+      "type": "milk-chocolate",
+      "weight": "100 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1165",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1514",
+      "name": "Драже в белом шоколаде со вкусом малины",
+      "nameRu": "Драже в белом шоколаде со вкусом малины",
+      "nameEn": "Драже в белом шоколаде со вкусом малины",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1514/main.webp",
+      "sku": "PL1514",
+      "flavor": "sweet",
+      "type": "dragee",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1514",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1515",
+      "name": "Драже в молочном шоколаде со вкусом ежевики",
+      "nameRu": "Драже в молочном шоколаде со вкусом ежевики",
+      "nameEn": "Драже в молочном шоколаде со вкусом ежевики",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1515/main.webp",
+      "sku": "PL1515",
+      "flavor": "sweet",
+      "type": "dragee",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1515",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1686",
+      "name": "Драже в шоколадной глазури со вкусом фисташки",
+      "nameRu": "Драже в шоколадной глазури со вкусом фисташки",
+      "nameEn": "Драже в шоколадной глазури со вкусом фисташки",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1686/main.webp",
+      "sku": "PL1686",
+      "flavor": "sweet",
+      "type": "dragee",
+      "weight": "70 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1686",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1722",
+      "name": "Драже с соленым арахисом в молочном шоколаде",
+      "nameRu": "Драже с соленым арахисом в молочном шоколаде",
+      "nameEn": "Драже с соленым арахисом в молочном шоколаде",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1722/main.webp",
+      "sku": "PL1722",
+      "flavor": "salt-peanut",
+      "type": "dragee",
+      "weight": "49 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1722",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1776",
+      "name": "Драже в молочном шоколаде со вкусом клубники",
+      "nameRu": "Драже в молочном шоколаде со вкусом клубники",
+      "nameEn": "Драже в молочном шоколаде со вкусом клубники",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1776/main.webp",
+      "sku": "PL1776",
+      "flavor": "sweet",
+      "type": "dragee",
+      "weight": "70 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1776",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl1777",
+      "name": "Драже в белой глазури со вкусом клубники",
+      "nameRu": "Драже в белой глазури со вкусом клубники",
+      "nameEn": "Драже в белой глазури со вкусом клубники",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1777/main.webp",
+      "sku": "PL1777",
+      "flavor": "sweet",
+      "type": "dragee",
+      "weight": "70 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1777",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl8210",
+      "name": "Драже «Мискет» с арахисом в двойной глазури",
+      "nameRu": "Драже «Мискет» с арахисом в двойной глазури",
+      "nameEn": "Драже «Мискет» с арахисом в двойной глазури",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL8210/main.webp",
+      "sku": "PL8210",
+      "flavor": "salt-peanut",
+      "type": "dragee",
+      "weight": "20 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL8210",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl8277",
+      "name": "Драже «Мискет» с лукумом клубничным в двойной глазури",
+      "nameRu": "Драже «Мискет» с лукумом клубничным в двойной глазури",
+      "nameEn": "Драже «Мискет» с лукумом клубничным в двойной глазури",
+      "brand": "PAKEL",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL8277/main.webp",
+      "sku": "PL8277",
+      "flavor": "sweet",
+      "type": "lokum",
+      "weight": "20 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL8277",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl9798",
+      "name": "Кислые жевательные конфеты «Кидзи» со вкусом клубники",
+      "nameRu": "Кислые жевательные конфеты «Кидзи» со вкусом клубники",
+      "nameEn": "Кислые жевательные конфеты «Кидзи» со вкусом клубники",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL9798/main.webp",
+      "sku": "PL9798",
+      "type": "candies",
+      "flavor": "sour",
+      "weight": "20 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL9798",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pl9859",
+      "name": "Кислые жевательные конфеты «Кидзи» со вкусом яблока",
+      "nameRu": "Кислые жевательные конфеты «Кидзи» со вкусом яблока",
+      "nameEn": "Кислые жевательные конфеты «Кидзи» со вкусом яблока",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL9859/main.webp",
+      "sku": "PL9859",
+      "flavor": "sour",
+      "type": "candies",
+      "weight": "20 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL9859",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pf0001",
+      "name": "Маршмеллоу Puffi Yummy — ассорти фруктовых вкусов",
+      "nameRu": "Маршмеллоу Puffi Yummy — ассорти фруктовых вкусов",
+      "nameEn": "Маршмеллоу Puffi Yummy — ассорти фруктовых вкусов",
+      "brand": "PUFFI",
+      "category": "marshmallows",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0001/main.webp",
+      "sku": "PF0001",
+      "type": "marshmallows",
+      "flavor": "sweet",
+      "weight": "60 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0001",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pf0002",
+      "name": "Маршмеллоу Puffi Bites — мягкие подушечки ассорти",
+      "nameRu": "Маршмеллоу Puffi Bites — мягкие подушечки ассорти",
+      "nameEn": "Маршмеллоу Puffi Bites — мягкие подушечки ассорти",
+      "brand": "PUFFI",
+      "category": "marshmallows",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0002/main.webp",
+      "sku": "PF0002",
+      "flavor": "sweet",
+      "type": "marshmallows",
+      "weight": "60 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0002",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pf0003",
+      "name": "Маршмеллоу Puffi Magic — цветное ассорти",
+      "nameRu": "Маршмеллоу Puffi Magic — цветное ассорти",
+      "nameEn": "Маршмеллоу Puffi Magic — цветное ассорти",
+      "brand": "PUFFI",
+      "category": "marshmallows",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0003/main.webp",
+      "sku": "PF0003",
+      "flavor": "sweet",
+      "type": "marshmallows",
+      "weight": "20 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0003",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pf0004",
+      "name": "Маршмеллоу Puffi Fanty — разноцветные зверушки ассорти",
+      "nameRu": "Маршмеллоу Puffi Fanty — разноцветные зверушки ассорти",
+      "nameEn": "Маршмеллоу Puffi Fanty — разноцветные зверушки ассорти",
+      "brand": "PUFFI",
+      "category": "marshmallows",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0004/main.webp",
+      "sku": "PF0004",
+      "flavor": "sweet",
+      "type": "marshmallows",
+      "weight": "25 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0004",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "pf0005",
+      "name": "Маршмеллоу Puffi Bites — подушечки ассорти",
+      "nameRu": "Маршмеллоу Puffi Bites — подушечки ассорти",
+      "nameEn": "Маршмеллоу Puffi Bites — подушечки ассорти",
+      "brand": "PUFFI",
+      "category": "marshmallows",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0005/main.webp",
+      "sku": "PF0005",
+      "flavor": "sweet",
+      "type": "marshmallows",
+      "weight": "25 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Puffico/PF0005",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1080",
+      "name": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "nameRu": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "nameEn": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1080/main.jpg",
+      "sku": "1080",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1080",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+
+    {
+      "id": "PL1048",
+      "name": "Молочный шоколад «Дубайский» с кадаиф и фисташками",
+      "nameRu": "Молочный шоколад «Дубайский» с кадаиф и фисташками",
+      "nameEn": "Молочный шоколад «Дубайский» с кадаиф и фисташками",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1048/main.webp",
+      "sku": "PL1048",
+      "flavor": "sweet",
+      "type": "dubai-chocolate",
+      "weight": "25 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1048/main.webp",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+
+    {
+      "id": "1420",
+      "name": "Кислые жевательные ремешки Jimmy Sour Belts — ассорти вкусов",
+      "nameRu": "Кислые жевательные ремешки Jimmy Sour Belts — ассорти вкусов",
+      "nameEn": "Кислые жевательные ремешки Jimmy Sour Belts — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1420/main.webp",
+      "sku": "1420",
+      "type": "belts",
+      "flavor": "sour",
+      "weight": "75 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1420",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1421",
+      "name": "Кислые жевательные карандаши Jimmy Sour Pencil — ассорти вкусов",
+      "nameRu": "Кислые жевательные карандаши Jimmy Sour Pencil — ассорти вкусов",
+      "nameEn": "Кислые жевательные карандаши Jimmy Sour Pencil — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1421/main.webp",
+      "sku": "1421",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "75 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1421",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1753",
+      "name": "Кислые жевательные ремешки Damla — вкус арбуза",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус арбуза",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус арбуза",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1753/main.webp",
+      "sku": "1753",
+      "type": "belts",
+      "flavor": "sour",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1753",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1940",
+      "name": "Кислые жевательные карандаши Damla — ассорти вкусов",
+      "nameRu": "Кислые жевательные карандаши Damla — ассорти вкусов",
+      "nameEn": "Кислые жевательные карандаши Damla — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1940/main.webp",
+      "sku": "1940",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1940",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1941",
+      "name": "Кислые жевательные карандаши Damla — радужное ассорти",
+      "nameRu": "Кислые жевательные карандаши Damla — радужное ассорти",
+      "nameEn": "Кислые жевательные карандаши Damla — радужное ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1941/main.jpg",
+      "sku": "1941",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1941",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1942",
+      "name": "Кислые жевательные карандаши Damla — вкус клубники",
+      "nameRu": "Кислые жевательные карандаши Damla — вкус клубники",
+      "nameEn": "Кислые жевательные карандаши Damla — вкус клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1942/main.webp",
+      "sku": "1942",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1942",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1943",
+      "name": "Кислые жевательные карандаши Damla — вкусы малины и ежевики",
+      "nameRu": "Кислые жевательные карандаши Damla — вкусы малины и ежевики",
+      "nameEn": "Кислые жевательные карандаши Damla — вкусы малины и ежевики",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1943/main.webp",
+      "sku": "1943",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1943",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1944",
+      "name": "Кислые жевательные карандаши Damla — вкус бабл-гам",
+      "nameRu": "Кислые жевательные карандаши Damla — вкус бабл-гам",
+      "nameEn": "Кислые жевательные карандаши Damla — вкус бабл-гам",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1944/main.jpg",
+      "sku": "1944",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1944",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1945",
+      "name": "Кислые жевательные карандаши Damla — вкус вишни",
+      "nameRu": "Кислые жевательные карандаши Damla — вкус вишни",
+      "nameEn": "Кислые жевательные карандаши Damla — вкус вишни",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1945/main.webp",
+      "sku": "1945",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1945",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1946",
+      "name": "Кислые жевательные карандаши Damla — вкус винограда",
+      "nameRu": "Кислые жевательные карандаши Damla — вкус винограда",
+      "nameEn": "Кислые жевательные карандаши Damla — вкус винограда",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1946/main.jpg",
+      "sku": "1946",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1946",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1947",
+      "name": "Кислые жевательные карандаши Damla — вкус колы",
+      "nameRu": "Кислые жевательные карандаши Damla — вкус колы",
+      "nameEn": "Кислые жевательные карандаши Damla — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1947/main.webp",
+      "sku": "1947",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1947",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1948",
+      "name": "Кислые жевательные ремешки Damla — вкус клубники",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус клубники",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1948/main.webp",
+      "sku": "1948",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1948",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1949",
+      "name": "Кислые жевательные ремешки Damla — вкусы ежевики и малины",
+      "nameRu": "Кислые жевательные ремешки Damla — вкусы ежевики и малины",
+      "nameEn": "Кислые жевательные ремешки Damla — вкусы ежевики и малины",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1949/main.webp",
+      "sku": "1949",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1949",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1950",
+      "name": "Кислые жевательные ремешки Damla — вкус яблока",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус яблока",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус яблока",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1950/main.jpg",
+      "sku": "1950",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1950",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1951",
+      "name": "Кислые жевательные ремешки Damla — вкус лимона",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус лимона",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус лимона",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1951/main.webp",
+      "sku": "1951",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1951",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1952",
+      "name": "Кислые жевательные ремешки Damla — вкусы банана и клубники",
+      "nameRu": "Кислые жевательные ремешки Damla — вкусы банана и клубники",
+      "nameEn": "Кислые жевательные ремешки Damla — вкусы банана и клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1952/main.webp",
+      "sku": "1952",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1952",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1953",
+      "name": "Кислые жевательные ремешки Damla — вкус арбуза",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус арбуза",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус арбуза",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1953/main.webp",
+      "sku": "1953",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/1953",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2203",
+      "name": "Жевательный мармелад Jimmy Gummy — вкус колы",
+      "nameRu": "Жевательный мармелад Jimmy Gummy — вкус колы",
+      "nameEn": "Жевательный мармелад Jimmy Gummy — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2203/main.webp",
+      "sku": "2203",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2203",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2204",
+      "name": "Кислый жевательный мармелад Jimmy Sour Gummy — вкус колы",
+      "nameRu": "Кислый жевательный мармелад Jimmy Sour Gummy — вкус колы",
+      "nameEn": "Кислый жевательный мармелад Jimmy Sour Gummy — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2204/main.webp",
+      "sku": "2204",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2204",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2210",
+      "name": "Кислый жевательный мармелад Jimmy Sour Gummy — фруктовое ассорти",
+      "nameRu": "Кислый жевательный мармелад Jimmy Sour Gummy — фруктовое ассорти",
+      "nameEn": "Кислый жевательный мармелад Jimmy Sour Gummy — фруктовое ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2210/main.webp",
+      "sku": "2210",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2210",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2213",
+      "name": "Кислый мармелад Jimmy Sour Gummy — червячки ассорти",
+      "nameRu": "Кислый мармелад Jimmy Sour Gummy — червячки ассорти",
+      "nameEn": "Кислый мармелад Jimmy Sour Gummy — червячки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2213/main.webp",
+      "sku": "2213",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2213",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2439",
+      "name": "Жевательный мармелад Damla Gummy — мишки ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — мишки ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — мишки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2439/main.webp",
+      "sku": "2439",
+      "type": "bears",
+      "flavor": "sweet",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2439",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2440",
+      "name": "Жевательный мармелад Damla Gummy — бутылочки колы",
+      "nameRu": "Жевательный мармелад Damla Gummy — бутылочки колы",
+      "nameEn": "Жевательный мармелад Damla Gummy — бутылочки колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2440/main.webp",
+      "sku": "2440",
+      "flavor": "sweet",
+      "type": "figurative",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2440",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2441",
+      "name": "Жевательный мармелад Damla Gummy — фруктовое ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — фруктовое ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — фруктовое ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2441/main.webp",
+      "sku": "2441",
+      "flavor": "sweet",
+      "type": "figurative",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2441",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2442",
+      "name": "Жевательный мармелад Damla Gummy — червячки ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — червячки ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — червячки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2442/main.webp",
+      "sku": "2442",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2442",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2452",
+      "name": "Жевательный мармелад Damla Gummy — крокодильчики ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — крокодильчики ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — крокодильчики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2452/main.webp",
+      "sku": "2452",
+      "flavor": "sweet",
+      "type": "figurative",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2452",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2455",
+      "name": "Жевательный мармелад Damla Gummy — большие крокодильчики ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — большие крокодильчики ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — большие крокодильчики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2455/main.jpg",
+      "sku": "2455",
+      "flavor": "sweet",
+      "type": "figurative",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2455",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2458",
+      "name": "Жевательный мармелад Damla Gummy — акулы ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — акулы ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — акулы ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2458/main.webp",
+      "sku": "2458",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2458",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2747",
+      "name": "Жевательный мармелад Damla Gummy — зубки ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — зубки ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — зубки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2747/main.webp",
+      "sku": "2747",
+      "flavor": "sweet",
+      "type": "figurative",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2747",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2849",
+      "name": "Жевательный мармелад Damla Gummy — пончики ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — пончики ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — пончики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2849/main.webp",
+      "sku": "2849",
+      "flavor": "sweet",
+      "type": "figurative",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2849",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2870",
+      "name": "Кислый жевательный мармелад Damla Gummy Sour — фруктовое ассорти",
+      "nameRu": "Кислый жевательный мармелад Damla Gummy Sour — фруктовое ассорти",
+      "nameEn": "Кислый жевательный мармелад Damla Gummy Sour — фруктовое ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2870/main.webp",
+      "sku": "2870",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2870",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2874",
+      "name": "Кислый жевательный мармелад Damla Gummy Sour — пончики ассорти",
+      "nameRu": "Кислый жевательный мармелад Damla Gummy Sour — пончики ассорти",
+      "nameEn": "Кислый жевательный мармелад Damla Gummy Sour — пончики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2874/main.webp",
+      "sku": "2874",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2874",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2876",
+      "name": "Кислый жевательный мармелад Damla Gummy Sour — червячки ассорти",
+      "nameRu": "Кислый жевательный мармелад Damla Gummy Sour — червячки ассорти",
+      "nameEn": "Кислый жевательный мармелад Damla Gummy Sour — червячки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2876/main.webp",
+      "sku": "2876",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2876",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2877",
+      "name": "Кислый жевательный мармелад Damla Gummy Sour — арбузики ассорти",
+      "nameRu": "Кислый жевательный мармелад Damla Gummy Sour — арбузики ассорти",
+      "nameEn": "Кислый жевательный мармелад Damla Gummy Sour — арбузики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2877/main.webp",
+      "sku": "2877",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2877",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2886",
+      "name": "Кислый жевательный мармелад Damla Gummy Sour — капли ассорти",
+      "nameRu": "Кислый жевательный мармелад Damla Gummy Sour — капли ассорти",
+      "nameEn": "Кислый жевательный мармелад Damla Gummy Sour — капли ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2886/main.webp",
+      "sku": "2886",
+      "flavor": "sour",
+      "type": "figurative",
+      "weight": "300 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2886",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "2999",
+      "name": "Кислые жевательные ремешки Damla — триколор (малина, ежевика)",
+      "nameRu": "Кислые жевательные ремешки Damla — триколор (малина, ежевика)",
+      "nameEn": "Кислые жевательные ремешки Damla — триколор (малина, ежевика)",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2999/main.webp",
+      "sku": "2999",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2999",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3000",
+      "name": "Кислые жевательные ремешки Damla — вкус винограда",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус винограда",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус винограда",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3000/main.webp",
+      "sku": "3000",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3000",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3003",
+      "name": "Кислые жевательные ремешки Damla — вкус пина колады",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус пина колады",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус пина колады",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3003/main.webp",
+      "sku": "3003",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3003",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3008",
+      "name": "Кислые мармеладные карандаши Damla — вкус вишни",
+      "nameRu": "Кислые мармеладные карандаши Damla — вкус вишни",
+      "nameEn": "Кислые мармеладные карандаши Damla — вкус вишни",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3008/main.webp",
+      "sku": "3008",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "10 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3008",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3012",
+      "name": "Кислые мармеладные карандаши Damla — вкус пина колады",
+      "nameRu": "Кислые мармеладные карандаши Damla — вкус пина колады",
+      "nameEn": "Кислые мармеладные карандаши Damla — вкус пина колады",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3012/main.webp",
+      "sku": "3012",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "10 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3012",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3090",
+      "name": "Кислые жевательные ремешки Damla — ассорти вкусов",
+      "nameRu": "Кислые жевательные ремешки Damla — ассорти вкусов",
+      "nameEn": "Кислые жевательные ремешки Damla — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3090/main.webp",
+      "sku": "3090",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "75 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3090",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3091",
+      "name": "Кислые жевательные карандаши Damla — ассорти вкусов",
+      "nameRu": "Кислые жевательные карандаши Damla — ассорти вкусов",
+      "nameEn": "Кислые жевательные карандаши Damla — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3091/main.webp",
+      "sku": "3091",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "75 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3091",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3294",
+      "name": "Жевательный мармелад Jimmy Gummy — крокодильчики ассорти",
+      "nameRu": "Жевательный мармелад Jimmy Gummy — крокодильчики ассорти",
+      "nameEn": "Жевательный мармелад Jimmy Gummy — крокодильчики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3294/main.webp",
+      "sku": "3294",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3294",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3297",
+      "name": "Жевательный мармелад Jimmy Gummy — зубки ассорти",
+      "nameRu": "Жевательный мармелад Jimmy Gummy — зубки ассорти",
+      "nameEn": "Жевательный мармелад Jimmy Gummy — зубки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3297/main.webp",
+      "sku": "3297",
+      "flavor": "sweet",
+      "type": "figurative",
+      "weight": "80 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3297",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "3959",
+      "name": "Жевательный мармелад Damla Gummy — яичница ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — яичница ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — яичница ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3959/main.webp",
+      "flavor": "sweet",
+      "sku": "3959",
+      "type": "figurative",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3959",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "4083",
+      "name": "Молочный шоколад Vivani с фисташковым кремом и кадаиф",
+      "nameRu": "Молочный шоколад Vivani с фисташковым кремом и кадаиф",
+      "nameEn": "Молочный шоколад Vivani с фисташковым кремом и кадаиф",
+      "brand": "TAYAS",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/4083/main.webp",
+      "flavor": "sweet",
+      "sku": "4083",
+      "type": "milk-chocolate",
+      "weight": "35 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/4083",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6362",
+      "name": "Жевательные палочки Miniyum — вкус яблока",
+      "nameRu": "Жевательные палочки Miniyum — вкус яблока",
+      "nameEn": "Жевательные палочки Miniyum — вкус яблока",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6362/main.jpg",
+      "sku": "6362",
+      "flavor": "sweet",
+      "type": "tubes",
+      "weight": "700 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6362",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6363",
+      "name": "Жевательные палочки Miniyum — вкус апельсина",
+      "nameRu": "Жевательные палочки Miniyum — вкус апельсина",
+      "nameEn": "Жевательные палочки Miniyum — вкус апельсина",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6363/main.webp",
+      "sku": "6363",
+      "flavor": "sweet",
+      "type": "tubes",
+      "weight": "700 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6363",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6364",
+      "name": "Жевательные палочки Miniyum — вкус клубники",
+      "nameRu": "Жевательные палочки Miniyum — вкус клубники",
+      "nameEn": "Жевательные палочки Miniyum — вкус клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6364/main.webp",
+      "sku": "6364",
+      "flavor": "sweet",
+      "type": "tubes",
+      "weight": "700 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6364",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6365",
+      "name": "Жевательные палочки Miniyum — вкус вишни",
+      "nameRu": "Жевательные палочки Miniyum — вкус вишни",
+      "nameEn": "Жевательные палочки Miniyum — вкус вишни",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6365/main.webp",
+      "sku": "6365",
+      "flavor": "sweet",
+      "type": "tubes",
+      "weight": "700 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6365",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6375",
+      "name": "Жевательные палочки Miniyum — вкус колы",
+      "nameRu": "Жевательные палочки Miniyum — вкус колы",
+      "nameEn": "Жевательные палочки Miniyum — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6375/main.webp",
+      "sku": "6375",
+      "type": "tubes",
+      "flavor": "sweet",
+      "weight": "700 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6375",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6379",
+      "name": "Жевательные палочки Miniyum — вкус арбуза",
+      "nameRu": "Жевательные палочки Miniyum — вкус арбуза",
+      "nameEn": "Жевательные палочки Miniyum — вкус арбуза",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6379/main.webp",
+      "sku": "6379",
+      "type": "tubes",
+      "weight": "700 грамм",
+      "flavor": "sweet",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6379",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "6424",
+      "name": "Жевательные палочки Miniyum — фруктовое ассорти",
+      "nameRu": "Жевательные палочки Miniyum — фруктовое ассорти",
+      "nameEn": "Жевательные палочки Miniyum — фруктовое ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6424/main.webp",
+      "sku": "6424",
+      "type": "tubes",
+      "flavor": "sweet",
+      "weight": "700 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/6424",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8399",
+      "name": "Молочный шоколад Jimmy Milky с белым шоколадом",
+      "nameRu": "Молочный шоколад Jimmy Milky с белым шоколадом",
+      "nameEn": "Молочный шоколад Jimmy Milky с белым шоколадом",
+      "brand": "TAYAS",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8399/main.webp",
+      "sku": "8399",
+      "flavor": "sweet",
+      "type": "milk-chocolate",
+      "weight": "40 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8399",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8411",
+      "name": "Молочный шоколад Jimmy Milky с молочной начинкой",
+      "nameRu": "Молочный шоколад Jimmy Milky с молочной начинкой",
+      "nameEn": "Молочный шоколад Jimmy Milky с молочной начинкой",
+      "brand": "TAYAS",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8411/main.webp",
+      "sku": "8411",
+      "flavor": "sweet",
+      "type": "milk-chocolate",
+      "weight": "20 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8411",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8481",
+      "name": "Кислые мармеладные карандаши Damla — ассорти с посыпкой",
+      "nameRu": "Кислые мармеладные карандаши Damla — ассорти с посыпкой",
+      "nameEn": "Кислые мармеладные карандаши Damla — ассорти с посыпкой",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8481/main.webp",
+      "sku": "8481",
+      "type": "pencils",
+      "flavor": "sour",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8481",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8482",
+      "name": "Кислые мармеладные карандаши Damla — ассорти вкусов",
+      "nameRu": "Кислые мармеладные карандаши Damla — ассорти вкусов",
+      "nameEn": "Кислые мармеладные карандаши Damla — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8482/main.webp",
+      "sku": "8482",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8482",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8483",
+      "name": "Кислые мармеладные карандаши Damla — радужное ассорти",
+      "nameRu": "Кислые мармеладные карандаши Damla — радужное ассорти",
+      "nameEn": "Кислые мармеладные карандаши Damla — радужное ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8483/main.jpg",
+      "sku": "8483",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8483",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8484",
+      "name": "Кислые мармеладные карандаши Damla — вкус клубники",
+      "nameRu": "Кислые мармеладные карандаши Damla — вкус клубники",
+      "nameEn": "Кислые мармеладные карандаши Damla — вкус клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8484/main.webp",
+      "sku": "8484",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8484",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8485",
+      "name": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "nameRu": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "nameEn": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8485/main.jpg",
+      "sku": "8485",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8485",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8486",
+      "name": "Кислые жевательные ремешки Damla — вкус клубники",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус клубники",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8486/main.webp",
+      "sku": "8486",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8486",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8487",
+      "name": "Кислые жевательные ремешки Damla — вкус колы",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус колы",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8487/main.webp",
+      "sku": "8487",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8487",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8488",
+      "name": "Кислые жевательные ремешки Damla — вкусы малины и ежевики",
+      "nameRu": "Кислые жевательные ремешки Damla — вкусы малины и ежевики",
+      "nameEn": "Кислые жевательные ремешки Damla — вкусы малины и ежевики",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8488/main.webp",
+      "sku": "8488",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8488",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8495",
+      "name": "Кислые мармеладные карандаши Damla — вкус колы",
+      "nameRu": "Кислые мармеладные карандаши Damla — вкус колы",
+      "nameEn": "Кислые мармеладные карандаши Damla — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8495/main.webp",
+      "sku": "8495",
+      "flavor": "sour",
+      "type": "pencils",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8495",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8542",
+      "name": "Кислые жевательные ремешки Damla — вкус клубники",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус клубники",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8542/main.webp",
+      "sku": "8542",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8542",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8543",
+      "name": "Кислые жевательные ремешки Damla — вкус колы",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус колы",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8543/main.webp",
+      "sku": "8543",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8543",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8544",
+      "name": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "nameRu": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "nameEn": "Кислые жевательные ремешки Damla — радужное ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8544/main.webp",
+      "sku": "8544",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "15 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8544",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8705",
+      "name": "Кислые жевательные трубочки Damla — тропический микс",
+      "nameRu": "Кислые жевательные трубочки Damla — тропический микс",
+      "nameEn": "Кислые жевательные трубочки Damla — тропический микс",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8705/main.webp",
+      "sku": "8705",
+      "flavor": "sour",
+      "type": "tubes",
+      "weight": "30 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8705",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8706",
+      "name": "Кислые жевательные трубочки Damla — вкус клубники",
+      "nameRu": "Кислые жевательные трубочки Damla — вкус клубники",
+      "nameEn": "Кислые жевательные трубочки Damla — вкус клубники",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8706/main.webp",
+      "sku": "8706",
+      "flavor": "sour",
+      "type": "tubes",
+      "weight": "30 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8706",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8707",
+      "name": "Кислые жевательные трубочки Damla — вкус колы",
+      "nameRu": "Кислые жевательные трубочки Damla — вкус колы",
+      "nameEn": "Кислые жевательные трубочки Damla — вкус колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8707/main.webp",
+      "sku": "8707",
+      "flavor": "sour",
+      "type": "tubes",
+      "weight": "30 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8707",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8708",
+      "name": "Кислые жевательные трубочки Damla — вкусы малины и ежевики",
+      "nameRu": "Кислые жевательные трубочки Damla — вкусы малины и ежевики",
+      "nameEn": "Кислые жевательные трубочки Damla — вкусы малины и ежевики",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8708/main.webp",
+      "sku": "8708",
+      "flavor": "sour",
+      "type": "tubes",
+      "weight": "30 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8708",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8709",
+      "name": "Кислые жевательные трубочки Damla — ассорти вкусов",
+      "nameRu": "Кислые жевательные трубочки Damla — ассорти вкусов",
+      "nameEn": "Кислые жевательные трубочки Damla — ассорти вкусов",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8709/main.webp",
+      "sku": "8709",
+      "flavor": "sour",
+      "type": "tubes",
+      "weight": "30 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8709",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8884",
+      "name": "Кислые жевательные ремешки Damla — вкус яблока",
+      "nameRu": "Кислые жевательные ремешки Damla — вкус яблока",
+      "nameEn": "Кислые жевательные ремешки Damla — вкус яблока",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8884/main.jpg",
+      "sku": "8884",
+      "flavor": "sour",
+      "type": "belts",
+      "weight": "1000 грамм",
+      "flags": {
+        "missing_text": false,
+        "missing_images": true
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8884",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "8923",
+      "name": "Кислые жевательные трубочки Damla — вкус яблока",
+      "nameRu": "Кислые жевательные трубочки Damla — вкус яблока",
+      "nameEn": "Кислые жевательные трубочки Damla — вкус яблока",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8923/main.webp",
+      "sku": "8923",
+      "flavor": "sour",
+      "type": "tubes",
+      "weight": "30 грамм",
+      "flags": {
+        "missing_text": true,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8923",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "9171",
+      "name": "Бисквитные палочки Jimmy Cream с ореховой пастой",
+      "nameRu": "Бисквитные палочки Jimmy Cream с ореховой пастой",
+      "nameEn": "Бисквитные палочки Jimmy Cream с ореховой пастой",
+      "brand": "TAYAS",
+      "category": "sponge cake",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/9171/main.webp",
+      "sku": "9171",
+      "type": "biscuits",
+      "flavor": "sweet",
+      "weight": "52 грамма",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/9171",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+    {
+      "id": "1753",
+      "name": "Бисквитные палочки Jimmy Cream с ореховой пастой",
+      "nameRu": "Бисквитные палочки Jimmy Cream с ореховой пастой",
+      "nameEn": "Бисквитные палочки Jimmy Cream с ореховой пастой",
+      "brand": "TAYAS",
+      "category": "sponge cake",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/9171/main.webp",
+      "sku": "9171",
+      "type": "biscuits",
+      "flavor": "sweet",
+      "weight": "52 грамма",
+      "flags": {
+        "missing_text": false,
+        "missing_images": false
+      },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/9171",
+      "nutrition": {
+        "kcal": null,
+        "protein": null,
+        "fat": null,
+        "carb": null
+      }
+    },
+
+    {
+      "id": "3006",
+      "name": "Кислые мармеладные карандаши Damla — вкус бабл-гам",
+      "nameRu": "Кислые мармеладные карандаши Damla — вкус бабл-гам",
+      "nameEn": "Кислые мармеладные карандаши Damla — вкус бабл-гам",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3006/main.webp",
+      "sku": "3006",
+      "type": "pencils",
+      "flavor": "sour",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3006",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "3010",
+      "name": "Кислые мармеладные карандаши Damla — вкус винограда",
+      "nameRu": "Кислые мармеладные карандаши Damla — вкус винограда",
+      "nameEn": "Кислые мармеладные карандаши Damla — вкус винограда",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3010/main.webp",
+      "sku": "3010",
+      "type": "pencils",
+      "flavor": "sour",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/3010",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2462",
+      "name": "Кислый жевательный мармелад Damla Gummy Sour — арбузики ассорти",
+      "nameRu": "Кислый жевательный мармелад Damla Gummy Sour — арбузики ассорти",
+      "nameEn": "Кислый жевательный мармелад Damla Gummy Sour — арбузики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2462/main.webp",
+      "sku": "2462",
+      "type": "figurative",
+      "flavor": "sour",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2462",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2464",
+      "name": "Жевательный мармелад Damla Gummy — алфавит ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — алфавит ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — алфавит ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2464/main.webp",
+      "sku": "2464",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2464",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2099",
+      "name": "Жевательный мармелад Damla Gummy — бутылочки колы",
+      "nameRu": "Жевательный мармелад Damla Gummy — бутылочки колы",
+      "nameEn": "Жевательный мармелад Damla Gummy — бутылочки колы",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2099/main.webp",
+      "sku": "2099",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2099",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2450",
+      "name": "Жевательный мармелад Damla Gummy — крокодильчики ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — крокодильчики ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — крокодильчики ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2450/main.webp",
+      "sku": "2450",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2450",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2097",
+      "name": "Жевательный мармелад Damla Gummy — мишки ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — мишки ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — мишки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2097/main.webp",
+      "sku": "2097",
+      "type": "bears",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2097",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2101",
+      "name": "Жевательный мармелад Damla Gummy — фруктовое ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — фруктовое ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — фруктовое ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2101/main.webp",
+      "sku": "2101",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2101",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2104",
+      "name": "Жевательный мармелад Damla Gummy — червячки ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — червячки ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — червячки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2104/main.webp",
+      "sku": "2104",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2104",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2466",
+      "name": "Жевательный мармелад Damla Gummy — чизкейк ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — чизкейк ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — чизкейк ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2466/main.webp",
+      "sku": "2466",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2466",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "2465",
+      "name": "Жевательный мармелад Damla Gummy — зубки ассорти",
+      "nameRu": "Жевательный мармелад Damla Gummy — зубки ассорти",
+      "nameEn": "Жевательный мармелад Damla Gummy — зубки ассорти",
+      "brand": "TAYAS",
+      "category": "marmalade",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2465/main.webp",
+      "sku": "2465",
+      "type": "figurative",
+      "flavor": "sweet",
+      "weight": "80 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/2465",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+
+    {
+      "id": "5440",
+      "name": "Жевательные конфеты Damla — ассорти фруктовых вкусов",
+      "nameRu": "Жевательные конфеты Damla — ассорти фруктовых вкусов",
+      "nameEn": "Жевательные конфеты Damla — ассорти фруктовых вкусов",
+      "brand": "TAYAS",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5440/main.webp",
+      "sku": "5440",
+      "type": "candies",
+      "flavor": "sweet",
+      "weight": "90 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5440",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "5394",
+      "name": "Кислые евательные конфеты Damla — ассорти фруктовых вкусов",
+      "nameRu": "Кислые жевательные конфеты Damla — ассорти фруктовых вкусов",
+      "nameEn": "Кислые жевательные конфеты Damla — ассорти фруктовых вкусов",
+      "brand": "TAYAS",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5394/main.webp",
+      "sku": "5394",
+      "type": "candies",
+      "flavor": "sour",
+      "weight": "90 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5394",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "5571",
+      "name": "Карамель Damla New2 — тропик и арбуз с начинкой",
+      "nameRu": "Карамель Damla New2 — тропик и арбуз с начинкой",
+      "nameEn": "Карамель Damla New2 — тропик и арбуз с начинкой",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5571/main.webp",
+      "sku": "5571",
+      "type": "caramel",
+      "flavor": "sweet",
+      "weight": "90 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5571",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "pl0536",
+      "name": "Кислые лукум-конфеты «Мискет» в хрустящей глазури — 3 вкуса ассорти",
+      "nameRu": "Кислые лукум-конфеты «Мискет» в хрустящей глазури — 3 вкуса ассорти",
+      "nameEn": "Кислые лукум-конфеты «Мискет» в хрустящей глазури — 3 вкуса ассорти",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/pl0536/main.webp",
+      "sku": "pl0536",
+      "type": "lokum",
+      "flavor": "sour",
+      "weight": "50 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/pl0536",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "7341",
+      "name": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameRu": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameEn": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341/main.webp",
+      "sku": "7341",
+      "type": "lollipops",
+      "flavor": "bitter",
+      "weight": "90 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "7285",
+      "name": "Молочная карамель Multi Fruit — мультифруктовое ассорти",
+      "nameRu": "Молочная карамель Multi Fruit — мультифруктовое ассорти",
+      "nameEn": "Молочная карамель Multi Fruit — мультифруктовое ассорти",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7285/main.webp",
+      "sku": "7285",
+      "type": "caramel",
+      "flavor": "sweet",
+      "weight": "170 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7285",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "7287",
+      "name": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameRu": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameEn": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341/main.webp",
+      "sku": "7287",
+      "type": "lollipops",
+      "flavor": "bitter",
+      "weight": "170 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "8076",
+      "name": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameRu": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameEn": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341/main.webp",
+      "sku": "8076",
+      "type": "lollipops",
+      "flavor": "bitter",
+      "weight": "500 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "7342",
+      "name": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameRu": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "nameEn": "Леденцы Coffee Intense со вкусом кофе и начинкой",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341/main.webp",
+      "sku": "7342",
+      "type": "lollipops",
+      "flavor": "bitter",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7341",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "pl1166",
+      "name": "Конфеты «Дубайский шоколад» с кадаифом и фисташкой в молочном шоколаде",
+      "nameRu": "Конфеты «Дубайский шоколад» с кадаифом и фисташкой в молочном шоколаде",
+      "nameEn": "Конфеты «Дубайский шоколад» с кадаифом и фисташкой в молочном шоколаде",
+      "brand": "PAKEL",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1166/main.webp",
+      "sku": "PL1166",
+      "type": "chocolate_candies",
+      "flavor": "sweet",
+      "weight": "250 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1166",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "pl1169",
+      "name": "Фисташковая паста с кадаифом «Дубайский шоколад» с хлебными палочками",
+      "nameRu": "Фисташковая паста с кадаифом «Дубайский шоколад» с хлебными палочками",
+      "nameEn": "Фисташковая паста с кадаифом «Дубайский шоколад» с хлебными палочками",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1169/main.webp",
+      "sku": "PL1169",
+      "type": "dubai-chocolate",
+      "flavor": "sweet",
+      "weight": "42 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1169",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "pl1030",
+      "name": "Молочный шоколад «Дубайский» с кадаифом и фисташками",
+      "nameRu": "Молочный шоколад «Дубайский» с кадаифом и фисташками",
+      "nameEn": "Молочный шоколад «Дубайский» с кадаифом и фисташками",
+      "brand": "PAKEL",
+      "category": "chocolate",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1030/main.webp",
+      "sku": "PL1030",
+      "type": "dubai-chocolate",
+      "flavor": "sweet",
+      "weight": "100 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Pakel/PL1030",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+
+    {
+      "id": "ka0007",
+      "name": "Вафельные палочки «Пирамида» с шоколадным кремом в глазури",
+      "nameRu": "Вафельные палочки «Пирамида» с шоколадным кремом в глазури",
+      "nameEn": "Вафельные палочки «Пирамида» с шоколадным кремом в глазури",
+      "brand": "PANDA LEE",
+      "category": "waffles",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0007/main.webp",
+      "sku": "KA0007",
+      "type": "wafer_sticks",
+      "flavor": "sweet",
+      "weight": "20 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0007",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "ka0006",
+      "name": "Вафельные палочки «Пирамида» с ванильным кремом в глазури",
+      "nameRu": "Вафельные палочки «Пирамида» с ванильным кремом в глазури",
+      "nameEn": "Вафельные палочки «Пирамида» с ванильным кремом в глазури",
+      "brand": "PANDA LEE",
+      "category": "waffles",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0006/main.webp",
+      "sku": "KA0006",
+      "type": "wafer_sticks",
+      "flavor": "sweet",
+      "weight": "20 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Panda Lee TM/KA0006",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "5595",
+      "name": "Жевательные конфеты Damla — вкус кофе со сливками и начинкой",
+      "nameRu": "Жевательные конфеты Damla — вкус кофе со сливками и начинкой",
+      "nameEn": "Жевательные конфеты Damla — вкус кофе со сливками и начинкой",
+      "brand": "TAYAS",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5595/main.webp",
+      "sku": "5595",
+      "type": "candies",
+      "flavor": "bitter",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5595",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "5567",
+      "name": "Жевательные конфеты Damla New 2 — ассорти с фруктовой начинкой",
+      "nameRu": "Жевательные конфеты Damla New 2 — ассорти с фруктовой начинкой",
+      "nameEn": "Жевательные конфеты Damla New 2 — ассорти с фруктовой начинкой",
+      "brand": "TAYAS",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5567/main.webp",
+      "sku": "5567",
+      "type": "candies",
+      "flavor": "sweet",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5567",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "5652",
+      "name": "Кислые жевательные конфеты Damla Sour — ассорти фруктовых вкусов",
+      "nameRu": "Кислые жевательные конфеты Damla Sour — ассорти фруктовых вкусов",
+      "nameEn": "Кислые жевательные конфеты Damla Sour — ассорти фруктовых вкусов",
+      "brand": "TAYAS",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5652/main.webp",
+      "sku": "5652",
+      "type": "candies",
+      "flavor": "sour",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5652",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "5550",
+      "name": "Жевательные конфеты Damla — фруктовое ассорти",
+      "nameRu": "Жевательные конфеты Damla — фруктовое ассорти",
+      "nameEn": "Жевательные конфеты Damla — фруктовое ассорти",
+      "brand": "TAYAS",
+      "category": "candy",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5550/main.webp",
+      "sku": "5550",
+      "type": "candies",
+      "flavor": "sweet",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/5550",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "7296",
+      "name": "Леденцы Choco Mint — мятные с шоколадной начинкой",
+      "nameRu": "Леденцы Choco Mint — мятные с шоколадной начинкой",
+      "nameEn": "Леденцы Choco Mint — мятные с шоколадной начинкой",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7296/main.webp",
+      "sku": "7296",
+      "type": "lollipops",
+      "flavor": "sweet",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/7296",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    },
+    {
+      "id": "8381",
+      "name": "Леденцы Fruty Duos — фруктовые с начинкой",
+      "nameRu": "Леденцы Fruty Duos — фруктовые с начинкой",
+      "nameEn": "Леденцы Fruty Duos — фруктовые с начинкой",
+      "brand": "TAYAS",
+      "category": "caramel",
+      "image": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8381/main.webp",
+      "sku": "8381",
+      "type": "lollipops",
+      "flavor": "sweet",
+      "weight": "1000 грамм",
+      "flags": { "missing_text": false, "missing_images": false },
+      "sourcePath": "foods_normalized_v2/foods_normalized_v2/foods_normalized/Tayas/8381",
+      "nutrition": { "kcal": null, "protein": null, "fat": null, "carb": null }
+    }
+  ],
+  "categories": {
+    "marmalade": {
+      "id": "marmalade",
+      "nameRu": "Мармелад",
+      "nameEn": "Marmalade",
+      "icon": "assets/images/categories/marmelade.webp"
+    },
+    "candy": {
+      "id": "candy",
+      "nameRu": "Конфеты",
+      "nameEn": "Candies",
+      "icon": "assets/images/categories/candy.webp"
+    },
+    "caramel": {
+      "id": "caramel",
+      "nameRu": "Карамель",
+      "nameEn": "Caramel",
+      "icon": "assets/images/categories/caramel.webp"
+    },
+    "chocolate": {
+      "id": "chocolate",
+      "nameRu": "Шоколад",
+      "nameEn": "Chocolate",
+      "icon": "assets/images/categories/chocolate-and-choclate-paste.webp"
+    },
+    "waffles": {
+      "id": "waffles",
+      "nameRu": "Вафли",
+      "nameEn": "Waffles",
+      "icon": "assets/images/categories/cookies.webp"
+    },
+    "marshmallows": {
+      "id": "marshmallows",
+      "nameRu": "Маршмеллоу",
+      "nameEn": "Marshmallows",
+      "icon": "assets/images/categories/cookies.webp"
+    },
+    "jelly": {
+      "id": "jelly",
+      "nameRu": "Желе",
+      "nameEn": "Jelly",
+      "icon": "assets/images/categories/jelly-desert.webp"
+    },
+    "sponge cake": {
+      "id": "sponge cake",
+      "nameRu": "Бисквитное пирожное",
+      "nameEn": "Sponge cake",
+      "icon": "assets/images/categories/cookies.webp"
+    }
+  },
+  "brands": [
+    {
+      "id": "tayas",
+      "name": "Tayas",
+      "logo": "assets/images/products/brand_logo/tayas.webp",
+      "logoBg": "assets/images/products/brand_logo/tayas-bg.webp",
+      "logoHover": "assets/images/brand_logo/tayas-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/tayas-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/tayas-active.webp"
+    },
+    {
+      "id": "pakel",
+      "name": "Pakel",
+      "logo": "assets/images/products/brand_logo/pakel.webp",
+      "logoBg": "assets/images/products/brand_logo/pakel-bg.webp",
+      "logoHover": "assets/images/brand_logo/pakel-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/pakel-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/pakel-active.webp"
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "logo": "assets/images/products/brand_logo/oslo.webp",
+      "logoBg": "assets/images/products/brand_logo/oslo-bg.webp",
+      "logoHover": "assets/images/brand_logo/oslo-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/oslo-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/oslo-active.webp"
+    },
+    {
+      "id": "sulifa",
+      "name": "SULI FA",
+      "logo": "assets/images/products/brand_logo/sulifa.webp",
+      "logoBg": "assets/images/products/brand_logo/sulifa-bg.webp",
+      "logoHover": "assets/images/brand_logo/sulifa-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/sulifa-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/sulifa-active.webp"
+    },
+    {
+      "id": "panda-lee",
+      "name": "Panda Lee",
+      "logo": "assets/images/products/brand_logo/panda-lee.webp",
+      "logoBg": "assets/images/products/brand_logo/panda-lee-bg.webp",
+      "logoHover": "assets/images/brand_logo/pandalee-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/pandalee-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/panda-lee-active.webp"
+    },
+    {
+      "id": "puffi",
+      "name": "Puffi",
+      "logo": "assets/images/products/brand_logo/puffi.webp",
+      "logoBg": "assets/images/products/brand_logo/puffi-bg.webp",
+      "logoHover": "assets/images/brand_logo/puffi-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/puffi-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/puffi-active.webp"
+    },
+    {
+      "id": "loveme",
+      "name": "LoveMe",
+      "logo": "assets/images/products/brand_logo/loveme.webp",
+      "logoBg": "assets/images/products/brand_logo/loveme-bg.webp",
+      "logoHover": "assets/images/brand_logo/loveme-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/loveme-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/loveme.webp"
+    },
+    {
+      "id": "crafers",
+      "name": "Crafers",
+      "logo": "assets/images/products/brand_logo/crafers.webp",
+      "logoBg": "assets/images/products/brand_logo/crafers-bg.webp",
+      "logoHover": "assets/images/brand_logo/crafers-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/crafers-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/crafers.webp"
+    },
+    {
+      "id": "navroz",
+      "name": "Navroz",
+      "logo": "assets/images/products/brand_logo/navroz.webp",
+      "logoBg": "assets/images/products/brand_logo/navroz-bg.webp",
+      "logoHover": "assets/images/brand_logo/navroz-hover.webp",
+      "logoHoverBg": "assets/images/brand_logo/navroz-hover-bg.webp",
+      "logoActive": "assets/images/products/brand_logo/navroz.webp"
+    }
+  ]
+}

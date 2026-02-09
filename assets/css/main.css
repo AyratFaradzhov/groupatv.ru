@@ -1,0 +1,27 @@
+@import "../../blocks/header/header.css";
+@import "../fonts/font.css";
+@import "../../blocks/footer/footer.css";
+@import "../../blocks/hero/hero.css";
+@import "../../blocks/categories/categories.css";
+@import "../../blocks/advantages/advantages.css";
+@import "../../blocks/workflow/workflow.css";
+@import "../../blocks/product-card/product-card.css";
+@import "../../blocks/request-form/request-form.css";
+@import "../../blocks/cooperation-modal/cooperation-modal.css";
+@import "../../blocks/button/button.css";
+@import "../../blocks/popular_products/popular_products.css";
+@import "../../blocks/benefits/benefits.css";
+@import "../../blocks/partners/partner.css";
+@import "../../blocks/about/about.css";
+@import "../../blocks/collaboration/collaboration.css";
+@import "../../blocks/product/product.css";
+@import "../error.css";
+@import "./success-modal.css";
+
+/* TABLET: 768px–1199px (after desktop, before mobile) */
+@import "./tablet.css";
+
+@import "../../blocks/index-mobile/index-mobile.css";
+@import "../../blocks/header/header-mobile.css";
+@import "../../blocks/about/about-mobile.css";
+@import "./performance-safe.css";

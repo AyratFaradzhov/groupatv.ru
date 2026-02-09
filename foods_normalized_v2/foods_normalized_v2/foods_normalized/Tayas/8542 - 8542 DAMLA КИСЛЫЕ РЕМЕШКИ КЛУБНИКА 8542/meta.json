@@ -1,0 +1,49 @@
+{
+  "id": "8542",
+  "brand": "Tayas",
+  "name": "8542 DAMLA КИСЛЫЕ РЕМЕШКИ КЛУБНИКА 8542",
+  "slug": "8542-8542-damla-кислые-ремешки-клубника-8542",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/8542 - 8542 DAMLA КИСЛЫЕ РЕМЕШКИ КЛУБНИКА 8542/main.webp",
+    "foods_normalized/Tayas/8542 - 8542 DAMLA КИСЛЫЕ РЕМЕШКИ КЛУБНИКА 8542/img-01.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8542 Кислые Ремешки ( Клубника )/8542 DAMLA КИСЛЫЕ РЕМЕШКИ КЛУБНИКА 8542.docx",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8542 Кислые Ремешки ( Клубника )/8542 Клубника 1.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8542 Кислые Ремешки ( Клубника )/8542 Клубника 2.webp",
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8542 Кислые Ремешки ( Клубника )/Кислые ремешки DAMLA, Клубника,коробка 15гр72шт6бл Tayash №8542.webp"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/15 г DAMLA Кислые Мармелады ( ремешки )/8542 Кислые Ремешки ( Клубника )/8542 DAMLA КИСЛЫЕ РЕМЕШКИ КЛУБНИКА 8542.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": true,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

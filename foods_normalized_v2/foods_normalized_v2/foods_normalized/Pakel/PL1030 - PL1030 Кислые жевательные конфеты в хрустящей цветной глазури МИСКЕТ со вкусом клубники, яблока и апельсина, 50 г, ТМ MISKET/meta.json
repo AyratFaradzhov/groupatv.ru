@@ -1,0 +1,48 @@
+{
+  "id": "PL1030",
+  "brand": "Pakel",
+  "name": "PL1030 Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина, 50 г, ТМ MISKET",
+  "slug": "pl1030-pl1030-кислые-жевательные-конфеты-в-хрустящей-цветной-глазури-мискет-со-вкусом-клубники,-яблока-и-апельсина,-50-г",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Pakel/PL1030 - PL1030 Кислые жевательные конфеты в хрустящей цветной глазури МИСКЕТ со вкусом клубники, яблока и апельсина, 50 г, ТМ MISKET/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "02 Pakel/Лукум/Miskets/PL1030  Кислые жевательные конфеты в хрустящей цветной глазури «МИСКЕТ» со вкусом клубники, яблока и апельсина, 50 г, ТМ «MISKET»  _   текстовка.docx",
+      "02 Pakel/Шоколады/Miskets/100 г Дубайский Шоколад/PL1030   Шоколад  молочный  с  кадаиф  MISKETS MILK  PISTACHIO KADAYIF 100GRX12PCSX6DSP,  ТМ «MISKET»  _   текстовка.docx",
+      "02 Pakel/Шоколады/Miskets/100 г Дубайский Шоколад/PL1030.webp"
+    ],
+    "docs": [
+      "02 Pakel/Лукум/Miskets/PL1030  Кислые жевательные конфеты в хрустящей цветной глазури «МИСКЕТ» со вкусом клубники, яблока и апельсина, 50 г, ТМ «MISKET»  _   текстовка.docx",
+      "02 Pakel/Шоколады/Miskets/100 г Дубайский Шоколад/PL1030   Шоколад  молочный  с  кадаиф  MISKETS MILK  PISTACHIO KADAYIF 100GRX12PCSX6DSP,  ТМ «MISKET»  _   текстовка.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

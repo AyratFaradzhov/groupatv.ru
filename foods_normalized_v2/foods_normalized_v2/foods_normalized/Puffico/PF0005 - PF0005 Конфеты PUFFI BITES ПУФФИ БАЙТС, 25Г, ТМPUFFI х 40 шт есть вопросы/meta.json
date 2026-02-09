@@ -1,0 +1,46 @@
+{
+  "id": "PF0005",
+  "brand": "Puffico",
+  "name": "PF0005 Конфеты PUFFI BITES ПУФФИ БАЙТС, 25Г, ТМPUFFI х 40 шт есть вопросы",
+  "slug": "pf0005-pf0005-конфеты-puffi-bites-пуффи-байтс,-25г,-тмpuffi-х-40-шт-есть-вопросы",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Puffico/PF0005 - PF0005 Конфеты PUFFI BITES ПУФФИ БАЙТС, 25Г, ТМPUFFI х 40 шт есть вопросы/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "04 Puffico/PF0005  Конфеты PUFFI BITES «ПУФФИ БАЙТС», 25Г, ТМ«PUFFI»   х_40 шт   текстовка  есть вопросы.docx",
+      "04 Puffico/PF0005 25GR.webp"
+    ],
+    "docs": [
+      "04 Puffico/PF0005  Конфеты PUFFI BITES «ПУФФИ БАЙТС», 25Г, ТМ«PUFFI»   х_40 шт   текстовка  есть вопросы.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

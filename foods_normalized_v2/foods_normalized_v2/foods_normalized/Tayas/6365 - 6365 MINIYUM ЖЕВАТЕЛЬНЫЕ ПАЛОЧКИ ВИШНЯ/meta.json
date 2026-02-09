@@ -1,0 +1,46 @@
+{
+  "id": "6365",
+  "brand": "Tayas",
+  "name": "6365 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ВИШНЯ",
+  "slug": "6365-6365-miniyum-жевательные-палочки-вишня",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [
+    "foods_normalized/Tayas/6365 - 6365 MINIYUM ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ВИШНЯ/main.webp"
+  ],
+  "source": {
+    "paths": [
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6365 MINIYUM  ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ВИШНЯ.docx",
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6365 Вишня.webp"
+    ],
+    "docs": [
+      "01 Tayas/02 Жевательные Конфеты/700 г Мини Юм/6365 MINIYUM  ЖЕВАТЕЛЬНЫЕ ПАЛОЧКИ ВИШНЯ.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": false,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": false
+  }
+}

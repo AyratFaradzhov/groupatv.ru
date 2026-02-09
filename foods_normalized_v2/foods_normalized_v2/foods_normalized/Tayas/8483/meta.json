@@ -1,0 +1,43 @@
+{
+  "id": "8483",
+  "brand": "Tayas",
+  "name": "8483 ( бокс 1 кг) DAMLA КИСЛЫЕ КАРАНДАШИ (РАДУГА) БАНКА С ЩИПАМИ",
+  "slug": "8483-8483-(-бокс-1-кг)-damla-кислые-карандаши-(радуга)-банка-с-щипами",
+  "category": null,
+  "type": null,
+  "flavor": null,
+  "weight": {
+    "value": null,
+    "unit": null
+  },
+  "packaging": {
+    "unit_weight_g": null,
+    "units_in_box": null,
+    "boxes_in_carton": null,
+    "raw": null
+  },
+  "description": "",
+  "composition": null,
+  "nutrition": {
+    "kcal": null,
+    "protein": null,
+    "fat": null,
+    "carb": null
+  },
+  "images": [],
+  "source": {
+    "paths": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/1000 г Кислые ( Карандаши и Ремешки )/8483 ( бокс 1 кг) DAMLA КИСЛЫЕ КАРАНДАШИ (РАДУГА) БАНКА С ЩИПАМИ.docx"
+    ],
+    "docs": [
+      "01 Tayas/01 Мармелады/01 Кислые Мармелады/1000 г Кислые ( Карандаши и Ремешки )/8483 ( бокс 1 кг) DAMLA КИСЛЫЕ КАРАНДАШИ (РАДУГА) БАНКА С ЩИПАМИ.docx"
+    ]
+  },
+  "flags": {
+    "missing_text": false,
+    "missing_images": true,
+    "placeholder_images_removed": false,
+    "placeholder_used_for_name": false,
+    "needs_review": true
+  }
+}

@@ -1,0 +1,609 @@
+/* ===== ABOUT PAGE MOBILE STYLES ===== */
+
+@media (max-width: 767px) {
+  /* ===== PAGE FOUNDATION ===== */
+  .page-about {
+    --content: min(327px, calc(100vw - 48px));
+    --gutter: 24px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .body {
+    overflow-x: hidden;
+  }
+
+  .footer {
+    overflow-x: hidden;
+  }
+
+  .page-about .container {
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 0;
+    margin-inline: auto;
+    box-sizing: border-box;
+  }
+
+  .about-atv {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    padding-block-start: 0;
+  }
+
+  /* ===== HERO SECTION ===== */
+  .about-atv__hero {
+    width: 100%;
+    height: 254px;
+    min-height: 254px;
+    min-block-size: 254px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    padding-block: 0;
+    padding-inline: 0;
+  }
+
+  .about-atv__hero-card {
+    position: static;
+    width: min(286px, calc(100% - 88px));
+    margin-top: 46px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+
+  .about-atv__hero-text {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #404040;
+    text-align: left;
+    white-space: pre-line;
+    margin: 0;
+    width: 100%;
+    max-width: 238px;
+  }
+
+  .about-atv__hero-button.btn-about__cooperation {
+    width: 258px;
+    max-width: calc(100% - 48px);
+    min-width: 258px;
+    height: 33px;
+    min-height: 33px;
+    padding: 0 16px;
+    border-radius: 16px;
+    margin: 80px 24px 0 93px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #f7f5f3;
+    background-color: #c02927;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    box-sizing: border-box;
+  }
+
+  .about-atv:first-of-type {
+    padding-bottom: 0 !important; /* Убираем padding-bottom 50px, так как футер имеет padding-top 50px */
+  }
+
+  /* ===== CONTENT SECTION ===== */
+  .about-atv__content {
+    width: var(--content);
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .about-atv__contents {
+    padding-block: 0;
+  }
+
+  .about-atv__info {
+    width: 100%;
+    display: flex;
+    padding-inline: 24px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-atv__title[data-i18n="about-title"] {
+    font-size: var(--subtitle-size);
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 50px;
+  }
+
+  .about-atv__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: var(--base-size);
+    line-height: normal;
+    color: #c02927;
+    margin: 0;
+  }
+
+  .about-atv__features {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .about-atv__feature {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #1445ae;
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .about-atv__feature::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .about-atv__stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    width: 100%;
+    color: #1445ae;
+    padding-inline: 24px;
+  }
+
+  .about-atv__stat {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .about-atv__stat-value {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+  .about-atv__stat-label {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+  }
+
+  /* ===== ADVANTAGES SLIDER ===== */
+  .about-atv__advantages {
+    width: 100%;
+    margin: 40px auto 0;
+    box-sizing: border-box;
+  }
+
+  .about-atv__advantages.container {
+    padding-inline: var(--gutter);
+  }
+
+  .about-atv__advantages-viewport {
+    width: 100%;
+    max-width: var(--content);
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .about-atv__advantages-track {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    transition: transform 0.4s ease;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-atv__advantage {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 151px;
+    padding: 32px 24px;
+    border-radius: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    color: #404040;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url("../../assets/images/background/cater-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .advantages-pagination {
+    width: 100%;
+    max-width: var(--content);
+    margin: 16px auto 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .advantages-pagination__arrow {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c02927;
+    padding: 0;
+    flex-shrink: 0;
+  }
+
+  .advantages-pagination__arrow svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .advantages-pagination__arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  /* ===== "ПРЕИМУЩЕСТВА" SECTION ===== */
+  .about-atv--advantages {
+    margin-top: 40px;
+  }
+
+  .about-atv--advantages .about-atv__title {
+    font-size: 24px;
+  }
+
+  .about-atv--advantages .about-atv__media--placeholder {
+    display: none;
+  }
+
+  .about-atv__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .about-atv__list-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .about-atv__list-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #404040;
+  }
+
+  /* ===== FACTORY SECTION ===== */
+  .about-atv--factory {
+    margin-top: 40px;
+  }
+
+  .about-atv--factory .about-atv__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-atv--factory .about-atv__info {
+    display: contents;
+  }
+
+  .about-atv--factory .about-atv__title {
+    order: 1;
+    font-size: 32px;
+    padding-inline-start: 24px;
+    padding-bottom: 16px;
+  }
+
+  .about-atv--factory .about-atv__media {
+    order: 2;
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-atv--factory .about-atv__description {
+    order: 3;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    padding-inline: 50px;
+    padding-block-start: 24px;
+    color: #404040;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-atv--factory .about-atv__features {
+    order: 4;
+    padding-inline-start: 24px;
+    padding-block-start: 40px;
+  }
+
+  .about-atv--factory .about-atv__image {
+    width: 100%;
+    height: 220px;
+    border-radius: 30px;
+    padding: 0;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ===== PRESENCE MARQUEE ===== */
+  .about-atv--presence {
+    width: 100vw;
+    margin: 50px calc(50% - 50vw) 0;
+    background-color: #c02927;
+    overflow: hidden;
+  }
+
+  .about-atv__presence {
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .about-atv__presence-track {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 88px;
+    padding: 10px 24px;
+    margin: 0;
+    list-style: none;
+    width: max-content;
+    will-change: transform;
+    animation: none !important;
+  }
+
+  .about-atv__presence-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    color: #f7f5f3;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ===== CERTIFICATES SECTION ===== */
+  .about-atv--certificates {
+    margin-top: 50px;
+  }
+
+  .about-atv__content-certik {
+    width: var(--content);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-atv__info-p {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-inline: 24px;
+  }
+
+  .about-atv__subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #1445ae;
+    margin: 0;
+    white-space: normal;
+    padding-block-end: 40px;
+  }
+
+  .about-atv__cert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+
+  .about-atv__cert-card {
+    width: 100%;
+    height: 150px;
+    padding: 24px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .about-atv__cert-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    color: #404040;
+  }
+
+  .pdf-text,
+  .about-atv__cert-desc {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #404040;
+  }
+
+  /* ===== CERTIFICATES MODAL ===== */
+  .modal {
+    display: none;
+  }
+
+  .modal.is-open {
+    display: flex;
+  }
+
+  .modal__content {
+    max-width: calc(100% - 32px);
+    width: calc(100% - 32px);
+    padding: 24px;
+    margin: 16px;
+  }
+
+  .modal__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .modal__image {
+    width: 100%;
+    height: auto;
+  }
+
+  .modal__title {
+    font-size: 24px;
+  }
+
+  .modal__text {
+    font-size: 14px;
+  }
+
+  /* ===== POPULAR BRANDS ===== */
+  .about-atv__title-cards {
+    width: var(--content);
+    margin: 50px auto 24px;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    color: #c02927;
+    box-sizing: border-box;
+  }
+
+  /* ===== CERTIFICATES MOBILE FIX (match Figma: pill + text below) ===== */
+  .about-atv--certificates .about-atv__cert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-inline: 24px;
+    list-style: none;
+  }
+
+  .about-atv--certificates .about-atv__cert-card {
+    width: 100%;
+    min-height: auto;
+    height: auto;
+    padding: 0;
+    border: none;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+
+  .about-atv--certificates .about-atv__cert-name {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    border-radius: 30px;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 220, 170, 0.45),
+      rgba(255, 255, 255, 0.85)
+    );
+    box-shadow:
+      0 12px 32px rgba(0, 0, 0, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    color: #404040;
+  }
+
+  .about-atv--certificates .pdf-text,
+  .about-atv--certificates .about-atv__cert-desc {
+    margin: 0;
+    padding: 0 16px;
+    max-width: 327px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #404040;
+    text-align: center;
+  }
+
+  .about-atv--certificates
+    .about-atv__cert-card:focus-visible
+    .about-atv__cert-name {
+    outline: 2px solid #c02927;
+    outline-offset: 4px;
+  }
+}
