@@ -25,6 +25,8 @@ const state = {
   currentWeight: null,
   currentFlavor: null,
   currentForm: null,
+  // Сортировка: null = порядок из JSON, "popularity" = по popularityIndex, "alphabet" = по названию
+  currentSortOrder: null,
 };
 
 // Map для хранения таймеров по карточкам
@@ -167,7 +169,7 @@ function createProductCard(product) {
       "dragee": isRu ? "Драже" : "Dragee",
       "chocolate_candies": isRu ? "Шоколадные конфеты" : "Chocolate candies",
       // Мармелад
-      "belts": isRu ? "Ленты" : "Belts",
+      "belts": isRu ? "Ремешки" : "Belts",
       "pencils": isRu ? "Карандаши" : "Pencils",
       "bears": isRu ? "Мишки" : "Bears",
       "figurative": isRu ? "Фигурные" : "Figurative",
@@ -401,7 +403,7 @@ function openProductModal(productId) {
       "dragee": isRu ? "Драже" : "Dragee",
       "chocolate_candies": isRu ? "Шоколадные конфеты" : "Chocolate candies",
       // Мармелад
-      "belts": isRu ? "Ленты" : "Belts",
+      "belts": isRu ? "Ремешки" : "Belts",
       "pencils": isRu ? "Карандаши" : "Pencils",
       "bears": isRu ? "Мишки" : "Bears",
       "figurative": isRu ? "Фигурные" : "Figurative",
@@ -636,6 +638,21 @@ function filterProducts() {
 
     return matchesBrand && matchesCategory && matchesWeight && matchesFlavor && matchesForm && matchesSearch;
   });
+
+  // Сортировка: по популярности (невидимое поле popularityIndex) или по алфавиту
+  if (state.currentSortOrder === "popularity") {
+    state.filteredProducts = [...state.filteredProducts].sort((a, b) => {
+      const ia = a.popularityIndex != null ? Number(a.popularityIndex) : 1e9;
+      const ib = b.popularityIndex != null ? Number(b.popularityIndex) : 1e9;
+      return ia - ib;
+    });
+  } else if (state.currentSortOrder === "alphabet") {
+    const locale = state.currentLanguage === "ru" ? "ru" : "en";
+    const getName = (p) => (p.nameRu || p.name || p.nameEn || "").trim().toLowerCase();
+    state.filteredProducts = [...state.filteredProducts].sort((a, b) =>
+      getName(a).localeCompare(getName(b), locale)
+    );
+  }
 
   // Всегда показываем товары (все товары если категория не выбрана)
   renderProducts(state.filteredProducts);
@@ -1113,7 +1130,7 @@ function renderFilterOptions(containerId, values, filterType, currentValue) {
       "dragee": isRu ? "Драже" : "Dragee",
       "chocolate_candies": isRu ? "Шоколадные конфеты" : "Chocolate candies",
       // Мармелад
-      "belts": isRu ? "Ленты" : "Belts",
+      "belts": isRu ? "Ремешки" : "Belts",
       "pencils": isRu ? "Карандаши" : "Pencils",
       "bears": isRu ? "Мишки" : "Bears",
       "figurative": isRu ? "Фигурные" : "Figurative",
@@ -1145,8 +1162,18 @@ function renderFilterOptions(containerId, values, filterType, currentValue) {
     container.innerHTML = "";
     return;
   }
-  
-  const sortedValues = Array.from(values).sort();
+
+  // Фильтр «вес»: сортировка по числовому значению (15, 70, 75, 80, 700, 1000 грамм и т.д.)
+  let sortedValues;
+  if (filterType === "weight") {
+    sortedValues = Array.from(values).sort((a, b) => {
+      const numA = parseInt(String(a).replace(/\D/g, ""), 10) || 0;
+      const numB = parseInt(String(b).replace(/\D/g, ""), 10) || 0;
+      return numA - numB;
+    });
+  } else {
+    sortedValues = Array.from(values).sort();
+  }
   
   container.innerHTML = `
     <button class="product__filter-option ${!currentValue ? 'active' : ''}" data-filter-type="${filterType}" data-filter-value="">
@@ -1268,15 +1295,32 @@ function initCategoryDropdown() {
   });
 }
 
-function initPopularityFilter() {
-  const filterBtn = qs("#popularityFilter");
-  if (!filterBtn) return;
+function initSortButtons() {
+  const popularityBtn = qs("#popularityFilter");
+  const alphabetBtn = qs("#alphabetFilter");
+  if (!popularityBtn && !alphabetBtn) return;
 
-  // Пока просто заглушка - функциональность можно добавить позже
-  filterBtn.addEventListener("click", () => {
-    console.log("Фильтр по популярности - функциональность в разработке");
-    // TODO: Реализовать сортировку по популярности
-  });
+  function setSortOrder(order) {
+    state.currentSortOrder = order;
+    [popularityBtn, alphabetBtn].forEach((btn) => {
+      if (!btn) return;
+      const isActive = (btn === popularityBtn && order === "popularity") || (btn === alphabetBtn && order === "alphabet");
+      btn.classList.toggle("active", !!isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+    filterProducts();
+  }
+
+  if (popularityBtn) {
+    popularityBtn.addEventListener("click", () => {
+      setSortOrder(state.currentSortOrder === "popularity" ? null : "popularity");
+    });
+  }
+  if (alphabetBtn) {
+    alphabetBtn.addEventListener("click", () => {
+      setSortOrder(state.currentSortOrder === "alphabet" ? null : "alphabet");
+    });
+  }
 }
 
 function toggleCategoryDropdown() {
@@ -1481,7 +1525,7 @@ async function init() {
   renderCategories();
   initCategoryDropdown();
   initCatalogDropdown(); // Инициализируем выпадающий список каталога
-  initPopularityFilter();
+  initSortButtons();
   initSearch();
   initBrandFilterClear();
 

@@ -691,14 +691,33 @@
 
   .product__item {
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
     padding: 14px 12px;
     border-radius: var(--r20);
     gap: 12px;
+    box-sizing: border-box;
   }
 
-  .product__item-image-wrapper,
-  .product__item img {
+  .product__item-image-wrapper {
+    width: 100%;
+    min-width: 0;
     height: 120px;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .product__item-image-wrapper img,
+  .product__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
     border-radius: 14px;
   }
 

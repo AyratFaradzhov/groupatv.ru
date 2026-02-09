@@ -1367,7 +1367,7 @@
 
 .product__grid {
   display: grid;
-  grid-template-columns: repeat(4, 322px);
+  grid-template-columns: repeat(4, minmax(0, 322px));
   gap: 40px;
   padding-block: 40px;
   justify-content: center; /* центрируем сетку */
@@ -1376,9 +1376,12 @@
   margin: 0 auto;
 }
 
-/* Product Card - Figma Design */
+/* Product Card - Figma Design. Элементы не выходят за границы, фото по центру и масштабируется. */
 .product__item {
-  width: 322px;
+  width: 100%;
+  max-width: 322px;
+  min-width: 0; /* не даёт контенту растягивать карточку */
+  overflow: hidden;
   background: rgba(255, 255, 255, 0.69);
   backdrop-filter: blur(15px);
   border-radius: 30px;
@@ -1393,6 +1396,7 @@
   cursor: pointer;
   opacity: 1;
   transform: translateY(0);
+  box-sizing: border-box;
 }
 
 .product__item:hover {
@@ -1400,9 +1404,10 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-/* Image Container with Border */
+/* Контейнер фото: всегда по центру карточки, изображение масштабируется и не выходит за границы */
 .product__item-image-wrapper {
   width: 100%;
+  min-width: 0;
   height: 231px;
   border: 1px solid #1445ae;
   border-radius: 15px;
@@ -1412,19 +1417,22 @@
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
+  flex-shrink: 0;
 }
 
 .product__item-image-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   border-radius: 15px;
 }
 
 .product__item img {
   width: 100%;
-  height: 231px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
   border: 1px solid #1445ae;
   border-radius: 15px;
 }
@@ -1438,6 +1446,9 @@
   text-align: center;
   margin: 0;
   width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Форма товара (отображается снизу карточки) */
@@ -1682,6 +1693,11 @@
 
 .product__popularity-filter:hover {
   background-color: #a0201e;
+}
+
+.product__popularity-filter.active {
+  background-color: #8a1c1a;
+  box-shadow: 0 2px 8px rgba(192, 41, 39, 0.4);
 }
 
 .product__popularity-filter svg {

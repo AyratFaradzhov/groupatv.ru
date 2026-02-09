@@ -53,7 +53,7 @@
   box-sizing: border-box;
 }
 
-/* ===== IMAGE — десктоп без изменений ===== */
+/* ===== IMAGE — десктоп без изменений, мягкие углы у фото ===== */
 .partner__image {
   display: block;
   max-width: 100%;
@@ -62,14 +62,18 @@
   height: auto;
   object-fit: contain;
   object-position: center;
+  border-radius: clamp(12px, 2.5vw, 24px);
+  overflow: hidden;
 }
 
 .partner__image.lenta-image-crop {
-  clip-path: inset(50px 0 50px 0);
+  clip-path: inset(50px 0 50px 0 round clamp(12px, 2.5vw, 24px));
+  border-radius: clamp(12px, 2.5vw, 24px);
 }
 
 .partner__image.metro-image-crop {
-  clip-path: inset(40px 0 40px 0);
+  clip-path: inset(40px 0 40px 0 round clamp(12px, 2.5vw, 24px));
+  border-radius: clamp(12px, 2.5vw, 24px);
 }
 
 /* ===== LARGE SCREENS (десктоп — без изменений) ===== */
@@ -112,6 +116,12 @@
     height: auto;
     object-fit: contain;
     object-position: center;
+    border-radius: 12px;
+  }
+
+  .partner__image.lenta-image-crop,
+  .partner__image.metro-image-crop {
+    border-radius: 12px;
   }
 }
 

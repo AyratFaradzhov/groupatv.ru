@@ -387,7 +387,7 @@
     overflow: hidden;
   }
 
-  /* Universal logo fit: no per-bg rules; 85% keeps logos readable and similarly sized (was 100% + aspect-ratio 1/1 in @supports caused squeezing) */
+  /* Universal logo fit: no per-bg rules; 85% keeps logos readable; мягкие углы у фото */
   .partners-item .partner__image {
     object-fit: contain;
     object-position: center;
@@ -397,6 +397,7 @@
     height: auto;
     display: block;
     margin-inline: auto;
+    border-radius: clamp(12px, 2vw, 20px);
   }
 
   /* Categories: scroll-snap for finger swipe, wider slides than mobile, fewer than desktop */
@@ -441,15 +442,22 @@
     width: 100%;
     min-width: 0;
     max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
     padding: clamp(20px, 2.5vw, 32px) clamp(16px, 2vw, 24px);
     gap: clamp(24px, 3vw, 40px);
   }
 
   .product__item-image-wrapper {
     width: 100%;
+    min-width: 0;
     min-height: 0;
     aspect-ratio: 322 / 231;
     height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .product__item-image-wrapper img,
