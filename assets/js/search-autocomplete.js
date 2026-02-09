@@ -65,6 +65,8 @@ function generateSuggestions(query) {
       });
     }
   });
+
+    });
   }
 
   // Получаем данные категорий и брендов
