@@ -263,7 +263,6 @@
   }
 
   .page-collaboration .partners__title-container__about {
-    justify-content: flex-start;
     padding-inline: 0;
   }
 
@@ -290,6 +289,7 @@
     scroll-behavior: auto;
     scrollbar-width: none;
     will-change: scroll-position;
+    padding-bottom: 50px;
   }
 
   .page-collaboration .partners__list::-webkit-scrollbar {
@@ -307,7 +307,9 @@
     opacity: 0.8;
     transform-origin: center;
     will-change: transform, opacity;
-    transition: transform 160ms ease, opacity 160ms ease;
+    transition:
+      transform 160ms ease,
+      opacity 160ms ease;
   }
 
   .page-collaboration + .footer {

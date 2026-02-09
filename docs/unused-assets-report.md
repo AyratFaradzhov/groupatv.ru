@@ -214,7 +214,7 @@ The following paths are under directories that JS may build at runtime (e.g. pro
 - `images/icons/pen-icon.svg`
 - `images/icons/telegram-logo.webp`
 - `images/icons/wildberries-icon.webp`
-- `images/icons/Yandex-icon.webp`
+- `images/icons/yandex-icon.webp` (файл переименован из Yandex-icon.webp; пути в проекте обновлены)
 - `images/logo.png`
 - `images/Subtract.png`
 - `images/tayas_build.webp`

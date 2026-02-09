@@ -499,7 +499,6 @@ ul li:nth-child(14) .card__description {
 }
 
 .card__title-container {
-  inline-size: 314px;
   color: var(--hover-color);
   font-size: var(--subtitle-size);
   text-wrap: nowrap;

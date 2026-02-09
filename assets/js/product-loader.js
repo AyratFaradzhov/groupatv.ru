@@ -1499,6 +1499,11 @@ function initBrandFilterClear() {
 }
 
 async function init() {
+  // Не выполнять на страницах без контейнера продукта (избегаем ошибок в Console)
+  if (!document.querySelector(".product-page") && !document.querySelector("#productsGrid")) {
+    return;
+  }
+
   const loaded = await loadProductsData();
   if (!loaded) {
     return;
