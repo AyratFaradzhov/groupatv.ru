@@ -26,7 +26,7 @@ const state = {
   currentFlavor: null,
   currentForm: null,
   // Сортировка: null = порядок из JSON, "popularity" = по popularityIndex, "alphabet" = по названию
-  currentSortOrder: null,
+  currentSortOrder: "popularity",
 };
 
 // Map для хранения таймеров по карточкам
@@ -1296,31 +1296,51 @@ function initCategoryDropdown() {
 }
 
 function initSortButtons() {
-  const popularityBtn = qs("#popularityFilter");
-  const alphabetBtn = qs("#alphabetFilter");
-  if (!popularityBtn && !alphabetBtn) return;
+  const dropdown = qs("#sortDropdown");
+  const dropdownBtn = qs("#sortDropdownBtn");
+  const dropdownText = qs("#sortDropdownText");
+  const dropdownMenu = qs("#sortDropdownMenu");
+  if (!dropdown || !dropdownBtn || !dropdownMenu) return;
+
+  const labels = { popularity: "По популярности", alphabet: "По алфавиту" };
+
+  function closeSortDropdown() {
+    dropdown.classList.remove("is-open");
+    dropdownBtn.setAttribute("aria-expanded", "false");
+  }
 
   function setSortOrder(order) {
     state.currentSortOrder = order;
-    [popularityBtn, alphabetBtn].forEach((btn) => {
-      if (!btn) return;
-      const isActive = (btn === popularityBtn && order === "popularity") || (btn === alphabetBtn && order === "alphabet");
-      btn.classList.toggle("active", !!isActive);
-      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    if (dropdownText) dropdownText.textContent = labels[order] || labels.popularity;
+    dropdownMenu.querySelectorAll(".product__category-dropdown-item").forEach((el) => {
+      el.classList.toggle("is-active", el.dataset.sort === order);
     });
+    closeSortDropdown();
     filterProducts();
   }
 
-  if (popularityBtn) {
-    popularityBtn.addEventListener("click", () => {
-      setSortOrder(state.currentSortOrder === "popularity" ? null : "popularity");
+  dropdownBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isOpen = dropdown.classList.toggle("is-open");
+    dropdownBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  dropdownMenu.querySelectorAll(".product__category-dropdown-item").forEach((item) => {
+    item.addEventListener("click", () => {
+      const order = item.dataset.sort;
+      if (order === "popularity" || order === "alphabet") setSortOrder(order);
     });
-  }
-  if (alphabetBtn) {
-    alphabetBtn.addEventListener("click", () => {
-      setSortOrder(state.currentSortOrder === "alphabet" ? null : "alphabet");
-    });
-  }
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!dropdown.contains(e.target)) closeSortDropdown();
+  });
+
+  // Инициализация подписи по умолчанию (по популярности)
+  if (dropdownText) dropdownText.textContent = labels[state.currentSortOrder] || labels.popularity;
+  dropdownMenu.querySelectorAll(".product__category-dropdown-item").forEach((el) => {
+    el.classList.toggle("is-active", el.dataset.sort === state.currentSortOrder);
+  });
 }
 
 function toggleCategoryDropdown() {
