@@ -2,10 +2,8 @@
 node_modules/
 out/
 .vscode/
+.cursor/
 
 # временные файлы
 *.xls
 *.log
-
-# изображения товаров (слишком длинные пути)
-assets/images/products/
