@@ -15,7 +15,7 @@
 @import "../../blocks/about/about.css";
 @import "../../blocks/collaboration/collaboration.css";
 @import "../../blocks/product/product.css";
-@import "./error.css";
+@import url("/assets/css/error.css");
 @import "./success-modal.css";
 
 /* TABLET: 768px–1199px (after desktop, before mobile) */
