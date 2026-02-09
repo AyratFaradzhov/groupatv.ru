@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ATV GROUP - Продукция</title>
+    <!-- Favicon — логотип из хедера (тот же файл) -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+    <link rel="apple-touch-icon" href="assets/images/logo.png" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/variables.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -14,7 +17,15 @@
     <header class="header">
       <div class="header__container container">
         <a href="index.html">
-          <img class="header__logo" src="assets/images/logo.png" alt="ATV Group" width="65" height="65" loading="lazy" decoding="async" />
+          <img
+            class="header__logo"
+            src="assets/images/logo.png"
+            alt="ATV Group"
+            width="65"
+            height="65"
+            loading="lazy"
+            decoding="async"
+          />
         </a>
 
         <nav class="header__nav">
@@ -55,16 +66,53 @@
         </button>
 
         <!-- Mobile burger menu button -->
-        <button class="header__burger" id="headerBurger" type="button" aria-label="Меню">
-          <svg class="header__burger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 12H21M3 6H21M3 18H21" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <button
+          class="header__burger"
+          id="headerBurger"
+          type="button"
+          aria-label="Меню"
+        >
+          <svg
+            class="header__burger-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 12H21M3 6H21M3 18H21"
+              stroke="#c02927"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
         </button>
 
         <!-- Mobile menu close button -->
-        <button class="header__close" id="headerClose" type="button" aria-label="Закрыть меню" style="display: none;">
-          <svg class="header__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18 6L6 18M6 6L18 18" stroke="#c02927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <button
+          class="header__close"
+          id="headerClose"
+          type="button"
+          aria-label="Закрыть меню"
+          style="display: none"
+        >
+          <svg
+            class="header__close-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 6L6 18M6 6L18 18"
+              stroke="#c02927"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
         </button>
       </div>
@@ -72,28 +120,102 @@
       <!-- Mobile menu -->
       <div class="header__mobile-menu" id="headerMobileMenu">
         <nav class="header__mobile-nav">
-          <a href="request-price.html" class="header__mobile-link" data-i18n="price">Прайс - лист</a>
-          <a href="product.html" class="header__mobile-link" data-i18n="products">Продукция</a>
-          <a href="about.html" class="header__mobile-link" data-i18n="about">О компании</a>
-          <a href="collaboration.html" class="header__mobile-link" data-i18n="collaboration">Сотрудничество</a>
-          <a href="contacts.html" class="header__mobile-link" data-i18n="contacts">Контакты</a>
+          <a
+            href="request-price.html"
+            class="header__mobile-link"
+            data-i18n="price"
+            >Прайс - лист</a
+          >
+          <a
+            href="product.html"
+            class="header__mobile-link"
+            data-i18n="products"
+            >Продукция</a
+          >
+          <a href="about.html" class="header__mobile-link" data-i18n="about"
+            >О компании</a
+          >
+          <a
+            href="collaboration.html"
+            class="header__mobile-link"
+            data-i18n="collaboration"
+            >Сотрудничество</a
+          >
+          <a
+            href="contacts.html"
+            class="header__mobile-link"
+            data-i18n="contacts"
+            >Контакты</a
+          >
         </nav>
         <div class="header__mobile-contacts">
-          <a href="tel:+79585821409" class="header__mobile-phone">+7 958 582 14 09</a>
-          <a href="mailto:info@atv-group.ru" class="header__mobile-email">info@atv-group.ru</a>
+          <a href="tel:+79585821409" class="header__mobile-phone"
+            >+7 958 582 14 09</a
+          >
+          <a href="mailto:info@atv-group.ru" class="header__mobile-email"
+            >info@atv-group.ru</a
+          >
         </div>
         <div class="header__mobile-social">
-          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="header__mobile-social-link" aria-label="Instagram">
-            <img src="images/icons/instagram-icons.webp" alt="Instagram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          <a
+            href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt"
+            class="header__mobile-social-link"
+            aria-label="Instagram"
+          >
+            <img
+              src="images/icons/instagram-icons.webp"
+              alt="Instagram"
+              class="header__mobile-social-icon"
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
-          <a href="https://t.me/atv_groupp" class="header__mobile-social-link" aria-label="Telegram">
-            <img src="images/icons/telegram-logo.webp" alt="Telegram" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          <a
+            href="https://t.me/atv_groupp"
+            class="header__mobile-social-link"
+            aria-label="Telegram"
+          >
+            <img
+              src="images/icons/telegram-logo.webp"
+              alt="Telegram"
+              class="header__mobile-social-icon"
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
-          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="header__mobile-social-link" aria-label="Ozon">
-            <img src="images/icons/ozon-icon.webp" alt="Ozon" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          <a
+            href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com"
+            class="header__mobile-social-link"
+            aria-label="Ozon"
+          >
+            <img
+              src="images/icons/ozon-icon.webp"
+              alt="Ozon"
+              class="header__mobile-social-icon"
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
-          <a href="https://market.yandex.ru/cc/8Nzfeu" class="header__mobile-social-link" aria-label="Яндекс.Маркет">
-            <img src="images/icons/yandex-icon.webp" alt="Яндекс.Маркет" class="header__mobile-social-icon" width="24" height="24" loading="lazy" decoding="async" />
+          <a
+            href="https://market.yandex.ru/cc/8Nzfeu"
+            class="header__mobile-social-link"
+            aria-label="Яндекс.Маркет"
+          >
+            <img
+              src="images/icons/yandex-icon.webp"
+              alt="Яндекс.Маркет"
+              class="header__mobile-social-icon"
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
         </div>
       </div>
@@ -110,7 +232,7 @@
           >
             <span class="product__catalog-icon-wrapper">
               <img
-                src="assets/images/products/icons/catalogy-icon.svg"
+                src="/assets/images/icons/catalogy-icon.svg"
                 alt="иконка каталога"
                 class="product__catalog-icon"
               />
@@ -235,36 +357,45 @@
       <section class="product__hero">
         <div class="product__hero-container">
           <!-- При выборе бренда: карусели скрыты, показывается только логотип бренда (по макету Figma) -->
-          <div class="product__hero-brand-logo" id="productHeroBrandLogo" aria-hidden="true">
-            <img class="product__hero-brand-logo-img" id="productHeroBrandLogoImg" src="" alt="" />
+          <div
+            class="product__hero-brand-logo"
+            id="productHeroBrandLogo"
+            aria-hidden="true"
+          >
+            <img
+              class="product__hero-brand-logo-img"
+              id="productHeroBrandLogoImg"
+              src=""
+              alt=""
+            />
           </div>
           <!-- Карусель для продукции (4 изображения) -->
           <div class="product__hero-carousel product__hero-carousel--products">
             <div class="product__hero-carousel-track">
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/product_cover_one.webp"
+                  src="/assets/images/hero_categories/categories-img.webp"
                   alt="Продукция ATV GROUP"
                   class="product__hero-img"
                 />
               </div>
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/product_cover_two.webp"
+                  src="/assets/images/hero_categories/categories-img.webp"
                   alt="Продукция ATV GROUP"
                   class="product__hero-img"
                 />
               </div>
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/product_cover_three.webp"
+                  src="/assets/images/hero_categories/categories-img.webp"
                   alt="Продукция ATV GROUP"
                   class="product__hero-img"
                 />
               </div>
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/product_cover_four.webp"
+                  src="/assets/images/hero_categories/categories-img.webp"
                   alt="Продукция ATV GROUP"
                   class="product__hero-img"
                 />
@@ -272,7 +403,7 @@
               <!-- Дублируем первый слайд для бесшовной прокрутки -->
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/product_cover_one.webp"
+                  src="/assets/images/hero_categories/categories-img.webp"
                   alt="Продукция ATV GROUP"
                   class="product__hero-img"
                 />
@@ -285,14 +416,14 @@
             <div class="product__hero-carousel-track">
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/brand_cover_one.webp"
+                  src="/assets/images/partner/ozon.webp"
                   alt="Бренды ATV GROUP"
                   class="product__hero-img"
                 />
               </div>
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/brand_cover_two.webp"
+                  src="/assets/images/partner/wb.webp"
                   alt="Бренды ATV GROUP"
                   class="product__hero-img"
                 />
@@ -300,7 +431,7 @@
               <!-- Дублируем первый слайд для бесшовной прокрутки -->
               <div class="product__hero-carousel-slide">
                 <img
-                  src="assets/images/products/brand_cover_one.webp"
+                  src="/assets/images/partner/ozon.webp"
                   alt="Бренды ATV GROUP"
                   class="product__hero-img"
                 />
@@ -378,15 +509,34 @@
               </div>
 
               <!-- Breadcrumb Navigation -->
-              <nav class="product__breadcrumb container" aria-label="Breadcrumb">
+              <nav
+                class="product__breadcrumb container"
+                aria-label="Breadcrumb"
+              >
                 <div class="product__breadcrumb-container">
-                  <a href="index.html" class="product__breadcrumb-link">Главная страница</a>
+                  <a href="index.html" class="product__breadcrumb-link"
+                    >Главная страница</a
+                  >
                   <span class="product__breadcrumb-separator">/</span>
                   <span class="product__breadcrumb-item" id="breadcrumbSecond">
-                    <a href="product.html" class="product__breadcrumb-link" id="breadcrumbSecondLink">Продукция</a>
+                    <a
+                      href="product.html"
+                      class="product__breadcrumb-link"
+                      id="breadcrumbSecondLink"
+                      >Продукция</a
+                    >
                   </span>
-                  <span class="product__breadcrumb-separator" id="breadcrumbSeparator" style="display: none;">/</span>
-                  <span class="product__breadcrumb-item product__breadcrumb-item--current" id="breadcrumbThird" style="display: none;"></span>
+                  <span
+                    class="product__breadcrumb-separator"
+                    id="breadcrumbSeparator"
+                    style="display: none"
+                    >/</span
+                  >
+                  <span
+                    class="product__breadcrumb-item product__breadcrumb-item--current"
+                    id="breadcrumbThird"
+                    style="display: none"
+                  ></span>
                 </div>
               </nav>
 
@@ -662,9 +812,15 @@
           </li>
         </ul>
         <nav class="footer__legal-links" aria-label="Legal">
-          <a href="terms.html" data-i18n="footer_legal_terms">Пользовательское соглашение</a>
-          <a href="privacy.html" data-i18n="footer_legal_privacy">Политика конфиденциальности</a>
-          <a href="consent.html" data-i18n="footer_legal_consent">Согласие на обработку персональных данных</a>
+          <a href="terms.html" data-i18n="footer_legal_terms"
+            >Пользовательское соглашение</a
+          >
+          <a href="privacy.html" data-i18n="footer_legal_privacy"
+            >Политика конфиденциальности</a
+          >
+          <a href="consent.html" data-i18n="footer_legal_consent"
+            >Согласие на обработку персональных данных</a
+          >
         </nav>
       </div>
     </footer>
@@ -706,7 +862,10 @@
       </div>
     </div>
 
-    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js" defer></script>
+    <script
+      src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"
+      defer
+    ></script>
     <script src="assets/js/i18n.js" defer></script>
     <script src="assets/js/mobile-menu.js" defer></script>
     <script src="assets/js/form.js" defer></script>

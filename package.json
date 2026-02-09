@@ -11,7 +11,8 @@
     "start": "node server.js",
     "audit:routes": "node scripts/audit-routes.js",
     "rename-yandex-icon": "node scripts/rename-yandex-icon.js",
-    "rename-video-cooperation": "node scripts/rename-video-cooperation.js"
+    "rename-video-cooperation": "node scripts/rename-video-cooperation.js",
+    "build:favicons": "node scripts/build-favicons.js"
   },
   "dependencies": {
     "compression": "^1.7.4",
