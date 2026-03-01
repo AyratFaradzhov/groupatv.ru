@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
 :root {
   --accent-color: #c02927;
   --text-color: #1445ae;
@@ -8,7 +10,7 @@
   --orange-color: #ff7f0e;
   --title-font: "Playpen Sans", sans-serif;
   --base-font: "Inter", sans-serif;
-  --logo-title: "Luckiest Guy";
+  --logo-title: "Rubik Bubbles", sans-serif;
   --base-size: 24px;
   --subtitle-size: 32px;
   --min-base-size: 16px;

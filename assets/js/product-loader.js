@@ -8,15 +8,21 @@ const CONFIG = {
   brandsLimit: 9,
   hoverToActiveMs: 5000,
   clickDelayMs: 500,
+  eagerImageCount: 8, // Первые N карточек — loading="eager" для мгновенной загрузки
 };
+
+/** Placeholder при ошибке загрузки картинки (SVG data URL) */
+const IMAGE_PLACEHOLDER = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240' fill='%23f0e6dc'%3E%3Crect width='240' height='240' fill='%23f0e6dc'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23999' font-size='14' font-family='sans-serif'%3ENo image%3C/text%3E%3C/svg%3E";
 
 /* -------------------- STATE -------------------- */
 
 const state = {
   products: [],
+  groupedProducts: [],
   categories: {},
   brands: [],
   filteredProducts: [],
+  filteredGroups: [],
   currentLanguage: "ru",
   currentBrand: null,
   currentCategory: null,
@@ -76,6 +82,100 @@ function getCategoryName(categoryId) {
   return state.currentLanguage === "ru" ? category.nameRu : category.nameEn;
 }
 
+/** Map: groupId → selectedVariantIndex (для синхронизации карточки и модалки) */
+const selectedVariantMap = new Map();
+
+/* -------------------- GROUPING (по весу) -------------------- */
+
+/**
+ * Извлекает числовое значение веса в граммах из строки ("15 грамм", "1000 грамм", "18 г" и т.п.)
+ */
+function parseWeightGr(weightStr) {
+  if (!weightStr || typeof weightStr !== "string") return null;
+  const match = String(weightStr).match(/(\d+(?:[.,]\d+)?)\s*(?:г(?:рамм)?|гр|g|kg)?/i);
+  if (!match) return null;
+  let num = parseFloat(match[1].replace(",", ".")) || 0;
+  if (/kg/i.test(weightStr)) num *= 1000;
+  return Math.round(num);
+}
+
+/**
+ * Убирает вес из названия: "Леденцы Coffee Intense 100 г" → "Леденцы Coffee Intense"
+ */
+function normalizeBaseName(nameRu) {
+  if (!nameRu || typeof nameRu !== "string") return (nameRu || "").trim();
+  return String(nameRu)
+    .replace(/\s*\d+(?:[.,]\d+)?\s*(?:г(?:рамм)?|гр\.?|g|kg)\b/gi, "")
+    .replace(/\s*\d+\s*г\b/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Строит стабильный ключ группировки: brand + baseName + category + type + flavor
+ * НЕ включает weight.
+ */
+function buildGroupingKey(product) {
+  const baseName = normalizeBaseName(product.nameRu || product.name || "");
+  const brand = normalizeBrand(product.brand);
+  const category = product.category || "";
+  const type = product.type || "";
+  const flavor = product.flavor || (product.flavors && product.flavors[0]) || "";
+  return [brand, baseName.toLowerCase(), category, type, flavor].join("|");
+}
+
+/**
+ * Группирует товары: одинаковый groupingKey + отличаются только весом → одна группа.
+ */
+function groupProductsByWeight(products) {
+  const byKey = new Map();
+
+  for (const p of products) {
+    const key = buildGroupingKey(p);
+    if (!byKey.has(key)) {
+      const baseName = normalizeBaseName(p.nameRu || p.name || "");
+      const first = p;
+      byKey.set(key, {
+        id: "group_" + key.replace(/[^a-z0-9]/gi, "_").slice(0, 64),
+        groupingKey: key,
+        baseNameRu: baseName || (p.nameRu || p.name || ""),
+        brand: p.brand,
+        category: p.category,
+        type: p.type,
+        flavor: p.flavor,
+        flavors: p.flavors,
+        popularityIndex: p.popularityIndex != null ? Number(p.popularityIndex) : 1e9,
+        variants: [],
+      });
+    }
+
+    const grp = byKey.get(key);
+    const weightGr = parseWeightGr(p.weight);
+    grp.variants.push({
+      product: p,
+      productId: p.id,
+      weightGr: weightGr,
+      weight: p.weight || "",
+      sku: p.sku,
+      price: p.price,
+      image: p.image,
+      popularityIndex: p.popularityIndex != null ? Number(p.popularityIndex) : 1e9,
+    });
+    if (p.popularityIndex != null && (grp.popularityIndex == null || p.popularityIndex < grp.popularityIndex)) {
+      grp.popularityIndex = Number(p.popularityIndex);
+    }
+  }
+
+  const result = [];
+  for (const grp of byKey.values()) {
+    grp.variants.sort((a, b) => (a.weightGr || 0) - (b.weightGr || 0));
+    grp.defaultVariantIndex = 0;
+    result.push(grp);
+  }
+
+  return result;
+}
+
 /* -------------------- DATA LOADING -------------------- */
 
 async function loadProductsData() {
@@ -89,6 +189,7 @@ async function loadProductsData() {
     state.products = data.products || [];
     state.categories = data.categories || {};
     state.brands = data.brands || [];
+    state.groupedProducts = groupProductsByWeight(state.products);
 
     return true;
   } catch (err) {
@@ -143,15 +244,21 @@ function shortenProductName(name, maxLength = 60) {
   return shortened ? shortened + "..." : name.substring(0, maxLength - 3) + "...";
 }
 
-function createProductCard(product) {
+function createProductCard(group, index) {
+  const variantIdx = selectedVariantMap.get(group.id) ?? 0;
+  const variant = group.variants[variantIdx] || group.variants[0];
+  const product = variant.product;
+
   const name = getProductName(product);
-  const shortName = shortenProductName(name, 50); // Максимум 50 символов для карточки
+  const shortName = shortenProductName(name, 50);
   const detailsText = state.currentLanguage === "ru" ? "Подробнее" : "More details";
   const isRu = state.currentLanguage === "ru";
-  
-  // Получаем название формы товара
+
+  const loadingMode = index < CONFIG.eagerImageCount ? "eager" : "lazy";
+  const imgSrc = variant.image || product.image || "";
+
   let formName = "";
-  if (product.type) {
+  if (group.type) {
     const typeNames = {
       // Бисквитное пирожное
       "biscuits": isRu ? "Бисквитные палочки" : "Biscuit sticks",
@@ -179,6 +286,7 @@ function createProductCard(product) {
       "tubes": isRu ? "Трубочки" : "Tubes",
       // Шоколад
       "chocolate": isRu ? "Молочный шоколад" : "Milk chocolate",
+      "milk-chocolate": isRu ? "Молочный шоколад" : "Milk chocolate",
       "white-chocolate": isRu ? "Белый шоколад" : "White chocolate",
       "dark-chocolate": isRu ? "Темный шоколад" : "Dark chocolate",
       "dubai-chocolate": isRu ? "Дубайский шоколад" : "Dubai chocolate",
@@ -195,23 +303,38 @@ function createProductCard(product) {
       "jelly_pieces": isRu ? "Желе кусочками" : "Jelly pieces",
       "jelly_figures": isRu ? "Фигурное желе" : "Figurative jelly",
     };
-    formName = typeNames[product.type] || product.type;
+    formName = typeNames[group.type] || group.type;
   }
-  
+
+  const weightSelector =
+    group.variants.length > 1
+      ? group.variants.length <= 5
+        ? `<div class="product__item-weight-chips">
+            ${group.variants.map((v, i) => `<button type="button" class="product__item-weight-chip ${i === variantIdx ? "is-active" : ""}" data-group-id="${group.id}" data-variant-index="${i}" data-weight="${v.weight}">${v.weight}</button>`).join("")}
+          </div>`
+        : `<select class="product__item-weight-select" data-group-id="${group.id}">
+            ${group.variants.map((v, i) => `<option value="${i}" ${i === variantIdx ? "selected" : ""}>${v.weight}</option>`).join("")}
+          </select>`
+      : variant.weight ? `<div class="product__item-weight-single">${variant.weight}</div>` : "";
+
   return `
     <div class="product__item"
-         data-id="${product.id}"
-         data-brand="${normalizeBrand(product.brand)}"
-         data-category="${product.category}"
-         data-weight="${product.weight || ''}"
-         data-flavor="${product.flavors ? product.flavors.join(',') : ''}"
-         data-form="${product.type || ''}">
+         data-id="${group.id}"
+         data-group-id="${group.id}"
+         data-product-id="${product.id}"
+         data-variant-index="${variantIdx}"
+         data-brand="${normalizeBrand(group.brand)}"
+         data-category="${group.category}"
+         data-weight="${variant.weight || ""}"
+         data-flavor="${group.flavors ? group.flavors.join(",") : ""}"
+         data-form="${group.type || ""}">
       <div class="product__item-image-wrapper">
-        <img src="${product.image}" alt="${name}" loading="lazy" />
+        <img src="${imgSrc}" alt="${name}" loading="${loadingMode}" decoding="async" width="240" height="240" class="product__item-img" data-group-id="${group.id}" onerror="this.src='${IMAGE_PLACEHOLDER}';this.onerror=null;" />
       </div>
       <h3 class="product__item-title" title="${name}">${shortName}</h3>
-      ${formName ? `<div class="product__item-form">${formName}</div>` : ''}
-      <button class="product__item-button" data-product-id="${product.id}">
+      ${formName ? `<div class="product__item-form">${formName}</div>` : ""}
+      ${weightSelector}
+      <button class="product__item-button" data-group-id="${group.id}" data-product-id="${product.id}" data-variant-index="${variantIdx}">
         <span>${detailsText}</span>
         <span class="product__item-button-icon">
           <img src="images/arrow.svg" alt="стрелка вправо" class="product__button-img">
@@ -257,26 +380,86 @@ function renderProducts(products) {
     return;
   }
 
-  grid.innerHTML = products.map(createProductCard).join("");
+  grid.innerHTML = products.map((grp, i) => createProductCard(grp, i)).join("");
   animateItems(grid, ".product__item");
-  
-  // Показываем фильтр подкатегорий если выбрана категория
-  renderSubcategories();
-  
-  // Инициализируем обработчики для кнопок "Подробнее"
+
+  initWeightSelectors(grid);
   initProductModalHandlers();
+  renderSubcategories();
+}
+
+/**
+ * Обработчики селектора веса: чипы и select
+ */
+function initWeightSelectors(grid) {
+  const root = grid || document;
+  qsa(".product__item-weight-chip", root).forEach((chip) => {
+    chip.addEventListener("click", (e) => {
+      const groupId = chip.dataset.groupId;
+      const variantIndex = parseInt(chip.dataset.variantIndex, 10);
+      if (!groupId || isNaN(variantIndex)) return;
+      selectedVariantMap.set(groupId, variantIndex);
+      updateCardVariant(root, groupId, variantIndex);
+    });
+  });
+  qsa(".product__item-weight-select", root).forEach((sel) => {
+    sel.addEventListener("change", () => {
+      const groupId = sel.dataset.groupId;
+      const variantIndex = parseInt(sel.value, 10);
+      if (!groupId || isNaN(variantIndex)) return;
+      selectedVariantMap.set(groupId, variantIndex);
+      updateCardVariant(root, groupId, variantIndex);
+    });
+  });
+}
+
+function updateCardVariant(root, groupId, variantIndex) {
+  const card = qs(`[data-group-id="${groupId}"]`, root);
+  if (!card || !card.closest) return;
+  const item = card.closest(".product__item");
+  if (!item) return;
+
+  const group = state.filteredGroups.find((g) => g.id === groupId);
+  if (!group || !group.variants[variantIndex]) return;
+
+  const v = group.variants[variantIndex];
+  const img = item.querySelector(".product__item-img");
+  const btn = item.querySelector(".product__item-button");
+
+  if (img && v.image) {
+    img.src = v.image;
+  }
+  if (btn) {
+    btn.dataset.productId = v.productId;
+    btn.dataset.variantIndex = String(variantIndex);
+  }
+  item.dataset.weight = v.weight || "";
+  item.dataset.productId = v.productId;
+  item.dataset.variantIndex = String(variantIndex);
+
+  qsa(".product__item-weight-chip", item).forEach((c) => {
+    c.classList.toggle("is-active", parseInt(c.dataset.variantIndex, 10) === variantIndex);
+  });
+  const sel = item.querySelector(".product__item-weight-select");
+  if (sel) sel.value = String(variantIndex);
+
+  const singleWeight = item.querySelector(".product__item-weight-single");
+  if (singleWeight) singleWeight.textContent = v.weight || "";
 }
 
 /* -------------------- MODAL -------------------- */
 
 function initProductModalHandlers() {
-  // Обработчики для кнопок "Подробнее"
   qsa(".product__item-button").forEach((button) => {
     button.addEventListener("click", (e) => {
       e.stopPropagation();
+      const groupId = button.getAttribute("data-group-id");
+      const variantIndex = parseInt(button.getAttribute("data-variant-index"), 10);
       const productId = button.getAttribute("data-product-id");
-      if (productId) {
-        openProductModal(productId);
+      if (groupId && !isNaN(variantIndex)) {
+        openProductModal(groupId, variantIndex);
+      } else if (productId) {
+        openProductModal(null, null, productId);
       }
     });
   });
@@ -321,8 +504,18 @@ function shortenImagePath(imagePath) {
   return "..." + imagePath.slice(-50);
 }
 
-function openProductModal(productId) {
-  const product = state.products.find((p) => p.id === productId);
+function openProductModal(groupId, variantIndex, productId) {
+  let product;
+  let group = null;
+  if (groupId != null && variantIndex != null) {
+    group = state.groupedProducts.find((g) => g.id === groupId) || state.filteredGroups.find((g) => g.id === groupId);
+    if (group && group.variants[variantIndex]) {
+      product = group.variants[variantIndex].product;
+    }
+  }
+  if (!product && productId) {
+    product = state.products.find((p) => p.id === productId);
+  }
   if (!product) return;
 
   const modal = qs("#productModal");
@@ -332,24 +525,32 @@ function openProductModal(productId) {
   const name = getProductName(product);
   const categoryName = getCategoryName(product.category);
   const isRu = state.currentLanguage === "ru";
+  const variant = group && group.variants[variantIndex] ? group.variants[variantIndex] : null;
 
-  // Формируем контент модального окна
   let modalHTML = `
-    <div class="product-modal__header">
+    <div class="product-modal__header" data-modal-group-id="${groupId || ""}" data-modal-variant-index="${variantIndex ?? -1}">
       <div class="product-modal__image-wrapper">
-        <img src="${product.image}" alt="${name}" class="product-modal__image" />
+        <img src="${variant ? variant.image : product.image}" alt="${name}" class="product-modal__image" loading="eager" decoding="async" onerror="this.src='${IMAGE_PLACEHOLDER}';this.onerror=null;" />
       </div>
       <div class="product-modal__header-info">
         <h2 class="product-modal__title">${name}</h2>
+        ${group && group.variants.length > 1 ? `
+        <div class="product-modal__weight-selector">
+          ${group.variants.length <= 5
+            ? group.variants.map((v, i) => `<button type="button" class="product-modal__weight-chip ${i === variantIndex ? "is-active" : ""}" data-variant-index="${i}">${v.weight}</button>`).join("")
+            : `<select class="product-modal__weight-select"><option value="">${isRu ? "Выберите вес" : "Select weight"}</option>${group.variants.map((v, i) => `<option value="${i}" ${i === variantIndex ? "selected" : ""}>${v.weight}</option>`).join("")}</select>`
+          }
+        </div>
+        ` : ""}
         <div class="product-modal__basic-info">
   `;
 
-  // SKU
-  if (product.sku) {
+  const skuVal = variant ? variant.sku : product.sku;
+  if (skuVal) {
     modalHTML += `
       <div class="product-modal__info-item">
         <span class="product-modal__info-label">${isRu ? "Артикул" : "SKU"}</span>
-        <span class="product-modal__info-value">${product.sku}</span>
+        <span class="product-modal__info-value">${skuVal}</span>
       </div>
     `;
   }
@@ -374,12 +575,12 @@ function openProductModal(productId) {
     `;
   }
 
-  // Вес
-  if (product.weight) {
+  const weightVal = variant ? variant.weight : product.weight;
+  if (weightVal) {
     modalHTML += `
       <div class="product-modal__info-item">
         <span class="product-modal__info-label">${isRu ? "Вес" : "Weight"}</span>
-        <span class="product-modal__info-value">${product.weight}</span>
+        <span class="product-modal__info-value">${weightVal}</span>
       </div>
     `;
   }
@@ -413,6 +614,7 @@ function openProductModal(productId) {
       "tubes": isRu ? "Трубочки" : "Tubes",
       // Шоколад
       "chocolate": isRu ? "Молочный шоколад" : "Milk chocolate",
+      "milk-chocolate": isRu ? "Молочный шоколад" : "Milk chocolate",
       "white-chocolate": isRu ? "Белый шоколад" : "White chocolate",
       "dark-chocolate": isRu ? "Темный шоколад" : "Dark chocolate",
       "dubai-chocolate": isRu ? "Дубайский шоколад" : "Dubai chocolate",
@@ -542,6 +744,27 @@ function openProductModal(productId) {
   }
 
   content.innerHTML = modalHTML;
+  if (group && groupId) {
+    qsa(".product-modal__weight-chip", content).forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const idx = parseInt(chip.dataset.variantIndex, 10);
+        if (!isNaN(idx)) {
+          selectedVariantMap.set(groupId, idx);
+          openProductModal(groupId, idx);
+        }
+      });
+    });
+    const sel = qs(".product-modal__weight-select", content);
+    if (sel) {
+      sel.addEventListener("change", () => {
+        const idx = parseInt(sel.value, 10);
+        if (!isNaN(idx) && idx >= 0) {
+          selectedVariantMap.set(groupId, idx);
+          openProductModal(groupId, idx);
+        }
+      });
+    }
+  }
   modal.classList.add("active");
   document.body.style.overflow = "hidden";
 }
@@ -575,87 +798,66 @@ function filterProducts() {
   const searchInput = qs("#productSearchInput");
   const search = searchInput?.value.toLowerCase().trim() || "";
 
-  state.filteredProducts = state.products.filter((p) => {
+  state.filteredGroups = state.groupedProducts.filter((grp) => {
     // 1. Фильтр по бренду (строгая нормализация)
-    const productBrand = normalizeBrand(p.brand);
+    const productBrand = normalizeBrand(grp.brand);
     const matchesBrand =
       !state.currentBrand || productBrand === state.currentBrand;
 
     // 2. Фильтр по категории
-    const matchesCategory =
-      !state.currentCategory || p.category === state.currentCategory;
-
-    // 3. Фильтр по весу
-    const matchesWeight =
-      !state.currentWeight || p.weight === state.currentWeight;
-
-    // 4. Фильтр по вкусу
+    const matchesCategory = !state.currentCategory || grp.category === state.currentCategory;
+    const matchesWeight = !state.currentWeight || grp.variants.some((v) => v.weight === state.currentWeight);
     const matchesFlavor =
-      !state.currentFlavor || 
-      (p.flavors && p.flavors.some(flavor => 
-        flavor.toLowerCase().includes(state.currentFlavor.toLowerCase())
-      ));
+      !state.currentFlavor ||
+      (grp.flavors && grp.flavors.some((f) =>
+        String(f).toLowerCase().includes(state.currentFlavor.toLowerCase())
+      )) ||
+      (grp.flavor && String(grp.flavor).toLowerCase().includes(state.currentFlavor.toLowerCase()));
+    const matchesForm = !state.currentForm || grp.type === state.currentForm;
 
-    // 5. Фильтр по форме (type)
-    const matchesForm =
-      !state.currentForm || p.type === state.currentForm;
-
-    // 6. Поиск по тексту (расширенный)
+    // 6. Поиск по тексту (расширенный) — учитываем nameRu и nameEn
     let matchesSearch = true;
     if (search) {
-      // Собираем все текстовые данные для поиска
+      const firstProduct = grp.variants[0]?.product;
       const searchText = [
-        // Названия
-        p.nameRu || "",
-        p.nameEn || "",
-        p.name || "",
-        // Бренд (нормализованный и оригинальный)
+        grp.baseNameRu || "",
+        firstProduct?.nameRu || "",
+        firstProduct?.nameEn || "",
         productBrand,
         productBrand.toLowerCase(),
-        p.brand || "",
-        // Категория
-        getCategoryName(p.category),
-        p.category || "",
-        // Новые поля
-        p.type || "",
-        p.weight || "",
-        p.sku || "",
-        // Описание и состав
-        p.description || "",
-        p.composition || "",
-        // Вкусы (RU + EN)
-        ...(p.flavors || []),
-        // Теги (уже включают много информации)
-        ...(p.tags || []),
+        grp.brand || "",
+        getCategoryName(grp.category),
+        grp.category || "",
+        grp.type || "",
+        ...grp.variants.map((v) => v.weight + " " + (v.sku || "")),
+        ...(grp.flavors || []),
       ]
-        .filter(Boolean) // Убираем пустые значения
+        .filter(Boolean)
         .join(" ")
         .toLowerCase();
-
-      // Поиск в тексте
       matchesSearch = searchText.includes(search);
     }
 
     return matchesBrand && matchesCategory && matchesWeight && matchesFlavor && matchesForm && matchesSearch;
   });
 
-  // Сортировка: по популярности (невидимое поле popularityIndex) или по алфавиту
   if (state.currentSortOrder === "popularity") {
-    state.filteredProducts = [...state.filteredProducts].sort((a, b) => {
+    state.filteredGroups = [...state.filteredGroups].sort((a, b) => {
       const ia = a.popularityIndex != null ? Number(a.popularityIndex) : 1e9;
       const ib = b.popularityIndex != null ? Number(b.popularityIndex) : 1e9;
       return ia - ib;
     });
   } else if (state.currentSortOrder === "alphabet") {
     const locale = state.currentLanguage === "ru" ? "ru" : "en";
-    const getName = (p) => (p.nameRu || p.name || p.nameEn || "").trim().toLowerCase();
-    state.filteredProducts = [...state.filteredProducts].sort((a, b) =>
-      getName(a).localeCompare(getName(b), locale)
-    );
+    state.filteredGroups = [...state.filteredGroups].sort((a, b) => {
+      const nameA = (locale === "ru" ? (a.baseNameRu || "") : (a.variants[0]?.product?.nameEn || a.baseNameRu || "")).trim().toLowerCase();
+      const nameB = (locale === "ru" ? (b.baseNameRu || "") : (b.variants[0]?.product?.nameEn || b.baseNameRu || "")).trim().toLowerCase();
+      return nameA.localeCompare(nameB, locale);
+    });
   }
 
-  // Всегда показываем товары (все товары если категория не выбрана)
-  renderProducts(state.filteredProducts);
+  state.filteredProducts = state.filteredGroups.flatMap((grp) => grp.variants.map((v) => v.product));
+  renderProducts(state.filteredGroups);
   
   // Обновляем визуальное выделение активной категории в сетке
   updateActiveCategoryInGrid();
@@ -1140,6 +1342,7 @@ function renderFilterOptions(containerId, values, filterType, currentValue) {
       "tubes": isRu ? "Трубочки" : "Tubes",
       // Шоколад
       "chocolate": isRu ? "Молочный шоколад" : "Milk chocolate",
+      "milk-chocolate": isRu ? "Молочный шоколад" : "Milk chocolate",
       "white-chocolate": isRu ? "Белый шоколад" : "White chocolate",
       "dark-chocolate": isRu ? "Темный шоколад" : "Dark chocolate",
       "dubai-chocolate": isRu ? "Дубайский шоколад" : "Dubai chocolate",
@@ -1850,6 +2053,7 @@ window.productLoader = {
     state.currentLanguage = lang;
     renderCategories();
     renderCatalogDropdown();
+    renderCategoriesGrid();
     filterProducts();
     updateBrandInfo();
   },

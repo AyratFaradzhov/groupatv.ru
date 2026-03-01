@@ -1451,6 +1451,64 @@
   word-wrap: break-word;
 }
 
+/* Селектор веса в карточке */
+.product__item-weight-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.product__item-weight-chip {
+  padding: 4px 12px;
+  font-size: 14px;
+  font-family: var(--base-font);
+  font-weight: 300;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(20, 69, 174, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.product__item-weight-chip:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(20, 69, 174, 0.5);
+}
+
+.product__item-weight-chip.is-active {
+  background: #1445ae;
+  color: #fff;
+  border-color: #1445ae;
+}
+
+.product__item-weight-select {
+  width: 100%;
+  max-width: 120px;
+  margin: 0 auto 8px;
+  display: block;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-family: var(--base-font);
+  border-radius: 8px;
+  border: 1px solid rgba(20, 69, 174, 0.3);
+  background: #fff;
+}
+
+.product__item-weight-single {
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: 1px solid rgba(20, 69, 174, 0.3);
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 /* Форма товара (отображается снизу карточки) */
 .product__item-form {
   font-family: var(--base-font);
@@ -2190,6 +2248,49 @@
   color: #1445ae;
   margin: 0;
   word-wrap: break-word;
+}
+
+.product-modal__weight-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.product-modal__weight-chip {
+  padding: 6px 14px;
+  font-size: 14px;
+  font-family: var(--base-font);
+  font-weight: 300;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(20, 69, 174, 0.4);
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.product-modal__weight-chip:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(20, 69, 174, 0.6);
+}
+
+.product-modal__weight-chip.is-active {
+  background: #1445ae;
+  color: #fff;
+  border-color: #1445ae;
+}
+
+.product-modal__weight-select {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: var(--base-font);
+  border-radius: 8px;
+  border: 1px solid rgba(20, 69, 174, 0.4);
+  background: #fff;
+  min-width: 100px;
 }
 
 .product-modal__basic-info {
