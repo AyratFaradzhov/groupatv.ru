@@ -66,6 +66,13 @@
   overflow: hidden;
 }
 
+/* Только 3-й и 4-й логотипы (Перекрёсток, Верный) — чуть уменьшены */
+.partners-item:nth-child(3) .partner__image,
+.partners-item:nth-child(4) .partner__image {
+  max-width: 70%;
+  max-height: 70%;
+}
+
 .partner__image.lenta-image-crop {
   clip-path: inset(50px 0 50px 0 round clamp(12px, 2.5vw, 24px));
   border-radius: clamp(12px, 2.5vw, 24px);
@@ -117,6 +124,12 @@
     object-fit: contain;
     object-position: center;
     border-radius: 12px;
+  }
+
+  .partners-item:nth-child(3) .partner__image,
+  .partners-item:nth-child(4) .partner__image {
+    max-width: 70%;
+    max-height: 70%;
   }
 
   .partner__image.lenta-image-crop,

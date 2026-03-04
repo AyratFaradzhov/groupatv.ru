@@ -400,6 +400,12 @@
     border-radius: clamp(12px, 2vw, 20px);
   }
 
+  .partners-item:nth-child(3) .partner__image,
+  .partners-item:nth-child(4) .partner__image {
+    max-width: clamp(52%, 60%, 63%);
+    max-height: clamp(52%, 60%, 63%);
+  }
+
   /* Categories: scroll-snap for finger swipe, wider slides than mobile, fewer than desktop */
   .categories__list {
     scroll-snap-type: x mandatory;

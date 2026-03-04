@@ -79,7 +79,8 @@
   }
 
   .welcome__title {
-    font-family: "Rubik Bubbles", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
     font-size: 40px;
     color: #c02927;
     text-align: left;
@@ -250,54 +251,50 @@
   .page-about .card__candy-item {
     min-width: 100%;
     width: 100%;
-    height: 695px; /* Match card height exactly */
+    height: 695px;
+    min-height: 695px;
     display: flex;
     flex-direction: column;
     position: relative;
     gap: 0;
+    box-sizing: border-box;
   }
 
   .card__image,
   .page-about .card__image {
-    position: absolute;
-
-    /* идеальный горизонтальный центр */
-    left: 50%;
-    transform: translateX(-50%);
-
-    /* размер управляется CSS-переменной --size (задаётся в .bg-1 … .bg-14) */
-    width: var(--size, 70%);
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    max-width: min(85%, 280px);
     height: auto;
-
+    max-height: 200px;
     object-fit: contain;
-    z-index: 2;
-
-    /* вертикальная позиция управляется переменной */
-    top: var(--img-top, 10%);
-
-    /* Animation properties - GPU-friendly */
+    object-position: center;
+    margin: 0 auto;
+    flex-shrink: 0;
+    transform: none;
+    z-index: 1;
     will-change: transform;
     transition:
       transform 400ms cubic-bezier(0.22, 1, 0.36, 1),
       opacity 0.6s ease,
       filter 0.6s ease;
     backface-visibility: hidden;
-    transform: translateX(-50%) translateZ(0);
-    transform-origin: center center;
   }
 
   /* Active slide - prominent */
   .card__candy-item.is-active .card__image,
   .page-about .card__candy-item.is-active .card__image {
-    transform: translateX(-50%) translateZ(0) scale(1);
+    transform: scale(1);
     opacity: 1;
     filter: none;
   }
 
-  /* Inactive slides - de-emphasized (no blur, scale + opacity only) */
+  /* Inactive slides - de-emphasized */
   .card__candy-item:not(.is-active) .card__image,
   .page-about .card__candy-item:not(.is-active) .card__image {
-    transform: translateX(-50%) translateY(-10%) translateZ(0) scale(0.95);
+    transform: scale(0.95);
     opacity: 0.85;
     filter: none;
   }
@@ -430,17 +427,17 @@
 
   .card__title-container,
   .page-about .card__title-container {
-    /* НЕ absolute - первый элемент в потоке */
     position: relative;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* горизонтальный центр */
+    align-items: flex-start;
     justify-content: start;
     text-align: center;
     gap: 8px;
     padding-inline: 24px;
-    margin-top: 24px; /* отступ от верхней границы карточки */
-    margin-bottom: 16px; /* отступ до изображения */
+    margin-top: 24px;
+    margin-bottom: 16px;
   }
 
   .card__popular,
@@ -462,18 +459,6 @@
     text-align: center;
     margin: 0;
     line-height: 100%;
-  }
-
-  .card__image,
-  .page-about .card__image {
-    /* НЕ absolute - следующий элемент в потоке */
-    position: absolute;
-    width: var(--size, 70%);
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    z-index: 2;
-    /* Изображение в нормальном потоке, после заголовка */
   }
 
   /* Стандартный объём текста — без изменений */
@@ -518,14 +503,15 @@
 
   .card__description,
   .page-about .card__description {
-    position: absolute;
-    top: 320px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
     width: 100%;
-    height: 375px; /* Exact height from Figma: 695px card - 320px top = 375px */
-    margin: 0; /* Remove any margin that could offset positioning */
+    flex: 1 1 0;
+    min-height: 0;
+    margin: 0;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
@@ -533,12 +519,14 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding: 24px;
-    padding-bottom: 48px; /* Space for pagination: 24px bottom margin + 24px pagination height */
+    padding-bottom: 48px; /* Space for pagination */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 24px;
     z-index: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .card__description-title,
@@ -758,6 +746,12 @@
     border-radius: 12px;
   }
 
+  .partners-item:nth-child(3) .partner__image,
+  .partners-item:nth-child(4) .partner__image {
+    max-width: 60%;
+    max-height: 60%;
+  }
+
   /* Изолированная pagination для Partners */
   .partners-pagination {
     display: flex;
@@ -815,6 +809,12 @@
     object-fit: contain !important;
     margin: 0 auto;
     border-radius: 12px;
+  }
+
+  .partners-item:nth-child(3) .partner__image,
+  .partners-item:nth-child(4) .partner__image {
+    max-width: 60% !important;
+    max-height: 60% !important;
   }
 
   .partner__image.metro-image-crop {
@@ -1252,7 +1252,8 @@
   }
 
   .footer__title {
-    font-family: "Luckiest Guy", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
     font-size: 40px;
     color: #c02927;
     text-align: center;
@@ -1421,6 +1422,13 @@
     width: 40px;
     height: 40px;
     object-fit: contain;
+  }
+
+  .marketplace-icons.yandex-icon {
+    object-fit: contain;
+    object-position: center;
+    max-width: 40px;
+    max-height: 40px;
   }
 }
 

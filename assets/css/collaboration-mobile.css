@@ -325,9 +325,9 @@
   }
 
   .page-collaboration + .footer .footer__title {
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
     font-size: 40px;
-    font-weight: 400;
     color: #c02927;
     text-align: center;
     margin: 0 0 12px;
@@ -419,6 +419,13 @@
     width: 32px;
     height: 32px;
     object-fit: contain;
+  }
+
+  .page-collaboration + .footer .marketplace-icons.yandex-icon {
+    object-fit: contain;
+    object-position: center;
+    max-width: 32px;
+    max-height: 32px;
   }
 
   .success-modal__content {
